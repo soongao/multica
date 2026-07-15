@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "table:pkg/db/queries/activity.sql:activity",
+      "type": "table",
+      "name": "activity",
+      "filePath": "pkg/db/queries/activity.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 44 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/agent.sql:agent",
+      "type": "table",
+      "name": "agent",
+      "filePath": "pkg/db/queries/agent.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 1184 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "table:pkg/db/queries/agent_invocation_target.sql:agent_invocation_target",
+      "type": "table",
+      "name": "agent_invocation_target",
+      "filePath": "pkg/db/queries/agent_invocation_target.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 55 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/attachment.sql:attachment",
+      "type": "table",
+      "name": "attachment",
+      "filePath": "pkg/db/queries/attachment.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 147 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/autopilot.sql:autopilot",
+      "type": "table",
+      "name": "autopilot",
+      "filePath": "pkg/db/queries/autopilot.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 544 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "table:pkg/db/queries/channel.sql:channel",
+      "type": "table",
+      "name": "channel",
+      "filePath": "pkg/db/queries/channel.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 634 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "table:pkg/db/queries/chat.sql:chat",
+      "type": "table",
+      "name": "chat",
+      "filePath": "pkg/db/queries/chat.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 438 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "table:pkg/db/queries/chat_pinned_agent.sql:chat_pinned_agent",
+      "type": "table",
+      "name": "chat_pinned_agent",
+      "filePath": "pkg/db/queries/chat_pinned_agent.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 32 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/comment.sql:comment",
+      "type": "table",
+      "name": "comment",
+      "filePath": "pkg/db/queries/comment.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 492 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "table:pkg/db/queries/composio.sql:composio",
+      "type": "table",
+      "name": "composio",
+      "filePath": "pkg/db/queries/composio.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 39 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/contact_sales.sql:contact_sales",
+      "type": "table",
+      "name": "contact_sales",
+      "filePath": "pkg/db/queries/contact_sales.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 25 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/daemon_token.sql:daemon_token",
+      "type": "table",
+      "name": "daemon_token",
+      "filePath": "pkg/db/queries/daemon_token.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 25 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/feedback.sql:feedback",
+      "type": "table",
+      "name": "feedback",
+      "filePath": "pkg/db/queries/feedback.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 8 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/github.sql:github",
+      "type": "table",
+      "name": "github",
+      "filePath": "pkg/db/queries/github.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 331 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "table:pkg/db/queries/inbox.sql:inbox",
+      "type": "table",
+      "name": "inbox",
+      "filePath": "pkg/db/queries/inbox.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 88 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/invitation.sql:invitation",
+      "type": "table",
+      "name": "invitation",
+      "filePath": "pkg/db/queries/invitation.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 62 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/issue.sql:issue",
+      "type": "table",
+      "name": "issue",
+      "filePath": "pkg/db/queries/issue.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 363 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "table:pkg/db/queries/issue_label.sql:issue_label",
+      "type": "table",
+      "name": "issue_label",
+      "filePath": "pkg/db/queries/issue_label.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 211 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/issue_property.sql:issue_property",
+      "type": "table",
+      "name": "issue_property",
+      "filePath": "pkg/db/queries/issue_property.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 74 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/issue_reaction.sql:issue_reaction",
+      "type": "table",
+      "name": "issue_reaction",
+      "filePath": "pkg/db/queries/issue_reaction.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 14 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

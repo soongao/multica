@@ -1,0 +1,42 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/agenttmpl/templates/tutor.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/user-story-writer.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/ux-copywriter.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/webapp-tester.json",
+      "language": "json",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/writing-critic.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "internal/agenttmpl/templates/tutor.json": [],
+    "internal/agenttmpl/templates/user-story-writer.json": [],
+    "internal/agenttmpl/templates/ux-copywriter.json": [],
+    "internal/agenttmpl/templates/webapp-tester.json": [],
+    "internal/agenttmpl/templates/writing-critic.json": []
+  }
+}

@@ -1,0 +1,1774 @@
+{
+  "nodes": [
+    {
+      "id": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "type": "file",
+      "name": "integration_test.go",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 10 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "type": "function",
+      "name": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        20,
+        146
+      ],
+      "summary": "测试 cmd/backfill_codex_usage_cache/integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedTaskUsageRow",
+      "type": "function",
+      "name": "seedTaskUsageRow",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        148,
+        170
+      ],
+      "summary": "实现 seedTaskUsageRow 逻辑，是 cmd/backfill_codex_usage_cache/integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:assertTaskUsageInput",
+      "type": "function",
+      "name": "assertTaskUsageInput",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        172,
+        181
+      ],
+      "summary": "实现 assertTaskUsageInput 逻辑，是 cmd/backfill_codex_usage_cache/integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedBackfillTaskUsageFixture",
+      "type": "function",
+      "name": "seedBackfillTaskUsageFixture",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        183,
+        232
+      ],
+      "summary": "实现 seedBackfillTaskUsageFixture 逻辑，是 cmd/backfill_codex_usage_cache/integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:testResolveMigrationsDir",
+      "type": "function",
+      "name": "testResolveMigrationsDir",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        234,
+        245
+      ],
+      "summary": "实现 testResolveMigrationsDir 逻辑，是 cmd/backfill_codex_usage_cache/integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:testCreateDatabase",
+      "type": "function",
+      "name": "testCreateDatabase",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        256,
+        266
+      ],
+      "summary": "实现 testCreateDatabase 逻辑，是 cmd/backfill_codex_usage_cache/integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:testDropDatabase",
+      "type": "function",
+      "name": "testDropDatabase",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        268,
+        278
+      ],
+      "summary": "实现 testDropDatabase 逻辑，是 cmd/backfill_codex_usage_cache/integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:testReplaceDatabase",
+      "type": "function",
+      "name": "testReplaceDatabase",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        280,
+        291
+      ],
+      "summary": "实现 testReplaceDatabase 逻辑，是 cmd/backfill_codex_usage_cache/integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/integration_test.go:testApplyMigrationsUpTo",
+      "type": "function",
+      "name": "testApplyMigrationsUpTo",
+      "filePath": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "lineRange": [
+        293,
+        332
+      ],
+      "summary": "实现 testApplyMigrationsUpTo 逻辑，是 cmd/backfill_codex_usage_cache/integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/migrate/main.go",
+      "type": "file",
+      "name": "main.go",
+      "filePath": "cmd/migrate/main.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 4 个函数、1 个类型。",
+      "tags": [
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:cmd/migrate/main.go:runOptions",
+      "type": "class",
+      "name": "runOptions",
+      "filePath": "cmd/migrate/main.go",
+      "lineRange": [
+        82,
+        104
+      ],
+      "summary": "内部类型 runOptions 定义 cmd/migrate/main.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/main.go:runTaskUsageHourlyHook",
+      "type": "function",
+      "name": "runTaskUsageHourlyHook",
+      "filePath": "cmd/migrate/main.go",
+      "lineRange": [
+        44,
+        61
+      ],
+      "summary": "实现 runTaskUsageHourlyHook 逻辑，是 cmd/migrate/main.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/main.go:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "cmd/migrate/main.go",
+      "lineRange": [
+        106,
+        154
+      ],
+      "summary": "启动 cmd/migrate/main.go 对应的命令入口，串联配置、依赖初始化和主执行流程。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/main.go:runMigrations",
+      "type": "function",
+      "name": "runMigrations",
+      "filePath": "cmd/migrate/main.go",
+      "lineRange": [
+        167,
+        291
+      ],
+      "summary": "实现 runMigrations 逻辑，是 cmd/migrate/main.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/migrate/main.go:quoteQualifiedIdentifier",
+      "type": "function",
+      "name": "quoteQualifiedIdentifier",
+      "filePath": "cmd/migrate/main.go",
+      "lineRange": [
+        303,
+        317
+      ],
+      "summary": "实现 quoteQualifiedIdentifier 逻辑，是 cmd/migrate/main.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/server/health.go",
+      "type": "file",
+      "name": "health.go",
+      "filePath": "cmd/server/health.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 7 个函数、6 个类型。",
+      "tags": [
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:cmd/server/health.go:readinessDB",
+      "type": "class",
+      "name": "readinessDB",
+      "filePath": "cmd/server/health.go",
+      "lineRange": [
+        27,
+        30
+      ],
+      "summary": "内部类型 readinessDB 表达 cmd/server/health.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:cmd/server/health.go:serverHealth",
+      "type": "class",
+      "name": "serverHealth",
+      "filePath": "cmd/server/health.go",
+      "lineRange": [
+        32,
+        39
+      ],
+      "summary": "内部类型 serverHealth 表达 cmd/server/health.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/server/health.go:readiness",
+      "type": "function",
+      "name": "readiness",
+      "filePath": "cmd/server/health.go",
+      "lineRange": [
+        80,
+        105
+      ],
+      "summary": "实现 readiness 逻辑，是 cmd/server/health.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health.go:computeReadiness",
+      "type": "function",
+      "name": "computeReadiness",
+      "filePath": "cmd/server/health.go",
+      "lineRange": [
+        115,
+        164
+      ],
+      "summary": "实现 computeReadiness 逻辑，是 cmd/server/health.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health.go:writeJSON",
+      "type": "function",
+      "name": "writeJSON",
+      "filePath": "cmd/server/health.go",
+      "lineRange": [
+        166,
+        180
+      ],
+      "summary": "实现 writeJSON 逻辑，是 cmd/server/health.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/migrations/migrations.go",
+      "type": "file",
+      "name": "migrations.go",
+      "filePath": "internal/migrations/migrations.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 5 个函数。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/migrations/migrations.go:ResolveDir",
+      "type": "function",
+      "name": "ResolveDir",
+      "filePath": "internal/migrations/migrations.go",
+      "lineRange": [
+        22,
+        42
+      ],
+      "summary": "实现 ResolveDir 逻辑，是 internal/migrations/migrations.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/migrations/migrations.go:Files",
+      "type": "function",
+      "name": "Files",
+      "filePath": "internal/migrations/migrations.go",
+      "lineRange": [
+        54,
+        72
+      ],
+      "summary": "实现 Files 逻辑，是 internal/migrations/migrations.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/migrations/migrations.go:AllVersions",
+      "type": "function",
+      "name": "AllVersions",
+      "filePath": "internal/migrations/migrations.go",
+      "lineRange": [
+        79,
+        92
+      ],
+      "summary": "实现 AllVersions 逻辑，是 internal/migrations/migrations.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/migrations/migrations.go:ExtractVersion",
+      "type": "function",
+      "name": "ExtractVersion",
+      "filePath": "internal/migrations/migrations.go",
+      "lineRange": [
+        95,
+        100
+      ],
+      "summary": "实现 ExtractVersion 逻辑，是 internal/migrations/migrations.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/migrations/migrations_lint_test.go",
+      "type": "file",
+      "name": "migrations_lint_test.go",
+      "filePath": "internal/migrations/migrations_lint_test.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 8 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/migrations/migrations_lint_test.go:TestMigrationFilesHaveMatchingDirections",
+      "type": "function",
+      "name": "TestMigrationFilesHaveMatchingDirections",
+      "filePath": "internal/migrations/migrations_lint_test.go",
+      "lineRange": [
+        52,
+        72
+      ],
+      "summary": "测试 internal/migrations/migrations_lint_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/migrations/migrations_lint_test.go:TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+      "type": "function",
+      "name": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+      "filePath": "internal/migrations/migrations_lint_test.go",
+      "lineRange": [
+        74,
+        94
+      ],
+      "summary": "测试 internal/migrations/migrations_lint_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/migrations/migrations_lint_test.go:TestNewMigrationPrefixesStartAfterLegacyRange",
+      "type": "function",
+      "name": "TestNewMigrationPrefixesStartAfterLegacyRange",
+      "filePath": "internal/migrations/migrations_lint_test.go",
+      "lineRange": [
+        96,
+        108
+      ],
+      "summary": "测试 internal/migrations/migrations_lint_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/migrations/migrations_lint_test.go:migrationStemsByPrefix",
+      "type": "function",
+      "name": "migrationStemsByPrefix",
+      "filePath": "internal/migrations/migrations_lint_test.go",
+      "lineRange": [
+        110,
+        124
+      ],
+      "summary": "实现 migrationStemsByPrefix 逻辑，是 internal/migrations/migrations_lint_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/migrations/migrations_lint_test.go:migrationFilesForLint",
+      "type": "function",
+      "name": "migrationFilesForLint",
+      "filePath": "internal/migrations/migrations_lint_test.go",
+      "lineRange": [
+        126,
+        139
+      ],
+      "summary": "实现 migrationFilesForLint 逻辑，是 internal/migrations/migrations_lint_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/migrations/migrations_lint_test.go:isKnownLegacyPrefix",
+      "type": "function",
+      "name": "isKnownLegacyPrefix",
+      "filePath": "internal/migrations/migrations_lint_test.go",
+      "lineRange": [
+        161,
+        183
+      ],
+      "summary": "实现 isKnownLegacyPrefix 逻辑，是 internal/migrations/migrations_lint_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/scheduler/jobs_task_usage.go",
+      "type": "file",
+      "name": "jobs_task_usage.go",
+      "filePath": "internal/scheduler/jobs_task_usage.go",
+      "summary": "调度任务模块，执行定时作业和后台维护流程。结构上包含 3 个函数。",
+      "tags": [
+        "scheduler",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/scheduler/jobs_task_usage.go:TaskUsageHourlyJob",
+      "type": "function",
+      "name": "TaskUsageHourlyJob",
+      "filePath": "internal/scheduler/jobs_task_usage.go",
+      "lineRange": [
+        36,
+        56
+      ],
+      "summary": "实现 TaskUsageHourlyJob 逻辑，是 internal/scheduler/jobs_task_usage.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/scheduler/jobs_task_usage.go:makeTaskUsageHourlyHandler",
+      "type": "function",
+      "name": "makeTaskUsageHourlyHandler",
+      "filePath": "internal/scheduler/jobs_task_usage.go",
+      "lineRange": [
+        64,
+        101
+      ],
+      "summary": "处理 makeTaskUsageHourlyHandler 对应的请求或事件流程，连接输入校验、业务调用和结果返回。",
+      "tags": [
+        "function",
+        "go",
+        "api-handler",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/scheduler/jobs_task_usage.go:readTaskUsageWatermark",
+      "type": "function",
+      "name": "readTaskUsageWatermark",
+      "filePath": "internal/scheduler/jobs_task_usage.go",
+      "lineRange": [
+        106,
+        120
+      ],
+      "summary": "实现 readTaskUsageWatermark 逻辑，是 internal/scheduler/jobs_task_usage.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/taskusagebackfill/backfill.go",
+      "type": "file",
+      "name": "backfill.go",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 7 个函数、3 个类型。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/taskusagebackfill/backfill.go:Result",
+      "type": "class",
+      "name": "Result",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "lineRange": [
+        67,
+        85
+      ],
+      "summary": "导出类型 Result 表达 internal/taskusagebackfill/backfill.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/taskusagebackfill/backfill.go:HookOptions",
+      "type": "class",
+      "name": "HookOptions",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "lineRange": [
+        89,
+        103
+      ],
+      "summary": "导出类型 HookOptions 定义 internal/taskusagebackfill/backfill.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/backfill.go:Hook",
+      "type": "function",
+      "name": "Hook",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "lineRange": [
+        131,
+        282
+      ],
+      "summary": "实现 Hook 逻辑，是 internal/taskusagebackfill/backfill.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/backfill.go:loadUsageRange",
+      "type": "function",
+      "name": "loadUsageRange",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "lineRange": [
+        290,
+        310
+      ],
+      "summary": "读取或组装 loadUsageRange 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "query",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/backfill.go:loadWatermark",
+      "type": "function",
+      "name": "loadWatermark",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "lineRange": [
+        312,
+        324
+      ],
+      "summary": "读取或组装 loadWatermark 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "query",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/backfill.go:rollupStateExists",
+      "type": "function",
+      "name": "rollupStateExists",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "lineRange": [
+        326,
+        336
+      ],
+      "summary": "实现 rollupStateExists 逻辑，是 internal/taskusagebackfill/backfill.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/backfill.go:stampWatermark",
+      "type": "function",
+      "name": "stampWatermark",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "lineRange": [
+        344,
+        354
+      ],
+      "summary": "实现 stampWatermark 逻辑，是 internal/taskusagebackfill/backfill.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/backfill.go:stampWatermarkOnConn",
+      "type": "function",
+      "name": "stampWatermarkOnConn",
+      "filePath": "internal/taskusagebackfill/backfill.go",
+      "lineRange": [
+        356,
+        366
+      ],
+      "summary": "实现 stampWatermarkOnConn 逻辑，是 internal/taskusagebackfill/backfill.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/taskusagebackfill/hook_test.go",
+      "type": "file",
+      "name": "hook_test.go",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 10 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "type": "function",
+      "name": "TestHook_DirectV034Upgrade",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        39,
+        153
+      ],
+      "summary": "测试 internal/taskusagebackfill/hook_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:TestHook_FreshDatabaseStampsWatermarkOnly",
+      "type": "function",
+      "name": "TestHook_FreshDatabaseStampsWatermarkOnly",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        159,
+        204
+      ],
+      "summary": "测试 internal/taskusagebackfill/hook_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:resolveMigrationsDir",
+      "type": "function",
+      "name": "resolveMigrationsDir",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        217,
+        229
+      ],
+      "summary": "实现 resolveMigrationsDir 逻辑，是 internal/taskusagebackfill/hook_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:createDatabase",
+      "type": "function",
+      "name": "createDatabase",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        240,
+        250
+      ],
+      "summary": "执行 createDatabase 对应的写入或状态变更逻辑，并维护后端一致性。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:dropDatabase",
+      "type": "function",
+      "name": "dropDatabase",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        252,
+        262
+      ],
+      "summary": "实现 dropDatabase 逻辑，是 internal/taskusagebackfill/hook_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:replaceDatabase",
+      "type": "function",
+      "name": "replaceDatabase",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        266,
+        277
+      ],
+      "summary": "实现 replaceDatabase 逻辑，是 internal/taskusagebackfill/hook_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:applyMigrationsUpTo",
+      "type": "function",
+      "name": "applyMigrationsUpTo",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        279,
+        318
+      ],
+      "summary": "实现 applyMigrationsUpTo 逻辑，是 internal/taskusagebackfill/hook_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:tryApplyMigration",
+      "type": "function",
+      "name": "tryApplyMigration",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        320,
+        337
+      ],
+      "summary": "实现 tryApplyMigration 逻辑，是 internal/taskusagebackfill/hook_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/taskusagebackfill/hook_test.go:seedTaskUsageFixture",
+      "type": "function",
+      "name": "seedTaskUsageFixture",
+      "filePath": "internal/taskusagebackfill/hook_test.go",
+      "lineRange": [
+        343,
+        395
+      ],
+      "summary": "实现 seedTaskUsageFixture 逻辑，是 internal/taskusagebackfill/hook_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "file:internal/migrations/migrations_lint_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "file:internal/migrations/migrations.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedTaskUsageRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:assertTaskUsageInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedBackfillTaskUsageFixture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testResolveMigrationsDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testCreateDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testDropDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testReplaceDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/integration_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testApplyMigrationsUpTo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testCreateDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testDropDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testReplaceDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testApplyMigrationsUpTo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedBackfillTaskUsageFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedBackfillTaskUsageFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedTaskUsageRow",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedTaskUsageRow",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedTaskUsageRow",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedTaskUsageRow",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:seedTaskUsageRow",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:assertTaskUsageInput",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:assertTaskUsageInput",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:assertTaskUsageInput",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:assertTaskUsageInput",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:assertTaskUsageInput",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:assertTaskUsageInput",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/backfill_codex_usage_cache/integration_test.go:testApplyMigrationsUpTo",
+      "target": "function:cmd/backfill_codex_usage_cache/integration_test.go:testResolveMigrationsDir",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "file:internal/logger/logger_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "file:internal/logger/logger.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "file:internal/migrations/migrations_lint_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "file:internal/migrations/migrations.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "file:internal/taskusagebackfill/backfill.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "file:internal/taskusagebackfill/hook_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "class:cmd/migrate/main.go:runOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "function:cmd/migrate/main.go:runTaskUsageHourlyHook",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "function:cmd/migrate/main.go:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "function:cmd/migrate/main.go:runMigrations",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/main.go",
+      "target": "function:cmd/migrate/main.go:quoteQualifiedIdentifier",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/migrate/main.go:main",
+      "target": "function:cmd/migrate/main.go:runMigrations",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/main.go:runMigrations",
+      "target": "function:cmd/migrate/main.go:quoteQualifiedIdentifier",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/server/health.go",
+      "target": "file:internal/migrations/migrations_lint_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/server/health.go",
+      "target": "file:internal/migrations/migrations.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:cmd/server/health.go",
+      "target": "class:cmd/server/health.go:readinessDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health.go",
+      "target": "class:cmd/server/health.go:serverHealth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health.go",
+      "target": "function:cmd/server/health.go:readiness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health.go",
+      "target": "function:cmd/server/health.go:computeReadiness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health.go",
+      "target": "function:cmd/server/health.go:writeJSON",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations.go",
+      "target": "file:internal/selfexec/selfexec_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/migrations/migrations.go",
+      "target": "file:internal/selfexec/selfexec.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/migrations/migrations.go",
+      "target": "function:internal/migrations/migrations.go:ResolveDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations.go",
+      "target": "function:internal/migrations/migrations.go:Files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations.go",
+      "target": "function:internal/migrations/migrations.go:AllVersions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations.go",
+      "target": "function:internal/migrations/migrations.go:ExtractVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/migrations/migrations.go:Files",
+      "target": "function:internal/migrations/migrations.go:ResolveDir",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/migrations/migrations.go:AllVersions",
+      "target": "function:internal/migrations/migrations.go:Files",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/migrations/migrations.go:AllVersions",
+      "target": "function:internal/migrations/migrations.go:ExtractVersion",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/migrations/migrations_lint_test.go",
+      "target": "function:internal/migrations/migrations_lint_test.go:TestMigrationFilesHaveMatchingDirections",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations_lint_test.go",
+      "target": "function:internal/migrations/migrations_lint_test.go:TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations_lint_test.go",
+      "target": "function:internal/migrations/migrations_lint_test.go:TestNewMigrationPrefixesStartAfterLegacyRange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations_lint_test.go",
+      "target": "function:internal/migrations/migrations_lint_test.go:migrationStemsByPrefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations_lint_test.go",
+      "target": "function:internal/migrations/migrations_lint_test.go:migrationFilesForLint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/migrations/migrations_lint_test.go",
+      "target": "function:internal/migrations/migrations_lint_test.go:isKnownLegacyPrefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/migrations/migrations_lint_test.go:TestMigrationFilesHaveMatchingDirections",
+      "target": "function:internal/migrations/migrations_lint_test.go:migrationFilesForLint",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/migrations/migrations_lint_test.go:TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+      "target": "function:internal/migrations/migrations_lint_test.go:migrationStemsByPrefix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/migrations/migrations_lint_test.go:TestNewMigrationPrefixesStartAfterLegacyRange",
+      "target": "function:internal/migrations/migrations_lint_test.go:migrationStemsByPrefix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/migrations/migrations_lint_test.go:TestNewMigrationPrefixesStartAfterLegacyRange",
+      "target": "function:internal/migrations/migrations_lint_test.go:isKnownLegacyPrefix",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/migrations/migrations_lint_test.go:migrationStemsByPrefix",
+      "target": "function:internal/migrations/migrations_lint_test.go:migrationFilesForLint",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/scheduler/jobs_task_usage.go",
+      "target": "file:internal/taskusagebackfill/backfill.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/scheduler/jobs_task_usage.go",
+      "target": "file:internal/taskusagebackfill/hook_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/scheduler/jobs_task_usage.go",
+      "target": "function:internal/scheduler/jobs_task_usage.go:TaskUsageHourlyJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/scheduler/jobs_task_usage.go",
+      "target": "function:internal/scheduler/jobs_task_usage.go:makeTaskUsageHourlyHandler",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/scheduler/jobs_task_usage.go",
+      "target": "function:internal/scheduler/jobs_task_usage.go:readTaskUsageWatermark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/scheduler/jobs_task_usage.go:TaskUsageHourlyJob",
+      "target": "function:internal/scheduler/jobs_task_usage.go:makeTaskUsageHourlyHandler",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/scheduler/jobs_task_usage.go:makeTaskUsageHourlyHandler",
+      "target": "function:internal/scheduler/jobs_task_usage.go:readTaskUsageWatermark",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/scheduler/jobs_task_usage.go:makeTaskUsageHourlyHandler",
+      "target": "function:internal/scheduler/jobs_task_usage.go:readTaskUsageWatermark",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/taskusagebackfill/backfill.go",
+      "target": "class:internal/taskusagebackfill/backfill.go:Result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/backfill.go",
+      "target": "class:internal/taskusagebackfill/backfill.go:HookOptions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/backfill.go",
+      "target": "function:internal/taskusagebackfill/backfill.go:Hook",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/backfill.go",
+      "target": "function:internal/taskusagebackfill/backfill.go:loadUsageRange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/backfill.go",
+      "target": "function:internal/taskusagebackfill/backfill.go:loadWatermark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/backfill.go",
+      "target": "function:internal/taskusagebackfill/backfill.go:rollupStateExists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/backfill.go",
+      "target": "function:internal/taskusagebackfill/backfill.go:stampWatermark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/backfill.go",
+      "target": "function:internal/taskusagebackfill/backfill.go:stampWatermarkOnConn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/taskusagebackfill/backfill.go:Hook",
+      "target": "function:internal/taskusagebackfill/backfill.go:rollupStateExists",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/backfill.go:Hook",
+      "target": "function:internal/taskusagebackfill/backfill.go:loadUsageRange",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/backfill.go:Hook",
+      "target": "function:internal/taskusagebackfill/backfill.go:loadWatermark",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/backfill.go:Hook",
+      "target": "function:internal/taskusagebackfill/backfill.go:stampWatermark",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/backfill.go:Hook",
+      "target": "function:internal/taskusagebackfill/backfill.go:stampWatermark",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/backfill.go:Hook",
+      "target": "function:internal/taskusagebackfill/backfill.go:stampWatermarkOnConn",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "file:internal/migrations/migrations_lint_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "file:internal/migrations/migrations.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "file:internal/taskusagebackfill/backfill.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:TestHook_FreshDatabaseStampsWatermarkOnly",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:resolveMigrationsDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:createDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:dropDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:replaceDatabase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:applyMigrationsUpTo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:tryApplyMigration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/taskusagebackfill/hook_test.go",
+      "target": "function:internal/taskusagebackfill/hook_test.go:seedTaskUsageFixture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "target": "function:internal/taskusagebackfill/hook_test.go:createDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "target": "function:internal/taskusagebackfill/hook_test.go:dropDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "target": "function:internal/taskusagebackfill/hook_test.go:replaceDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "target": "function:internal/taskusagebackfill/hook_test.go:applyMigrationsUpTo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "target": "function:internal/taskusagebackfill/hook_test.go:seedTaskUsageFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "target": "function:internal/taskusagebackfill/hook_test.go:tryApplyMigration",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_DirectV034Upgrade",
+      "target": "function:internal/taskusagebackfill/hook_test.go:tryApplyMigration",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_FreshDatabaseStampsWatermarkOnly",
+      "target": "function:internal/taskusagebackfill/hook_test.go:createDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_FreshDatabaseStampsWatermarkOnly",
+      "target": "function:internal/taskusagebackfill/hook_test.go:dropDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_FreshDatabaseStampsWatermarkOnly",
+      "target": "function:internal/taskusagebackfill/hook_test.go:replaceDatabase",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_FreshDatabaseStampsWatermarkOnly",
+      "target": "function:internal/taskusagebackfill/hook_test.go:applyMigrationsUpTo",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:TestHook_FreshDatabaseStampsWatermarkOnly",
+      "target": "function:internal/taskusagebackfill/hook_test.go:tryApplyMigration",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:applyMigrationsUpTo",
+      "target": "function:internal/taskusagebackfill/hook_test.go:resolveMigrationsDir",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/taskusagebackfill/hook_test.go:tryApplyMigration",
+      "target": "function:internal/taskusagebackfill/hook_test.go:resolveMigrationsDir",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

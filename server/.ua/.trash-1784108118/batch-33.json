@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "table:pkg/db/queries/member.sql:member",
+      "type": "table",
+      "name": "member",
+      "filePath": "pkg/db/queries/member.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 33 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/notification_preference.sql:notification_preference",
+      "type": "table",
+      "name": "notification_preference",
+      "filePath": "pkg/db/queries/notification_preference.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 14 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/personal_access_token.sql:personal_access_token",
+      "type": "table",
+      "name": "personal_access_token",
+      "filePath": "pkg/db/queries/personal_access_token.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 48 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/pinned_item.sql:pinned_item",
+      "type": "table",
+      "name": "pinned_item",
+      "filePath": "pkg/db/queries/pinned_item.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 26 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/project.sql:project",
+      "type": "table",
+      "name": "project",
+      "filePath": "pkg/db/queries/project.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 53 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/project_resource.sql:project_resource",
+      "type": "table",
+      "name": "project_resource",
+      "filePath": "pkg/db/queries/project_resource.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 44 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/reaction.sql:reaction",
+      "type": "table",
+      "name": "reaction",
+      "filePath": "pkg/db/queries/reaction.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 14 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/runtime.sql:runtime",
+      "type": "table",
+      "name": "runtime",
+      "filePath": "pkg/db/queries/runtime.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 387 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "table:pkg/db/queries/runtime_profile.sql:runtime_profile",
+      "type": "table",
+      "name": "runtime_profile",
+      "filePath": "pkg/db/queries/runtime_profile.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 83 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/runtime_usage.sql:runtime_usage",
+      "type": "table",
+      "name": "runtime_usage",
+      "filePath": "pkg/db/queries/runtime_usage.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 88 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/skill.sql:skill",
+      "type": "table",
+      "name": "skill",
+      "filePath": "pkg/db/queries/skill.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 125 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/squad.sql:squad",
+      "type": "table",
+      "name": "squad",
+      "filePath": "pkg/db/queries/squad.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 151 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/subscriber.sql:subscriber",
+      "type": "table",
+      "name": "subscriber",
+      "filePath": "pkg/db/queries/subscriber.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 19 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/task_message.sql:task_message",
+      "type": "table",
+      "name": "task_message",
+      "filePath": "pkg/db/queries/task_message.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 18 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/task_token.sql:task_token",
+      "type": "table",
+      "name": "task_token",
+      "filePath": "pkg/db/queries/task_token.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 14 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/task_usage.sql:task_usage",
+      "type": "table",
+      "name": "task_usage",
+      "filePath": "pkg/db/queries/task_usage.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 158 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/user.sql:user",
+      "type": "table",
+      "name": "user",
+      "filePath": "pkg/db/queries/user.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 87 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/verification_code.sql:verification_code",
+      "type": "table",
+      "name": "verification_code",
+      "filePath": "pkg/db/queries/verification_code.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 33 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "table:pkg/db/queries/webhook_delivery.sql:webhook_delivery",
+      "type": "table",
+      "name": "webhook_delivery",
+      "filePath": "pkg/db/queries/webhook_delivery.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 177 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "table:pkg/db/queries/workspace.sql:workspace",
+      "type": "table",
+      "name": "workspace",
+      "filePath": "pkg/db/queries/workspace.sql",
+      "summary": "数据库访问支持代码，连接 SQL 查询定义、生成代码和事务边界。该文件包含 158 行 SQL/数据定义，用于数据库版本迁移。",
+      "tags": [
+        "data-access",
+        "database",
+        "sql",
+        "data"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": []
+}

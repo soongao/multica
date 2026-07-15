@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "pkg/db/queries/activity.sql",
+      "language": "sql",
+      "sizeLines": 44,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/agent.sql",
+      "language": "sql",
+      "sizeLines": 1184,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/agent_invocation_target.sql",
+      "language": "sql",
+      "sizeLines": 55,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/attachment.sql",
+      "language": "sql",
+      "sizeLines": 147,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/autopilot.sql",
+      "language": "sql",
+      "sizeLines": 544,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/channel.sql",
+      "language": "sql",
+      "sizeLines": 634,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/chat.sql",
+      "language": "sql",
+      "sizeLines": 438,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/chat_pinned_agent.sql",
+      "language": "sql",
+      "sizeLines": 32,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/comment.sql",
+      "language": "sql",
+      "sizeLines": 492,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/composio.sql",
+      "language": "sql",
+      "sizeLines": 39,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/contact_sales.sql",
+      "language": "sql",
+      "sizeLines": 25,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/daemon_token.sql",
+      "language": "sql",
+      "sizeLines": 25,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/feedback.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/github.sql",
+      "language": "sql",
+      "sizeLines": 331,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/inbox.sql",
+      "language": "sql",
+      "sizeLines": 88,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/invitation.sql",
+      "language": "sql",
+      "sizeLines": 62,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/issue.sql",
+      "language": "sql",
+      "sizeLines": 363,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/issue_label.sql",
+      "language": "sql",
+      "sizeLines": 211,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/issue_property.sql",
+      "language": "sql",
+      "sizeLines": 74,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/issue_reaction.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    }
+  ],
+  "batchImportData": {
+    "pkg/db/queries/activity.sql": [],
+    "pkg/db/queries/agent.sql": [],
+    "pkg/db/queries/agent_invocation_target.sql": [],
+    "pkg/db/queries/attachment.sql": [],
+    "pkg/db/queries/autopilot.sql": [],
+    "pkg/db/queries/channel.sql": [],
+    "pkg/db/queries/chat.sql": [],
+    "pkg/db/queries/chat_pinned_agent.sql": [],
+    "pkg/db/queries/comment.sql": [],
+    "pkg/db/queries/composio.sql": [],
+    "pkg/db/queries/contact_sales.sql": [],
+    "pkg/db/queries/daemon_token.sql": [],
+    "pkg/db/queries/feedback.sql": [],
+    "pkg/db/queries/github.sql": [],
+    "pkg/db/queries/inbox.sql": [],
+    "pkg/db/queries/invitation.sql": [],
+    "pkg/db/queries/issue.sql": [],
+    "pkg/db/queries/issue_label.sql": [],
+    "pkg/db/queries/issue_property.sql": [],
+    "pkg/db/queries/issue_reaction.sql": []
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/integrations/lark/content_flatten_test.go",
+      "language": "go",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/doc.go",
+      "language": "go",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_channel.go",
+      "language": "go",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_channel_test.go",
+      "language": "go",
+      "sizeLines": 226,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_resolvers.go",
+      "language": "go",
+      "sizeLines": 287,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_resolvers_test.go",
+      "language": "go",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_types.go",
+      "language": "go",
+      "sizeLines": 93,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/fresh_command.go",
+      "language": "go",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/fresh_command_test.go",
+      "language": "go",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client.go",
+      "language": "go",
+      "sizeLines": 1021,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client_batchusers_test.go",
+      "language": "go",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client_getmessage_test.go",
+      "language": "go",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client_listmessages_test.go",
+      "language": "go",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client_test.go",
+      "language": "go",
+      "sizeLines": 1310,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/inbound_enricher.go",
+      "language": "go",
+      "sizeLines": 676,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/inbound_enricher_recent_test.go",
+      "language": "go",
+      "sizeLines": 661,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/inbound_enricher_test.go",
+      "language": "go",
+      "sizeLines": 447,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/markdown_detect.go",
+      "language": "go",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/markdown_detect_test.go",
+      "language": "go",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/noop_connector.go",
+      "language": "go",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/noop_connector_test.go",
+      "language": "go",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/params.go",
+      "language": "go",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/region_backfill.go",
+      "language": "go",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/region_test.go",
+      "language": "go",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/registration.go",
+      "language": "go",
+      "sizeLines": 490,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/registration_test.go",
+      "language": "go",
+      "sizeLines": 648,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/testhelpers_test.go",
+      "language": "go",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/tx.go",
+      "language": "go",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/types.go",
+      "language": "go",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/typing_indicator.go",
+      "language": "go",
+      "sizeLines": 219,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/typing_indicator_test.go",
+      "language": "go",
+      "sizeLines": 317,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "internal/integrations/lark/content_flatten_test.go": [],
+    "internal/integrations/lark/doc.go": [],
+    "internal/integrations/lark/feishu_channel.go": [
+      "internal/integrations/channel/capability_test.go",
+      "internal/integrations/channel/capability.go",
+      "internal/integrations/channel/channel.go",
+      "internal/integrations/channel/doc.go",
+      "internal/integrations/channel/engine/batcher_test.go",
+      "internal/integrations/channel/engine/batcher.go",
+      "internal/integrations/channel/engine/doc.go",
+      "internal/integrations/channel/engine/issue_command_test.go",
+      "internal/integrations/channel/engine/issue_command.go",
+      "internal/integrations/channel/engine/resolvers.go",
+      "internal/integrations/channel/engine/router_test.go",
+      "internal/integrations/channel/engine/router.go",
+      "internal/integrations/channel/engine/session_test.go",
+      "internal/integrations/channel/engine/session.go",
+      "internal/integrations/channel/engine/supervisor_test.go",
+      "internal/integrations/channel/engine/supervisor.go",
+      "internal/integrations/channel/handler.go",
+      "internal/integrations/channel/history.go",
+      "internal/integrations/channel/message_test.go",
+      "internal/integrations/channel/message.go",
+      "internal/integrations/channel/registry_test.go",
+      "internal/integrations/channel/registry.go",
+      "pkg/db/generated/activity.sql.go",
+      "pkg/db/generated/agent_invocation_target.sql.go",
+      "pkg/db/generated/agent.sql.go",
+      "pkg/db/generated/attachment.sql.go",
+      "pkg/db/generated/autopilot.sql.go",
+      "pkg/db/generated/channel.sql.go",
+      "pkg/db/generated/chat_pinned_agent.sql.go",
+      "pkg/db/generated/chat.sql.go",
+      "pkg/db/generated/comment.sql.go",
+      "pkg/db/generated/composio.sql.go",
+      "pkg/db/generated/contact_sales.sql.go",
+      "pkg/db/generated/daemon_token.sql.go",
+      "pkg/db/generated/db.go",
+      "pkg/db/generated/feedback.sql.go",
+      "pkg/db/generated/github.sql.go",
+      "pkg/db/generated/inbox.sql.go",
+      "pkg/db/generated/invitation.sql.go",
+      "pkg/db/generated/issue_label.sql.go",
+      "pkg/db/generated/issue_property.sql.go",
+      "pkg/db/generated/issue_reaction.sql.go",
+      "pkg/db/generated/issue.sql.go",
+      "pkg/db/generated/member.sql.go",
+      "pkg/db/generated/models.go",
+      "pkg/db/generated/notification_preference.sql.go",
+      "pkg/db/generated/personal_access_token.sql.go",
+      "pkg/db/generated/pinned_item.sql.go",
+      "pkg/db/generated/project_resource.sql.go",
+      "pkg/db/generated/project.sql.go",
+      "pkg/db/generated/reaction.sql.go",
+      "pkg/db/generated/runtime_profile.sql.go",
+      "pkg/db/generated/runtime_usage.sql.go",
+      "pkg/db/generated/runtime.sql.go",
+      "pkg/db/generated/skill.sql.go",
+      "pkg/db/generated/squad.sql.go",
+      "pkg/db/generated/subscriber.sql.go",
+      "pkg/db/generated/task_message.sql.go",
+      "pkg/db/generated/task_token.sql.go",
+      "pkg/db/generated/task_usage.sql.go",
+      "pkg/db/generated/user.sql.go",
+      "pkg/db/generated/verification_code.sql.go",
+      "pkg/db/generated/webhook_delivery.sql.go",
+      "pkg/db/generated/workspace.sql.go"
+    ],
+    "internal/integrations/lark/feishu_channel_test.go": [
+      "internal/integrations/channel/capability_test.go",
+      "internal/integrations/channel/capability.go",
+      "internal/integrations/channel/channel.go",
+      "internal/integrations/channel/doc.go",
+      "internal/integrations/channel/engine/batcher_test.go",
+      "internal/integrations/channel/engine/batcher.go",
+      "internal/integrations/channel/engine/doc.go",
+      "internal/integrations/channel/engine/issue_command_test.go",
+      "internal/integrations/channel/engine/issue_command.go",
+      "internal/integrations/channel/engine/resolvers.go",
+      "internal/integrations/channel/engine/router_test.go",
+      "internal/integrations/channel/engine/router.go",
+      "internal/integrations/channel/engine/session_test.go",
+      "internal/integrations/channel/engine/session.go",
+      "internal/integrations/channel/engine/supervisor_test.go",
+      "internal/integrations/channel/engine/supervisor.go",
+      "internal/integrations/channel/handler.go",
+      "internal/integrations/channel/history.go",
+      "internal/integrations/channel/message_test.go",
+      "internal/integrations/channel/message.go",
+      "internal/integrations/channel/registry_test.go",
+      "internal/integrations/channel/registry.go"
+    ],
+    "internal/integrations/lark/feishu_resolvers.go": [
+      "internal/integrations/channel/capability_test.go",
+      "internal/integrations/channel/capability.go",
+      "internal/integrations/channel/channel.go",
+      "internal/integrations/channel/doc.go",
+      "internal/integrations/channel/engine/batcher_test.go",
+      "internal/integrations/channel/engine/batcher.go",
+      "internal/integrations/channel/engine/doc.go",
+      "internal/integrations/channel/engine/issue_command_test.go",
+      "internal/integrations/channel/engine/issue_command.go",
+      "internal/integrations/channel/engine/resolvers.go",
+      "internal/integrations/channel/engine/router_test.go",
+      "internal/integrations/channel/engine/router.go",
+      "internal/integrations/channel/engine/session_test.go",
+      "internal/integrations/channel/engine/session.go",
+      "internal/integrations/channel/engine/supervisor_test.go",
+      "internal/integrations/channel/engine/supervisor.go",
+      "internal/integrations/channel/handler.go",
+      "internal/integrations/channel/history.go",
+      "internal/integrations/channel/message_test.go",
+      "internal/integrations/channel/message.go",
+      "internal/integrations/channel/registry_test.go",
+      "internal/integrations/channel/registry.go"
+    ],
+    "internal/integrations/lark/feishu_resolvers_test.go": [
+      "internal/integrations/channel/capability_test.go",
+      "internal/integrations/channel/capability.go",
+      "internal/integrations/channel/channel.go",
+      "internal/integrations/channel/doc.go",
+      "internal/integrations/channel/engine/batcher_test.go",
+      "internal/integrations/channel/engine/batcher.go",
+      "internal/integrations/channel/engine/doc.go",
+      "internal/integrations/channel/engine/issue_command_test.go",
+      "internal/integrations/channel/engine/issue_command.go",
+      "internal/integrations/channel/engine/resolvers.go",
+      "internal/integrations/channel/engine/router_test.go",
+      "internal/integrations/channel/engine/router.go",
+      "internal/integrations/channel/engine/session_test.go",
+      "internal/integrations/channel/engine/session.go",
+      "internal/integrations/channel/engine/supervisor_test.go",
+      "internal/integrations/channel/engine/supervisor.go",
+      "internal/integrations/channel/handler.go",
+      "internal/integrations/channel/history.go",
+      "internal/integrations/channel/message_test.go",
+      "internal/integrations/channel/message.go",
+      "internal/integrations/channel/registry_test.go",
+      "internal/integrations/channel/registry.go"
+    ],
+    "internal/integrations/lark/feishu_types.go": [],
+    "internal/integrations/lark/fresh_command.go": [],
+    "internal/integrations/lark/fresh_command_test.go": [],
+    "internal/integrations/lark/http_client.go": [],
+    "internal/integrations/lark/http_client_batchusers_test.go": [],
+    "internal/integrations/lark/http_client_getmessage_test.go": [],
+    "internal/integrations/lark/http_client_listmessages_test.go": [],
+    "internal/integrations/lark/http_client_test.go": [],
+    "internal/integrations/lark/inbound_enricher.go": [],
+    "internal/integrations/lark/inbound_enricher_recent_test.go": [],
+    "internal/integrations/lark/inbound_enricher_test.go": [
+      "internal/integrations/channel/engine/batcher_test.go",
+      "internal/integrations/channel/engine/batcher.go",
+      "internal/integrations/channel/engine/doc.go",
+      "internal/integrations/channel/engine/issue_command_test.go",
+      "internal/integrations/channel/engine/issue_command.go",
+      "internal/integrations/channel/engine/resolvers.go",
+      "internal/integrations/channel/engine/router_test.go",
+      "internal/integrations/channel/engine/router.go",
+      "internal/integrations/channel/engine/session_test.go",
+      "internal/integrations/channel/engine/session.go",
+      "internal/integrations/channel/engine/supervisor_test.go",
+      "internal/integrations/channel/engine/supervisor.go"
+    ],
+    "internal/integrations/lark/markdown_detect.go": [],
+    "internal/integrations/lark/markdown_detect_test.go": [],
+    "internal/integrations/lark/noop_connector.go": [],
+    "internal/integrations/lark/noop_connector_test.go": [],
+    "internal/integrations/lark/params.go": [],
+    "internal/integrations/lark/region_backfill.go": [],
+    "internal/integrations/lark/region_test.go": [],
+    "internal/integrations/lark/registration.go": [],
+    "internal/integrations/lark/registration_test.go": [],
+    "internal/integrations/lark/testhelpers_test.go": [],
+    "internal/integrations/lark/tx.go": [],
+    "internal/integrations/lark/types.go": [],
+    "internal/integrations/lark/typing_indicator.go": [],
+    "internal/integrations/lark/typing_indicator_test.go": []
+  }
+}

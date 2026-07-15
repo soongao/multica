@@ -1,0 +1,423 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/handler/runtime_local_skills_redis_store_test.go",
+      "language": "go",
+      "sizeLines": 539,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_local_skills_test.go",
+      "language": "go",
+      "sizeLines": 672,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_models.go",
+      "language": "go",
+      "sizeLines": 397,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_models_redis_store.go",
+      "language": "go",
+      "sizeLines": 250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_models_redis_store_test.go",
+      "language": "go",
+      "sizeLines": 300,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_models_test.go",
+      "language": "go",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_profile_handler_test.go",
+      "language": "go",
+      "sizeLines": 329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_redis_keys_test.go",
+      "language": "go",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_update.go",
+      "language": "go",
+      "sizeLines": 338,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_update_redis_store.go",
+      "language": "go",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_update_redis_store_test.go",
+      "language": "go",
+      "sizeLines": 277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_update_test.go",
+      "language": "go",
+      "sizeLines": 111,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/search.go",
+      "language": "go",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/search_test.go",
+      "language": "go",
+      "sizeLines": 296,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/search_timeout_test.go",
+      "language": "go",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_import_archive.go",
+      "language": "go",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_import_archive_test.go",
+      "language": "go",
+      "sizeLines": 312,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_import_duplicate_test.go",
+      "language": "go",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_list_test.go",
+      "language": "go",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_search_test.go",
+      "language": "go",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_test.go",
+      "language": "go",
+      "sizeLines": 1282,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad.go",
+      "language": "go",
+      "sizeLines": 1087,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_assign_trigger_test.go",
+      "language": "go",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_briefing_claim_test.go",
+      "language": "go",
+      "sizeLines": 216,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_creator_scope_test.go",
+      "language": "go",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_member_status_test.go",
+      "language": "go",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_no_action_test.go",
+      "language": "go",
+      "sizeLines": 196,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_private_leader_test.go",
+      "language": "go",
+      "sizeLines": 497,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_worker_comment_wakes_leader_test.go",
+      "language": "go",
+      "sizeLines": 359,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/task_terminal_wakeup_test.go",
+      "language": "go",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/user_language_test.go",
+      "language": "go",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/user_timezone_test.go",
+      "language": "go",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/webhook_rate_limiter.go",
+      "language": "go",
+      "sizeLines": 305,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/webhook_rate_limiter_test.go",
+      "language": "go",
+      "sizeLines": 153,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/workspace.go",
+      "language": "go",
+      "sizeLines": 813,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "internal/handler/runtime_local_skills_redis_store_test.go": [],
+    "internal/handler/runtime_local_skills_test.go": [],
+    "internal/handler/runtime_models.go": [],
+    "internal/handler/runtime_models_redis_store.go": [],
+    "internal/handler/runtime_models_redis_store_test.go": [],
+    "internal/handler/runtime_models_test.go": [],
+    "internal/handler/runtime_profile_handler_test.go": [],
+    "internal/handler/runtime_redis_keys_test.go": [],
+    "internal/handler/runtime_update.go": [],
+    "internal/handler/runtime_update_redis_store.go": [],
+    "internal/handler/runtime_update_redis_store_test.go": [],
+    "internal/handler/runtime_update_test.go": [],
+    "internal/handler/search.go": [],
+    "internal/handler/search_test.go": [],
+    "internal/handler/search_timeout_test.go": [],
+    "internal/handler/skill_import_archive.go": [
+      "internal/skill/frontmatter_test.go",
+      "internal/skill/frontmatter.go",
+      "internal/skill/reserved_test.go",
+      "internal/skill/reserved.go"
+    ],
+    "internal/handler/skill_import_archive_test.go": [],
+    "internal/handler/skill_import_duplicate_test.go": [],
+    "internal/handler/skill_list_test.go": [],
+    "internal/handler/skill_search_test.go": [],
+    "internal/handler/skill_test.go": [],
+    "internal/handler/squad.go": [
+      "internal/analytics/client_test.go",
+      "internal/analytics/client.go",
+      "internal/analytics/events_test.go",
+      "internal/analytics/events.go",
+      "internal/analytics/posthog.go",
+      "internal/metrics/business_events.go",
+      "internal/metrics/business_pairing_test.go",
+      "internal/metrics/business_sampler_pgsleep_test.go",
+      "internal/metrics/business_sampler_queries.go",
+      "internal/metrics/business_sampler_test.go",
+      "internal/metrics/business_sampler.go",
+      "internal/metrics/business_test.go",
+      "internal/metrics/business.go",
+      "internal/metrics/config_test.go",
+      "internal/metrics/config.go",
+      "internal/metrics/daemonws.go",
+      "internal/metrics/db_test.go",
+      "internal/metrics/db.go",
+      "internal/metrics/http_test.go",
+      "internal/metrics/http.go",
+      "internal/metrics/labels_pr3_test.go",
+      "internal/metrics/labels_pr3.go",
+      "internal/metrics/labels_test.go",
+      "internal/metrics/labels.go",
+      "internal/metrics/pricing_test.go",
+      "internal/metrics/pricing.go",
+      "internal/metrics/realtime_test.go",
+      "internal/metrics/realtime.go",
+      "internal/metrics/record_event_test.go",
+      "internal/metrics/registry.go",
+      "internal/metrics/server_test.go",
+      "internal/metrics/server.go",
+      "internal/metrics/testutil.go",
+      "internal/util/mention_test.go",
+      "internal/util/mention.go",
+      "internal/util/pgx_test.go",
+      "internal/util/pgx.go",
+      "internal/util/proc_other.go",
+      "internal/util/proc_windows.go",
+      "internal/util/text_test.go",
+      "internal/util/text.go",
+      "pkg/db/generated/activity.sql.go",
+      "pkg/db/generated/agent_invocation_target.sql.go",
+      "pkg/db/generated/agent.sql.go",
+      "pkg/db/generated/attachment.sql.go",
+      "pkg/db/generated/autopilot.sql.go",
+      "pkg/db/generated/channel.sql.go",
+      "pkg/db/generated/chat_pinned_agent.sql.go",
+      "pkg/db/generated/chat.sql.go",
+      "pkg/db/generated/comment.sql.go",
+      "pkg/db/generated/composio.sql.go",
+      "pkg/db/generated/contact_sales.sql.go",
+      "pkg/db/generated/daemon_token.sql.go",
+      "pkg/db/generated/db.go",
+      "pkg/db/generated/feedback.sql.go",
+      "pkg/db/generated/github.sql.go",
+      "pkg/db/generated/inbox.sql.go",
+      "pkg/db/generated/invitation.sql.go",
+      "pkg/db/generated/issue_label.sql.go",
+      "pkg/db/generated/issue_property.sql.go",
+      "pkg/db/generated/issue_reaction.sql.go",
+      "pkg/db/generated/issue.sql.go",
+      "pkg/db/generated/member.sql.go",
+      "pkg/db/generated/models.go",
+      "pkg/db/generated/notification_preference.sql.go",
+      "pkg/db/generated/personal_access_token.sql.go",
+      "pkg/db/generated/pinned_item.sql.go",
+      "pkg/db/generated/project_resource.sql.go",
+      "pkg/db/generated/project.sql.go",
+      "pkg/db/generated/reaction.sql.go",
+      "pkg/db/generated/runtime_profile.sql.go",
+      "pkg/db/generated/runtime_usage.sql.go",
+      "pkg/db/generated/runtime.sql.go",
+      "pkg/db/generated/skill.sql.go",
+      "pkg/db/generated/squad.sql.go",
+      "pkg/db/generated/subscriber.sql.go",
+      "pkg/db/generated/task_message.sql.go",
+      "pkg/db/generated/task_token.sql.go",
+      "pkg/db/generated/task_usage.sql.go",
+      "pkg/db/generated/user.sql.go",
+      "pkg/db/generated/verification_code.sql.go",
+      "pkg/db/generated/webhook_delivery.sql.go",
+      "pkg/db/generated/workspace.sql.go",
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "internal/handler/squad_assign_trigger_test.go": [],
+    "internal/handler/squad_briefing_claim_test.go": [],
+    "internal/handler/squad_creator_scope_test.go": [],
+    "internal/handler/squad_member_status_test.go": [],
+    "internal/handler/squad_no_action_test.go": [],
+    "internal/handler/squad_private_leader_test.go": [],
+    "internal/handler/squad_worker_comment_wakes_leader_test.go": [],
+    "internal/handler/task_terminal_wakeup_test.go": [],
+    "internal/handler/user_language_test.go": [],
+    "internal/handler/user_timezone_test.go": [],
+    "internal/handler/webhook_rate_limiter.go": [],
+    "internal/handler/webhook_rate_limiter_test.go": [],
+    "internal/handler/workspace.go": [
+      "internal/analytics/client_test.go",
+      "internal/analytics/client.go",
+      "internal/analytics/events_test.go",
+      "internal/analytics/events.go",
+      "internal/analytics/posthog.go",
+      "internal/logger/logger_test.go",
+      "internal/logger/logger.go",
+      "internal/metrics/business_events.go",
+      "internal/metrics/business_pairing_test.go",
+      "internal/metrics/business_sampler_pgsleep_test.go",
+      "internal/metrics/business_sampler_queries.go",
+      "internal/metrics/business_sampler_test.go",
+      "internal/metrics/business_sampler.go",
+      "internal/metrics/business_test.go",
+      "internal/metrics/business.go",
+      "internal/metrics/config_test.go",
+      "internal/metrics/config.go",
+      "internal/metrics/daemonws.go",
+      "internal/metrics/db_test.go",
+      "internal/metrics/db.go",
+      "internal/metrics/http_test.go",
+      "internal/metrics/http.go",
+      "internal/metrics/labels_pr3_test.go",
+      "internal/metrics/labels_pr3.go",
+      "internal/metrics/labels_test.go",
+      "internal/metrics/labels.go",
+      "internal/metrics/pricing_test.go",
+      "internal/metrics/pricing.go",
+      "internal/metrics/realtime_test.go",
+      "internal/metrics/realtime.go",
+      "internal/metrics/record_event_test.go",
+      "internal/metrics/registry.go",
+      "internal/metrics/server_test.go",
+      "internal/metrics/server.go",
+      "internal/metrics/testutil.go",
+      "pkg/db/generated/activity.sql.go",
+      "pkg/db/generated/agent_invocation_target.sql.go",
+      "pkg/db/generated/agent.sql.go",
+      "pkg/db/generated/attachment.sql.go",
+      "pkg/db/generated/autopilot.sql.go",
+      "pkg/db/generated/channel.sql.go",
+      "pkg/db/generated/chat_pinned_agent.sql.go",
+      "pkg/db/generated/chat.sql.go",
+      "pkg/db/generated/comment.sql.go",
+      "pkg/db/generated/composio.sql.go",
+      "pkg/db/generated/contact_sales.sql.go",
+      "pkg/db/generated/daemon_token.sql.go",
+      "pkg/db/generated/db.go",
+      "pkg/db/generated/feedback.sql.go",
+      "pkg/db/generated/github.sql.go",
+      "pkg/db/generated/inbox.sql.go",
+      "pkg/db/generated/invitation.sql.go",
+      "pkg/db/generated/issue_label.sql.go",
+      "pkg/db/generated/issue_property.sql.go",
+      "pkg/db/generated/issue_reaction.sql.go",
+      "pkg/db/generated/issue.sql.go",
+      "pkg/db/generated/member.sql.go",
+      "pkg/db/generated/models.go",
+      "pkg/db/generated/notification_preference.sql.go",
+      "pkg/db/generated/personal_access_token.sql.go",
+      "pkg/db/generated/pinned_item.sql.go",
+      "pkg/db/generated/project_resource.sql.go",
+      "pkg/db/generated/project.sql.go",
+      "pkg/db/generated/reaction.sql.go",
+      "pkg/db/generated/runtime_profile.sql.go",
+      "pkg/db/generated/runtime_usage.sql.go",
+      "pkg/db/generated/runtime.sql.go",
+      "pkg/db/generated/skill.sql.go",
+      "pkg/db/generated/squad.sql.go",
+      "pkg/db/generated/subscriber.sql.go",
+      "pkg/db/generated/task_message.sql.go",
+      "pkg/db/generated/task_token.sql.go",
+      "pkg/db/generated/task_usage.sql.go",
+      "pkg/db/generated/user.sql.go",
+      "pkg/db/generated/verification_code.sql.go",
+      "pkg/db/generated/webhook_delivery.sql.go",
+      "pkg/db/generated/workspace.sql.go",
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ]
+  }
+}

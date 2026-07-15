@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "pkg/db/queries/member.sql",
+      "language": "sql",
+      "sizeLines": 33,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/notification_preference.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/personal_access_token.sql",
+      "language": "sql",
+      "sizeLines": 48,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/pinned_item.sql",
+      "language": "sql",
+      "sizeLines": 26,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/project.sql",
+      "language": "sql",
+      "sizeLines": 53,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/project_resource.sql",
+      "language": "sql",
+      "sizeLines": 44,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/reaction.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/runtime.sql",
+      "language": "sql",
+      "sizeLines": 387,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/runtime_profile.sql",
+      "language": "sql",
+      "sizeLines": 83,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/runtime_usage.sql",
+      "language": "sql",
+      "sizeLines": 88,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/skill.sql",
+      "language": "sql",
+      "sizeLines": 125,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/squad.sql",
+      "language": "sql",
+      "sizeLines": 151,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/subscriber.sql",
+      "language": "sql",
+      "sizeLines": 19,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/task_message.sql",
+      "language": "sql",
+      "sizeLines": 18,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/task_token.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/task_usage.sql",
+      "language": "sql",
+      "sizeLines": 158,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/user.sql",
+      "language": "sql",
+      "sizeLines": 87,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/verification_code.sql",
+      "language": "sql",
+      "sizeLines": 33,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/webhook_delivery.sql",
+      "language": "sql",
+      "sizeLines": 177,
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/workspace.sql",
+      "language": "sql",
+      "sizeLines": 158,
+      "fileCategory": "data"
+    }
+  ],
+  "batchImportData": {
+    "pkg/db/queries/member.sql": [],
+    "pkg/db/queries/notification_preference.sql": [],
+    "pkg/db/queries/personal_access_token.sql": [],
+    "pkg/db/queries/pinned_item.sql": [],
+    "pkg/db/queries/project.sql": [],
+    "pkg/db/queries/project_resource.sql": [],
+    "pkg/db/queries/reaction.sql": [],
+    "pkg/db/queries/runtime.sql": [],
+    "pkg/db/queries/runtime_profile.sql": [],
+    "pkg/db/queries/runtime_usage.sql": [],
+    "pkg/db/queries/skill.sql": [],
+    "pkg/db/queries/squad.sql": [],
+    "pkg/db/queries/subscriber.sql": [],
+    "pkg/db/queries/task_message.sql": [],
+    "pkg/db/queries/task_token.sql": [],
+    "pkg/db/queries/task_usage.sql": [],
+    "pkg/db/queries/user.sql": [],
+    "pkg/db/queries/verification_code.sql": [],
+    "pkg/db/queries/webhook_delivery.sql": [],
+    "pkg/db/queries/workspace.sql": []
+  }
+}

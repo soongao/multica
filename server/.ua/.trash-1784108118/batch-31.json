@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "config:internal/agenttmpl/templates/tutor.json",
+      "type": "config",
+      "name": "tutor.json",
+      "filePath": "internal/agenttmpl/templates/tutor.json",
+      "summary": "配置文件 internal/agenttmpl/templates/tutor.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/user-story-writer.json",
+      "type": "config",
+      "name": "user-story-writer.json",
+      "filePath": "internal/agenttmpl/templates/user-story-writer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/user-story-writer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/ux-copywriter.json",
+      "type": "config",
+      "name": "ux-copywriter.json",
+      "filePath": "internal/agenttmpl/templates/ux-copywriter.json",
+      "summary": "配置文件 internal/agenttmpl/templates/ux-copywriter.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/webapp-tester.json",
+      "type": "config",
+      "name": "webapp-tester.json",
+      "filePath": "internal/agenttmpl/templates/webapp-tester.json",
+      "summary": "配置文件 internal/agenttmpl/templates/webapp-tester.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/writing-critic.json",
+      "type": "config",
+      "name": "writing-critic.json",
+      "filePath": "internal/agenttmpl/templates/writing-critic.json",
+      "summary": "配置文件 internal/agenttmpl/templates/writing-critic.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

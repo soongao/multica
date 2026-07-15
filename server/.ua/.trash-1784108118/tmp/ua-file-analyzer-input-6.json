@@ -1,0 +1,446 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/handler/workspace_reserved_slugs.go",
+      "language": "go",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/workspace_test.go",
+      "language": "go",
+      "sizeLines": 833,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/composio/state.go",
+      "language": "go",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/composio/state_test.go",
+      "language": "go",
+      "sizeLines": 97,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/issueposition/position.go",
+      "language": "go",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/logger/logger.go",
+      "language": "go",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/logger/logger_test.go",
+      "language": "go",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business.go",
+      "language": "go",
+      "sizeLines": 333,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_events.go",
+      "language": "go",
+      "sizeLines": 503,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_pairing_test.go",
+      "language": "go",
+      "sizeLines": 445,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_sampler.go",
+      "language": "go",
+      "sizeLines": 523,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_sampler_pgsleep_test.go",
+      "language": "go",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_sampler_queries.go",
+      "language": "go",
+      "sizeLines": 335,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_sampler_test.go",
+      "language": "go",
+      "sizeLines": 332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_test.go",
+      "language": "go",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/config.go",
+      "language": "go",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/config_test.go",
+      "language": "go",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/daemonws.go",
+      "language": "go",
+      "sizeLines": 70,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/db.go",
+      "language": "go",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/db_test.go",
+      "language": "go",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/http.go",
+      "language": "go",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/http_test.go",
+      "language": "go",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/labels.go",
+      "language": "go",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/labels_pr3.go",
+      "language": "go",
+      "sizeLines": 407,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/labels_pr3_test.go",
+      "language": "go",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/labels_test.go",
+      "language": "go",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/pricing.go",
+      "language": "go",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/pricing_test.go",
+      "language": "go",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/realtime.go",
+      "language": "go",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/realtime_test.go",
+      "language": "go",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/record_event_test.go",
+      "language": "go",
+      "sizeLines": 52,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/registry.go",
+      "language": "go",
+      "sizeLines": 86,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/server.go",
+      "language": "go",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/server_test.go",
+      "language": "go",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/testutil.go",
+      "language": "go",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "internal/handler/workspace_reserved_slugs.go": [],
+    "internal/handler/workspace_test.go": [],
+    "internal/integrations/composio/state.go": [],
+    "internal/integrations/composio/state_test.go": [],
+    "internal/issueposition/position.go": [],
+    "internal/logger/logger.go": [
+      "internal/middleware/auth_test.go",
+      "internal/middleware/auth.go",
+      "internal/middleware/client_test.go",
+      "internal/middleware/client.go",
+      "internal/middleware/cloudfront_test.go",
+      "internal/middleware/cloudfront.go",
+      "internal/middleware/csp_test.go",
+      "internal/middleware/csp.go",
+      "internal/middleware/daemon_auth_test.go",
+      "internal/middleware/daemon_auth.go",
+      "internal/middleware/owner_lookup_test.go",
+      "internal/middleware/owner_lookup.go",
+      "internal/middleware/ratelimit_test.go",
+      "internal/middleware/ratelimit.go",
+      "internal/middleware/request_logger_test.go",
+      "internal/middleware/request_logger.go",
+      "internal/middleware/workspace_test.go",
+      "internal/middleware/workspace.go"
+    ],
+    "internal/logger/logger_test.go": [],
+    "internal/metrics/business.go": [
+      "pkg/taskfailure/classify_test.go",
+      "pkg/taskfailure/classify.go",
+      "pkg/taskfailure/failure_test.go",
+      "pkg/taskfailure/failure.go"
+    ],
+    "internal/metrics/business_events.go": [
+      "internal/analytics/client_test.go",
+      "internal/analytics/client.go",
+      "internal/analytics/events_test.go",
+      "internal/analytics/events.go",
+      "internal/analytics/posthog.go"
+    ],
+    "internal/metrics/business_pairing_test.go": [
+      "internal/analytics/client_test.go",
+      "internal/analytics/client.go",
+      "internal/analytics/events_test.go",
+      "internal/analytics/events.go",
+      "internal/analytics/posthog.go",
+      "internal/metrics/business_events.go",
+      "internal/metrics/business_pairing_test.go",
+      "internal/metrics/business_sampler_pgsleep_test.go",
+      "internal/metrics/business_sampler_queries.go",
+      "internal/metrics/business_sampler_test.go",
+      "internal/metrics/business_sampler.go",
+      "internal/metrics/business_test.go",
+      "internal/metrics/business.go",
+      "internal/metrics/config_test.go",
+      "internal/metrics/config.go",
+      "internal/metrics/daemonws.go",
+      "internal/metrics/db_test.go",
+      "internal/metrics/db.go",
+      "internal/metrics/http_test.go",
+      "internal/metrics/http.go",
+      "internal/metrics/labels_pr3_test.go",
+      "internal/metrics/labels_pr3.go",
+      "internal/metrics/labels_test.go",
+      "internal/metrics/labels.go",
+      "internal/metrics/pricing_test.go",
+      "internal/metrics/pricing.go",
+      "internal/metrics/realtime_test.go",
+      "internal/metrics/realtime.go",
+      "internal/metrics/record_event_test.go",
+      "internal/metrics/registry.go",
+      "internal/metrics/server_test.go",
+      "internal/metrics/server.go",
+      "internal/metrics/testutil.go"
+    ],
+    "internal/metrics/business_sampler.go": [],
+    "internal/metrics/business_sampler_pgsleep_test.go": [],
+    "internal/metrics/business_sampler_queries.go": [],
+    "internal/metrics/business_sampler_test.go": [],
+    "internal/metrics/business_test.go": [
+      "internal/analytics/client_test.go",
+      "internal/analytics/client.go",
+      "internal/analytics/events_test.go",
+      "internal/analytics/events.go",
+      "internal/analytics/posthog.go",
+      "pkg/taskfailure/classify_test.go",
+      "pkg/taskfailure/classify.go",
+      "pkg/taskfailure/failure_test.go",
+      "pkg/taskfailure/failure.go"
+    ],
+    "internal/metrics/config.go": [],
+    "internal/metrics/config_test.go": [],
+    "internal/metrics/daemonws.go": [
+      "internal/daemonws/hub_test.go",
+      "internal/daemonws/hub.go",
+      "internal/daemonws/metrics.go",
+      "internal/daemonws/notifier.go",
+      "internal/daemonws/rpc_dispatch_test.go"
+    ],
+    "internal/metrics/db.go": [],
+    "internal/metrics/db_test.go": [],
+    "internal/metrics/http.go": [],
+    "internal/metrics/http_test.go": [],
+    "internal/metrics/labels.go": [
+      "pkg/taskfailure/classify_test.go",
+      "pkg/taskfailure/classify.go",
+      "pkg/taskfailure/failure_test.go",
+      "pkg/taskfailure/failure.go"
+    ],
+    "internal/metrics/labels_pr3.go": [],
+    "internal/metrics/labels_pr3_test.go": [
+      "internal/analytics/client_test.go",
+      "internal/analytics/client.go",
+      "internal/analytics/events_test.go",
+      "internal/analytics/events.go",
+      "internal/analytics/posthog.go",
+      "internal/metrics/business_events.go",
+      "internal/metrics/business_pairing_test.go",
+      "internal/metrics/business_sampler_pgsleep_test.go",
+      "internal/metrics/business_sampler_queries.go",
+      "internal/metrics/business_sampler_test.go",
+      "internal/metrics/business_sampler.go",
+      "internal/metrics/business_test.go",
+      "internal/metrics/business.go",
+      "internal/metrics/config_test.go",
+      "internal/metrics/config.go",
+      "internal/metrics/daemonws.go",
+      "internal/metrics/db_test.go",
+      "internal/metrics/db.go",
+      "internal/metrics/http_test.go",
+      "internal/metrics/http.go",
+      "internal/metrics/labels_pr3_test.go",
+      "internal/metrics/labels_pr3.go",
+      "internal/metrics/labels_test.go",
+      "internal/metrics/labels.go",
+      "internal/metrics/pricing_test.go",
+      "internal/metrics/pricing.go",
+      "internal/metrics/realtime_test.go",
+      "internal/metrics/realtime.go",
+      "internal/metrics/record_event_test.go",
+      "internal/metrics/registry.go",
+      "internal/metrics/server_test.go",
+      "internal/metrics/server.go",
+      "internal/metrics/testutil.go"
+    ],
+    "internal/metrics/labels_test.go": [],
+    "internal/metrics/pricing.go": [],
+    "internal/metrics/pricing_test.go": [],
+    "internal/metrics/realtime.go": [
+      "internal/realtime/broadcaster.go",
+      "internal/realtime/hub_test.go",
+      "internal/realtime/hub.go",
+      "internal/realtime/metrics_test.go",
+      "internal/realtime/metrics.go",
+      "internal/realtime/redis_relay_test.go",
+      "internal/realtime/redis_relay.go",
+      "internal/realtime/relay_lifecycle_test.go",
+      "internal/realtime/relay_lifecycle.go",
+      "internal/realtime/sharded_stream_relay_test.go",
+      "internal/realtime/sharded_stream_relay.go"
+    ],
+    "internal/metrics/realtime_test.go": [
+      "internal/realtime/broadcaster.go",
+      "internal/realtime/hub_test.go",
+      "internal/realtime/hub.go",
+      "internal/realtime/metrics_test.go",
+      "internal/realtime/metrics.go",
+      "internal/realtime/redis_relay_test.go",
+      "internal/realtime/redis_relay.go",
+      "internal/realtime/relay_lifecycle_test.go",
+      "internal/realtime/relay_lifecycle.go",
+      "internal/realtime/sharded_stream_relay_test.go",
+      "internal/realtime/sharded_stream_relay.go"
+    ],
+    "internal/metrics/record_event_test.go": [
+      "internal/analytics/client_test.go",
+      "internal/analytics/client.go",
+      "internal/analytics/events_test.go",
+      "internal/analytics/events.go",
+      "internal/analytics/posthog.go",
+      "internal/metrics/business_events.go",
+      "internal/metrics/business_pairing_test.go",
+      "internal/metrics/business_sampler_pgsleep_test.go",
+      "internal/metrics/business_sampler_queries.go",
+      "internal/metrics/business_sampler_test.go",
+      "internal/metrics/business_sampler.go",
+      "internal/metrics/business_test.go",
+      "internal/metrics/business.go",
+      "internal/metrics/config_test.go",
+      "internal/metrics/config.go",
+      "internal/metrics/daemonws.go",
+      "internal/metrics/db_test.go",
+      "internal/metrics/db.go",
+      "internal/metrics/http_test.go",
+      "internal/metrics/http.go",
+      "internal/metrics/labels_pr3_test.go",
+      "internal/metrics/labels_pr3.go",
+      "internal/metrics/labels_test.go",
+      "internal/metrics/labels.go",
+      "internal/metrics/pricing_test.go",
+      "internal/metrics/pricing.go",
+      "internal/metrics/realtime_test.go",
+      "internal/metrics/realtime.go",
+      "internal/metrics/record_event_test.go",
+      "internal/metrics/registry.go",
+      "internal/metrics/server_test.go",
+      "internal/metrics/server.go",
+      "internal/metrics/testutil.go"
+    ],
+    "internal/metrics/registry.go": [
+      "internal/daemonws/hub_test.go",
+      "internal/daemonws/hub.go",
+      "internal/daemonws/metrics.go",
+      "internal/daemonws/notifier.go",
+      "internal/daemonws/rpc_dispatch_test.go",
+      "internal/realtime/broadcaster.go",
+      "internal/realtime/hub_test.go",
+      "internal/realtime/hub.go",
+      "internal/realtime/metrics_test.go",
+      "internal/realtime/metrics.go",
+      "internal/realtime/redis_relay_test.go",
+      "internal/realtime/redis_relay.go",
+      "internal/realtime/relay_lifecycle_test.go",
+      "internal/realtime/relay_lifecycle.go",
+      "internal/realtime/sharded_stream_relay_test.go",
+      "internal/realtime/sharded_stream_relay.go"
+    ],
+    "internal/metrics/server.go": [],
+    "internal/metrics/server_test.go": [],
+    "internal/metrics/testutil.go": []
+  }
+}

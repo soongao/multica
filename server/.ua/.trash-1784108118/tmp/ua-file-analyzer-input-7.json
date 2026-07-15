@@ -1,0 +1,415 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/middleware/auth_test.go",
+      "language": "go",
+      "sizeLines": 416,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/client.go",
+      "language": "go",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/client_test.go",
+      "language": "go",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/cloudfront.go",
+      "language": "go",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/cloudfront_test.go",
+      "language": "go",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/csp.go",
+      "language": "go",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/csp_test.go",
+      "language": "go",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/ratelimit.go",
+      "language": "go",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/ratelimit_test.go",
+      "language": "go",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/request_logger.go",
+      "language": "go",
+      "sizeLines": 194,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/request_logger_test.go",
+      "language": "go",
+      "sizeLines": 219,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/broadcaster.go",
+      "language": "go",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/hub.go",
+      "language": "go",
+      "sizeLines": 1020,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/hub_test.go",
+      "language": "go",
+      "sizeLines": 416,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/metrics.go",
+      "language": "go",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/metrics_test.go",
+      "language": "go",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/redis_relay.go",
+      "language": "go",
+      "sizeLines": 578,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/redis_relay_test.go",
+      "language": "go",
+      "sizeLines": 129,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/relay_lifecycle.go",
+      "language": "go",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/relay_lifecycle_test.go",
+      "language": "go",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/sharded_stream_relay.go",
+      "language": "go",
+      "sizeLines": 311,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/sharded_stream_relay_test.go",
+      "language": "go",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/concurrent_claim_test.go",
+      "language": "go",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/db_ops.go",
+      "language": "go",
+      "sizeLines": 395,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/every_plan_retry_test.go",
+      "language": "go",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/jobs_autopilot_test.go",
+      "language": "go",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/manager.go",
+      "language": "go",
+      "sizeLines": 489,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/manager_tick_test.go",
+      "language": "go",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/pgcron_concurrent_test.go",
+      "language": "go",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/plans_for_scope_test.go",
+      "language": "go",
+      "sizeLines": 251,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/rollup_guard_test.go",
+      "language": "go",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/spec.go",
+      "language": "go",
+      "sizeLines": 261,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/spec_test.go",
+      "language": "go",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/stale_steal_test.go",
+      "language": "go",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/autopilot.go",
+      "language": "go",
+      "sizeLines": 1845,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "internal/middleware/auth_test.go": [
+      "internal/auth/cloud_pat_test.go",
+      "internal/auth/cloud_pat.go",
+      "internal/auth/cloudfront_test.go",
+      "internal/auth/cloudfront.go",
+      "internal/auth/cookie_test.go",
+      "internal/auth/cookie.go",
+      "internal/auth/daemon_token_cache_test.go",
+      "internal/auth/daemon_token_cache.go",
+      "internal/auth/jwt.go",
+      "internal/auth/membership_cache_test.go",
+      "internal/auth/membership_cache.go",
+      "internal/auth/pat_cache_test.go",
+      "internal/auth/pat_cache.go"
+    ],
+    "internal/middleware/client.go": [],
+    "internal/middleware/client_test.go": [],
+    "internal/middleware/cloudfront.go": [
+      "internal/auth/cloud_pat_test.go",
+      "internal/auth/cloud_pat.go",
+      "internal/auth/cloudfront_test.go",
+      "internal/auth/cloudfront.go",
+      "internal/auth/cookie_test.go",
+      "internal/auth/cookie.go",
+      "internal/auth/daemon_token_cache_test.go",
+      "internal/auth/daemon_token_cache.go",
+      "internal/auth/jwt.go",
+      "internal/auth/membership_cache_test.go",
+      "internal/auth/membership_cache.go",
+      "internal/auth/pat_cache_test.go",
+      "internal/auth/pat_cache.go"
+    ],
+    "internal/middleware/cloudfront_test.go": [
+      "internal/auth/cloud_pat_test.go",
+      "internal/auth/cloud_pat.go",
+      "internal/auth/cloudfront_test.go",
+      "internal/auth/cloudfront.go",
+      "internal/auth/cookie_test.go",
+      "internal/auth/cookie.go",
+      "internal/auth/daemon_token_cache_test.go",
+      "internal/auth/daemon_token_cache.go",
+      "internal/auth/jwt.go",
+      "internal/auth/membership_cache_test.go",
+      "internal/auth/membership_cache.go",
+      "internal/auth/pat_cache_test.go",
+      "internal/auth/pat_cache.go"
+    ],
+    "internal/middleware/csp.go": [],
+    "internal/middleware/csp_test.go": [],
+    "internal/middleware/ratelimit.go": [],
+    "internal/middleware/ratelimit_test.go": [],
+    "internal/middleware/request_logger.go": [],
+    "internal/middleware/request_logger_test.go": [],
+    "internal/realtime/broadcaster.go": [],
+    "internal/realtime/hub.go": [
+      "internal/auth/cloud_pat_test.go",
+      "internal/auth/cloud_pat.go",
+      "internal/auth/cloudfront_test.go",
+      "internal/auth/cloudfront.go",
+      "internal/auth/cookie_test.go",
+      "internal/auth/cookie.go",
+      "internal/auth/daemon_token_cache_test.go",
+      "internal/auth/daemon_token_cache.go",
+      "internal/auth/jwt.go",
+      "internal/auth/membership_cache_test.go",
+      "internal/auth/membership_cache.go",
+      "internal/auth/pat_cache_test.go",
+      "internal/auth/pat_cache.go"
+    ],
+    "internal/realtime/hub_test.go": [
+      "internal/auth/cloud_pat_test.go",
+      "internal/auth/cloud_pat.go",
+      "internal/auth/cloudfront_test.go",
+      "internal/auth/cloudfront.go",
+      "internal/auth/cookie_test.go",
+      "internal/auth/cookie.go",
+      "internal/auth/daemon_token_cache_test.go",
+      "internal/auth/daemon_token_cache.go",
+      "internal/auth/jwt.go",
+      "internal/auth/membership_cache_test.go",
+      "internal/auth/membership_cache.go",
+      "internal/auth/pat_cache_test.go",
+      "internal/auth/pat_cache.go"
+    ],
+    "internal/realtime/metrics.go": [],
+    "internal/realtime/metrics_test.go": [],
+    "internal/realtime/redis_relay.go": [],
+    "internal/realtime/redis_relay_test.go": [],
+    "internal/realtime/relay_lifecycle.go": [],
+    "internal/realtime/relay_lifecycle_test.go": [],
+    "internal/realtime/sharded_stream_relay.go": [],
+    "internal/realtime/sharded_stream_relay_test.go": [],
+    "internal/scheduler/concurrent_claim_test.go": [],
+    "internal/scheduler/db_ops.go": [],
+    "internal/scheduler/every_plan_retry_test.go": [],
+    "internal/scheduler/jobs_autopilot_test.go": [],
+    "internal/scheduler/manager.go": [],
+    "internal/scheduler/manager_tick_test.go": [],
+    "internal/scheduler/pgcron_concurrent_test.go": [],
+    "internal/scheduler/plans_for_scope_test.go": [],
+    "internal/scheduler/rollup_guard_test.go": [],
+    "internal/scheduler/spec.go": [],
+    "internal/scheduler/spec_test.go": [],
+    "internal/scheduler/stale_steal_test.go": [],
+    "internal/service/autopilot.go": [
+      "internal/analytics/client_test.go",
+      "internal/analytics/client.go",
+      "internal/analytics/events_test.go",
+      "internal/analytics/events.go",
+      "internal/analytics/posthog.go",
+      "internal/attribution/attribution_test.go",
+      "internal/attribution/attribution.go",
+      "internal/dispatch/reason.go",
+      "internal/events/bus_test.go",
+      "internal/events/bus.go",
+      "internal/issueguard/duplicate.go",
+      "internal/issueposition/position.go",
+      "internal/metrics/business_events.go",
+      "internal/metrics/business_pairing_test.go",
+      "internal/metrics/business_sampler_pgsleep_test.go",
+      "internal/metrics/business_sampler_queries.go",
+      "internal/metrics/business_sampler_test.go",
+      "internal/metrics/business_sampler.go",
+      "internal/metrics/business_test.go",
+      "internal/metrics/business.go",
+      "internal/metrics/config_test.go",
+      "internal/metrics/config.go",
+      "internal/metrics/daemonws.go",
+      "internal/metrics/db_test.go",
+      "internal/metrics/db.go",
+      "internal/metrics/http_test.go",
+      "internal/metrics/http.go",
+      "internal/metrics/labels_pr3_test.go",
+      "internal/metrics/labels_pr3.go",
+      "internal/metrics/labels_test.go",
+      "internal/metrics/labels.go",
+      "internal/metrics/pricing_test.go",
+      "internal/metrics/pricing.go",
+      "internal/metrics/realtime_test.go",
+      "internal/metrics/realtime.go",
+      "internal/metrics/record_event_test.go",
+      "internal/metrics/registry.go",
+      "internal/metrics/server_test.go",
+      "internal/metrics/server.go",
+      "internal/metrics/testutil.go",
+      "internal/util/mention_test.go",
+      "internal/util/mention.go",
+      "internal/util/pgx_test.go",
+      "internal/util/pgx.go",
+      "internal/util/proc_other.go",
+      "internal/util/proc_windows.go",
+      "internal/util/text_test.go",
+      "internal/util/text.go",
+      "pkg/db/generated/activity.sql.go",
+      "pkg/db/generated/agent_invocation_target.sql.go",
+      "pkg/db/generated/agent.sql.go",
+      "pkg/db/generated/attachment.sql.go",
+      "pkg/db/generated/autopilot.sql.go",
+      "pkg/db/generated/channel.sql.go",
+      "pkg/db/generated/chat_pinned_agent.sql.go",
+      "pkg/db/generated/chat.sql.go",
+      "pkg/db/generated/comment.sql.go",
+      "pkg/db/generated/composio.sql.go",
+      "pkg/db/generated/contact_sales.sql.go",
+      "pkg/db/generated/daemon_token.sql.go",
+      "pkg/db/generated/db.go",
+      "pkg/db/generated/feedback.sql.go",
+      "pkg/db/generated/github.sql.go",
+      "pkg/db/generated/inbox.sql.go",
+      "pkg/db/generated/invitation.sql.go",
+      "pkg/db/generated/issue_label.sql.go",
+      "pkg/db/generated/issue_property.sql.go",
+      "pkg/db/generated/issue_reaction.sql.go",
+      "pkg/db/generated/issue.sql.go",
+      "pkg/db/generated/member.sql.go",
+      "pkg/db/generated/models.go",
+      "pkg/db/generated/notification_preference.sql.go",
+      "pkg/db/generated/personal_access_token.sql.go",
+      "pkg/db/generated/pinned_item.sql.go",
+      "pkg/db/generated/project_resource.sql.go",
+      "pkg/db/generated/project.sql.go",
+      "pkg/db/generated/reaction.sql.go",
+      "pkg/db/generated/runtime_profile.sql.go",
+      "pkg/db/generated/runtime_usage.sql.go",
+      "pkg/db/generated/runtime.sql.go",
+      "pkg/db/generated/skill.sql.go",
+      "pkg/db/generated/squad.sql.go",
+      "pkg/db/generated/subscriber.sql.go",
+      "pkg/db/generated/task_message.sql.go",
+      "pkg/db/generated/task_token.sql.go",
+      "pkg/db/generated/task_usage.sql.go",
+      "pkg/db/generated/user.sql.go",
+      "pkg/db/generated/verification_code.sql.go",
+      "pkg/db/generated/webhook_delivery.sql.go",
+      "pkg/db/generated/workspace.sql.go",
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ]
+  }
+}

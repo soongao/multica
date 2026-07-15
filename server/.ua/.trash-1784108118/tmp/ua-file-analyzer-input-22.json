@@ -1,0 +1,248 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/util/proc_windows.go",
+      "language": "go",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/text.go",
+      "language": "go",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/text_test.go",
+      "language": "go",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/auth_configs.go",
+      "language": "go",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/client.go",
+      "language": "go",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/client_test.go",
+      "language": "go",
+      "sizeLines": 609,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/connected_accounts.go",
+      "language": "go",
+      "sizeLines": 208,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/doc.go",
+      "language": "go",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/errors.go",
+      "language": "go",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/sessions.go",
+      "language": "go",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/toolkits.go",
+      "language": "go",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/tools.go",
+      "language": "go",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/webhook.go",
+      "language": "go",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/webhook_test.go",
+      "language": "go",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/activity.sql.go",
+      "language": "go",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/agent.sql.go",
+      "language": "go",
+      "sizeLines": 5047,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/agent_invocation_target.sql.go",
+      "language": "go",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/attachment.sql.go",
+      "language": "go",
+      "sizeLines": 710,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/autopilot.sql.go",
+      "language": "go",
+      "sizeLines": 1955,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/channel.sql.go",
+      "language": "go",
+      "sizeLines": 1488,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/chat.sql.go",
+      "language": "go",
+      "sizeLines": 1450,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/chat_pinned_agent.sql.go",
+      "language": "go",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/comment.sql.go",
+      "language": "go",
+      "sizeLines": 1315,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/composio.sql.go",
+      "language": "go",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/contact_sales.sql.go",
+      "language": "go",
+      "sizeLines": 96,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/daemon_token.sql.go",
+      "language": "go",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/db.go",
+      "language": "go",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/feedback.sql.go",
+      "language": "go",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/github.sql.go",
+      "language": "go",
+      "sizeLines": 969,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/inbox.sql.go",
+      "language": "go",
+      "sizeLines": 464,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/invitation.sql.go",
+      "language": "go",
+      "sizeLines": 311,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "internal/util/proc_windows.go": [],
+    "internal/util/text.go": [],
+    "internal/util/text_test.go": [],
+    "pkg/composio/auth_configs.go": [],
+    "pkg/composio/client.go": [],
+    "pkg/composio/client_test.go": [
+      "pkg/composio/auth_configs.go",
+      "pkg/composio/client_test.go",
+      "pkg/composio/client.go",
+      "pkg/composio/connected_accounts.go",
+      "pkg/composio/doc.go",
+      "pkg/composio/errors.go",
+      "pkg/composio/sessions.go",
+      "pkg/composio/toolkits.go",
+      "pkg/composio/tools.go",
+      "pkg/composio/webhook_test.go",
+      "pkg/composio/webhook.go"
+    ],
+    "pkg/composio/connected_accounts.go": [],
+    "pkg/composio/doc.go": [],
+    "pkg/composio/errors.go": [],
+    "pkg/composio/sessions.go": [],
+    "pkg/composio/toolkits.go": [],
+    "pkg/composio/tools.go": [],
+    "pkg/composio/webhook.go": [],
+    "pkg/composio/webhook_test.go": [
+      "pkg/composio/auth_configs.go",
+      "pkg/composio/client_test.go",
+      "pkg/composio/client.go",
+      "pkg/composio/connected_accounts.go",
+      "pkg/composio/doc.go",
+      "pkg/composio/errors.go",
+      "pkg/composio/sessions.go",
+      "pkg/composio/toolkits.go",
+      "pkg/composio/tools.go",
+      "pkg/composio/webhook_test.go",
+      "pkg/composio/webhook.go"
+    ],
+    "pkg/db/generated/activity.sql.go": [],
+    "pkg/db/generated/agent.sql.go": [],
+    "pkg/db/generated/agent_invocation_target.sql.go": [],
+    "pkg/db/generated/attachment.sql.go": [],
+    "pkg/db/generated/autopilot.sql.go": [],
+    "pkg/db/generated/channel.sql.go": [],
+    "pkg/db/generated/chat.sql.go": [],
+    "pkg/db/generated/chat_pinned_agent.sql.go": [],
+    "pkg/db/generated/comment.sql.go": [],
+    "pkg/db/generated/composio.sql.go": [],
+    "pkg/db/generated/contact_sales.sql.go": [],
+    "pkg/db/generated/daemon_token.sql.go": [],
+    "pkg/db/generated/db.go": [],
+    "pkg/db/generated/feedback.sql.go": [],
+    "pkg/db/generated/github.sql.go": [],
+    "pkg/db/generated/inbox.sql.go": [],
+    "pkg/db/generated/invitation.sql.go": []
+  }
+}

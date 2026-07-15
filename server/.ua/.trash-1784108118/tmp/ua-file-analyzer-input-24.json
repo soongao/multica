@@ -1,0 +1,217 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "pkg/agent/kiro_test.go",
+      "language": "go",
+      "sizeLines": 691,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/mcp_config.go",
+      "language": "go",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/models.go",
+      "language": "go",
+      "sizeLines": 1652,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/models_test.go",
+      "language": "go",
+      "sizeLines": 1048,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/openclaw.go",
+      "language": "go",
+      "sizeLines": 702,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/openclaw_test.go",
+      "language": "go",
+      "sizeLines": 1569,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode.go",
+      "language": "go",
+      "sizeLines": 601,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode_cancel_unix_test.go",
+      "language": "go",
+      "sizeLines": 157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode_mcp.go",
+      "language": "go",
+      "sizeLines": 415,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode_mcp_test.go",
+      "language": "go",
+      "sizeLines": 611,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode_test.go",
+      "language": "go",
+      "sizeLines": 1575,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi.go",
+      "language": "go",
+      "sizeLines": 577,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation.go",
+      "language": "go",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation_other.go",
+      "language": "go",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation_test.go",
+      "language": "go",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation_windows.go",
+      "language": "go",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation_windows_test.go",
+      "language": "go",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_test.go",
+      "language": "go",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/proc_other.go",
+      "language": "go",
+      "sizeLines": 38,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/proc_windows.go",
+      "language": "go",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/proc_windows_test.go",
+      "language": "go",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/qoder.go",
+      "language": "go",
+      "sizeLines": 436,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/qoder_test.go",
+      "language": "go",
+      "sizeLines": 793,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/stderr_tail.go",
+      "language": "go",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/thinking.go",
+      "language": "go",
+      "sizeLines": 718,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/thinking_test.go",
+      "language": "go",
+      "sizeLines": 1047,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/traecli.go",
+      "language": "go",
+      "sizeLines": 439,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/traecli_test.go",
+      "language": "go",
+      "sizeLines": 348,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/version.go",
+      "language": "go",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/version_test.go",
+      "language": "go",
+      "sizeLines": 170,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "pkg/agent/kiro_test.go": [],
+    "pkg/agent/mcp_config.go": [],
+    "pkg/agent/models.go": [],
+    "pkg/agent/models_test.go": [],
+    "pkg/agent/openclaw.go": [],
+    "pkg/agent/openclaw_test.go": [],
+    "pkg/agent/opencode.go": [],
+    "pkg/agent/opencode_cancel_unix_test.go": [],
+    "pkg/agent/opencode_mcp.go": [],
+    "pkg/agent/opencode_mcp_test.go": [],
+    "pkg/agent/opencode_test.go": [],
+    "pkg/agent/pi.go": [],
+    "pkg/agent/pi_invocation.go": [],
+    "pkg/agent/pi_invocation_other.go": [],
+    "pkg/agent/pi_invocation_test.go": [],
+    "pkg/agent/pi_invocation_windows.go": [],
+    "pkg/agent/pi_invocation_windows_test.go": [],
+    "pkg/agent/pi_test.go": [],
+    "pkg/agent/proc_other.go": [],
+    "pkg/agent/proc_windows.go": [],
+    "pkg/agent/proc_windows_test.go": [],
+    "pkg/agent/qoder.go": [],
+    "pkg/agent/qoder_test.go": [],
+    "pkg/agent/stderr_tail.go": [],
+    "pkg/agent/thinking.go": [],
+    "pkg/agent/thinking_test.go": [],
+    "pkg/agent/traecli.go": [],
+    "pkg/agent/traecli_test.go": [],
+    "pkg/agent/version.go": [],
+    "pkg/agent/version_test.go": []
+  }
+}

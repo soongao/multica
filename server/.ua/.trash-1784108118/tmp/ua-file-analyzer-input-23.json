@@ -1,0 +1,224 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "pkg/agent/codebuddy_test.go",
+      "language": "go",
+      "sizeLines": 474,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/codex.go",
+      "language": "go",
+      "sizeLines": 2303,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/codex_test.go",
+      "language": "go",
+      "sizeLines": 2882,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot.go",
+      "language": "go",
+      "sizeLines": 455,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation.go",
+      "language": "go",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation_other.go",
+      "language": "go",
+      "sizeLines": 12,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation_test.go",
+      "language": "go",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation_windows.go",
+      "language": "go",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation_windows_test.go",
+      "language": "go",
+      "sizeLines": 125,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_test.go",
+      "language": "go",
+      "sizeLines": 838,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor.go",
+      "language": "go",
+      "sizeLines": 496,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_execute_unix_test.go",
+      "language": "go",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation.go",
+      "language": "go",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation_other.go",
+      "language": "go",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation_test.go",
+      "language": "go",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation_windows.go",
+      "language": "go",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation_windows_test.go",
+      "language": "go",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_test.go",
+      "language": "go",
+      "sizeLines": 688,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/deveco.go",
+      "language": "go",
+      "sizeLines": 514,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/deveco_models.go",
+      "language": "go",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/deveco_test.go",
+      "language": "go",
+      "sizeLines": 345,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/exec_fixture_unix_test.go",
+      "language": "go",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/exec_fixture_windows_test.go",
+      "language": "go",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/grok.go",
+      "language": "go",
+      "sizeLines": 587,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/grok_test.go",
+      "language": "go",
+      "sizeLines": 890,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/handoff_version_test.go",
+      "language": "go",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/hermes.go",
+      "language": "go",
+      "sizeLines": 2123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/hermes_test.go",
+      "language": "go",
+      "sizeLines": 2446,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/kimi.go",
+      "language": "go",
+      "sizeLines": 445,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/kimi_test.go",
+      "language": "go",
+      "sizeLines": 337,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/kiro.go",
+      "language": "go",
+      "sizeLines": 536,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "pkg/agent/codebuddy_test.go": [],
+    "pkg/agent/codex.go": [],
+    "pkg/agent/codex_test.go": [],
+    "pkg/agent/copilot.go": [],
+    "pkg/agent/copilot_invocation.go": [],
+    "pkg/agent/copilot_invocation_other.go": [],
+    "pkg/agent/copilot_invocation_test.go": [],
+    "pkg/agent/copilot_invocation_windows.go": [],
+    "pkg/agent/copilot_invocation_windows_test.go": [],
+    "pkg/agent/copilot_test.go": [],
+    "pkg/agent/cursor.go": [],
+    "pkg/agent/cursor_execute_unix_test.go": [],
+    "pkg/agent/cursor_invocation.go": [],
+    "pkg/agent/cursor_invocation_other.go": [],
+    "pkg/agent/cursor_invocation_test.go": [],
+    "pkg/agent/cursor_invocation_windows.go": [],
+    "pkg/agent/cursor_invocation_windows_test.go": [],
+    "pkg/agent/cursor_test.go": [],
+    "pkg/agent/deveco.go": [],
+    "pkg/agent/deveco_models.go": [],
+    "pkg/agent/deveco_test.go": [],
+    "pkg/agent/exec_fixture_unix_test.go": [],
+    "pkg/agent/exec_fixture_windows_test.go": [],
+    "pkg/agent/grok.go": [],
+    "pkg/agent/grok_test.go": [],
+    "pkg/agent/handoff_version_test.go": [],
+    "pkg/agent/hermes.go": [],
+    "pkg/agent/hermes_test.go": [],
+    "pkg/agent/kimi.go": [],
+    "pkg/agent/kimi_test.go": [],
+    "pkg/agent/kiro.go": []
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "pkg/db/queries/member.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 33,
+      "nonEmptyLines": 27,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/notification_preference.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 14,
+      "nonEmptyLines": 12,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/personal_access_token.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 48,
+      "nonEmptyLines": 43,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/pinned_item.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 26,
+      "nonEmptyLines": 21,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/project.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 53,
+      "nonEmptyLines": 46,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/project_resource.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 44,
+      "nonEmptyLines": 36,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/reaction.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 14,
+      "nonEmptyLines": 12,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/runtime.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 387,
+      "nonEmptyLines": 353,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/runtime_profile.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 83,
+      "nonEmptyLines": 73,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/runtime_usage.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 88,
+      "nonEmptyLines": 85,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/skill.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 125,
+      "nonEmptyLines": 102,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/squad.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 151,
+      "nonEmptyLines": 132,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/subscriber.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 19,
+      "nonEmptyLines": 16,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/task_message.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/task_token.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 14,
+      "nonEmptyLines": 11,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/task_usage.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 158,
+      "nonEmptyLines": 152,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/user.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 87,
+      "nonEmptyLines": 79,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/verification_code.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 33,
+      "nonEmptyLines": 28,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/webhook_delivery.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 177,
+      "nonEmptyLines": 164,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/workspace.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 158,
+      "nonEmptyLines": 147,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    }
+  ]
+}

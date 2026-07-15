@@ -1,0 +1,393 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "cmd/multica/cmd_workspace.go",
+      "language": "go",
+      "sizeLines": 617,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_workspace_test.go",
+      "language": "go",
+      "sizeLines": 781,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/main.go",
+      "language": "go",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/cors_headers_test.go",
+      "language": "go",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/listeners_frame_test.go",
+      "language": "go",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/listeners_scope_test.go",
+      "language": "go",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/client.go",
+      "language": "go",
+      "sizeLines": 721,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/client_test.go",
+      "language": "go",
+      "sizeLines": 429,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/config.go",
+      "language": "go",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/config_test.go",
+      "language": "go",
+      "sizeLines": 299,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/errors.go",
+      "language": "go",
+      "sizeLines": 492,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/errors_integration_test.go",
+      "language": "go",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/errors_test.go",
+      "language": "go",
+      "sizeLines": 407,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/flags.go",
+      "language": "go",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/output.go",
+      "language": "go",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/update.go",
+      "language": "go",
+      "sizeLines": 533,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/update_test.go",
+      "language": "go",
+      "sizeLines": 304,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/update_unix.go",
+      "language": "go",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/update_windows.go",
+      "language": "go",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/agent_command_names_test.go",
+      "language": "go",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/agent_path_selfheal_test.go",
+      "language": "go",
+      "sizeLines": 321,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/auto_update.go",
+      "language": "go",
+      "sizeLines": 176,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/auto_update_test.go",
+      "language": "go",
+      "sizeLines": 258,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/claude_plugins.go",
+      "language": "go",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/client.go",
+      "language": "go",
+      "sizeLines": 913,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/client_batch_claim_test.go",
+      "language": "go",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/client_test.go",
+      "language": "go",
+      "sizeLines": 345,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/coauthor_enabled_test.go",
+      "language": "go",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/config.go",
+      "language": "go",
+      "sizeLines": 1101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/config_test.go",
+      "language": "go",
+      "sizeLines": 1104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/daemon_legacy_fallback_test.go",
+      "language": "go",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/diskusage.go",
+      "language": "go",
+      "sizeLines": 332,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "cmd/multica/cmd_workspace.go": [
+      "internal/cli/client_test.go",
+      "internal/cli/client.go",
+      "internal/cli/config_test.go",
+      "internal/cli/config.go",
+      "internal/cli/errors_integration_test.go",
+      "internal/cli/errors_test.go",
+      "internal/cli/errors.go",
+      "internal/cli/flags.go",
+      "internal/cli/output.go",
+      "internal/cli/update_test.go",
+      "internal/cli/update_unix.go",
+      "internal/cli/update_windows.go",
+      "internal/cli/update.go"
+    ],
+    "cmd/multica/cmd_workspace_test.go": [
+      "internal/cli/client_test.go",
+      "internal/cli/client.go",
+      "internal/cli/config_test.go",
+      "internal/cli/config.go",
+      "internal/cli/errors_integration_test.go",
+      "internal/cli/errors_test.go",
+      "internal/cli/errors.go",
+      "internal/cli/flags.go",
+      "internal/cli/output.go",
+      "internal/cli/update_test.go",
+      "internal/cli/update_unix.go",
+      "internal/cli/update_windows.go",
+      "internal/cli/update.go"
+    ],
+    "cmd/multica/main.go": [
+      "internal/cli/client_test.go",
+      "internal/cli/client.go",
+      "internal/cli/config_test.go",
+      "internal/cli/config.go",
+      "internal/cli/errors_integration_test.go",
+      "internal/cli/errors_test.go",
+      "internal/cli/errors.go",
+      "internal/cli/flags.go",
+      "internal/cli/output.go",
+      "internal/cli/update_test.go",
+      "internal/cli/update_unix.go",
+      "internal/cli/update_windows.go",
+      "internal/cli/update.go"
+    ],
+    "cmd/server/cors_headers_test.go": [
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "cmd/server/listeners_frame_test.go": [
+      "internal/events/bus_test.go",
+      "internal/events/bus.go",
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "cmd/server/listeners_scope_test.go": [
+      "internal/events/bus_test.go",
+      "internal/events/bus.go",
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "internal/cli/client.go": [],
+    "internal/cli/client_test.go": [],
+    "internal/cli/config.go": [],
+    "internal/cli/config_test.go": [],
+    "internal/cli/errors.go": [],
+    "internal/cli/errors_integration_test.go": [],
+    "internal/cli/errors_test.go": [],
+    "internal/cli/flags.go": [],
+    "internal/cli/output.go": [],
+    "internal/cli/update.go": [
+      "internal/selfexec/selfexec_test.go",
+      "internal/selfexec/selfexec.go"
+    ],
+    "internal/cli/update_test.go": [],
+    "internal/cli/update_unix.go": [],
+    "internal/cli/update_windows.go": [
+      "internal/selfexec/selfexec_test.go",
+      "internal/selfexec/selfexec.go"
+    ],
+    "internal/daemon/agent_command_names_test.go": [],
+    "internal/daemon/agent_path_selfheal_test.go": [],
+    "internal/daemon/auto_update.go": [
+      "internal/cli/client_test.go",
+      "internal/cli/client.go",
+      "internal/cli/config_test.go",
+      "internal/cli/config.go",
+      "internal/cli/errors_integration_test.go",
+      "internal/cli/errors_test.go",
+      "internal/cli/errors.go",
+      "internal/cli/flags.go",
+      "internal/cli/output.go",
+      "internal/cli/update_test.go",
+      "internal/cli/update_unix.go",
+      "internal/cli/update_windows.go",
+      "internal/cli/update.go"
+    ],
+    "internal/daemon/auto_update_test.go": [
+      "internal/cli/client_test.go",
+      "internal/cli/client.go",
+      "internal/cli/config_test.go",
+      "internal/cli/config.go",
+      "internal/cli/errors_integration_test.go",
+      "internal/cli/errors_test.go",
+      "internal/cli/errors.go",
+      "internal/cli/flags.go",
+      "internal/cli/output.go",
+      "internal/cli/update_test.go",
+      "internal/cli/update_unix.go",
+      "internal/cli/update_windows.go",
+      "internal/cli/update.go"
+    ],
+    "internal/daemon/claude_plugins.go": [],
+    "internal/daemon/client.go": [
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "internal/daemon/client_batch_claim_test.go": [],
+    "internal/daemon/client_test.go": [
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "internal/daemon/coauthor_enabled_test.go": [],
+    "internal/daemon/config.go": [
+      "internal/cli/client_test.go",
+      "internal/cli/client.go",
+      "internal/cli/config_test.go",
+      "internal/cli/config.go",
+      "internal/cli/errors_integration_test.go",
+      "internal/cli/errors_test.go",
+      "internal/cli/errors.go",
+      "internal/cli/flags.go",
+      "internal/cli/output.go",
+      "internal/cli/update_test.go",
+      "internal/cli/update_unix.go",
+      "internal/cli/update_windows.go",
+      "internal/cli/update.go"
+    ],
+    "internal/daemon/config_test.go": [
+      "internal/cli/client_test.go",
+      "internal/cli/client.go",
+      "internal/cli/config_test.go",
+      "internal/cli/config.go",
+      "internal/cli/errors_integration_test.go",
+      "internal/cli/errors_test.go",
+      "internal/cli/errors.go",
+      "internal/cli/flags.go",
+      "internal/cli/output.go",
+      "internal/cli/update_test.go",
+      "internal/cli/update_unix.go",
+      "internal/cli/update_windows.go",
+      "internal/cli/update.go"
+    ],
+    "internal/daemon/daemon_legacy_fallback_test.go": [],
+    "internal/daemon/diskusage.go": [
+      "internal/daemon/execenv/codex_home_link_test.go",
+      "internal/daemon/execenv/codex_home_link_windows.go",
+      "internal/daemon/execenv/codex_home_link.go",
+      "internal/daemon/execenv/codex_home_sessions_test.go",
+      "internal/daemon/execenv/codex_home.go",
+      "internal/daemon/execenv/codex_memory_test.go",
+      "internal/daemon/execenv/codex_memory.go",
+      "internal/daemon/execenv/codex_multi_agent_test.go",
+      "internal/daemon/execenv/codex_multi_agent.go",
+      "internal/daemon/execenv/codex_sandbox.go",
+      "internal/daemon/execenv/codex_skill_strip_test.go",
+      "internal/daemon/execenv/codex_skill_strip.go",
+      "internal/daemon/execenv/codex_user_skills.go",
+      "internal/daemon/execenv/context_marker_test.go",
+      "internal/daemon/execenv/context.go",
+      "internal/daemon/execenv/cursor_mcp_test.go",
+      "internal/daemon/execenv/cursor_mcp.go",
+      "internal/daemon/execenv/execenv_test.go",
+      "internal/daemon/execenv/execenv.go",
+      "internal/daemon/execenv/git.go",
+      "internal/daemon/execenv/handoff_context_test.go",
+      "internal/daemon/execenv/hermes_home_test.go",
+      "internal/daemon/execenv/hermes_home.go",
+      "internal/daemon/execenv/openclaw_config_test.go",
+      "internal/daemon/execenv/openclaw_config.go",
+      "internal/daemon/execenv/reply_instructions_test.go",
+      "internal/daemon/execenv/reply_instructions.go",
+      "internal/daemon/execenv/reserved_skill_path_test.go",
+      "internal/daemon/execenv/runtime_config_kind_test.go",
+      "internal/daemon/execenv/runtime_config_kind.go",
+      "internal/daemon/execenv/runtime_config_sections.go",
+      "internal/daemon/execenv/runtime_config_test.go",
+      "internal/daemon/execenv/runtime_config.go",
+      "internal/daemon/execenv/sidecar_manifest_test.go",
+      "internal/daemon/execenv/sidecar_manifest.go",
+      "internal/daemon/execenv/skill_frontmatter_test.go",
+      "internal/daemon/execenv/skill_visibility_test.go",
+      "internal/daemon/execenv/skill_visibility.go"
+    ]
+  }
+}

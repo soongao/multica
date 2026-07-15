@@ -1,0 +1,287 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "pkg/db/queries/activity.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 44,
+      "nonEmptyLines": 40,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/agent.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 1184,
+      "nonEmptyLines": 1109,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/agent_invocation_target.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 55,
+      "nonEmptyLines": 49,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/attachment.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 147,
+      "nonEmptyLines": 129,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/autopilot.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 544,
+      "nonEmptyLines": 485,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/channel.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 634,
+      "nonEmptyLines": 585,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/chat.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 438,
+      "nonEmptyLines": 399,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/chat_pinned_agent.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 32,
+      "nonEmptyLines": 27,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/comment.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 492,
+      "nonEmptyLines": 471,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/composio.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 39,
+      "nonEmptyLines": 35,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/contact_sales.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 25,
+      "nonEmptyLines": 24,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/daemon_token.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 25,
+      "nonEmptyLines": 22,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/feedback.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 8,
+      "nonEmptyLines": 7,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/github.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 331,
+      "nonEmptyLines": 306,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/inbox.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 88,
+      "nonEmptyLines": 75,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/invitation.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 62,
+      "nonEmptyLines": 54,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/issue.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 363,
+      "nonEmptyLines": 341,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/issue_label.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 211,
+      "nonEmptyLines": 187,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/issue_property.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 74,
+      "nonEmptyLines": 67,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    },
+    {
+      "path": "pkg/db/queries/issue_reaction.sql",
+      "language": "sql",
+      "fileCategory": "data",
+      "totalLines": 14,
+      "nonEmptyLines": 12,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 0
+      }
+    }
+  ]
+}

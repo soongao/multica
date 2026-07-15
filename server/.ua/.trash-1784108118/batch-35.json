@@ -1,0 +1,945 @@
+{
+  "nodes": [
+    {
+      "id": "file:cmd/server/health_realtime_test.go",
+      "type": "file",
+      "name": "health_realtime_test.go",
+      "filePath": "cmd/server/health_realtime_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 2 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/health_realtime_test.go:TestRealtimeMetricsHandler_TokenRequired",
+      "type": "function",
+      "name": "TestRealtimeMetricsHandler_TokenRequired",
+      "filePath": "cmd/server/health_realtime_test.go",
+      "lineRange": [
+        9,
+        71
+      ],
+      "summary": "测试 cmd/server/health_realtime_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "auth"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/server/health_realtime_test.go:TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+      "type": "function",
+      "name": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+      "filePath": "cmd/server/health_realtime_test.go",
+      "lineRange": [
+        73,
+        168
+      ],
+      "summary": "测试 cmd/server/health_realtime_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "auth"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cmd/server/health_test.go",
+      "type": "file",
+      "name": "health_test.go",
+      "filePath": "cmd/server/health_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 7 个函数、2 个类型、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:cmd/server/health_test.go:stubReadinessDB",
+      "type": "class",
+      "name": "stubReadinessDB",
+      "filePath": "cmd/server/health_test.go",
+      "lineRange": [
+        16,
+        22
+      ],
+      "summary": "内部类型 stubReadinessDB 表达 cmd/server/health_test.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health_test.go:Ping",
+      "type": "function",
+      "name": "Ping",
+      "filePath": "cmd/server/health_test.go",
+      "lineRange": [
+        24,
+        27
+      ],
+      "summary": "实现 Ping 逻辑，是 cmd/server/health_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health_test.go:QueryRow",
+      "type": "function",
+      "name": "QueryRow",
+      "filePath": "cmd/server/health_test.go",
+      "lineRange": [
+        29,
+        32
+      ],
+      "summary": "实现 QueryRow 逻辑，是 cmd/server/health_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health_test.go:Scan",
+      "type": "function",
+      "name": "Scan",
+      "filePath": "cmd/server/health_test.go",
+      "lineRange": [
+        39,
+        45
+      ],
+      "summary": "实现 Scan 逻辑，是 cmd/server/health_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health_test.go:TestServerHealthReadyHandlerDBPingFailure",
+      "type": "function",
+      "name": "TestServerHealthReadyHandlerDBPingFailure",
+      "filePath": "cmd/server/health_test.go",
+      "lineRange": [
+        47,
+        76
+      ],
+      "summary": "测试 cmd/server/health_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health_test.go:TestServerHealthReadyHandlerMigrationOutOfDate",
+      "type": "function",
+      "name": "TestServerHealthReadyHandlerMigrationOutOfDate",
+      "filePath": "cmd/server/health_test.go",
+      "lineRange": [
+        78,
+        107
+      ],
+      "summary": "测试 cmd/server/health_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health_test.go:TestServerHealthReadyHandlerMigrationPartiallyApplied",
+      "type": "function",
+      "name": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+      "filePath": "cmd/server/health_test.go",
+      "lineRange": [
+        109,
+        137
+      ],
+      "summary": "测试 cmd/server/health_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/health_test.go:TestServerHealthReadinessCachesResult",
+      "type": "function",
+      "name": "TestServerHealthReadinessCachesResult",
+      "filePath": "cmd/server/health_test.go",
+      "lineRange": [
+        139,
+        162
+      ],
+      "summary": "测试 cmd/server/health_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/server/main_test.go",
+      "type": "file",
+      "name": "main_test.go",
+      "filePath": "cmd/server/main_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 7 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/main_test.go:TestRedisClientName",
+      "type": "function",
+      "name": "TestRedisClientName",
+      "filePath": "cmd/server/main_test.go",
+      "lineRange": [
+        10,
+        30
+      ],
+      "summary": "测试 cmd/server/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/main_test.go:TestNewNamedRedisClient_SetsClientName",
+      "type": "function",
+      "name": "TestNewNamedRedisClient_SetsClientName",
+      "filePath": "cmd/server/main_test.go",
+      "lineRange": [
+        32,
+        42
+      ],
+      "summary": "测试 cmd/server/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/main_test.go:TestNewNamedRedisClient_DisableClientName",
+      "type": "function",
+      "name": "TestNewNamedRedisClient_DisableClientName",
+      "filePath": "cmd/server/main_test.go",
+      "lineRange": [
+        44,
+        54
+      ],
+      "summary": "测试 cmd/server/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/main_test.go:TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+      "type": "function",
+      "name": "TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+      "filePath": "cmd/server/main_test.go",
+      "lineRange": [
+        56,
+        67
+      ],
+      "summary": "测试 cmd/server/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/main_test.go:TestNewNamedRedisClient_DisableClientName_InvalidValue",
+      "type": "function",
+      "name": "TestNewNamedRedisClient_DisableClientName_InvalidValue",
+      "filePath": "cmd/server/main_test.go",
+      "lineRange": [
+        69,
+        80
+      ],
+      "summary": "测试 cmd/server/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/main_test.go:TestNormalizeServerVersion",
+      "type": "function",
+      "name": "TestNormalizeServerVersion",
+      "filePath": "cmd/server/main_test.go",
+      "lineRange": [
+        86,
+        103
+      ],
+      "summary": "测试 cmd/server/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/main_test.go:TestEnvBool",
+      "type": "function",
+      "name": "TestEnvBool",
+      "filePath": "cmd/server/main_test.go",
+      "lineRange": [
+        105,
+        135
+      ],
+      "summary": "测试 cmd/server/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/server/trusted_proxies_test.go",
+      "type": "file",
+      "name": "trusted_proxies_test.go",
+      "filePath": "cmd/server/trusted_proxies_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 3 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/trusted_proxies_test.go:TestParseTrustedProxies",
+      "type": "function",
+      "name": "TestParseTrustedProxies",
+      "filePath": "cmd/server/trusted_proxies_test.go",
+      "lineRange": [
+        8,
+        36
+      ],
+      "summary": "测试 cmd/server/trusted_proxies_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/trusted_proxies_test.go:TestParseTrustedProxies_PrefixesAreUsable",
+      "type": "function",
+      "name": "TestParseTrustedProxies_PrefixesAreUsable",
+      "filePath": "cmd/server/trusted_proxies_test.go",
+      "lineRange": [
+        38,
+        64
+      ],
+      "summary": "测试 cmd/server/trusted_proxies_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/trusted_proxies_test.go:sliceEq",
+      "type": "function",
+      "name": "sliceEq",
+      "filePath": "cmd/server/trusted_proxies_test.go",
+      "lineRange": [
+        66,
+        76
+      ],
+      "summary": "实现 sliceEq 逻辑，是 cmd/server/trusted_proxies_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/handler/reserved_slugs.json",
+      "type": "config",
+      "name": "reserved_slugs.json",
+      "filePath": "internal/handler/reserved_slugs.json",
+      "summary": "配置文件 internal/handler/reserved_slugs.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "api-handler",
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-autopilots/references/autopilots-source-map.md",
+      "type": "document",
+      "name": "autopilots-source-map.md",
+      "filePath": "internal/service/builtin_skills/multica-autopilots/references/autopilots-source-map.md",
+      "summary": "文档 internal/service/builtin_skills/multica-autopilots/references/autopilots-source-map.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-autopilots/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "internal/service/builtin_skills/multica-autopilots/SKILL.md",
+      "summary": "文档 internal/service/builtin_skills/multica-autopilots/SKILL.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-creating-agents/references/creating-agents-source-map.md",
+      "type": "document",
+      "name": "creating-agents-source-map.md",
+      "filePath": "internal/service/builtin_skills/multica-creating-agents/references/creating-agents-source-map.md",
+      "summary": "文档 internal/service/builtin_skills/multica-creating-agents/references/creating-agents-source-map.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-creating-agents/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "internal/service/builtin_skills/multica-creating-agents/SKILL.md",
+      "summary": "文档 internal/service/builtin_skills/multica-creating-agents/SKILL.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-mentioning/references/mentioning-source-map.md",
+      "type": "document",
+      "name": "mentioning-source-map.md",
+      "filePath": "internal/service/builtin_skills/multica-mentioning/references/mentioning-source-map.md",
+      "summary": "文档 internal/service/builtin_skills/multica-mentioning/references/mentioning-source-map.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-mentioning/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "internal/service/builtin_skills/multica-mentioning/SKILL.md",
+      "summary": "文档 internal/service/builtin_skills/multica-mentioning/SKILL.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-projects-and-resources/references/projects-and-resources-source-map.md",
+      "type": "document",
+      "name": "projects-and-resources-source-map.md",
+      "filePath": "internal/service/builtin_skills/multica-projects-and-resources/references/projects-and-resources-source-map.md",
+      "summary": "文档 internal/service/builtin_skills/multica-projects-and-resources/references/projects-and-resources-source-map.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-projects-and-resources/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "internal/service/builtin_skills/multica-projects-and-resources/SKILL.md",
+      "summary": "文档 internal/service/builtin_skills/multica-projects-and-resources/SKILL.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-runtimes-and-repos/references/runtimes-and-repos-source-map.md",
+      "type": "document",
+      "name": "runtimes-and-repos-source-map.md",
+      "filePath": "internal/service/builtin_skills/multica-runtimes-and-repos/references/runtimes-and-repos-source-map.md",
+      "summary": "文档 internal/service/builtin_skills/multica-runtimes-and-repos/references/runtimes-and-repos-source-map.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-runtimes-and-repos/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "internal/service/builtin_skills/multica-runtimes-and-repos/SKILL.md",
+      "summary": "文档 internal/service/builtin_skills/multica-runtimes-and-repos/SKILL.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-skill-importing/references/skill-importing-source-map.md",
+      "type": "document",
+      "name": "skill-importing-source-map.md",
+      "filePath": "internal/service/builtin_skills/multica-skill-importing/references/skill-importing-source-map.md",
+      "summary": "文档 internal/service/builtin_skills/multica-skill-importing/references/skill-importing-source-map.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-skill-importing/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "internal/service/builtin_skills/multica-skill-importing/SKILL.md",
+      "summary": "文档 internal/service/builtin_skills/multica-skill-importing/SKILL.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-squads/references/squad-source-map.md",
+      "type": "document",
+      "name": "squad-source-map.md",
+      "filePath": "internal/service/builtin_skills/multica-squads/references/squad-source-map.md",
+      "summary": "文档 internal/service/builtin_skills/multica-squads/references/squad-source-map.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-squads/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "internal/service/builtin_skills/multica-squads/SKILL.md",
+      "summary": "文档 internal/service/builtin_skills/multica-squads/SKILL.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-working-on-issues/references/working-on-issues-source-map.md",
+      "type": "document",
+      "name": "working-on-issues-source-map.md",
+      "filePath": "internal/service/builtin_skills/multica-working-on-issues/references/working-on-issues-source-map.md",
+      "summary": "文档 internal/service/builtin_skills/multica-working-on-issues/references/working-on-issues-source-map.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:internal/service/builtin_skills/multica-working-on-issues/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "internal/service/builtin_skills/multica-working-on-issues/SKILL.md",
+      "summary": "文档 internal/service/builtin_skills/multica-working-on-issues/SKILL.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "service",
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:pkg/agent/testdata/openclaw-2026.5.5-stdout.json",
+      "type": "config",
+      "name": "openclaw-2026.5.5-stdout.json",
+      "filePath": "pkg/agent/testdata/openclaw-2026.5.5-stdout.json",
+      "summary": "配置文件 pkg/agent/testdata/openclaw-2026.5.5-stdout.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:pkg/composio/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "pkg/composio/README.md",
+      "summary": "文档 pkg/composio/README.md 记录后端相关说明、约定或内置 skill 内容，帮助理解运行和扩展方式。",
+      "tags": [
+        "documentation",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:cmd/server/health_realtime_test.go",
+      "target": "function:cmd/server/health_realtime_test.go:TestRealtimeMetricsHandler_TokenRequired",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_realtime_test.go",
+      "target": "function:cmd/server/health_realtime_test.go:TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_test.go",
+      "target": "class:cmd/server/health_test.go:stubReadinessDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_test.go",
+      "target": "function:cmd/server/health_test.go:Ping",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_test.go",
+      "target": "function:cmd/server/health_test.go:QueryRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_test.go",
+      "target": "function:cmd/server/health_test.go:Scan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_test.go",
+      "target": "function:cmd/server/health_test.go:TestServerHealthReadyHandlerDBPingFailure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_test.go",
+      "target": "function:cmd/server/health_test.go:TestServerHealthReadyHandlerMigrationOutOfDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_test.go",
+      "target": "function:cmd/server/health_test.go:TestServerHealthReadyHandlerMigrationPartiallyApplied",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/health_test.go",
+      "target": "function:cmd/server/health_test.go:TestServerHealthReadinessCachesResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/main_test.go",
+      "target": "function:cmd/server/main_test.go:TestRedisClientName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/main_test.go",
+      "target": "function:cmd/server/main_test.go:TestNewNamedRedisClient_SetsClientName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/main_test.go",
+      "target": "function:cmd/server/main_test.go:TestNewNamedRedisClient_DisableClientName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/main_test.go",
+      "target": "function:cmd/server/main_test.go:TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/main_test.go",
+      "target": "function:cmd/server/main_test.go:TestNewNamedRedisClient_DisableClientName_InvalidValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/main_test.go",
+      "target": "function:cmd/server/main_test.go:TestNormalizeServerVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/main_test.go",
+      "target": "function:cmd/server/main_test.go:TestEnvBool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/trusted_proxies_test.go",
+      "target": "function:cmd/server/trusted_proxies_test.go:TestParseTrustedProxies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/trusted_proxies_test.go",
+      "target": "function:cmd/server/trusted_proxies_test.go:TestParseTrustedProxies_PrefixesAreUsable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/trusted_proxies_test.go",
+      "target": "function:cmd/server/trusted_proxies_test.go:sliceEq",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/server/trusted_proxies_test.go:TestParseTrustedProxies",
+      "target": "function:cmd/server/trusted_proxies_test.go:sliceEq",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-autopilots/references/autopilots-source-map.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-autopilots/SKILL.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-creating-agents/references/creating-agents-source-map.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-creating-agents/SKILL.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-mentioning/references/mentioning-source-map.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-mentioning/SKILL.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-projects-and-resources/references/projects-and-resources-source-map.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-projects-and-resources/SKILL.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-runtimes-and-repos/references/runtimes-and-repos-source-map.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-runtimes-and-repos/SKILL.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-skill-importing/references/skill-importing-source-map.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-skill-importing/SKILL.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-squads/references/squad-source-map.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-squads/SKILL.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-working-on-issues/references/working-on-issues-source-map.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:internal/service/builtin_skills/multica-working-on-issues/SKILL.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:pkg/composio/README.md",
+      "target": "file:cmd/server/main.go",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

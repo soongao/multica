@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": ".ua/.understandignore",
+      "language": "unknown",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/config.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "cmd/backfill_codex_usage_cache/main_test.go",
+      "language": "go",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/migrate/migrate_concurrent_test.go",
+      "language": "go",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_attachment_test.go",
+      "language": "go",
+      "sizeLines": 268,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_auth_test.go",
+      "language": "go",
+      "sizeLines": 396,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_daemon_log_test.go",
+      "language": "go",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_daemon_unix.go",
+      "language": "go",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_daemon_windows.go",
+      "language": "go",
+      "sizeLines": 194,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_label_test.go",
+      "language": "go",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_project_test.go",
+      "language": "go",
+      "sizeLines": 328,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_repo_test.go",
+      "language": "go",
+      "sizeLines": 190,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_runtime_test.go",
+      "language": "go",
+      "sizeLines": 181,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_skill_test.go",
+      "language": "go",
+      "sizeLines": 462,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_squad_test.go",
+      "language": "go",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_update_test.go",
+      "language": "go",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_user_test.go",
+      "language": "go",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_version.go",
+      "language": "go",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/help.go",
+      "language": "go",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/comment_attachment_integration_test.go",
+      "language": "go",
+      "sizeLines": 178,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/comment_edit_mention_integration_test.go",
+      "language": "go",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/comment_trigger_integration_test.go",
+      "language": "go",
+      "sizeLines": 676,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/composio_callback_public_test.go",
+      "language": "go",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/dbstats_test.go",
+      "language": "go",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/dbstats.go",
+      "language": "go",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    ".ua/.understandignore": [],
+    ".ua/config.json": [],
+    "cmd/backfill_codex_usage_cache/main_test.go": [],
+    "cmd/migrate/migrate_concurrent_test.go": [],
+    "cmd/multica/cmd_attachment_test.go": [],
+    "cmd/multica/cmd_auth_test.go": [],
+    "cmd/multica/cmd_daemon_log_test.go": [],
+    "cmd/multica/cmd_daemon_unix.go": [],
+    "cmd/multica/cmd_daemon_windows.go": [],
+    "cmd/multica/cmd_label_test.go": [],
+    "cmd/multica/cmd_project_test.go": [],
+    "cmd/multica/cmd_repo_test.go": [],
+    "cmd/multica/cmd_runtime_test.go": [],
+    "cmd/multica/cmd_skill_test.go": [],
+    "cmd/multica/cmd_squad_test.go": [],
+    "cmd/multica/cmd_update_test.go": [],
+    "cmd/multica/cmd_user_test.go": [],
+    "cmd/multica/cmd_version.go": [],
+    "cmd/multica/help.go": [],
+    "cmd/server/comment_attachment_integration_test.go": [],
+    "cmd/server/comment_edit_mention_integration_test.go": [],
+    "cmd/server/comment_trigger_integration_test.go": [],
+    "cmd/server/composio_callback_public_test.go": [],
+    "cmd/server/dbstats_test.go": [],
+    "cmd/server/dbstats.go": []
+  }
+}

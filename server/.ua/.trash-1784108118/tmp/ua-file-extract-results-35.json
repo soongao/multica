@@ -1,0 +1,2179 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 23,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "cmd/server/health_realtime_test.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 168,
+      "nonEmptyLines": 153,
+      "functions": [
+        {
+          "name": "TestRealtimeMetricsHandler_TokenRequired",
+          "startLine": 9,
+          "endLine": 71,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "startLine": 73,
+          "endLine": 168,
+          "params": [
+            "t"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TestRealtimeMetricsHandler_TokenRequired",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "line": 73,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "realtimeMetricsHandler",
+          "lineNumber": 11
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Run",
+          "lineNumber": 13
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 14
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 16
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 17
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Fatalf",
+          "lineNumber": 19
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "rec.Header().Get",
+          "lineNumber": 21
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "rec.Header",
+          "lineNumber": 21
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Fatalf",
+          "lineNumber": 22
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Run",
+          "lineNumber": 26
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 27
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 29
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 30
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Fatalf",
+          "lineNumber": 32
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Run",
+          "lineNumber": 36
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 37
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "req.Header.Set",
+          "lineNumber": 38
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 40
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 41
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Fatalf",
+          "lineNumber": 43
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Run",
+          "lineNumber": 47
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 48
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "req.Header.Set",
+          "lineNumber": 49
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 51
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 52
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Fatalf",
+          "lineNumber": 54
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Run",
+          "lineNumber": 58
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 59
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "req.Header.Set",
+          "lineNumber": 60
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 62
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 63
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Fatalf",
+          "lineNumber": 65
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "rec.Body.String",
+          "lineNumber": 65
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "rec.Header().Get",
+          "lineNumber": 67
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "rec.Header",
+          "lineNumber": 67
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_TokenRequired",
+          "callee": "t.Fatalf",
+          "lineNumber": 68
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "realtimeMetricsHandler",
+          "lineNumber": 74
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Run",
+          "lineNumber": 76
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 77
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 79
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 80
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 82
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Run",
+          "lineNumber": 86
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 87
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 89
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 90
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 92
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Run",
+          "lineNumber": 96
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 97
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 99
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 100
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 102
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Run",
+          "lineNumber": 106
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 107
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 109
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 110
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 112
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Run",
+          "lineNumber": 135
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 136
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "req.Header.Set",
+          "lineNumber": 138
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 139
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 140
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 142
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Run",
+          "lineNumber": 147
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 148
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "req.Header.Set",
+          "lineNumber": 150
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 151
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 152
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 154
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Run",
+          "lineNumber": 158
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 159
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "req.Header.Set",
+          "lineNumber": 161
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 162
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "h.ServeHTTP",
+          "lineNumber": 163
+        },
+        {
+          "caller": "TestRealtimeMetricsHandler_NoToken_LoopbackOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 165
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cmd/server/health_test.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 162,
+      "nonEmptyLines": 138,
+      "functions": [
+        {
+          "name": "Ping",
+          "startLine": 24,
+          "endLine": 27,
+          "params": []
+        },
+        {
+          "name": "QueryRow",
+          "startLine": 29,
+          "endLine": 32,
+          "params": []
+        },
+        {
+          "name": "Scan",
+          "startLine": 39,
+          "endLine": 45,
+          "params": []
+        },
+        {
+          "name": "TestServerHealthReadyHandlerDBPingFailure",
+          "startLine": 47,
+          "endLine": 76,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "startLine": 78,
+          "endLine": 107,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "startLine": 109,
+          "endLine": 137,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestServerHealthReadinessCachesResult",
+          "startLine": 139,
+          "endLine": 162,
+          "params": [
+            "t"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "stubReadinessDB",
+          "startLine": 16,
+          "endLine": 22,
+          "methods": [
+            "Ping",
+            "QueryRow"
+          ],
+          "properties": [
+            "pingErr",
+            "queryErr",
+            "appliedCount",
+            "pingCalls",
+            "queryCalls"
+          ]
+        },
+        {
+          "name": "stubRow",
+          "startLine": 34,
+          "endLine": 37,
+          "methods": [
+            "Scan"
+          ],
+          "properties": [
+            "appliedCount",
+            "err"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Ping",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "QueryRow",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "Scan",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "TestServerHealthReadyHandlerDBPingFailure",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "TestServerHealthReadinessCachesResult",
+          "line": 139,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Ping",
+          "callee": "s.pingCalls.Add",
+          "lineNumber": 25
+        },
+        {
+          "caller": "QueryRow",
+          "callee": "s.queryCalls.Add",
+          "lineNumber": 30
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "errors.New",
+          "lineNumber": 48
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 54
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 55
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "h.readyHandler",
+          "lineNumber": 56
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "t.Fatalf",
+          "lineNumber": 59
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "json.NewDecoder(rec.Body).Decode",
+          "lineNumber": 63
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "json.NewDecoder",
+          "lineNumber": 63
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "t.Fatalf",
+          "lineNumber": 64
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "t.Fatalf",
+          "lineNumber": 68
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "t.Fatalf",
+          "lineNumber": 71
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerDBPingFailure",
+          "callee": "t.Fatalf",
+          "lineNumber": 74
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 85
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 86
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "h.readyHandler",
+          "lineNumber": 87
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "t.Fatalf",
+          "lineNumber": 90
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "json.NewDecoder(rec.Body).Decode",
+          "lineNumber": 94
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "json.NewDecoder",
+          "lineNumber": 94
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "t.Fatalf",
+          "lineNumber": 95
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "t.Fatalf",
+          "lineNumber": 99
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "t.Fatalf",
+          "lineNumber": 102
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationOutOfDate",
+          "callee": "t.Fatalf",
+          "lineNumber": 105
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "httptest.NewRecorder",
+          "lineNumber": 119
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "httptest.NewRequest",
+          "lineNumber": 120
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "h.readyHandler",
+          "lineNumber": 121
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "t.Fatalf",
+          "lineNumber": 124
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "json.NewDecoder(rec.Body).Decode",
+          "lineNumber": 128
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "json.NewDecoder",
+          "lineNumber": 128
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "t.Fatalf",
+          "lineNumber": 129
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "t.Fatalf",
+          "lineNumber": 132
+        },
+        {
+          "caller": "TestServerHealthReadyHandlerMigrationPartiallyApplied",
+          "callee": "t.Fatalf",
+          "lineNumber": 135
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "h.readiness",
+          "lineNumber": 147
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "context.Background",
+          "lineNumber": 147
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "h.readiness",
+          "lineNumber": 148
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "context.Background",
+          "lineNumber": 148
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "t.Fatalf",
+          "lineNumber": 151
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "t.Fatalf",
+          "lineNumber": 154
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "db.pingCalls.Load",
+          "lineNumber": 156
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "t.Fatalf",
+          "lineNumber": 157
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "db.queryCalls.Load",
+          "lineNumber": 159
+        },
+        {
+          "caller": "TestServerHealthReadinessCachesResult",
+          "callee": "t.Fatalf",
+          "lineNumber": 160
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 2
+      }
+    },
+    {
+      "path": "cmd/server/main_test.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 135,
+      "nonEmptyLines": 122,
+      "functions": [
+        {
+          "name": "TestRedisClientName",
+          "startLine": 10,
+          "endLine": 30,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestNewNamedRedisClient_SetsClientName",
+          "startLine": 32,
+          "endLine": 42,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestNewNamedRedisClient_DisableClientName",
+          "startLine": 44,
+          "endLine": 54,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+          "startLine": 56,
+          "endLine": 67,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestNewNamedRedisClient_DisableClientName_InvalidValue",
+          "startLine": 69,
+          "endLine": 80,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestNormalizeServerVersion",
+          "startLine": 86,
+          "endLine": 103,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestEnvBool",
+          "startLine": 105,
+          "endLine": 135,
+          "params": [
+            "t"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TestRedisClientName",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "TestNewNamedRedisClient_SetsClientName",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "TestNewNamedRedisClient_DisableClientName",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "TestNewNamedRedisClient_DisableClientName_InvalidValue",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "TestNormalizeServerVersion",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "TestEnvBool",
+          "line": 105,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TestRedisClientName",
+          "callee": "t.Run",
+          "lineNumber": 23
+        },
+        {
+          "caller": "TestRedisClientName",
+          "callee": "redisClientName",
+          "lineNumber": 24
+        },
+        {
+          "caller": "TestRedisClientName",
+          "callee": "t.Errorf",
+          "lineNumber": 26
+        },
+        {
+          "caller": "TestNewNamedRedisClient_SetsClientName",
+          "callee": "t.Setenv",
+          "lineNumber": 33
+        },
+        {
+          "caller": "TestNewNamedRedisClient_SetsClientName",
+          "callee": "newNamedRedisClient",
+          "lineNumber": 35
+        },
+        {
+          "caller": "TestNewNamedRedisClient_SetsClientName",
+          "callee": "client.Close",
+          "lineNumber": 36
+        },
+        {
+          "caller": "TestNewNamedRedisClient_SetsClientName",
+          "callee": "client.Options",
+          "lineNumber": 38
+        },
+        {
+          "caller": "TestNewNamedRedisClient_SetsClientName",
+          "callee": "t.Errorf",
+          "lineNumber": 40
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName",
+          "callee": "t.Setenv",
+          "lineNumber": 45
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName",
+          "callee": "newNamedRedisClient",
+          "lineNumber": 47
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName",
+          "callee": "client.Close",
+          "lineNumber": 48
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName",
+          "callee": "client.Options",
+          "lineNumber": 50
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName",
+          "callee": "t.Errorf",
+          "lineNumber": 52
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+          "callee": "t.Setenv",
+          "lineNumber": 57
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+          "callee": "newNamedRedisClient",
+          "lineNumber": 60
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+          "callee": "client.Close",
+          "lineNumber": 61
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+          "callee": "client.Options",
+          "lineNumber": 63
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_ClearsPreExistingName",
+          "callee": "t.Errorf",
+          "lineNumber": 65
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_InvalidValue",
+          "callee": "t.Setenv",
+          "lineNumber": 70
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_InvalidValue",
+          "callee": "newNamedRedisClient",
+          "lineNumber": 72
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_InvalidValue",
+          "callee": "client.Close",
+          "lineNumber": 73
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_InvalidValue",
+          "callee": "client.Options",
+          "lineNumber": 75
+        },
+        {
+          "caller": "TestNewNamedRedisClient_DisableClientName_InvalidValue",
+          "callee": "t.Errorf",
+          "lineNumber": 78
+        },
+        {
+          "caller": "TestNormalizeServerVersion",
+          "callee": "t.Run",
+          "lineNumber": 97
+        },
+        {
+          "caller": "TestNormalizeServerVersion",
+          "callee": "normalizeServerVersion",
+          "lineNumber": 98
+        },
+        {
+          "caller": "TestNormalizeServerVersion",
+          "callee": "t.Errorf",
+          "lineNumber": 99
+        },
+        {
+          "caller": "TestEnvBool",
+          "callee": "t.Run",
+          "lineNumber": 123
+        },
+        {
+          "caller": "TestEnvBool",
+          "callee": "t.Setenv",
+          "lineNumber": 125
+        },
+        {
+          "caller": "TestEnvBool",
+          "callee": "os.Unsetenv",
+          "lineNumber": 127
+        },
+        {
+          "caller": "TestEnvBool",
+          "callee": "envBool",
+          "lineNumber": 129
+        },
+        {
+          "caller": "TestEnvBool",
+          "callee": "t.Errorf",
+          "lineNumber": 131
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cmd/server/trusted_proxies_test.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 71,
+      "functions": [
+        {
+          "name": "TestParseTrustedProxies",
+          "startLine": 8,
+          "endLine": 36,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestParseTrustedProxies_PrefixesAreUsable",
+          "startLine": 38,
+          "endLine": 64,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "sliceEq",
+          "startLine": 66,
+          "endLine": 76,
+          "params": [
+            "a",
+            "b"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TestParseTrustedProxies",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "TestParseTrustedProxies_PrefixesAreUsable",
+          "line": 38,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TestParseTrustedProxies",
+          "callee": "t.Parallel",
+          "lineNumber": 9
+        },
+        {
+          "caller": "TestParseTrustedProxies",
+          "callee": "t.Run",
+          "lineNumber": 25
+        },
+        {
+          "caller": "TestParseTrustedProxies",
+          "callee": "parseTrustedProxies",
+          "lineNumber": 26
+        },
+        {
+          "caller": "TestParseTrustedProxies",
+          "callee": "append",
+          "lineNumber": 29
+        },
+        {
+          "caller": "TestParseTrustedProxies",
+          "callee": "p.String",
+          "lineNumber": 29
+        },
+        {
+          "caller": "TestParseTrustedProxies",
+          "callee": "sliceEq",
+          "lineNumber": 31
+        },
+        {
+          "caller": "TestParseTrustedProxies",
+          "callee": "t.Fatalf",
+          "lineNumber": 32
+        },
+        {
+          "caller": "TestParseTrustedProxies_PrefixesAreUsable",
+          "callee": "parseTrustedProxies",
+          "lineNumber": 42
+        },
+        {
+          "caller": "TestParseTrustedProxies_PrefixesAreUsable",
+          "callee": "netip.MustParseAddr",
+          "lineNumber": 52
+        },
+        {
+          "caller": "TestParseTrustedProxies_PrefixesAreUsable",
+          "callee": "p.Contains",
+          "lineNumber": 55
+        },
+        {
+          "caller": "TestParseTrustedProxies_PrefixesAreUsable",
+          "callee": "t.Errorf",
+          "lineNumber": 61
+        },
+        {
+          "caller": "sliceEq",
+          "callee": "len",
+          "lineNumber": 67
+        },
+        {
+          "caller": "sliceEq",
+          "callee": "len",
+          "lineNumber": 67
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "internal/handler/reserved_slugs.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 149,
+      "nonEmptyLines": 149,
+      "sections": [
+        {
+          "heading": "$comment",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "groups",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-autopilots/references/autopilots-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 13,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "Autopilots source map",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-autopilots/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 69,
+      "nonEmptyLines": 48,
+      "sections": [
+        {
+          "heading": "Multica Autopilots",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Quick start",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Core model",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "CLI",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Debugging",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "Side effects",
+          "level": 2,
+          "line": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-creating-agents/references/creating-agents-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 125,
+      "nonEmptyLines": 103,
+      "sections": [
+        {
+          "heading": "Creating agents — source map",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Verification",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "CLI entry points — `server/cmd/multica/cmd_agent.go`",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Create handler — `server/internal/handler/agent.go`",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Runtime model/thinking discovery — `server/pkg/agent/{models,thinking}.go`",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "Env endpoint — `server/internal/handler/agent_env.go`",
+          "level": 2,
+          "line": 81
+        },
+        {
+          "heading": "Routes — `server/cmd/server/router.go`",
+          "level": 2,
+          "line": 89
+        },
+        {
+          "heading": "Claim-time injection — `server/internal/handler/daemon.go`",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "Skill loading — `server/internal/service/task.go`",
+          "level": 2,
+          "line": 105
+        },
+        {
+          "heading": "Built-in skills — `server/internal/service/builtin_skills.go`",
+          "level": 2,
+          "line": 111
+        },
+        {
+          "heading": "Persisted columns — `server/pkg/db/generated/agent.sql.go`",
+          "level": 2,
+          "line": 118
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-creating-agents/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 231,
+      "nonEmptyLines": 184,
+      "sections": [
+        {
+          "heading": "Creating Multica agents",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Quick start (read-only inspection)",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Core model",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "CLI / API entry points",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Field contracts",
+          "level": 2,
+          "line": 68
+        },
+        {
+          "heading": "model vs custom_args",
+          "level": 3,
+          "line": 108
+        },
+        {
+          "heading": "Env & secrets",
+          "level": 2,
+          "line": 116
+        },
+        {
+          "heading": "mcp_config",
+          "level": 3,
+          "line": 146
+        },
+        {
+          "heading": "Skill binding",
+          "level": 2,
+          "line": 175
+        },
+        {
+          "heading": "Side effects needing approval",
+          "level": 2,
+          "line": 197
+        },
+        {
+          "heading": "Common wrong assumptions",
+          "level": 2,
+          "line": 209
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 227
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-mentioning/references/mentioning-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 122,
+      "nonEmptyLines": 103,
+      "sections": [
+        {
+          "heading": "Mentioning — source map",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "The mention grammar (what parses)",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Parser behavior tests (pin the example shapes the skill uses)",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "What each mention type enqueues",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Preview and suppression",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Edit-preview pending-task dedup",
+          "level": 2,
+          "line": 64
+        },
+        {
+          "heading": "Guards that make a valid mention a silent no-op",
+          "level": 2,
+          "line": 79
+        },
+        {
+          "heading": "@all broadcast and assignee-trigger suppression",
+          "level": 2,
+          "line": 92
+        },
+        {
+          "heading": "CLI id sources (where the UUID comes from)",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "Explicit non-claim: no member-notification path in the Go comment handler",
+          "level": 2,
+          "line": 111
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-mentioning/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 158,
+      "nonEmptyLines": 121,
+      "sections": [
+        {
+          "heading": "Mentioning & Delegating",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "A mention link is built from a real UUID",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Step 1 — look up the UUID with `--output json`",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "Step 2 — the four types and exactly what each enqueues",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Preview and per-comment suppression",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "@all is the broadcast type",
+          "level": 2,
+          "line": 93
+        },
+        {
+          "heading": "What does NOT happen (so the result doesn't surprise you)",
+          "level": 2,
+          "line": 106
+        },
+        {
+          "heading": "Incorrect → Correct",
+          "level": 2,
+          "line": 130
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 153
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-projects-and-resources/references/projects-and-resources-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 13,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "Projects and resources source map",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-projects-and-resources/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 79,
+      "nonEmptyLines": 57,
+      "sections": [
+        {
+          "heading": "Multica Projects and Resources",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Quick start",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Core model",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "CLI",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "When to add a resource",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Debugging wrong context",
+          "level": 2,
+          "line": 65
+        },
+        {
+          "heading": "Side effects",
+          "level": 2,
+          "line": 75
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-runtimes-and-repos/references/runtimes-and-repos-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 12,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "Runtimes and repos source map",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-runtimes-and-repos/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 77,
+      "nonEmptyLines": 55,
+      "sections": [
+        {
+          "heading": "Multica Runtimes and Repos",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Quick start",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Core model",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "CLI",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Debugging an agent that did not run",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "Repos",
+          "level": 2,
+          "line": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-skill-importing/references/skill-importing-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 140,
+      "nonEmptyLines": 117,
+      "sections": [
+        {
+          "heading": "Skill-importing source map",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Import endpoint and route",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Local archive import (`.skill` / `.zip`)",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "CLI: `multica skill import --url` / `--file`",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "Same-name conflict handling",
+          "level": 2,
+          "line": 68
+        },
+        {
+          "heading": "Response shape: `SkillWithFilesResponse`",
+          "level": 2,
+          "line": 84
+        },
+        {
+          "heading": "URL source families (`detectImportSource`)",
+          "level": 2,
+          "line": 98
+        },
+        {
+          "heading": "Additive add vs replace-all set",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "Reserved primary-content filename (`SKILL.md`)",
+          "level": 2,
+          "line": 123
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-skill-importing/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 269,
+      "nonEmptyLines": 205,
+      "sections": [
+        {
+          "heading": "Importing skills into Multica",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "The invariant",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Supported URL source families",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Local archive import (`.skill` / `.zip`)",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "Direct URL flow",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "Additive add vs replace-all set",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "Reserved SKILL.md supporting file",
+          "level": 2,
+          "line": 148
+        },
+        {
+          "heading": "Same-name conflicts: `--on-conflict`",
+          "level": 2,
+          "line": 164
+        },
+        {
+          "heading": "Incorrect → correct",
+          "level": 2,
+          "line": 237
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 266
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-squads/references/squad-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 249,
+      "nonEmptyLines": 194,
+      "sections": [
+        {
+          "heading": "Squad Source Map",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Object Model",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "DB shape",
+          "level": 3,
+          "line": 9
+        },
+        {
+          "heading": "CLI",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Create / Update",
+          "level": 2,
+          "line": 55
+        },
+        {
+          "heading": "Leader Briefing",
+          "level": 2,
+          "line": 79
+        },
+        {
+          "heading": "Issue Assignment",
+          "level": 2,
+          "line": 103
+        },
+        {
+          "heading": "Comment / Mention",
+          "level": 2,
+          "line": 124
+        },
+        {
+          "heading": "Autopilot",
+          "level": 2,
+          "line": 150
+        },
+        {
+          "heading": "Child-done Parent Trigger",
+          "level": 2,
+          "line": 172
+        },
+        {
+          "heading": "Private Leader Access",
+          "level": 2,
+          "line": 202
+        },
+        {
+          "heading": "Tests",
+          "level": 2,
+          "line": 232
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-squads/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 255,
+      "nonEmptyLines": 191,
+      "sections": [
+        {
+          "heading": "Multica Squads",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Quick start",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Core model",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "CLI",
+          "level": 2,
+          "line": 48
+        },
+        {
+          "heading": "Squad fields",
+          "level": 2,
+          "line": 89
+        },
+        {
+          "heading": "Squad member fields",
+          "level": 2,
+          "line": 111
+        },
+        {
+          "heading": "Creation and leader membership",
+          "level": 2,
+          "line": 119
+        },
+        {
+          "heading": "Leader briefing",
+          "level": 2,
+          "line": 131
+        },
+        {
+          "heading": "Issue assignment behavior",
+          "level": 2,
+          "line": 148
+        },
+        {
+          "heading": "Comment and mention behavior",
+          "level": 2,
+          "line": 170
+        },
+        {
+          "heading": "Autopilot behavior",
+          "level": 2,
+          "line": 185
+        },
+        {
+          "heading": "Handling complaints or product gaps",
+          "level": 2,
+          "line": 199
+        },
+        {
+          "heading": "Side effects",
+          "level": 2,
+          "line": 217
+        },
+        {
+          "heading": "Common wrong assumptions",
+          "level": 2,
+          "line": 237
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 249
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-working-on-issues/references/working-on-issues-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 185,
+      "nonEmptyLines": 148,
+      "sections": [
+        {
+          "heading": "working-on-issues source map",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "`multica issue pull-requests` — read PR links from Multica",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "PR response shape",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "Two distinct webhook paths: link vs close-intent",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Path 1 — link (title OR body OR branch)",
+          "level": 3,
+          "line": 63
+        },
+        {
+          "heading": "Path 2 — close intent (title OR body only, keyword-adjacent)",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "Status side effects (enqueue contracts)",
+          "level": 2,
+          "line": 114
+        },
+        {
+          "heading": "Sub-issue stages (barrier wake)",
+          "level": 2,
+          "line": 137
+        },
+        {
+          "heading": "Metadata CLI",
+          "level": 2,
+          "line": 151
+        },
+        {
+          "heading": "Custom properties CLI",
+          "level": 2,
+          "line": 162
+        },
+        {
+          "heading": "Verification command",
+          "level": 2,
+          "line": 172
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-working-on-issues/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 277,
+      "nonEmptyLines": 215,
+      "sections": [
+        {
+          "heading": "Working on Multica issues",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "PR linking and close intent are two distinct contracts",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Default for code-changing issue work",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Reading a linked PR's real state",
+          "level": 2,
+          "line": 89
+        },
+        {
+          "heading": "Metadata: high-signal keys only",
+          "level": 2,
+          "line": 121
+        },
+        {
+          "heading": "Custom properties: typed workflow state",
+          "level": 2,
+          "line": 149
+        },
+        {
+          "heading": "Status changes have server side effects",
+          "level": 2,
+          "line": 173
+        },
+        {
+          "heading": "Sub-issues: `todo` starts work now, `backlog` parks it",
+          "level": 2,
+          "line": 191
+        },
+        {
+          "heading": "Stages: order sub-issues into barrier groups",
+          "level": 3,
+          "line": 212
+        },
+        {
+          "heading": "Incorrect → correct",
+          "level": 2,
+          "line": 246
+        },
+        {
+          "heading": "References",
+          "level": 2,
+          "line": 269
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "pkg/agent/testdata/openclaw-2026.5.5-stdout.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1070,
+      "nonEmptyLines": 1070,
+      "sections": [
+        {
+          "heading": "payloads",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "meta",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "pkg/composio/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 159,
+      "nonEmptyLines": 129,
+      "sections": [
+        {
+          "heading": "composio",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Scope (MVP)",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Quick start",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Webhook verification",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "Errors",
+          "level": 2,
+          "line": 104
+        },
+        {
+          "heading": "Testing",
+          "level": 2,
+          "line": 121
+        },
+        {
+          "heading": "Design notes",
+          "level": 2,
+          "line": 132
+        },
+        {
+          "heading": "Roadmap (out of scope for v1)",
+          "level": 2,
+          "line": 152
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    }
+  ]
+}

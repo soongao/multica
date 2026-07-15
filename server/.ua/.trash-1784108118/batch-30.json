@@ -1,0 +1,265 @@
+{
+  "nodes": [
+    {
+      "id": "config:internal/agenttmpl/templates/adr-writer.json",
+      "type": "config",
+      "name": "adr-writer.json",
+      "filePath": "internal/agenttmpl/templates/adr-writer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/adr-writer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/brainstormer.json",
+      "type": "config",
+      "name": "brainstormer.json",
+      "filePath": "internal/agenttmpl/templates/brainstormer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/brainstormer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/bug-fixer.json",
+      "type": "config",
+      "name": "bug-fixer.json",
+      "filePath": "internal/agenttmpl/templates/bug-fixer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/bug-fixer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/code-explainer.json",
+      "type": "config",
+      "name": "code-explainer.json",
+      "filePath": "internal/agenttmpl/templates/code-explainer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/code-explainer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/code-reviewer.json",
+      "type": "config",
+      "name": "code-reviewer.json",
+      "filePath": "internal/agenttmpl/templates/code-reviewer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/code-reviewer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/commit-message.json",
+      "type": "config",
+      "name": "commit-message.json",
+      "filePath": "internal/agenttmpl/templates/commit-message.json",
+      "summary": "配置文件 internal/agenttmpl/templates/commit-message.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/email-reply.json",
+      "type": "config",
+      "name": "email-reply.json",
+      "filePath": "internal/agenttmpl/templates/email-reply.json",
+      "summary": "配置文件 internal/agenttmpl/templates/email-reply.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/frontend-builder.json",
+      "type": "config",
+      "name": "frontend-builder.json",
+      "filePath": "internal/agenttmpl/templates/frontend-builder.json",
+      "summary": "配置文件 internal/agenttmpl/templates/frontend-builder.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/frontend-designer.json",
+      "type": "config",
+      "name": "frontend-designer.json",
+      "filePath": "internal/agenttmpl/templates/frontend-designer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/frontend-designer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/html-slides.json",
+      "type": "config",
+      "name": "html-slides.json",
+      "filePath": "internal/agenttmpl/templates/html-slides.json",
+      "summary": "配置文件 internal/agenttmpl/templates/html-slides.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/jd-writer.json",
+      "type": "config",
+      "name": "jd-writer.json",
+      "filePath": "internal/agenttmpl/templates/jd-writer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/jd-writer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/okr-drafter.json",
+      "type": "config",
+      "name": "okr-drafter.json",
+      "filePath": "internal/agenttmpl/templates/okr-drafter.json",
+      "summary": "配置文件 internal/agenttmpl/templates/okr-drafter.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/one-pager.json",
+      "type": "config",
+      "name": "one-pager.json",
+      "filePath": "internal/agenttmpl/templates/one-pager.json",
+      "summary": "配置文件 internal/agenttmpl/templates/one-pager.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/pr-description.json",
+      "type": "config",
+      "name": "pr-description.json",
+      "filePath": "internal/agenttmpl/templates/pr-description.json",
+      "summary": "配置文件 internal/agenttmpl/templates/pr-description.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/prd-critic.json",
+      "type": "config",
+      "name": "prd-critic.json",
+      "filePath": "internal/agenttmpl/templates/prd-critic.json",
+      "summary": "配置文件 internal/agenttmpl/templates/prd-critic.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/prd-drafter.json",
+      "type": "config",
+      "name": "prd-drafter.json",
+      "filePath": "internal/agenttmpl/templates/prd-drafter.json",
+      "summary": "配置文件 internal/agenttmpl/templates/prd-drafter.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/rca-writer.json",
+      "type": "config",
+      "name": "rca-writer.json",
+      "filePath": "internal/agenttmpl/templates/rca-writer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/rca-writer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/release-notes.json",
+      "type": "config",
+      "name": "release-notes.json",
+      "filePath": "internal/agenttmpl/templates/release-notes.json",
+      "summary": "配置文件 internal/agenttmpl/templates/release-notes.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/summarizer.json",
+      "type": "config",
+      "name": "summarizer.json",
+      "filePath": "internal/agenttmpl/templates/summarizer.json",
+      "summary": "配置文件 internal/agenttmpl/templates/summarizer.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:internal/agenttmpl/templates/translator-zh-en.json",
+      "type": "config",
+      "name": "translator-zh-en.json",
+      "filePath": "internal/agenttmpl/templates/translator-zh-en.json",
+      "summary": "配置文件 internal/agenttmpl/templates/translator-zh-en.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

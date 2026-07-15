@@ -1,0 +1,49 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "go.mod",
+      "language": "mod",
+      "fileCategory": "config",
+      "totalLines": 75,
+      "nonEmptyLines": 72,
+      "metrics": {}
+    },
+    {
+      "path": "go.sum",
+      "language": "sum",
+      "fileCategory": "config",
+      "totalLines": 185,
+      "nonEmptyLines": 185,
+      "metrics": {}
+    },
+    {
+      "path": "sqlc.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 12,
+      "nonEmptyLines": 12,
+      "sections": [
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "sql",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

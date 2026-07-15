@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "config:go.mod",
+      "type": "config",
+      "name": "go.mod",
+      "filePath": "go.mod",
+      "summary": "Go module 清单，声明后端模块路径、Go 版本和 Chi、pgx、OpenAI、Redis 等运行依赖。",
+      "tags": [
+        "configuration",
+        "go",
+        "config"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:go.sum",
+      "type": "config",
+      "name": "go.sum",
+      "filePath": "go.sum",
+      "summary": "Go module 校验文件，锁定依赖版本的完整性哈希。",
+      "tags": [
+        "configuration",
+        "go",
+        "config"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:sqlc.yaml",
+      "type": "config",
+      "name": "sqlc.yaml",
+      "filePath": "sqlc.yaml",
+      "summary": "sqlc 配置文件，定义 SQL 查询输入、Go 生成代码输出和 PostgreSQL 方言设置。",
+      "tags": [
+        "configuration",
+        "yaml",
+        "config"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "config:go.mod",
+      "target": "file:cmd/server/main.go",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:sqlc.yaml",
+      "target": "file:pkg/db/generated/db.go",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

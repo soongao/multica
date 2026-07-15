@@ -1,0 +1,147 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/agenttmpl/templates/adr-writer.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/brainstormer.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/bug-fixer.json",
+      "language": "json",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/code-explainer.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/code-reviewer.json",
+      "language": "json",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/commit-message.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/email-reply.json",
+      "language": "json",
+      "sizeLines": 16,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/frontend-builder.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/frontend-designer.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/html-slides.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/jd-writer.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/okr-drafter.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/one-pager.json",
+      "language": "json",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/pr-description.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/prd-critic.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/prd-drafter.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/rca-writer.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/release-notes.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/summarizer.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/translator-zh-en.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "internal/agenttmpl/templates/adr-writer.json": [],
+    "internal/agenttmpl/templates/brainstormer.json": [],
+    "internal/agenttmpl/templates/bug-fixer.json": [],
+    "internal/agenttmpl/templates/code-explainer.json": [],
+    "internal/agenttmpl/templates/code-reviewer.json": [],
+    "internal/agenttmpl/templates/commit-message.json": [],
+    "internal/agenttmpl/templates/email-reply.json": [],
+    "internal/agenttmpl/templates/frontend-builder.json": [],
+    "internal/agenttmpl/templates/frontend-designer.json": [],
+    "internal/agenttmpl/templates/html-slides.json": [],
+    "internal/agenttmpl/templates/jd-writer.json": [],
+    "internal/agenttmpl/templates/okr-drafter.json": [],
+    "internal/agenttmpl/templates/one-pager.json": [],
+    "internal/agenttmpl/templates/pr-description.json": [],
+    "internal/agenttmpl/templates/prd-critic.json": [],
+    "internal/agenttmpl/templates/prd-drafter.json": [],
+    "internal/agenttmpl/templates/rca-writer.json": [],
+    "internal/agenttmpl/templates/release-notes.json": [],
+    "internal/agenttmpl/templates/summarizer.json": [],
+    "internal/agenttmpl/templates/translator-zh-en.json": []
+  }
+}

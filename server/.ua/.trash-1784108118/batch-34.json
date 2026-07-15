@@ -1,0 +1,4791 @@
+{
+  "nodes": [
+    {
+      "id": "file:.ua/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".ua/.understandignore",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。",
+      "tags": [
+        "unknown",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.ua/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".ua/config.json",
+      "summary": "配置文件 .ua/config.json 控制后端项目的构建、代码生成或运行参数。",
+      "tags": [
+        "configuration",
+        "json",
+        "config"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/backfill_codex_usage_cache/main_test.go",
+      "type": "file",
+      "name": "main_test.go",
+      "filePath": "cmd/backfill_codex_usage_cache/main_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 3 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/main_test.go:TestCorrectedInputTokens",
+      "type": "function",
+      "name": "TestCorrectedInputTokens",
+      "filePath": "cmd/backfill_codex_usage_cache/main_test.go",
+      "lineRange": [
+        9,
+        30
+      ],
+      "summary": "测试 cmd/backfill_codex_usage_cache/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/main_test.go:TestConfigParseAndValidate",
+      "type": "function",
+      "name": "TestConfigParseAndValidate",
+      "filePath": "cmd/backfill_codex_usage_cache/main_test.go",
+      "lineRange": [
+        32,
+        68
+      ],
+      "summary": "测试 cmd/backfill_codex_usage_cache/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/backfill_codex_usage_cache/main_test.go:TestRollupWindowPadsDatabaseClockRange",
+      "type": "function",
+      "name": "TestRollupWindowPadsDatabaseClockRange",
+      "filePath": "cmd/backfill_codex_usage_cache/main_test.go",
+      "lineRange": [
+        70,
+        82
+      ],
+      "summary": "测试 cmd/backfill_codex_usage_cache/main_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/migrate/migrate_concurrent_test.go",
+      "type": "file",
+      "name": "migrate_concurrent_test.go",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 11 个函数、1 个类型、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:cmd/migrate/migrate_concurrent_test.go:fixture",
+      "type": "class",
+      "name": "fixture",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        98,
+        106
+      ],
+      "summary": "内部类型 fixture 表达 cmd/migrate/migrate_concurrent_test.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:openTestPool",
+      "type": "function",
+      "name": "openTestPool",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        75,
+        93
+      ],
+      "summary": "实现 openTestPool 逻辑，是 cmd/migrate/migrate_concurrent_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:newFixture",
+      "type": "function",
+      "name": "newFixture",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        108,
+        186
+      ],
+      "summary": "实现 newFixture 逻辑，是 cmd/migrate/migrate_concurrent_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:appliedVersions",
+      "type": "function",
+      "name": "appliedVersions",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        200,
+        223
+      ],
+      "summary": "实现 appliedVersions 逻辑，是 cmd/migrate/migrate_concurrent_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:tableExists",
+      "type": "function",
+      "name": "tableExists",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        228,
+        241
+      ],
+      "summary": "实现 tableExists 逻辑，是 cmd/migrate/migrate_concurrent_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentPending",
+      "type": "function",
+      "name": "TestRunMigrationsConcurrentPending",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        250,
+        277
+      ],
+      "summary": "测试 cmd/migrate/migrate_concurrent_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentAlreadyApplied",
+      "type": "function",
+      "name": "TestRunMigrationsConcurrentAlreadyApplied",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        288,
+        319
+      ],
+      "summary": "测试 cmd/migrate/migrate_concurrent_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsAdvisoryLockSerializes",
+      "type": "function",
+      "name": "TestRunMigrationsAdvisoryLockSerializes",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        338,
+        405
+      ],
+      "summary": "测试 cmd/migrate/migrate_concurrent_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentMixedPoolStress",
+      "type": "function",
+      "name": "TestRunMigrationsConcurrentMixedPoolStress",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        414,
+        464
+      ],
+      "summary": "测试 cmd/migrate/migrate_concurrent_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:equalStrings",
+      "type": "function",
+      "name": "equalStrings",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        466,
+        476
+      ],
+      "summary": "实现 equalStrings 逻辑，是 cmd/migrate/migrate_concurrent_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsRejectsInvalidDirection",
+      "type": "function",
+      "name": "TestRunMigrationsRejectsInvalidDirection",
+      "filePath": "cmd/migrate/migrate_concurrent_test.go",
+      "lineRange": [
+        487,
+        499
+      ],
+      "summary": "测试 cmd/migrate/migrate_concurrent_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_attachment_test.go",
+      "type": "file",
+      "name": "cmd_attachment_test.go",
+      "filePath": "cmd/multica/cmd_attachment_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 8 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentDownloadWritesBasenameIntoOutputDir",
+      "type": "function",
+      "name": "TestRunAttachmentDownloadWritesBasenameIntoOutputDir",
+      "filePath": "cmd/multica/cmd_attachment_test.go",
+      "lineRange": [
+        21,
+        74
+      ],
+      "summary": "测试 cmd/multica/cmd_attachment_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentUploadSendsTaskIDAndPrintsContract",
+      "type": "function",
+      "name": "TestRunAttachmentUploadSendsTaskIDAndPrintsContract",
+      "filePath": "cmd/multica/cmd_attachment_test.go",
+      "lineRange": [
+        82,
+        144
+      ],
+      "summary": "测试 cmd/multica/cmd_attachment_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentUploadNonImageUsesFileCardMarkdown",
+      "type": "function",
+      "name": "TestRunAttachmentUploadNonImageUsesFileCardMarkdown",
+      "filePath": "cmd/multica/cmd_attachment_test.go",
+      "lineRange": [
+        149,
+        189
+      ],
+      "summary": "测试 cmd/multica/cmd_attachment_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentUploadEscapesFilename",
+      "type": "function",
+      "name": "TestRunAttachmentUploadEscapesFilename",
+      "filePath": "cmd/multica/cmd_attachment_test.go",
+      "lineRange": [
+        195,
+        228
+      ],
+      "summary": "测试 cmd/multica/cmd_attachment_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentUploadRequiresTask",
+      "type": "function",
+      "name": "TestRunAttachmentUploadRequiresTask",
+      "filePath": "cmd/multica/cmd_attachment_test.go",
+      "lineRange": [
+        230,
+        249
+      ],
+      "summary": "测试 cmd/multica/cmd_attachment_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentDownloadRequiresDownloadURL",
+      "type": "function",
+      "name": "TestRunAttachmentDownloadRequiresDownloadURL",
+      "filePath": "cmd/multica/cmd_attachment_test.go",
+      "lineRange": [
+        251,
+        268
+      ],
+      "summary": "测试 cmd/multica/cmd_attachment_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_auth_test.go",
+      "type": "file",
+      "name": "cmd_auth_test.go",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 11 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestMain",
+      "type": "function",
+      "name": "TestMain",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        12,
+        24
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestResolveAppURL",
+      "type": "function",
+      "name": "TestResolveAppURL",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        34,
+        54
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestResolveCallbackBinding",
+      "type": "function",
+      "name": "TestResolveCallbackBinding",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        56,
+        136
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestBrowserLoginInstructionsSSHRemoteHint",
+      "type": "function",
+      "name": "TestBrowserLoginInstructionsSSHRemoteHint",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        138,
+        158
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestCallbackHostFlagValueReadsParentSetupFlag",
+      "type": "function",
+      "name": "TestCallbackHostFlagValueReadsParentSetupFlag",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        160,
+        180
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestLoginTokenFlagWiring",
+      "type": "function",
+      "name": "TestLoginTokenFlagWiring",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        188,
+        199
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestLoginTokenHelpOutputRendersCleanly",
+      "type": "function",
+      "name": "TestLoginTokenHelpOutputRendersCleanly",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        215,
+        240
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestLoginTokenFlagParsing",
+      "type": "function",
+      "name": "TestLoginTokenFlagParsing",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        249,
+        327
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestNormalizeAPIBaseURL",
+      "type": "function",
+      "name": "TestNormalizeAPIBaseURL",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        329,
+        347
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_auth_test.go:TestValidateLoginTokenPrefix",
+      "type": "function",
+      "name": "TestValidateLoginTokenPrefix",
+      "filePath": "cmd/multica/cmd_auth_test.go",
+      "lineRange": [
+        355,
+        396
+      ],
+      "summary": "测试 cmd/multica/cmd_auth_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_daemon_log_test.go",
+      "type": "file",
+      "name": "cmd_daemon_log_test.go",
+      "filePath": "cmd/multica/cmd_daemon_log_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 7 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_log_test.go:TestEnvPositiveIntOrDefault",
+      "type": "function",
+      "name": "TestEnvPositiveIntOrDefault",
+      "filePath": "cmd/multica/cmd_daemon_log_test.go",
+      "lineRange": [
+        14,
+        43
+      ],
+      "summary": "测试 cmd/multica/cmd_daemon_log_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_log_test.go:TestOpenBoundedErrLogRolls",
+      "type": "function",
+      "name": "TestOpenBoundedErrLogRolls",
+      "filePath": "cmd/multica/cmd_daemon_log_test.go",
+      "lineRange": [
+        48,
+        73
+      ],
+      "summary": "测试 cmd/multica/cmd_daemon_log_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_log_test.go:TestOpenBoundedErrLogKeepsSmall",
+      "type": "function",
+      "name": "TestOpenBoundedErrLogKeepsSmall",
+      "filePath": "cmd/multica/cmd_daemon_log_test.go",
+      "lineRange": [
+        77,
+        97
+      ],
+      "summary": "测试 cmd/multica/cmd_daemon_log_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_log_test.go:TestNewDaemonLogRotatorDefaults",
+      "type": "function",
+      "name": "TestNewDaemonLogRotatorDefaults",
+      "filePath": "cmd/multica/cmd_daemon_log_test.go",
+      "lineRange": [
+        102,
+        124
+      ],
+      "summary": "测试 cmd/multica/cmd_daemon_log_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_log_test.go:TestNewDaemonLogRotatorEnvOverride",
+      "type": "function",
+      "name": "TestNewDaemonLogRotatorEnvOverride",
+      "filePath": "cmd/multica/cmd_daemon_log_test.go",
+      "lineRange": [
+        128,
+        137
+      ],
+      "summary": "测试 cmd/multica/cmd_daemon_log_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_log_test.go:TestDaemonLogRotatorRotates",
+      "type": "function",
+      "name": "TestDaemonLogRotatorRotates",
+      "filePath": "cmd/multica/cmd_daemon_log_test.go",
+      "lineRange": [
+        142,
+        185
+      ],
+      "summary": "测试 cmd/multica/cmd_daemon_log_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_log_test.go:TestDaemonStderrLogPathIsSeparate",
+      "type": "function",
+      "name": "TestDaemonStderrLogPathIsSeparate",
+      "filePath": "cmd/multica/cmd_daemon_log_test.go",
+      "lineRange": [
+        190,
+        205
+      ],
+      "summary": "测试 cmd/multica/cmd_daemon_log_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_daemon_unix.go",
+      "type": "file",
+      "name": "cmd_daemon_unix.go",
+      "filePath": "cmd/multica/cmd_daemon_unix.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 5 个函数。",
+      "tags": [
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_unix.go:tailLogFile",
+      "type": "function",
+      "name": "tailLogFile",
+      "filePath": "cmd/multica/cmd_daemon_unix.go",
+      "lineRange": [
+        41,
+        57
+      ],
+      "summary": "实现 tailLogFile 逻辑，是 cmd/multica/cmd_daemon_unix.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_daemon_windows.go",
+      "type": "file",
+      "name": "cmd_daemon_windows.go",
+      "filePath": "cmd/multica/cmd_daemon_windows.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 6 个函数。",
+      "tags": [
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_windows.go:daemonSysProcAttr",
+      "type": "function",
+      "name": "daemonSysProcAttr",
+      "filePath": "cmd/multica/cmd_daemon_windows.go",
+      "lineRange": [
+        50,
+        59
+      ],
+      "summary": "实现 daemonSysProcAttr 逻辑，是 cmd/multica/cmd_daemon_windows.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_windows.go:repointStdioToErrLog",
+      "type": "function",
+      "name": "repointStdioToErrLog",
+      "filePath": "cmd/multica/cmd_daemon_windows.go",
+      "lineRange": [
+        81,
+        93
+      ],
+      "summary": "实现 repointStdioToErrLog 逻辑，是 cmd/multica/cmd_daemon_windows.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_windows.go:openLogForTail",
+      "type": "function",
+      "name": "openLogForTail",
+      "filePath": "cmd/multica/cmd_daemon_windows.go",
+      "lineRange": [
+        99,
+        117
+      ],
+      "summary": "实现 openLogForTail 逻辑，是 cmd/multica/cmd_daemon_windows.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_daemon_windows.go:tailLogFile",
+      "type": "function",
+      "name": "tailLogFile",
+      "filePath": "cmd/multica/cmd_daemon_windows.go",
+      "lineRange": [
+        119,
+        194
+      ],
+      "summary": "实现 tailLogFile 逻辑，是 cmd/multica/cmd_daemon_windows.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cmd/multica/cmd_label_test.go",
+      "type": "file",
+      "name": "cmd_label_test.go",
+      "filePath": "cmd/multica/cmd_label_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 8 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_label_test.go:TestRunLabelCreateSendsExpectedRequest",
+      "type": "function",
+      "name": "TestRunLabelCreateSendsExpectedRequest",
+      "filePath": "cmd/multica/cmd_label_test.go",
+      "lineRange": [
+        44,
+        86
+      ],
+      "summary": "测试 cmd/multica/cmd_label_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_label_test.go:TestRunLabelUpdateSendsOnlyChangedFields",
+      "type": "function",
+      "name": "TestRunLabelUpdateSendsOnlyChangedFields",
+      "filePath": "cmd/multica/cmd_label_test.go",
+      "lineRange": [
+        88,
+        118
+      ],
+      "summary": "测试 cmd/multica/cmd_label_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_label_test.go:TestRunLabelDeletePrintsJsonConfirmation",
+      "type": "function",
+      "name": "TestRunLabelDeletePrintsJsonConfirmation",
+      "filePath": "cmd/multica/cmd_label_test.go",
+      "lineRange": [
+        120,
+        143
+      ],
+      "summary": "测试 cmd/multica/cmd_label_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_label_test.go:TestRunLabelCreateRequiresNameAndColor",
+      "type": "function",
+      "name": "TestRunLabelCreateRequiresNameAndColor",
+      "filePath": "cmd/multica/cmd_label_test.go",
+      "lineRange": [
+        145,
+        155
+      ],
+      "summary": "测试 cmd/multica/cmd_label_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_project_test.go",
+      "type": "file",
+      "name": "cmd_project_test.go",
+      "filePath": "cmd/multica/cmd_project_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 5 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_project_test.go:TestValidateProjectStatus",
+      "type": "function",
+      "name": "TestValidateProjectStatus",
+      "filePath": "cmd/multica/cmd_project_test.go",
+      "lineRange": [
+        14,
+        27
+      ],
+      "summary": "测试 cmd/multica/cmd_project_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "function",
+      "name": "newProjectResourceUpdateTestCmd",
+      "filePath": "cmd/multica/cmd_project_test.go",
+      "lineRange": [
+        32,
+        45
+      ],
+      "summary": "实现 newProjectResourceUpdateTestCmd 逻辑，是 cmd/multica/cmd_project_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "type": "function",
+      "name": "TestBuildResourceRefFromFlagsGithubMergesHint",
+      "filePath": "cmd/multica/cmd_project_test.go",
+      "lineRange": [
+        51,
+        182
+      ],
+      "summary": "测试 cmd/multica/cmd_project_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromRefFlagKeepsJSONEscapeHatch",
+      "type": "function",
+      "name": "TestBuildResourceRefFromRefFlagKeepsJSONEscapeHatch",
+      "filePath": "cmd/multica/cmd_project_test.go",
+      "lineRange": [
+        184,
+        268
+      ],
+      "summary": "测试 cmd/multica/cmd_project_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsLocalDirectoryMerges",
+      "type": "function",
+      "name": "TestBuildResourceRefFromFlagsLocalDirectoryMerges",
+      "filePath": "cmd/multica/cmd_project_test.go",
+      "lineRange": [
+        273,
+        328
+      ],
+      "summary": "测试 cmd/multica/cmd_project_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_repo_test.go",
+      "type": "file",
+      "name": "cmd_repo_test.go",
+      "filePath": "cmd/multica/cmd_repo_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 6 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_repo_test.go:newRepoRegistryTestCmd",
+      "type": "function",
+      "name": "newRepoRegistryTestCmd",
+      "filePath": "cmd/multica/cmd_repo_test.go",
+      "lineRange": [
+        13,
+        24
+      ],
+      "summary": "实现 newRepoRegistryTestCmd 逻辑，是 cmd/multica/cmd_repo_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddAppendsAndDedupes",
+      "type": "function",
+      "name": "TestRunRepoAddAppendsAndDedupes",
+      "filePath": "cmd/multica/cmd_repo_test.go",
+      "lineRange": [
+        26,
+        71
+      ],
+      "summary": "测试 cmd/multica/cmd_repo_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddUpdatesDescriptionForExistingRepo",
+      "type": "function",
+      "name": "TestRunRepoAddUpdatesDescriptionForExistingRepo",
+      "filePath": "cmd/multica/cmd_repo_test.go",
+      "lineRange": [
+        73,
+        106
+      ],
+      "summary": "测试 cmd/multica/cmd_repo_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddRejectsDescriptionForMultipleRepos",
+      "type": "function",
+      "name": "TestRunRepoAddRejectsDescriptionForMultipleRepos",
+      "filePath": "cmd/multica/cmd_repo_test.go",
+      "lineRange": [
+        108,
+        120
+      ],
+      "summary": "测试 cmd/multica/cmd_repo_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_repo_test.go:TestRunRepoRemoveDeletesExistingRepos",
+      "type": "function",
+      "name": "TestRunRepoRemoveDeletesExistingRepos",
+      "filePath": "cmd/multica/cmd_repo_test.go",
+      "lineRange": [
+        122,
+        159
+      ],
+      "summary": "测试 cmd/multica/cmd_repo_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_repo_test.go:TestRunRepoRemoveRejectsMissingRepoWithoutPatch",
+      "type": "function",
+      "name": "TestRunRepoRemoveRejectsMissingRepoWithoutPatch",
+      "filePath": "cmd/multica/cmd_repo_test.go",
+      "lineRange": [
+        161,
+        190
+      ],
+      "summary": "测试 cmd/multica/cmd_repo_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_runtime_test.go",
+      "type": "file",
+      "name": "cmd_runtime_test.go",
+      "filePath": "cmd/multica/cmd_runtime_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 5 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_runtime_test.go:newRuntimeDeleteTestCmd",
+      "type": "function",
+      "name": "newRuntimeDeleteTestCmd",
+      "filePath": "cmd/multica/cmd_runtime_test.go",
+      "lineRange": [
+        15,
+        25
+      ],
+      "summary": "实现 newRuntimeDeleteTestCmd 逻辑，是 cmd/multica/cmd_runtime_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_runtime_test.go:captureRuntimeStdout",
+      "type": "function",
+      "name": "captureRuntimeStdout",
+      "filePath": "cmd/multica/cmd_runtime_test.go",
+      "lineRange": [
+        27,
+        46
+      ],
+      "summary": "实现 captureRuntimeStdout 逻辑，是 cmd/multica/cmd_runtime_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteStrictSuccessPrintsJSON",
+      "type": "function",
+      "name": "TestRunRuntimeDeleteStrictSuccessPrintsJSON",
+      "filePath": "cmd/multica/cmd_runtime_test.go",
+      "lineRange": [
+        48,
+        87
+      ],
+      "summary": "测试 cmd/multica/cmd_runtime_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteConflictSuggestsCascade",
+      "type": "function",
+      "name": "TestRunRuntimeDeleteConflictSuggestsCascade",
+      "filePath": "cmd/multica/cmd_runtime_test.go",
+      "lineRange": [
+        89,
+        116
+      ],
+      "summary": "测试 cmd/multica/cmd_runtime_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteCascadeConfirmsActiveAgentSnapshot",
+      "type": "function",
+      "name": "TestRunRuntimeDeleteCascadeConfirmsActiveAgentSnapshot",
+      "filePath": "cmd/multica/cmd_runtime_test.go",
+      "lineRange": [
+        118,
+        181
+      ],
+      "summary": "测试 cmd/multica/cmd_runtime_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation",
+        "agent"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cmd/multica/cmd_skill_test.go",
+      "type": "file",
+      "name": "cmd_skill_test.go",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 17 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:newSkillImportTestCmd",
+      "type": "function",
+      "name": "newSkillImportTestCmd",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        15,
+        24
+      ],
+      "summary": "实现 newSkillImportTestCmd 逻辑，是 cmd/multica/cmd_skill_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "function",
+      "name": "captureStdout",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        26,
+        45
+      ],
+      "summary": "实现 captureStdout 逻辑，是 cmd/multica/cmd_skill_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillImportJsonTreatsDuplicateAsConflictResult",
+      "type": "function",
+      "name": "TestRunSkillImportJsonTreatsDuplicateAsConflictResult",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        47,
+        114
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillImportSendsOnConflictAndPrintsStructuredResult",
+      "type": "function",
+      "name": "TestRunSkillImportSendsOnConflictAndPrintsStructuredResult",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        116,
+        160
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillSearchRequestsSearchEndpoint",
+      "type": "function",
+      "name": "TestRunSkillSearchRequestsSearchEndpoint",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        162,
+        199
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:newSkillCreateTestCmd",
+      "type": "function",
+      "name": "newSkillCreateTestCmd",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        201,
+        214
+      ],
+      "summary": "实现 newSkillCreateTestCmd 逻辑，是 cmd/multica/cmd_skill_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:newSkillUpdateTestCmd",
+      "type": "function",
+      "name": "newSkillUpdateTestCmd",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        216,
+        229
+      ],
+      "summary": "实现 newSkillUpdateTestCmd 逻辑，是 cmd/multica/cmd_skill_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:newSkillFilesUpsertTestCmd",
+      "type": "function",
+      "name": "newSkillFilesUpsertTestCmd",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        231,
+        242
+      ],
+      "summary": "实现 newSkillFilesUpsertTestCmd 逻辑，是 cmd/multica/cmd_skill_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:newSkillBodyCaptureServer",
+      "type": "function",
+      "name": "newSkillBodyCaptureServer",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        244,
+        264
+      ],
+      "summary": "实现 newSkillBodyCaptureServer 逻辑，是 cmd/multica/cmd_skill_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateReadsContentFileVerbatim",
+      "type": "function",
+      "name": "TestRunSkillCreateReadsContentFileVerbatim",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        273,
+        294
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateKeepsInlineContentLiteral",
+      "type": "function",
+      "name": "TestRunSkillCreateKeepsInlineContentLiteral",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        296,
+        312
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillUpdateReadsContentStdinVerbatim",
+      "type": "function",
+      "name": "TestRunSkillUpdateReadsContentStdinVerbatim",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        314,
+        331
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillFilesUpsertReadsContentFileVerbatim",
+      "type": "function",
+      "name": "TestRunSkillFilesUpsertReadsContentFileVerbatim",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        333,
+        357
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillContentInputsAreMutuallyExclusive",
+      "type": "function",
+      "name": "TestRunSkillContentInputsAreMutuallyExclusive",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        359,
+        399
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillContentFileAndStdinRejectEmptyInput",
+      "type": "function",
+      "name": "TestRunSkillContentFileAndStdinRejectEmptyInput",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        401,
+        424
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "type": "function",
+      "name": "TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "filePath": "cmd/multica/cmd_skill_test.go",
+      "lineRange": [
+        426,
+        462
+      ],
+      "summary": "测试 cmd/multica/cmd_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_squad_test.go",
+      "type": "file",
+      "name": "cmd_squad_test.go",
+      "filePath": "cmd/multica/cmd_squad_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 4 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_squad_test.go:newSquadMemberSetRoleTestCmd",
+      "type": "function",
+      "name": "newSquadMemberSetRoleTestCmd",
+      "filePath": "cmd/multica/cmd_squad_test.go",
+      "lineRange": [
+        12,
+        22
+      ],
+      "summary": "实现 newSquadMemberSetRoleTestCmd 逻辑，是 cmd/multica/cmd_squad_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_squad_test.go:TestSquadMemberSetRoleCommandIsRegistered",
+      "type": "function",
+      "name": "TestSquadMemberSetRoleCommandIsRegistered",
+      "filePath": "cmd/multica/cmd_squad_test.go",
+      "lineRange": [
+        24,
+        37
+      ],
+      "summary": "测试 cmd/multica/cmd_squad_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_squad_test.go:TestRunSquadMemberSetRolePatchesRole",
+      "type": "function",
+      "name": "TestRunSquadMemberSetRolePatchesRole",
+      "filePath": "cmd/multica/cmd_squad_test.go",
+      "lineRange": [
+        39,
+        87
+      ],
+      "summary": "测试 cmd/multica/cmd_squad_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_squad_test.go:TestRunSquadMemberSetRoleValidatesRequiredFlags",
+      "type": "function",
+      "name": "TestRunSquadMemberSetRoleValidatesRequiredFlags",
+      "filePath": "cmd/multica/cmd_squad_test.go",
+      "lineRange": [
+        89,
+        107
+      ],
+      "summary": "测试 cmd/multica/cmd_squad_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_update_test.go",
+      "type": "file",
+      "name": "cmd_update_test.go",
+      "filePath": "cmd/multica/cmd_update_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 2 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_update_test.go:TestRunUpdateRejectsNonPositiveDownloadTimeout",
+      "type": "function",
+      "name": "TestRunUpdateRejectsNonPositiveDownloadTimeout",
+      "filePath": "cmd/multica/cmd_update_test.go",
+      "lineRange": [
+        9,
+        18
+      ],
+      "summary": "测试 cmd/multica/cmd_update_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_update_test.go:TestUpdateCommandRegistersDownloadTimeoutFlag",
+      "type": "function",
+      "name": "TestUpdateCommandRegistersDownloadTimeoutFlag",
+      "filePath": "cmd/multica/cmd_update_test.go",
+      "lineRange": [
+        20,
+        28
+      ],
+      "summary": "测试 cmd/multica/cmd_update_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_user_test.go",
+      "type": "file",
+      "name": "cmd_user_test.go",
+      "filePath": "cmd/multica/cmd_user_test.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 5 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_user_test.go:TestRunUserProfileGetPrintsMeJSON",
+      "type": "function",
+      "name": "TestRunUserProfileGetPrintsMeJSON",
+      "filePath": "cmd/multica/cmd_user_test.go",
+      "lineRange": [
+        28,
+        58
+      ],
+      "summary": "测试 cmd/multica/cmd_user_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_user_test.go:TestRunUserProfileUpdateSendsResolvedDescription",
+      "type": "function",
+      "name": "TestRunUserProfileUpdateSendsResolvedDescription",
+      "filePath": "cmd/multica/cmd_user_test.go",
+      "lineRange": [
+        60,
+        91
+      ],
+      "summary": "测试 cmd/multica/cmd_user_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/cmd_user_test.go:TestRunUserProfileUpdateClearSendsEmptyDescription",
+      "type": "function",
+      "name": "TestRunUserProfileUpdateClearSendsEmptyDescription",
+      "filePath": "cmd/multica/cmd_user_test.go",
+      "lineRange": [
+        93,
+        116
+      ],
+      "summary": "测试 cmd/multica/cmd_user_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/cmd_version.go",
+      "type": "file",
+      "name": "cmd_version.go",
+      "filePath": "cmd/multica/cmd_version.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 2 个函数。",
+      "tags": [
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/cmd_version.go:runVersion",
+      "type": "function",
+      "name": "runVersion",
+      "filePath": "cmd/multica/cmd_version.go",
+      "lineRange": [
+        22,
+        42
+      ],
+      "summary": "实现 runVersion 逻辑，是 cmd/multica/cmd_version.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/multica/help.go",
+      "type": "file",
+      "name": "help.go",
+      "filePath": "cmd/multica/help.go",
+      "summary": "Multica CLI 命令实现，用于本地 daemon、agent 和运维操作。结构上包含 6 个函数。",
+      "tags": [
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/multica/help.go:exactArgs",
+      "type": "function",
+      "name": "exactArgs",
+      "filePath": "cmd/multica/help.go",
+      "lineRange": [
+        23,
+        36
+      ],
+      "summary": "实现 exactArgs 逻辑，是 cmd/multica/help.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/help.go:initHelp",
+      "type": "function",
+      "name": "initHelp",
+      "filePath": "cmd/multica/help.go",
+      "lineRange": [
+        39,
+        52
+      ],
+      "summary": "实现 initHelp 逻辑，是 cmd/multica/help.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/help.go:applyTemplates",
+      "type": "function",
+      "name": "applyTemplates",
+      "filePath": "cmd/multica/help.go",
+      "lineRange": [
+        54,
+        65
+      ],
+      "summary": "实现 applyTemplates 逻辑，是 cmd/multica/help.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/multica/help.go:formatCommandList",
+      "type": "function",
+      "name": "formatCommandList",
+      "filePath": "cmd/multica/help.go",
+      "lineRange": [
+        69,
+        90
+      ],
+      "summary": "实现 formatCommandList 逻辑，是 cmd/multica/help.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/server/comment_attachment_integration_test.go",
+      "type": "file",
+      "name": "comment_attachment_integration_test.go",
+      "filePath": "cmd/server/comment_attachment_integration_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 3 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/comment_attachment_integration_test.go:createTestAttachment",
+      "type": "function",
+      "name": "createTestAttachment",
+      "filePath": "cmd/server/comment_attachment_integration_test.go",
+      "lineRange": [
+        11,
+        26
+      ],
+      "summary": "执行 createTestAttachment 对应的写入或状态变更逻辑，并维护后端一致性。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_attachment_integration_test.go:listCommentAttachmentIDs",
+      "type": "function",
+      "name": "listCommentAttachmentIDs",
+      "filePath": "cmd/server/comment_attachment_integration_test.go",
+      "lineRange": [
+        29,
+        46
+      ],
+      "summary": "读取或组装 listCommentAttachmentIDs 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "type": "function",
+      "name": "TestUpdateCommentAttachments",
+      "filePath": "cmd/server/comment_attachment_integration_test.go",
+      "lineRange": [
+        48,
+        178
+      ],
+      "summary": "测试 cmd/server/comment_attachment_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cmd/server/comment_edit_mention_integration_test.go",
+      "type": "file",
+      "name": "comment_edit_mention_integration_test.go",
+      "filePath": "cmd/server/comment_edit_mention_integration_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 1 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/comment_edit_mention_integration_test.go:TestEditCommentTriggers",
+      "type": "function",
+      "name": "TestEditCommentTriggers",
+      "filePath": "cmd/server/comment_edit_mention_integration_test.go",
+      "lineRange": [
+        9,
+        120
+      ],
+      "summary": "测试 cmd/server/comment_edit_mention_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:cmd/server/comment_trigger_integration_test.go",
+      "type": "file",
+      "name": "comment_trigger_integration_test.go",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 21 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:authRequestWithAgent",
+      "type": "function",
+      "name": "authRequestWithAgent",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        20,
+        42
+      ],
+      "summary": "实现 authRequestWithAgent 逻辑，是 cmd/server/comment_trigger_integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:ensureAgentTask",
+      "type": "function",
+      "name": "ensureAgentTask",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        48,
+        73
+      ],
+      "summary": "执行 ensureAgentTask 对应的写入或状态变更逻辑，并维护后端一致性。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "function",
+      "name": "countPendingTasks",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        76,
+        86
+      ],
+      "summary": "实现 countPendingTasks 逻辑，是 cmd/server/comment_trigger_integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasksForAgent",
+      "type": "function",
+      "name": "countPendingTasksForAgent",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        88,
+        98
+      ],
+      "summary": "实现 countPendingTasksForAgent 逻辑，是 cmd/server/comment_trigger_integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "agent",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:latestTriggerCommentID",
+      "type": "function",
+      "name": "latestTriggerCommentID",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        112,
+        129
+      ],
+      "summary": "实现 latestTriggerCommentID 逻辑，是 cmd/server/comment_trigger_integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "function",
+      "name": "getAgentID",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        132,
+        141
+      ],
+      "summary": "读取或组装 getAgentID 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:createSecondAgent",
+      "type": "function",
+      "name": "createSecondAgent",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        145,
+        173
+      ],
+      "summary": "执行 createSecondAgent 对应的写入或状态变更逻辑，并维护后端一致性。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:createIssueAssignedToAgent",
+      "type": "function",
+      "name": "createIssueAssignedToAgent",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        176,
+        185
+      ],
+      "summary": "执行 createIssueAssignedToAgent 对应的写入或状态变更逻辑，并维护后端一致性。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:createIssue",
+      "type": "function",
+      "name": "createIssue",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        188,
+        202
+      ],
+      "summary": "执行 createIssue 对应的写入或状态变更逻辑，并维护后端一致性。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation",
+        "issue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "function",
+      "name": "postComment",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        205,
+        223
+      ],
+      "summary": "实现 postComment 逻辑，是 cmd/server/comment_trigger_integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:postCommentAsAgent",
+      "type": "function",
+      "name": "postCommentAsAgent",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        226,
+        244
+      ],
+      "summary": "实现 postCommentAsAgent 逻辑，是 cmd/server/comment_trigger_integration_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "type": "function",
+      "name": "TestCommentTriggerOnComment",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        254,
+        382
+      ],
+      "summary": "测试 cmd/server/comment_trigger_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "type": "function",
+      "name": "TestCommentTriggerAtAllSuppression",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        386,
+        411
+      ],
+      "summary": "测试 cmd/server/comment_trigger_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnAssignNoStatusGate",
+      "type": "function",
+      "name": "TestCommentTriggerOnAssignNoStatusGate",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        415,
+        446
+      ],
+      "summary": "测试 cmd/server/comment_trigger_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnMentionNoStatusGate",
+      "type": "function",
+      "name": "TestCommentTriggerOnMentionNoStatusGate",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        450,
+        473
+      ],
+      "summary": "测试 cmd/server/comment_trigger_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "type": "function",
+      "name": "TestCommentTriggerThreadExplicitMentions",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        478,
+        591
+      ],
+      "summary": "测试 cmd/server/comment_trigger_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:TestDeleteCommentCancelsTriggeredTasks",
+      "type": "function",
+      "name": "TestDeleteCommentCancelsTriggeredTasks",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        600,
+        626
+      ],
+      "summary": "测试 cmd/server/comment_trigger_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerCoalescing",
+      "type": "function",
+      "name": "TestCommentTriggerCoalescing",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        630,
+        646
+      ],
+      "summary": "测试 cmd/server/comment_trigger_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerMentionAssigneeDoneIssue",
+      "type": "function",
+      "name": "TestCommentTriggerMentionAssigneeDoneIssue",
+      "filePath": "cmd/server/comment_trigger_integration_test.go",
+      "lineRange": [
+        652,
+        676
+      ],
+      "summary": "测试 cmd/server/comment_trigger_integration_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "issue"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/server/composio_callback_public_test.go",
+      "type": "file",
+      "name": "composio_callback_public_test.go",
+      "filePath": "cmd/server/composio_callback_public_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 2 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/composio_callback_public_test.go:TestComposioCallbackIsPublic_NoCookieNot401",
+      "type": "function",
+      "name": "TestComposioCallbackIsPublic_NoCookieNot401",
+      "filePath": "cmd/server/composio_callback_public_test.go",
+      "lineRange": [
+        22,
+        35
+      ],
+      "summary": "测试 cmd/server/composio_callback_public_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/composio_callback_public_test.go:TestComposioNonCallbackEndpointsStayGated",
+      "type": "function",
+      "name": "TestComposioNonCallbackEndpointsStayGated",
+      "filePath": "cmd/server/composio_callback_public_test.go",
+      "lineRange": [
+        40,
+        68
+      ],
+      "summary": "测试 cmd/server/composio_callback_public_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/server/dbstats_test.go",
+      "type": "file",
+      "name": "dbstats_test.go",
+      "filePath": "cmd/server/dbstats_test.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 8 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "function",
+      "name": "applyPoolSizing",
+      "filePath": "cmd/server/dbstats_test.go",
+      "lineRange": [
+        12,
+        42
+      ],
+      "summary": "实现 applyPoolSizing 逻辑，是 cmd/server/dbstats_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats_test.go:TestPoolSizing_DefaultsWhenNothingSet",
+      "type": "function",
+      "name": "TestPoolSizing_DefaultsWhenNothingSet",
+      "filePath": "cmd/server/dbstats_test.go",
+      "lineRange": [
+        44,
+        49
+      ],
+      "summary": "测试 cmd/server/dbstats_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats_test.go:TestPoolSizing_URLParamsHonoredWhenEnvUnset",
+      "type": "function",
+      "name": "TestPoolSizing_URLParamsHonoredWhenEnvUnset",
+      "filePath": "cmd/server/dbstats_test.go",
+      "lineRange": [
+        51,
+        57
+      ],
+      "summary": "测试 cmd/server/dbstats_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats_test.go:TestPoolSizing_EnvOverridesURL",
+      "type": "function",
+      "name": "TestPoolSizing_EnvOverridesURL",
+      "filePath": "cmd/server/dbstats_test.go",
+      "lineRange": [
+        59,
+        65
+      ],
+      "summary": "测试 cmd/server/dbstats_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats_test.go:TestPoolSizing_PartialURLParam",
+      "type": "function",
+      "name": "TestPoolSizing_PartialURLParam",
+      "filePath": "cmd/server/dbstats_test.go",
+      "lineRange": [
+        67,
+        78
+      ],
+      "summary": "测试 cmd/server/dbstats_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats_test.go:TestPoolSizing_InvalidEnvFallsBackToCodeDefault",
+      "type": "function",
+      "name": "TestPoolSizing_InvalidEnvFallsBackToCodeDefault",
+      "filePath": "cmd/server/dbstats_test.go",
+      "lineRange": [
+        80,
+        91
+      ],
+      "summary": "测试 cmd/server/dbstats_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats_test.go:TestPoolSizing_InvalidEnvFallsBackToURLParam",
+      "type": "function",
+      "name": "TestPoolSizing_InvalidEnvFallsBackToURLParam",
+      "filePath": "cmd/server/dbstats_test.go",
+      "lineRange": [
+        93,
+        102
+      ],
+      "summary": "测试 cmd/server/dbstats_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats_test.go:TestPoolSizing_MinClampedToMax",
+      "type": "function",
+      "name": "TestPoolSizing_MinClampedToMax",
+      "filePath": "cmd/server/dbstats_test.go",
+      "lineRange": [
+        104,
+        109
+      ],
+      "summary": "测试 cmd/server/dbstats_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:cmd/server/dbstats.go",
+      "type": "file",
+      "name": "dbstats.go",
+      "filePath": "cmd/server/dbstats.go",
+      "summary": "后端命令入口或一次性运维任务，封装可执行程序的启动流程。结构上包含 6 个函数。",
+      "tags": [
+        "entry-point",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:cmd/server/dbstats.go:newDBPool",
+      "type": "function",
+      "name": "newDBPool",
+      "filePath": "cmd/server/dbstats.go",
+      "lineRange": [
+        55,
+        84
+      ],
+      "summary": "实现 newDBPool 逻辑，是 cmd/server/dbstats.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats.go:poolParamsFromURL",
+      "type": "function",
+      "name": "poolParamsFromURL",
+      "filePath": "cmd/server/dbstats.go",
+      "lineRange": [
+        90,
+        100
+      ],
+      "summary": "实现 poolParamsFromURL 逻辑，是 cmd/server/dbstats.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats.go:envInt32",
+      "type": "function",
+      "name": "envInt32",
+      "filePath": "cmd/server/dbstats.go",
+      "lineRange": [
+        104,
+        116
+      ],
+      "summary": "实现 envInt32 逻辑，是 cmd/server/dbstats.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats.go:logPoolConfig",
+      "type": "function",
+      "name": "logPoolConfig",
+      "filePath": "cmd/server/dbstats.go",
+      "lineRange": [
+        122,
+        131
+      ],
+      "summary": "实现 logPoolConfig 逻辑，是 cmd/server/dbstats.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats.go:runDBStatsLogger",
+      "type": "function",
+      "name": "runDBStatsLogger",
+      "filePath": "cmd/server/dbstats.go",
+      "lineRange": [
+        139,
+        193
+      ],
+      "summary": "实现 runDBStatsLogger 逻辑，是 cmd/server/dbstats.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:cmd/server/dbstats.go:newSamplerDBPool",
+      "type": "function",
+      "name": "newSamplerDBPool",
+      "filePath": "cmd/server/dbstats.go",
+      "lineRange": [
+        212,
+        223
+      ],
+      "summary": "实现 newSamplerDBPool 逻辑，是 cmd/server/dbstats.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/main_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/main_test.go:TestCorrectedInputTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/main_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/main_test.go:TestConfigParseAndValidate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/backfill_codex_usage_cache/main_test.go",
+      "target": "function:cmd/backfill_codex_usage_cache/main_test.go:TestRollupWindowPadsDatabaseClockRange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "class:cmd/migrate/migrate_concurrent_test.go:fixture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:openTestPool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:newFixture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:appliedVersions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:tableExists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentPending",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentAlreadyApplied",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsAdvisoryLockSerializes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentMixedPoolStress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:equalStrings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/migrate/migrate_concurrent_test.go",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsRejectsInvalidDirection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:newFixture",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:openTestPool",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentPending",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:newFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentPending",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:equalStrings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentAlreadyApplied",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:newFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentAlreadyApplied",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:equalStrings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentAlreadyApplied",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:equalStrings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsAdvisoryLockSerializes",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:newFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsAdvisoryLockSerializes",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:equalStrings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentMixedPoolStress",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:newFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/migrate/migrate_concurrent_test.go:TestRunMigrationsConcurrentMixedPoolStress",
+      "target": "function:cmd/migrate/migrate_concurrent_test.go:equalStrings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/multica/cmd_attachment_test.go",
+      "target": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentDownloadWritesBasenameIntoOutputDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_attachment_test.go",
+      "target": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentUploadSendsTaskIDAndPrintsContract",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_attachment_test.go",
+      "target": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentUploadNonImageUsesFileCardMarkdown",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_attachment_test.go",
+      "target": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentUploadEscapesFilename",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_attachment_test.go",
+      "target": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentUploadRequiresTask",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_attachment_test.go",
+      "target": "function:cmd/multica/cmd_attachment_test.go:TestRunAttachmentDownloadRequiresDownloadURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestMain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestResolveAppURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestResolveCallbackBinding",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestBrowserLoginInstructionsSSHRemoteHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestCallbackHostFlagValueReadsParentSetupFlag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestLoginTokenFlagWiring",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestLoginTokenHelpOutputRendersCleanly",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestLoginTokenFlagParsing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestNormalizeAPIBaseURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_auth_test.go",
+      "target": "function:cmd/multica/cmd_auth_test.go:TestValidateLoginTokenPrefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_log_test.go",
+      "target": "function:cmd/multica/cmd_daemon_log_test.go:TestEnvPositiveIntOrDefault",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_log_test.go",
+      "target": "function:cmd/multica/cmd_daemon_log_test.go:TestOpenBoundedErrLogRolls",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_log_test.go",
+      "target": "function:cmd/multica/cmd_daemon_log_test.go:TestOpenBoundedErrLogKeepsSmall",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_log_test.go",
+      "target": "function:cmd/multica/cmd_daemon_log_test.go:TestNewDaemonLogRotatorDefaults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_log_test.go",
+      "target": "function:cmd/multica/cmd_daemon_log_test.go:TestNewDaemonLogRotatorEnvOverride",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_log_test.go",
+      "target": "function:cmd/multica/cmd_daemon_log_test.go:TestDaemonLogRotatorRotates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_log_test.go",
+      "target": "function:cmd/multica/cmd_daemon_log_test.go:TestDaemonStderrLogPathIsSeparate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_unix.go",
+      "target": "function:cmd/multica/cmd_daemon_unix.go:tailLogFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_windows.go",
+      "target": "function:cmd/multica/cmd_daemon_windows.go:daemonSysProcAttr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_windows.go",
+      "target": "function:cmd/multica/cmd_daemon_windows.go:repointStdioToErrLog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_windows.go",
+      "target": "function:cmd/multica/cmd_daemon_windows.go:openLogForTail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_daemon_windows.go",
+      "target": "function:cmd/multica/cmd_daemon_windows.go:tailLogFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/multica/cmd_daemon_windows.go:tailLogFile",
+      "target": "function:cmd/multica/cmd_daemon_windows.go:openLogForTail",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_daemon_windows.go:tailLogFile",
+      "target": "function:cmd/multica/cmd_daemon_windows.go:openLogForTail",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/multica/cmd_label_test.go",
+      "target": "function:cmd/multica/cmd_label_test.go:TestRunLabelCreateSendsExpectedRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_label_test.go",
+      "target": "function:cmd/multica/cmd_label_test.go:TestRunLabelUpdateSendsOnlyChangedFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_label_test.go",
+      "target": "function:cmd/multica/cmd_label_test.go:TestRunLabelDeletePrintsJsonConfirmation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_label_test.go",
+      "target": "function:cmd/multica/cmd_label_test.go:TestRunLabelCreateRequiresNameAndColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_project_test.go",
+      "target": "function:cmd/multica/cmd_project_test.go:TestValidateProjectStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_project_test.go",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_project_test.go",
+      "target": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_project_test.go",
+      "target": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromRefFlagKeepsJSONEscapeHatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_project_test.go",
+      "target": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsLocalDirectoryMerges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsGithubMergesHint",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromRefFlagKeepsJSONEscapeHatch",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromRefFlagKeepsJSONEscapeHatch",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromRefFlagKeepsJSONEscapeHatch",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromRefFlagKeepsJSONEscapeHatch",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsLocalDirectoryMerges",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsLocalDirectoryMerges",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_project_test.go:TestBuildResourceRefFromFlagsLocalDirectoryMerges",
+      "target": "function:cmd/multica/cmd_project_test.go:newProjectResourceUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/multica/cmd_repo_test.go",
+      "target": "function:cmd/multica/cmd_repo_test.go:newRepoRegistryTestCmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_repo_test.go",
+      "target": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddAppendsAndDedupes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_repo_test.go",
+      "target": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddUpdatesDescriptionForExistingRepo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_repo_test.go",
+      "target": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddRejectsDescriptionForMultipleRepos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_repo_test.go",
+      "target": "function:cmd/multica/cmd_repo_test.go:TestRunRepoRemoveDeletesExistingRepos",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_repo_test.go",
+      "target": "function:cmd/multica/cmd_repo_test.go:TestRunRepoRemoveRejectsMissingRepoWithoutPatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddAppendsAndDedupes",
+      "target": "function:cmd/multica/cmd_repo_test.go:newRepoRegistryTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddUpdatesDescriptionForExistingRepo",
+      "target": "function:cmd/multica/cmd_repo_test.go:newRepoRegistryTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_repo_test.go:TestRunRepoAddRejectsDescriptionForMultipleRepos",
+      "target": "function:cmd/multica/cmd_repo_test.go:newRepoRegistryTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_repo_test.go:TestRunRepoRemoveDeletesExistingRepos",
+      "target": "function:cmd/multica/cmd_repo_test.go:newRepoRegistryTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_repo_test.go:TestRunRepoRemoveRejectsMissingRepoWithoutPatch",
+      "target": "function:cmd/multica/cmd_repo_test.go:newRepoRegistryTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/multica/cmd_runtime_test.go",
+      "target": "function:cmd/multica/cmd_runtime_test.go:newRuntimeDeleteTestCmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_runtime_test.go",
+      "target": "function:cmd/multica/cmd_runtime_test.go:captureRuntimeStdout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_runtime_test.go",
+      "target": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteStrictSuccessPrintsJSON",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_runtime_test.go",
+      "target": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteConflictSuggestsCascade",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_runtime_test.go",
+      "target": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteCascadeConfirmsActiveAgentSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteStrictSuccessPrintsJSON",
+      "target": "function:cmd/multica/cmd_runtime_test.go:newRuntimeDeleteTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteStrictSuccessPrintsJSON",
+      "target": "function:cmd/multica/cmd_runtime_test.go:captureRuntimeStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteConflictSuggestsCascade",
+      "target": "function:cmd/multica/cmd_runtime_test.go:newRuntimeDeleteTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteCascadeConfirmsActiveAgentSnapshot",
+      "target": "function:cmd/multica/cmd_runtime_test.go:newRuntimeDeleteTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_runtime_test.go:TestRunRuntimeDeleteCascadeConfirmsActiveAgentSnapshot",
+      "target": "function:cmd/multica/cmd_runtime_test.go:captureRuntimeStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillImportTestCmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillImportJsonTreatsDuplicateAsConflictResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillImportSendsOnConflictAndPrintsStructuredResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillSearchRequestsSearchEndpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillCreateTestCmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillUpdateTestCmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillFilesUpsertTestCmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillBodyCaptureServer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateReadsContentFileVerbatim",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateKeepsInlineContentLiteral",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillUpdateReadsContentStdinVerbatim",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillFilesUpsertReadsContentFileVerbatim",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillContentInputsAreMutuallyExclusive",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillContentFileAndStdinRejectEmptyInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_skill_test.go",
+      "target": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillImportJsonTreatsDuplicateAsConflictResult",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillImportTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillImportJsonTreatsDuplicateAsConflictResult",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillImportSendsOnConflictAndPrintsStructuredResult",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillImportTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillImportSendsOnConflictAndPrintsStructuredResult",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateReadsContentFileVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillBodyCaptureServer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateReadsContentFileVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillCreateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateReadsContentFileVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateKeepsInlineContentLiteral",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillBodyCaptureServer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateKeepsInlineContentLiteral",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillCreateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillCreateKeepsInlineContentLiteral",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillUpdateReadsContentStdinVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillBodyCaptureServer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillUpdateReadsContentStdinVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillUpdateReadsContentStdinVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillFilesUpsertReadsContentFileVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillBodyCaptureServer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillFilesUpsertReadsContentFileVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillFilesUpsertTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillFilesUpsertReadsContentFileVerbatim",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillContentInputsAreMutuallyExclusive",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillCreateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillContentFileAndStdinRejectEmptyInput",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillCreateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillContentFileAndStdinRejectEmptyInput",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillCreateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillBodyCaptureServer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillCreateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillBodyCaptureServer",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillUpdateTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "target": "function:cmd/multica/cmd_skill_test.go:captureStdout",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_skill_test.go:TestRunSkillInlineEmptyContentKeepsExistingBehavior",
+      "target": "function:cmd/multica/cmd_skill_test.go:newSkillFilesUpsertTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/multica/cmd_squad_test.go",
+      "target": "function:cmd/multica/cmd_squad_test.go:newSquadMemberSetRoleTestCmd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_squad_test.go",
+      "target": "function:cmd/multica/cmd_squad_test.go:TestSquadMemberSetRoleCommandIsRegistered",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_squad_test.go",
+      "target": "function:cmd/multica/cmd_squad_test.go:TestRunSquadMemberSetRolePatchesRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_squad_test.go",
+      "target": "function:cmd/multica/cmd_squad_test.go:TestRunSquadMemberSetRoleValidatesRequiredFlags",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/multica/cmd_squad_test.go:TestRunSquadMemberSetRolePatchesRole",
+      "target": "function:cmd/multica/cmd_squad_test.go:newSquadMemberSetRoleTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_squad_test.go:TestRunSquadMemberSetRoleValidatesRequiredFlags",
+      "target": "function:cmd/multica/cmd_squad_test.go:newSquadMemberSetRoleTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_squad_test.go:TestRunSquadMemberSetRoleValidatesRequiredFlags",
+      "target": "function:cmd/multica/cmd_squad_test.go:newSquadMemberSetRoleTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/multica/cmd_squad_test.go:TestRunSquadMemberSetRoleValidatesRequiredFlags",
+      "target": "function:cmd/multica/cmd_squad_test.go:newSquadMemberSetRoleTestCmd",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/multica/cmd_update_test.go",
+      "target": "function:cmd/multica/cmd_update_test.go:TestRunUpdateRejectsNonPositiveDownloadTimeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_update_test.go",
+      "target": "function:cmd/multica/cmd_update_test.go:TestUpdateCommandRegistersDownloadTimeoutFlag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_user_test.go",
+      "target": "function:cmd/multica/cmd_user_test.go:TestRunUserProfileGetPrintsMeJSON",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_user_test.go",
+      "target": "function:cmd/multica/cmd_user_test.go:TestRunUserProfileUpdateSendsResolvedDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_user_test.go",
+      "target": "function:cmd/multica/cmd_user_test.go:TestRunUserProfileUpdateClearSendsEmptyDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/cmd_version.go",
+      "target": "function:cmd/multica/cmd_version.go:runVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/help.go",
+      "target": "function:cmd/multica/help.go:exactArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/help.go",
+      "target": "function:cmd/multica/help.go:initHelp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/help.go",
+      "target": "function:cmd/multica/help.go:applyTemplates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/multica/help.go",
+      "target": "function:cmd/multica/help.go:formatCommandList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/multica/help.go:initHelp",
+      "target": "function:cmd/multica/help.go:applyTemplates",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/server/comment_attachment_integration_test.go",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:createTestAttachment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_attachment_integration_test.go",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:listCommentAttachmentIDs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_attachment_integration_test.go",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:createTestAttachment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:createTestAttachment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:createTestAttachment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:listCommentAttachmentIDs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:listCommentAttachmentIDs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:createTestAttachment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:listCommentAttachmentIDs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:listCommentAttachmentIDs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:createTestAttachment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:listCommentAttachmentIDs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_attachment_integration_test.go:TestUpdateCommentAttachments",
+      "target": "function:cmd/server/comment_attachment_integration_test.go:listCommentAttachmentIDs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/server/comment_edit_mention_integration_test.go",
+      "target": "function:cmd/server/comment_edit_mention_integration_test.go:TestEditCommentTriggers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:authRequestWithAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:ensureAgentTask",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasksForAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:latestTriggerCommentID",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createSecondAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssueAssignedToAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postCommentAsAgent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnAssignNoStatusGate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnMentionNoStatusGate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:TestDeleteCommentCancelsTriggeredTasks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerCoalescing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/comment_trigger_integration_test.go",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerMentionAssigneeDoneIssue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:authRequestWithAgent",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:ensureAgentTask",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:createIssueAssignedToAgent",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssue",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:postCommentAsAgent",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:authRequestWithAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssueAssignedToAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postCommentAsAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postCommentAsAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:latestTriggerCommentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postCommentAsAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnComment",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssueAssignedToAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postCommentAsAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerAtAllSuppression",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnAssignNoStatusGate",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnAssignNoStatusGate",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssue",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnAssignNoStatusGate",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnMentionNoStatusGate",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnMentionNoStatusGate",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssue",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnMentionNoStatusGate",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerOnMentionNoStatusGate",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssue",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createSecondAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasksForAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasksForAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasksForAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasksForAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createSecondAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerThreadExplicitMentions",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestDeleteCommentCancelsTriggeredTasks",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestDeleteCommentCancelsTriggeredTasks",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssueAssignedToAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestDeleteCommentCancelsTriggeredTasks",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestDeleteCommentCancelsTriggeredTasks",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestDeleteCommentCancelsTriggeredTasks",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerCoalescing",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerCoalescing",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssueAssignedToAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerCoalescing",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerCoalescing",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerCoalescing",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerMentionAssigneeDoneIssue",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:getAgentID",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerMentionAssigneeDoneIssue",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:createIssueAssignedToAgent",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerMentionAssigneeDoneIssue",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:postComment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/comment_trigger_integration_test.go:TestCommentTriggerMentionAssigneeDoneIssue",
+      "target": "function:cmd/server/comment_trigger_integration_test.go:countPendingTasks",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/server/composio_callback_public_test.go",
+      "target": "function:cmd/server/composio_callback_public_test.go:TestComposioCallbackIsPublic_NoCookieNot401",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/composio_callback_public_test.go",
+      "target": "function:cmd/server/composio_callback_public_test.go:TestComposioNonCallbackEndpointsStayGated",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats_test.go",
+      "target": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats_test.go",
+      "target": "function:cmd/server/dbstats_test.go:TestPoolSizing_DefaultsWhenNothingSet",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats_test.go",
+      "target": "function:cmd/server/dbstats_test.go:TestPoolSizing_URLParamsHonoredWhenEnvUnset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats_test.go",
+      "target": "function:cmd/server/dbstats_test.go:TestPoolSizing_EnvOverridesURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats_test.go",
+      "target": "function:cmd/server/dbstats_test.go:TestPoolSizing_PartialURLParam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats_test.go",
+      "target": "function:cmd/server/dbstats_test.go:TestPoolSizing_InvalidEnvFallsBackToCodeDefault",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats_test.go",
+      "target": "function:cmd/server/dbstats_test.go:TestPoolSizing_InvalidEnvFallsBackToURLParam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats_test.go",
+      "target": "function:cmd/server/dbstats_test.go:TestPoolSizing_MinClampedToMax",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/server/dbstats_test.go:TestPoolSizing_DefaultsWhenNothingSet",
+      "target": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/dbstats_test.go:TestPoolSizing_URLParamsHonoredWhenEnvUnset",
+      "target": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/dbstats_test.go:TestPoolSizing_EnvOverridesURL",
+      "target": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/dbstats_test.go:TestPoolSizing_PartialURLParam",
+      "target": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/dbstats_test.go:TestPoolSizing_InvalidEnvFallsBackToCodeDefault",
+      "target": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/dbstats_test.go:TestPoolSizing_InvalidEnvFallsBackToURLParam",
+      "target": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/dbstats_test.go:TestPoolSizing_MinClampedToMax",
+      "target": "function:cmd/server/dbstats_test.go:applyPoolSizing",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:cmd/server/dbstats.go",
+      "target": "function:cmd/server/dbstats.go:newDBPool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats.go",
+      "target": "function:cmd/server/dbstats.go:poolParamsFromURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats.go",
+      "target": "function:cmd/server/dbstats.go:envInt32",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats.go",
+      "target": "function:cmd/server/dbstats.go:logPoolConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats.go",
+      "target": "function:cmd/server/dbstats.go:runDBStatsLogger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:cmd/server/dbstats.go",
+      "target": "function:cmd/server/dbstats.go:newSamplerDBPool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:cmd/server/dbstats.go:newDBPool",
+      "target": "function:cmd/server/dbstats.go:poolParamsFromURL",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/dbstats.go:newDBPool",
+      "target": "function:cmd/server/dbstats.go:envInt32",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:cmd/server/dbstats.go:newDBPool",
+      "target": "function:cmd/server/dbstats.go:envInt32",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

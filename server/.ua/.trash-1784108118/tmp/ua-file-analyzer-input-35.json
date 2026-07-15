@@ -1,0 +1,168 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "cmd/server/health_realtime_test.go",
+      "language": "go",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/health_test.go",
+      "language": "go",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/main_test.go",
+      "language": "go",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/trusted_proxies_test.go",
+      "language": "go",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/reserved_slugs.json",
+      "language": "json",
+      "sizeLines": 149,
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-autopilots/references/autopilots-source-map.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-autopilots/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 69,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-creating-agents/references/creating-agents-source-map.md",
+      "language": "markdown",
+      "sizeLines": 125,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-creating-agents/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 231,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-mentioning/references/mentioning-source-map.md",
+      "language": "markdown",
+      "sizeLines": 122,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-mentioning/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 158,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-projects-and-resources/references/projects-and-resources-source-map.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-projects-and-resources/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 79,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-runtimes-and-repos/references/runtimes-and-repos-source-map.md",
+      "language": "markdown",
+      "sizeLines": 12,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-runtimes-and-repos/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 77,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-skill-importing/references/skill-importing-source-map.md",
+      "language": "markdown",
+      "sizeLines": 140,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-skill-importing/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 269,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-squads/references/squad-source-map.md",
+      "language": "markdown",
+      "sizeLines": 249,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-squads/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 255,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-working-on-issues/references/working-on-issues-source-map.md",
+      "language": "markdown",
+      "sizeLines": 185,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-working-on-issues/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 277,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "pkg/agent/testdata/openclaw-2026.5.5-stdout.json",
+      "language": "json",
+      "sizeLines": 1070,
+      "fileCategory": "config"
+    },
+    {
+      "path": "pkg/composio/README.md",
+      "language": "markdown",
+      "sizeLines": 159,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "cmd/server/health_realtime_test.go": [],
+    "cmd/server/health_test.go": [],
+    "cmd/server/main_test.go": [],
+    "cmd/server/trusted_proxies_test.go": [],
+    "internal/handler/reserved_slugs.json": [],
+    "internal/service/builtin_skills/multica-autopilots/references/autopilots-source-map.md": [],
+    "internal/service/builtin_skills/multica-autopilots/SKILL.md": [],
+    "internal/service/builtin_skills/multica-creating-agents/references/creating-agents-source-map.md": [],
+    "internal/service/builtin_skills/multica-creating-agents/SKILL.md": [],
+    "internal/service/builtin_skills/multica-mentioning/references/mentioning-source-map.md": [],
+    "internal/service/builtin_skills/multica-mentioning/SKILL.md": [],
+    "internal/service/builtin_skills/multica-projects-and-resources/references/projects-and-resources-source-map.md": [],
+    "internal/service/builtin_skills/multica-projects-and-resources/SKILL.md": [],
+    "internal/service/builtin_skills/multica-runtimes-and-repos/references/runtimes-and-repos-source-map.md": [],
+    "internal/service/builtin_skills/multica-runtimes-and-repos/SKILL.md": [],
+    "internal/service/builtin_skills/multica-skill-importing/references/skill-importing-source-map.md": [],
+    "internal/service/builtin_skills/multica-skill-importing/SKILL.md": [],
+    "internal/service/builtin_skills/multica-squads/references/squad-source-map.md": [],
+    "internal/service/builtin_skills/multica-squads/SKILL.md": [],
+    "internal/service/builtin_skills/multica-working-on-issues/references/working-on-issues-source-map.md": [],
+    "internal/service/builtin_skills/multica-working-on-issues/SKILL.md": [],
+    "pkg/agent/testdata/openclaw-2026.5.5-stdout.json": [],
+    "pkg/composio/README.md": []
+  }
+}

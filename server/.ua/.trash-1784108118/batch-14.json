@@ -1,0 +1,6192 @@
+{
+  "nodes": [
+    {
+      "id": "file:internal/daemon/runtime_mcp.go",
+      "type": "file",
+      "name": "runtime_mcp.go",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 9 个函数、1 个类型。",
+      "tags": [
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/daemon/runtime_mcp.go:runtimeLocalMcpServerSummary",
+      "type": "class",
+      "name": "runtimeLocalMcpServerSummary",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        18,
+        23
+      ],
+      "summary": "内部类型 runtimeLocalMcpServerSummary 表达 internal/daemon/runtime_mcp.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:mergeRuntimeAndAgentMcpConfig",
+      "type": "function",
+      "name": "mergeRuntimeAndAgentMcpConfig",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        35,
+        78
+      ],
+      "summary": "实现 mergeRuntimeAndAgentMcpConfig 逻辑，是 internal/daemon/runtime_mcp.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:loadRuntimeMcpServerConfigs",
+      "type": "function",
+      "name": "loadRuntimeMcpServerConfigs",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        84,
+        152
+      ],
+      "summary": "读取或组装 loadRuntimeMcpServerConfigs 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "api-handler",
+        "query"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:normalizeRuntimeMcpEntry",
+      "type": "function",
+      "name": "normalizeRuntimeMcpEntry",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        154,
+        173
+      ],
+      "summary": "实现 normalizeRuntimeMcpEntry 逻辑，是 internal/daemon/runtime_mcp.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:loadClaudePluginMcpServerConfigs",
+      "type": "function",
+      "name": "loadClaudePluginMcpServerConfigs",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        175,
+        205
+      ],
+      "summary": "读取或组装 loadClaudePluginMcpServerConfigs 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "api-handler",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:listRuntimeLocalMcpServers",
+      "type": "function",
+      "name": "listRuntimeLocalMcpServers",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        207,
+        284
+      ],
+      "summary": "读取或组装 listRuntimeLocalMcpServers 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "api-handler",
+        "query"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:runtimeMcpSummaries",
+      "type": "function",
+      "name": "runtimeMcpSummaries",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        286,
+        308
+      ],
+      "summary": "实现 runtimeMcpSummaries 逻辑，是 internal/daemon/runtime_mcp.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:listClaudePluginMcpServers",
+      "type": "function",
+      "name": "listClaudePluginMcpServers",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        310,
+        336
+      ],
+      "summary": "读取或组装 listClaudePluginMcpServers 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "api-handler",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:nestedRuntimeMcpMap",
+      "type": "function",
+      "name": "nestedRuntimeMcpMap",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        338,
+        356
+      ],
+      "summary": "实现 nestedRuntimeMcpMap 逻辑，是 internal/daemon/runtime_mcp.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp.go:runtimeMcpTransport",
+      "type": "function",
+      "name": "runtimeMcpTransport",
+      "filePath": "internal/daemon/runtime_mcp.go",
+      "lineRange": [
+        358,
+        375
+      ],
+      "summary": "实现 runtimeMcpTransport 逻辑，是 internal/daemon/runtime_mcp.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/runtime_mcp_test.go",
+      "type": "file",
+      "name": "runtime_mcp_test.go",
+      "filePath": "internal/daemon/runtime_mcp_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 7 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp_test.go:TestListRuntimeLocalMcpServersCodexRedactsDetails",
+      "type": "function",
+      "name": "TestListRuntimeLocalMcpServersCodexRedactsDetails",
+      "filePath": "internal/daemon/runtime_mcp_test.go",
+      "lineRange": [
+        10,
+        43
+      ],
+      "summary": "测试 internal/daemon/runtime_mcp_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp_test.go:TestListRuntimeLocalMcpServersClaudeMissingConfig",
+      "type": "function",
+      "name": "TestListRuntimeLocalMcpServersClaudeMissingConfig",
+      "filePath": "internal/daemon/runtime_mcp_test.go",
+      "lineRange": [
+        45,
+        54
+      ],
+      "summary": "测试 internal/daemon/runtime_mcp_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp_test.go:TestListRuntimeLocalMcpServersClaudeEnabledPlugin",
+      "type": "function",
+      "name": "TestListRuntimeLocalMcpServersClaudeEnabledPlugin",
+      "filePath": "internal/daemon/runtime_mcp_test.go",
+      "lineRange": [
+        56,
+        78
+      ],
+      "summary": "测试 internal/daemon/runtime_mcp_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp_test.go:TestListRuntimeLocalMcpServersUnknownProvider",
+      "type": "function",
+      "name": "TestListRuntimeLocalMcpServersUnknownProvider",
+      "filePath": "internal/daemon/runtime_mcp_test.go",
+      "lineRange": [
+        80,
+        89
+      ],
+      "summary": "测试 internal/daemon/runtime_mcp_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp_test.go:TestMergeRuntimeAndAgentMcpConfigClaudeCombinesAndAgentWins",
+      "type": "function",
+      "name": "TestMergeRuntimeAndAgentMcpConfigClaudeCombinesAndAgentWins",
+      "filePath": "internal/daemon/runtime_mcp_test.go",
+      "lineRange": [
+        91,
+        128
+      ],
+      "summary": "测试 internal/daemon/runtime_mcp_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp_test.go:TestMergeRuntimeAndAgentMcpConfigCodexNormalizesHeaders",
+      "type": "function",
+      "name": "TestMergeRuntimeAndAgentMcpConfigCodexNormalizesHeaders",
+      "filePath": "internal/daemon/runtime_mcp_test.go",
+      "lineRange": [
+        130,
+        170
+      ],
+      "summary": "测试 internal/daemon/runtime_mcp_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_mcp_test.go:TestMergeRuntimeAndAgentMcpConfigNullKeepsNativeInheritance",
+      "type": "function",
+      "name": "TestMergeRuntimeAndAgentMcpConfigNullKeepsNativeInheritance",
+      "filePath": "internal/daemon/runtime_mcp_test.go",
+      "lineRange": [
+        172,
+        183
+      ],
+      "summary": "测试 internal/daemon/runtime_mcp_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/runtime_profile_drift_test.go",
+      "type": "file",
+      "name": "runtime_profile_drift_test.go",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 14 个函数、1 个类型、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/daemon/runtime_profile_drift_test.go:driftFixture",
+      "type": "class",
+      "name": "driftFixture",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        103,
+        112
+      ],
+      "summary": "内部类型 driftFixture 表达 internal/daemon/runtime_profile_drift_test.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestProfileSetSignature_StableUnderReorder",
+      "type": "function",
+      "name": "TestProfileSetSignature_StableUnderReorder",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        20,
+        32
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestProfileSetSignature_DetectsRegistrationAffectingChanges",
+      "type": "function",
+      "name": "TestProfileSetSignature_DetectsRegistrationAffectingChanges",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        38,
+        96
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:recordedDeregisters",
+      "type": "function",
+      "name": "recordedDeregisters",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        135,
+        145
+      ],
+      "summary": "实现 recordedDeregisters 逻辑，是 internal/daemon/runtime_profile_drift_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:newDriftFixture",
+      "type": "function",
+      "name": "newDriftFixture",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        147,
+        205
+      ],
+      "summary": "实现 newDriftFixture 逻辑，是 internal/daemon/runtime_profile_drift_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestSyncWorkspacesSkipsRuntimeProfileRefreshOnExistingWorkspace",
+      "type": "function",
+      "name": "TestSyncWorkspacesSkipsRuntimeProfileRefreshOnExistingWorkspace",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        213,
+        246
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestSyncWorkspacesRefreshesRuntimeProfilesOnReconcile",
+      "type": "function",
+      "name": "TestSyncWorkspacesRefreshesRuntimeProfilesOnReconcile",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        253,
+        286
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_NoDrift_DoesNotReregister",
+      "type": "function",
+      "name": "TestRefreshWorkspaceRuntimeProfiles_NoDrift_DoesNotReregister",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        292,
+        325
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_NewProfileTriggersReregister",
+      "type": "function",
+      "name": "TestRefreshWorkspaceRuntimeProfiles_NewProfileTriggersReregister",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        331,
+        414
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "workspace"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DriftWithRunningRuntimeSkipsOrphanRecovery",
+      "type": "function",
+      "name": "TestRefreshWorkspaceRuntimeProfiles_DriftWithRunningRuntimeSkipsOrphanRecovery",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        423,
+        476
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DisableConvergesCustomOnlyDaemon",
+      "type": "function",
+      "name": "TestRefreshWorkspaceRuntimeProfiles_DisableConvergesCustomOnlyDaemon",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        485,
+        576
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "workspace"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DisableOneOfManyDeregistersDroppedID",
+      "type": "function",
+      "name": "TestRefreshWorkspaceRuntimeProfiles_DisableOneOfManyDeregistersDroppedID",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        584,
+        653
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "workspace"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_FetchErrorIsBestEffort",
+      "type": "function",
+      "name": "TestRefreshWorkspaceRuntimeProfiles_FetchErrorIsBestEffort",
+      "filePath": "internal/daemon/runtime_profile_drift_test.go",
+      "lineRange": [
+        658,
+        693
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_drift_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query",
+        "workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/runtime_profile_test.go",
+      "type": "file",
+      "name": "runtime_profile_test.go",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 12 个函数、2 个类型、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/daemon/runtime_profile_test.go:profileRegisterFixture",
+      "type": "class",
+      "name": "profileRegisterFixture",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        92,
+        97
+      ],
+      "summary": "内部类型 profileRegisterFixture 表达 internal/daemon/runtime_profile_test.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:stubLookPath",
+      "type": "function",
+      "name": "stubLookPath",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        18,
+        28
+      ],
+      "summary": "实现 stubLookPath 逻辑，是 internal/daemon/runtime_profile_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:Error",
+      "type": "function",
+      "name": "Error",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        32,
+        32
+      ],
+      "summary": "实现 Error 逻辑，是 internal/daemon/runtime_profile_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:TestClient_GetRuntimeProfiles_RequestShape",
+      "type": "function",
+      "name": "TestClient_GetRuntimeProfiles_RequestShape",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        36,
+        87
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:newProfileRegisterFixture",
+      "type": "function",
+      "name": "newProfileRegisterFixture",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        99,
+        149
+      ],
+      "summary": "实现 newProfileRegisterFixture 逻辑，是 internal/daemon/runtime_profile_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_AppendsProfileRuntime",
+      "type": "function",
+      "name": "TestRegisterRuntimes_AppendsProfileRuntime",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        156,
+        208
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_SkipsProfileNotOnPath",
+      "type": "function",
+      "name": "TestRegisterRuntimes_SkipsProfileNotOnPath",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        213,
+        245
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_SkipsUnsupportedProfileFamily",
+      "type": "function",
+      "name": "TestRegisterRuntimes_SkipsUnsupportedProfileFamily",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        250,
+        293
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_ProfilesFetchErrorIsBestEffort",
+      "type": "function",
+      "name": "TestRegisterRuntimes_ProfilesFetchErrorIsBestEffort",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        297,
+        316
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_PrefersCommandPathOverride",
+      "type": "function",
+      "name": "TestRegisterRuntimes_PrefersCommandPathOverride",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        322,
+        351
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_OverrideNotExecutableFallsBackToPath",
+      "type": "function",
+      "name": "TestRegisterRuntimes_OverrideNotExecutableFallsBackToPath",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        356,
+        382
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/runtime_profile_test.go:TestCustomCommandPathForRuntime",
+      "type": "function",
+      "name": "TestCustomCommandPathForRuntime",
+      "filePath": "internal/daemon/runtime_profile_test.go",
+      "lineRange": [
+        395,
+        421
+      ],
+      "summary": "测试 internal/daemon/runtime_profile_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/skill_bundle_resolve_test.go",
+      "type": "file",
+      "name": "skill_bundle_resolve_test.go",
+      "filePath": "internal/daemon/skill_bundle_resolve_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 5 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/skill_bundle_resolve_test.go:TestSkillBundleResolveTimeout",
+      "type": "function",
+      "name": "TestSkillBundleResolveTimeout",
+      "filePath": "internal/daemon/skill_bundle_resolve_test.go",
+      "lineRange": [
+        13,
+        32
+      ],
+      "summary": "测试 internal/daemon/skill_bundle_resolve_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_bundle_resolve_test.go:makeResolvableSkillBundleWith",
+      "type": "function",
+      "name": "makeResolvableSkillBundleWith",
+      "filePath": "internal/daemon/skill_bundle_resolve_test.go",
+      "lineRange": [
+        38,
+        52
+      ],
+      "summary": "实现 makeResolvableSkillBundleWith 逻辑，是 internal/daemon/skill_bundle_resolve_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_bundle_resolve_test.go:TestEnsureTaskSkillBundles_CachesEachSuccessAcrossDispatches",
+      "type": "function",
+      "name": "TestEnsureTaskSkillBundles_CachesEachSuccessAcrossDispatches",
+      "filePath": "internal/daemon/skill_bundle_resolve_test.go",
+      "lineRange": [
+        67,
+        172
+      ],
+      "summary": "测试 internal/daemon/skill_bundle_resolve_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/skill_bundle_resolve_test.go:TestEnsureTaskSkillBundles_AcceptsServerSideSkillUpdate",
+      "type": "function",
+      "name": "TestEnsureTaskSkillBundles_AcceptsServerSideSkillUpdate",
+      "filePath": "internal/daemon/skill_bundle_resolve_test.go",
+      "lineRange": [
+        181,
+        229
+      ],
+      "summary": "测试 internal/daemon/skill_bundle_resolve_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/skill_cache.go",
+      "type": "file",
+      "name": "skill_cache.go",
+      "filePath": "internal/daemon/skill_cache.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 9 个函数、1 个类型。",
+      "tags": [
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/daemon/skill_cache.go:SkillBundleCache",
+      "type": "class",
+      "name": "SkillBundleCache",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        15,
+        19
+      ],
+      "summary": "导出类型 SkillBundleCache 表达 internal/daemon/skill_cache.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:NewSkillBundleCache",
+      "type": "function",
+      "name": "NewSkillBundleCache",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        21,
+        23
+      ],
+      "summary": "实现 NewSkillBundleCache 逻辑，是 internal/daemon/skill_cache.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:Load",
+      "type": "function",
+      "name": "Load",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        25,
+        40
+      ],
+      "summary": "读取或组装 Load 所需的数据，供 handler 或 service 层使用。",
+      "tags": [
+        "function",
+        "go",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:Store",
+      "type": "function",
+      "name": "Store",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        42,
+        72
+      ],
+      "summary": "实现 Store 逻辑，是 internal/daemon/skill_cache.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:WithRefLock",
+      "type": "function",
+      "name": "WithRefLock",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        74,
+        83
+      ],
+      "summary": "实现 WithRefLock 逻辑，是 internal/daemon/skill_cache.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:lockForKey",
+      "type": "function",
+      "name": "lockForKey",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        85,
+        94
+      ],
+      "summary": "实现 lockForKey 逻辑，是 internal/daemon/skill_cache.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:bundlePath",
+      "type": "function",
+      "name": "bundlePath",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        96,
+        105
+      ],
+      "summary": "实现 bundlePath 逻辑，是 internal/daemon/skill_cache.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:validateSkillBundle",
+      "type": "function",
+      "name": "validateSkillBundle",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        107,
+        136
+      ],
+      "summary": "实现 validateSkillBundle 逻辑，是 internal/daemon/skill_cache.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:safeSkillFilePath",
+      "type": "function",
+      "name": "safeSkillFilePath",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        138,
+        147
+      ],
+      "summary": "实现 safeSkillFilePath 逻辑，是 internal/daemon/skill_cache.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache.go:safeCacheSegment",
+      "type": "function",
+      "name": "safeCacheSegment",
+      "filePath": "internal/daemon/skill_cache.go",
+      "lineRange": [
+        149,
+        173
+      ],
+      "summary": "实现 safeCacheSegment 逻辑，是 internal/daemon/skill_cache.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/skill_cache_test.go",
+      "type": "file",
+      "name": "skill_cache_test.go",
+      "filePath": "internal/daemon/skill_cache_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 3 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache_test.go:TestSkillBundleCacheLoadStore",
+      "type": "function",
+      "name": "TestSkillBundleCacheLoadStore",
+      "filePath": "internal/daemon/skill_cache_test.go",
+      "lineRange": [
+        8,
+        23
+      ],
+      "summary": "测试 internal/daemon/skill_cache_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache_test.go:TestSkillBundleCacheRejectsCorruptBundle",
+      "type": "function",
+      "name": "TestSkillBundleCacheRejectsCorruptBundle",
+      "filePath": "internal/daemon/skill_cache_test.go",
+      "lineRange": [
+        25,
+        43
+      ],
+      "summary": "测试 internal/daemon/skill_cache_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/skill_cache_test.go:testSkillBundle",
+      "type": "function",
+      "name": "testSkillBundle",
+      "filePath": "internal/daemon/skill_cache_test.go",
+      "lineRange": [
+        45,
+        59
+      ],
+      "summary": "实现 testSkillBundle 逻辑，是 internal/daemon/skill_cache_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/slash_skill.go",
+      "type": "file",
+      "name": "slash_skill.go",
+      "filePath": "internal/daemon/slash_skill.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 1 个函数、1 个类型。",
+      "tags": [
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/daemon/slash_skill.go:SlashSkillRef",
+      "type": "class",
+      "name": "SlashSkillRef",
+      "filePath": "internal/daemon/slash_skill.go",
+      "lineRange": [
+        12,
+        15
+      ],
+      "summary": "导出类型 SlashSkillRef 表达 internal/daemon/slash_skill.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/slash_skill.go:ExtractSlashSkills",
+      "type": "function",
+      "name": "ExtractSlashSkills",
+      "filePath": "internal/daemon/slash_skill.go",
+      "lineRange": [
+        17,
+        35
+      ],
+      "summary": "实现 ExtractSlashSkills 逻辑，是 internal/daemon/slash_skill.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/slash_skill_test.go",
+      "type": "file",
+      "name": "slash_skill_test.go",
+      "filePath": "internal/daemon/slash_skill_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 2 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/slash_skill_test.go:TestExtractSlashSkills",
+      "type": "function",
+      "name": "TestExtractSlashSkills",
+      "filePath": "internal/daemon/slash_skill_test.go",
+      "lineRange": [
+        5,
+        57
+      ],
+      "summary": "测试 internal/daemon/slash_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/slash_skill_test.go:TestExtractSlashSkillsDoesNotMatchPartialProtocol",
+      "type": "function",
+      "name": "TestExtractSlashSkillsDoesNotMatchPartialProtocol",
+      "filePath": "internal/daemon/slash_skill_test.go",
+      "lineRange": [
+        59,
+        69
+      ],
+      "summary": "测试 internal/daemon/slash_skill_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/thread_name.go",
+      "type": "file",
+      "name": "thread_name.go",
+      "filePath": "internal/daemon/thread_name.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 2 个函数。",
+      "tags": [
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/thread_name.go:deriveTaskThreadName",
+      "type": "function",
+      "name": "deriveTaskThreadName",
+      "filePath": "internal/daemon/thread_name.go",
+      "lineRange": [
+        7,
+        21
+      ],
+      "summary": "实现 deriveTaskThreadName 逻辑，是 internal/daemon/thread_name.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/thread_name.go:normalizeThreadName",
+      "type": "function",
+      "name": "normalizeThreadName",
+      "filePath": "internal/daemon/thread_name.go",
+      "lineRange": [
+        23,
+        40
+      ],
+      "summary": "实现 normalizeThreadName 逻辑，是 internal/daemon/thread_name.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/thread_name_test.go",
+      "type": "file",
+      "name": "thread_name_test.go",
+      "filePath": "internal/daemon/thread_name_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 3 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/thread_name_test.go:TestDeriveTaskThreadNamePrefersClaimedThreadName",
+      "type": "function",
+      "name": "TestDeriveTaskThreadNamePrefersClaimedThreadName",
+      "filePath": "internal/daemon/thread_name_test.go",
+      "lineRange": [
+        8,
+        19
+      ],
+      "summary": "测试 internal/daemon/thread_name_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/thread_name_test.go:TestDeriveTaskThreadNameFallsBackToTaskContext",
+      "type": "function",
+      "name": "TestDeriveTaskThreadNameFallsBackToTaskContext",
+      "filePath": "internal/daemon/thread_name_test.go",
+      "lineRange": [
+        21,
+        28
+      ],
+      "summary": "测试 internal/daemon/thread_name_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/thread_name_test.go:TestNormalizeThreadNameCollapsesWhitespaceAndTruncates",
+      "type": "function",
+      "name": "TestNormalizeThreadNameCollapsesWhitespaceAndTruncates",
+      "filePath": "internal/daemon/thread_name_test.go",
+      "lineRange": [
+        30,
+        44
+      ],
+      "summary": "测试 internal/daemon/thread_name_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/token_renewal_test.go",
+      "type": "file",
+      "name": "token_renewal_test.go",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 11 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestClient_RenewToken_PostsToCorrectEndpoint",
+      "type": "function",
+      "name": "TestClient_RenewToken_PostsToCorrectEndpoint",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        24,
+        67
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_LogsRenewalOnSuccess",
+      "type": "function",
+      "name": "TestTryRenewToken_LogsRenewalOnSuccess",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        69,
+        90
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_LogsNotEligibleOnNoOp",
+      "type": "function",
+      "name": "TestTryRenewToken_LogsNotEligibleOnNoOp",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        92,
+        113
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_SurfacesReloginWarningOn401",
+      "type": "function",
+      "name": "TestTryRenewToken_SurfacesReloginWarningOn401",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        115,
+        134
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_SurfacesReloginWarningOn401_WithProfile",
+      "type": "function",
+      "name": "TestTryRenewToken_SurfacesReloginWarningOn401_WithProfile",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        136,
+        155
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_TransientErrorIsDebugNotWarn",
+      "type": "function",
+      "name": "TestTryRenewToken_TransientErrorIsDebugNotWarn",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        157,
+        177
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestPreflightAuth_RenewsBeforeWorkspaceSyncOnExpiredToken",
+      "type": "function",
+      "name": "TestPreflightAuth_RenewsBeforeWorkspaceSyncOnExpiredToken",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        184,
+        225
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth",
+        "workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestPreflightAuth_SyncProceedsWhenRenewIsNoOp",
+      "type": "function",
+      "name": "TestPreflightAuth_SyncProceedsWhenRenewIsNoOp",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        231,
+        261
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestPreflightAuth_TransientRenewFailureDoesNotBlockStartup",
+      "type": "function",
+      "name": "TestPreflightAuth_TransientRenewFailureDoesNotBlockStartup",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        267,
+        297
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_RespectsContextTimeout",
+      "type": "function",
+      "name": "TestTryRenewToken_RespectsContextTimeout",
+      "filePath": "internal/daemon/token_renewal_test.go",
+      "lineRange": [
+        299,
+        325
+      ],
+      "summary": "测试 internal/daemon/token_renewal_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/types.go",
+      "type": "file",
+      "name": "types.go",
+      "filePath": "internal/daemon/types.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 14 个类型。",
+      "tags": [
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/daemon/types.go:AgentEntry",
+      "type": "class",
+      "name": "AgentEntry",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        10,
+        21
+      ],
+      "summary": "导出类型 AgentEntry 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:Runtime",
+      "type": "class",
+      "name": "Runtime",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        24,
+        35
+      ],
+      "summary": "导出类型 Runtime 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:RepoData",
+      "type": "class",
+      "name": "RepoData",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        38,
+        42
+      ],
+      "summary": "导出类型 RepoData 封装 internal/daemon/types.go 中的状态、依赖或服务协作边界。",
+      "tags": [
+        "type-definition",
+        "go",
+        "data-access"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:ProjectResourceData",
+      "type": "class",
+      "name": "ProjectResourceData",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        46,
+        51
+      ],
+      "summary": "导出类型 ProjectResourceData 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:Task",
+      "type": "class",
+      "name": "Task",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        59,
+        139
+      ],
+      "summary": "导出类型 Task 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:internal/daemon/types.go:ChatAttachmentMeta",
+      "type": "class",
+      "name": "ChatAttachmentMeta",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        146,
+        150
+      ],
+      "summary": "导出类型 ChatAttachmentMeta 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:CoalescedCommentData",
+      "type": "class",
+      "name": "CoalescedCommentData",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        156,
+        163
+      ],
+      "summary": "导出类型 CoalescedCommentData 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:AgentData",
+      "type": "class",
+      "name": "AgentData",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        166,
+        182
+      ],
+      "summary": "导出类型 AgentData 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:SkillData",
+      "type": "class",
+      "name": "SkillData",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        185,
+        194
+      ],
+      "summary": "导出类型 SkillData 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:SkillFileData",
+      "type": "class",
+      "name": "SkillFileData",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        197,
+        202
+      ],
+      "summary": "导出类型 SkillFileData 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:SkillRefData",
+      "type": "class",
+      "name": "SkillRefData",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        204,
+        213
+      ],
+      "summary": "导出类型 SkillRefData 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:SkillFileRefData",
+      "type": "class",
+      "name": "SkillFileRefData",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        215,
+        219
+      ],
+      "summary": "导出类型 SkillFileRefData 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:TaskUsageEntry",
+      "type": "class",
+      "name": "TaskUsageEntry",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        222,
+        229
+      ],
+      "summary": "导出类型 TaskUsageEntry 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/types.go:TaskResult",
+      "type": "class",
+      "name": "TaskResult",
+      "filePath": "internal/daemon/types.go",
+      "lineRange": [
+        232,
+        242
+      ],
+      "summary": "导出类型 TaskResult 表达 internal/daemon/types.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/update_report_test.go",
+      "type": "file",
+      "name": "update_report_test.go",
+      "filePath": "internal/daemon/update_report_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 7 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/update_report_test.go:updateReportDaemon",
+      "type": "function",
+      "name": "updateReportDaemon",
+      "filePath": "internal/daemon/update_report_test.go",
+      "lineRange": [
+        21,
+        33
+      ],
+      "summary": "执行 updateReportDaemon 对应的写入或状态变更逻辑，并维护后端一致性。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_RetriesOn500AndEventuallySucceeds",
+      "type": "function",
+      "name": "TestReportUpdateResult_RetriesOn500AndEventuallySucceeds",
+      "filePath": "internal/daemon/update_report_test.go",
+      "lineRange": [
+        35,
+        54
+      ],
+      "summary": "测试 internal/daemon/update_report_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_DoesNotRetryOn4xx",
+      "type": "function",
+      "name": "TestReportUpdateResult_DoesNotRetryOn4xx",
+      "filePath": "internal/daemon/update_report_test.go",
+      "lineRange": [
+        56,
+        68
+      ],
+      "summary": "测试 internal/daemon/update_report_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_GivesUpAfterAllAttemptsFail",
+      "type": "function",
+      "name": "TestReportUpdateResult_GivesUpAfterAllAttemptsFail",
+      "filePath": "internal/daemon/update_report_test.go",
+      "lineRange": [
+        70,
+        82
+      ],
+      "summary": "测试 internal/daemon/update_report_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_AbortsOnContextCancel",
+      "type": "function",
+      "name": "TestReportUpdateResult_AbortsOnContextCancel",
+      "filePath": "internal/daemon/update_report_test.go",
+      "lineRange": [
+        84,
+        103
+      ],
+      "summary": "测试 internal/daemon/update_report_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_SendsCorrectPath",
+      "type": "function",
+      "name": "TestReportUpdateResult_SendsCorrectPath",
+      "filePath": "internal/daemon/update_report_test.go",
+      "lineRange": [
+        105,
+        120
+      ],
+      "summary": "测试 internal/daemon/update_report_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "mutation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/wakeup.go",
+      "type": "file",
+      "name": "wakeup.go",
+      "filePath": "internal/daemon/wakeup.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 18 个函数、1 个类型。",
+      "tags": [
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:taskWakeupLoop",
+      "type": "function",
+      "name": "taskWakeupLoop",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        46,
+        78
+      ],
+      "summary": "实现 taskWakeupLoop 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:jitterDuration",
+      "type": "function",
+      "name": "jitterDuration",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        87,
+        97
+      ],
+      "summary": "实现 jitterDuration 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:runTaskWakeupConnection",
+      "type": "function",
+      "name": "runTaskWakeupConnection",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        99,
+        240
+      ],
+      "summary": "实现 runTaskWakeupConnection 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:runWSWriter",
+      "type": "function",
+      "name": "runWSWriter",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        245,
+        265
+      ],
+      "summary": "实现 runWSWriter 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:runWSHeartbeatSender",
+      "type": "function",
+      "name": "runWSHeartbeatSender",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        273,
+        289
+      ],
+      "summary": "实现 runWSHeartbeatSender 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:sendWSHeartbeats",
+      "type": "function",
+      "name": "sendWSHeartbeats",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        291,
+        314
+      ],
+      "summary": "实现 sendWSHeartbeats 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:handleWSHeartbeatAckForConnection",
+      "type": "function",
+      "name": "handleWSHeartbeatAckForConnection",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        340,
+        356
+      ],
+      "summary": "处理 handleWSHeartbeatAckForConnection 对应的请求或事件流程，连接输入校验、业务调用和结果返回。",
+      "tags": [
+        "function",
+        "go",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:readTaskWakeupMessagesForConnection",
+      "type": "function",
+      "name": "readTaskWakeupMessagesForConnection",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        362,
+        421
+      ],
+      "summary": "实现 readTaskWakeupMessagesForConnection 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:configureTaskWakeupReadLiveness",
+      "type": "function",
+      "name": "configureTaskWakeupReadLiveness",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        423,
+        437
+      ],
+      "summary": "实现 configureTaskWakeupReadLiveness 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:handleRuntimeProfilesChanged",
+      "type": "function",
+      "name": "handleRuntimeProfilesChanged",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        443,
+        453
+      ],
+      "summary": "处理 handleRuntimeProfilesChanged 对应的请求或事件流程，连接输入校验、业务调用和结果返回。",
+      "tags": [
+        "function",
+        "go",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:taskWakeupURL",
+      "type": "function",
+      "name": "taskWakeupURL",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        462,
+        488
+      ],
+      "summary": "实现 taskWakeupURL 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup.go:sleepWithContextOrRuntimeChange",
+      "type": "function",
+      "name": "sleepWithContextOrRuntimeChange",
+      "filePath": "internal/daemon/wakeup.go",
+      "lineRange": [
+        490,
+        502
+      ],
+      "summary": "实现 sleepWithContextOrRuntimeChange 逻辑，是 internal/daemon/wakeup.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/wakeup_test.go",
+      "type": "file",
+      "name": "wakeup_test.go",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 16 个函数、1 个类型、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/daemon/wakeup_test.go:closeCountingTransport",
+      "type": "class",
+      "name": "closeCountingTransport",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        534,
+        537
+      ],
+      "summary": "内部类型 closeCountingTransport 表达 internal/daemon/wakeup_test.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestTaskWakeupURL",
+      "type": "function",
+      "name": "TestTaskWakeupURL",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        20,
+        64
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestWSHeartbeatFreshnessSuppressesHTTP",
+      "type": "function",
+      "name": "TestWSHeartbeatFreshnessSuppressesHTTP",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        69,
+        94
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesTimesOutWithoutPeerTraffic",
+      "type": "function",
+      "name": "TestReadTaskWakeupMessagesTimesOutWithoutPeerTraffic",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        96,
+        131
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnServerPing",
+      "type": "function",
+      "name": "TestReadTaskWakeupMessagesExtendsDeadlineOnServerPing",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        133,
+        192
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnApplicationMessage",
+      "type": "function",
+      "name": "TestReadTaskWakeupMessagesExtendsDeadlineOnApplicationMessage",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        194,
+        258
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesAcceptsLargeRPCResponse",
+      "type": "function",
+      "name": "TestReadTaskWakeupMessagesAcceptsLargeRPCResponse",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        265,
+        415
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnPong",
+      "type": "function",
+      "name": "TestReadTaskWakeupMessagesExtendsDeadlineOnPong",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        417,
+        475
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestShouldResetTaskWakeupBackoffRequiresStableConnection",
+      "type": "function",
+      "name": "TestShouldResetTaskWakeupBackoffRequiresStableConnection",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        477,
+        493
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:TestRuntimeHeartbeatClosesIdleConnectionsAfterRepeatedTransientFailures",
+      "type": "function",
+      "name": "TestRuntimeHeartbeatClosesIdleConnectionsAfterRepeatedTransientFailures",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        495,
+        532
+      ],
+      "summary": "测试 internal/daemon/wakeup_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:RoundTrip",
+      "type": "function",
+      "name": "RoundTrip",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        539,
+        542
+      ],
+      "summary": "实现 RoundTrip 逻辑，是 internal/daemon/wakeup_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:CloseIdleConnections",
+      "type": "function",
+      "name": "CloseIdleConnections",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        544,
+        546
+      ],
+      "summary": "实现 CloseIdleConnections 逻辑，是 internal/daemon/wakeup_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wakeup_test.go:overrideTaskWakeupTimings",
+      "type": "function",
+      "name": "overrideTaskWakeupTimings",
+      "filePath": "internal/daemon/wakeup_test.go",
+      "lineRange": [
+        548,
+        561
+      ],
+      "summary": "实现 overrideTaskWakeupTimings 逻辑，是 internal/daemon/wakeup_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/workdir_race_test.go",
+      "type": "file",
+      "name": "workdir_race_test.go",
+      "filePath": "internal/daemon/workdir_race_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 5 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/workdir_race_test.go:TestHandleTask_DoesNotCallStartTaskItself",
+      "type": "function",
+      "name": "TestHandleTask_DoesNotCallStartTaskItself",
+      "filePath": "internal/daemon/workdir_race_test.go",
+      "lineRange": [
+        33,
+        82
+      ],
+      "summary": "测试 internal/daemon/workdir_race_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/workdir_race_test.go:TestRunTask_StartTaskCalledAfterWorkdirOnDisk",
+      "type": "function",
+      "name": "TestRunTask_StartTaskCalledAfterWorkdirOnDisk",
+      "filePath": "internal/daemon/workdir_race_test.go",
+      "lineRange": [
+        90,
+        159
+      ],
+      "summary": "测试 internal/daemon/workdir_race_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/workdir_race_test.go:TestRunTask_InjectsPrivateTaskTempDir",
+      "type": "function",
+      "name": "TestRunTask_InjectsPrivateTaskTempDir",
+      "filePath": "internal/daemon/workdir_race_test.go",
+      "lineRange": [
+        161,
+        272
+      ],
+      "summary": "测试 internal/daemon/workdir_race_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/workdir_race_test.go:TestRunTask_ExtendsPrepareLeaseDuringStartTask",
+      "type": "function",
+      "name": "TestRunTask_ExtendsPrepareLeaseDuringStartTask",
+      "filePath": "internal/daemon/workdir_race_test.go",
+      "lineRange": [
+        274,
+        347
+      ],
+      "summary": "测试 internal/daemon/workdir_race_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/workdir_race_test.go:TestHandleTask_KeepsEnvRootActiveAcrossCompletion",
+      "type": "function",
+      "name": "TestHandleTask_KeepsEnvRootActiveAcrossCompletion",
+      "filePath": "internal/daemon/workdir_race_test.go",
+      "lineRange": [
+        362,
+        434
+      ],
+      "summary": "测试 internal/daemon/workdir_race_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "task"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:internal/daemon/wsrpc.go",
+      "type": "file",
+      "name": "wsrpc.go",
+      "filePath": "internal/daemon/wsrpc.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 12 个函数、2 个类型。",
+      "tags": [
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/daemon/wsrpc.go:wsOutbound",
+      "type": "class",
+      "name": "wsOutbound",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        49,
+        54
+      ],
+      "summary": "内部类型 wsOutbound 表达 internal/daemon/wsrpc.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/daemon/wsrpc.go:wsRPCClient",
+      "type": "class",
+      "name": "wsRPCClient",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        82,
+        95
+      ],
+      "summary": "内部类型 wsRPCClient 封装 internal/daemon/wsrpc.go 中的状态、依赖或服务协作边界。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc.go:attach",
+      "type": "function",
+      "name": "attach",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        109,
+        121
+      ],
+      "summary": "实现 attach 逻辑，是 internal/daemon/wsrpc.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc.go:markRPCV1Supported",
+      "type": "function",
+      "name": "markRPCV1Supported",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        126,
+        135
+      ],
+      "summary": "实现 markRPCV1Supported 逻辑，是 internal/daemon/wsrpc.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc.go:Call",
+      "type": "function",
+      "name": "Call",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        161,
+        163
+      ],
+      "summary": "实现 Call 逻辑，是 internal/daemon/wsrpc.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc.go:CallIfRPCV1Supported",
+      "type": "function",
+      "name": "CallIfRPCV1Supported",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        169,
+        171
+      ],
+      "summary": "实现 CallIfRPCV1Supported 逻辑，是 internal/daemon/wsrpc.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc.go:call",
+      "type": "function",
+      "name": "call",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        179,
+        282
+      ],
+      "summary": "实现 call 逻辑，是 internal/daemon/wsrpc.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc.go:deliver",
+      "type": "function",
+      "name": "deliver",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        289,
+        303
+      ],
+      "summary": "实现 deliver 逻辑，是 internal/daemon/wsrpc.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc.go:ClaimTasksWSFirst",
+      "type": "function",
+      "name": "ClaimTasksWSFirst",
+      "filePath": "internal/daemon/wsrpc.go",
+      "lineRange": [
+        311,
+        355
+      ],
+      "summary": "实现 ClaimTasksWSFirst 逻辑，是 internal/daemon/wsrpc.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "task"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/daemon/wsrpc_test.go",
+      "type": "file",
+      "name": "wsrpc_test.go",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "summary": "本地 daemon 运行时模块，管理 agent 执行、连接状态和本机任务执行。结构上包含 11 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "daemon",
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_CallRoundTrip",
+      "type": "function",
+      "name": "TestWSRPCClient_CallRoundTrip",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        16,
+        51
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_Unavailable",
+      "type": "function",
+      "name": "TestWSRPCClient_Unavailable",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        55,
+        60
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_ReattachRequiresFreshNegotiation",
+      "type": "function",
+      "name": "TestWSRPCClient_ReattachRequiresFreshNegotiation",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        65,
+        94
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_Timeout",
+      "type": "function",
+      "name": "TestWSRPCClient_Timeout",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        97,
+        104
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_ServerError",
+      "type": "function",
+      "name": "TestWSRPCClient_ServerError",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        108,
+        122
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_DetachFailsPending",
+      "type": "function",
+      "name": "TestWSRPCClient_DetachFailsPending",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        127,
+        157
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_DeliverDetachRaceNoPanic",
+      "type": "function",
+      "name": "TestWSRPCClient_DeliverDetachRaceNoPanic",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        163,
+        185
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSOutbound_CancelBeforeWriteDropsFrame",
+      "type": "function",
+      "name": "TestWSOutbound_CancelBeforeWriteDropsFrame",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        191,
+        199
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSOutbound_WriteBeforeCancelDelivers",
+      "type": "function",
+      "name": "TestWSOutbound_WriteBeforeCancelDelivers",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        204,
+        212
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_TimeoutCancelsUnsentFrame",
+      "type": "function",
+      "name": "TestWSRPCClient_TimeoutCancelsUnsentFrame",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        219,
+        247
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_TimeoutUncertainWhenAlreadySent",
+      "type": "function",
+      "name": "TestWSRPCClient_TimeoutUncertainWhenAlreadySent",
+      "filePath": "internal/daemon/wsrpc_test.go",
+      "lineRange": [
+        252,
+        279
+      ],
+      "summary": "测试 internal/daemon/wsrpc_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/handler/agent_work_dir_test.go",
+      "type": "file",
+      "name": "agent_work_dir_test.go",
+      "filePath": "internal/handler/agent_work_dir_test.go",
+      "summary": "HTTP API handler，处理请求解析、权限校验、业务服务调用和响应转换。结构上包含 2 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "api-handler",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/handler/agent_work_dir_test.go:TestRelativeWorkDir",
+      "type": "function",
+      "name": "TestRelativeWorkDir",
+      "filePath": "internal/handler/agent_work_dir_test.go",
+      "lineRange": [
+        22,
+        186
+      ],
+      "summary": "测试 internal/handler/agent_work_dir_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "agent"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:internal/handler/agent_work_dir_test.go:TestShortTaskIDMatchesDaemon",
+      "type": "function",
+      "name": "TestShortTaskIDMatchesDaemon",
+      "filePath": "internal/handler/agent_work_dir_test.go",
+      "lineRange": [
+        195,
+        206
+      ],
+      "summary": "测试 internal/handler/agent_work_dir_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test",
+        "api-handler",
+        "agent"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/runtimeapps/connected_app.go",
+      "type": "file",
+      "name": "connected_app.go",
+      "filePath": "internal/runtimeapps/connected_app.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 2 个函数、2 个类型。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:internal/runtimeapps/connected_app.go:ConnectedApp",
+      "type": "class",
+      "name": "ConnectedApp",
+      "filePath": "internal/runtimeapps/connected_app.go",
+      "lineRange": [
+        10,
+        15
+      ],
+      "summary": "导出类型 ConnectedApp 表达 internal/runtimeapps/connected_app.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:internal/runtimeapps/connected_app.go:MCPOverlayResult",
+      "type": "class",
+      "name": "MCPOverlayResult",
+      "filePath": "internal/runtimeapps/connected_app.go",
+      "lineRange": [
+        19,
+        22
+      ],
+      "summary": "导出类型 MCPOverlayResult 表达 internal/runtimeapps/connected_app.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/runtimeapps/connected_app.go:DisplayNameForToolkitSlug",
+      "type": "function",
+      "name": "DisplayNameForToolkitSlug",
+      "filePath": "internal/runtimeapps/connected_app.go",
+      "lineRange": [
+        27,
+        50
+      ],
+      "summary": "实现 DisplayNameForToolkitSlug 逻辑，是 internal/runtimeapps/connected_app.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/runtimeapps/connected_app.go:titleASCII",
+      "type": "function",
+      "name": "titleASCII",
+      "filePath": "internal/runtimeapps/connected_app.go",
+      "lineRange": [
+        52,
+        61
+      ],
+      "summary": "实现 titleASCII 逻辑，是 internal/runtimeapps/connected_app.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/selfexec/selfexec.go",
+      "type": "file",
+      "name": "selfexec.go",
+      "filePath": "internal/selfexec/selfexec.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 2 个函数。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/selfexec/selfexec.go:Resolve",
+      "type": "function",
+      "name": "Resolve",
+      "filePath": "internal/selfexec/selfexec.go",
+      "lineRange": [
+        16,
+        18
+      ],
+      "summary": "实现 Resolve 逻辑，是 internal/selfexec/selfexec.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/selfexec/selfexec.go:resolveWith",
+      "type": "function",
+      "name": "resolveWith",
+      "filePath": "internal/selfexec/selfexec.go",
+      "lineRange": [
+        20,
+        50
+      ],
+      "summary": "实现 resolveWith 逻辑，是 internal/selfexec/selfexec.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/selfexec/selfexec_test.go",
+      "type": "file",
+      "name": "selfexec_test.go",
+      "filePath": "internal/selfexec/selfexec_test.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 4 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/selfexec/selfexec_test.go:TestResolveWithUsesOSExecutable",
+      "type": "function",
+      "name": "TestResolveWithUsesOSExecutable",
+      "filePath": "internal/selfexec/selfexec_test.go",
+      "lineRange": [
+        12,
+        24
+      ],
+      "summary": "测试 internal/selfexec/selfexec_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/selfexec/selfexec_test.go:TestResolveWithFallsBackToArgv0",
+      "type": "function",
+      "name": "TestResolveWithFallsBackToArgv0",
+      "filePath": "internal/selfexec/selfexec_test.go",
+      "lineRange": [
+        26,
+        70
+      ],
+      "summary": "测试 internal/selfexec/selfexec_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/selfexec/selfexec_test.go:TestResolveWithRejectsInvalidFallback",
+      "type": "function",
+      "name": "TestResolveWithRejectsInvalidFallback",
+      "filePath": "internal/selfexec/selfexec_test.go",
+      "lineRange": [
+        72,
+        116
+      ],
+      "summary": "测试 internal/selfexec/selfexec_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/selfexec/selfexec_test.go:writeTestExecutable",
+      "type": "function",
+      "name": "writeTestExecutable",
+      "filePath": "internal/selfexec/selfexec_test.go",
+      "lineRange": [
+        118,
+        128
+      ],
+      "summary": "实现 writeTestExecutable 逻辑，是 internal/selfexec/selfexec_test.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/skill/frontmatter.go",
+      "type": "file",
+      "name": "frontmatter.go",
+      "filePath": "internal/skill/frontmatter.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 2 个函数。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/skill/frontmatter.go:ParseSkillFrontmatter",
+      "type": "function",
+      "name": "ParseSkillFrontmatter",
+      "filePath": "internal/skill/frontmatter.go",
+      "lineRange": [
+        27,
+        41
+      ],
+      "summary": "实现 ParseSkillFrontmatter 逻辑，是 internal/skill/frontmatter.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:internal/skill/frontmatter.go:coerceFrontmatterValue",
+      "type": "function",
+      "name": "coerceFrontmatterValue",
+      "filePath": "internal/skill/frontmatter.go",
+      "lineRange": [
+        46,
+        69
+      ],
+      "summary": "实现 coerceFrontmatterValue 逻辑，是 internal/skill/frontmatter.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/skill/frontmatter_test.go",
+      "type": "file",
+      "name": "frontmatter_test.go",
+      "filePath": "internal/skill/frontmatter_test.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 1 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/skill/frontmatter_test.go:TestParseSkillFrontmatter",
+      "type": "function",
+      "name": "TestParseSkillFrontmatter",
+      "filePath": "internal/skill/frontmatter_test.go",
+      "lineRange": [
+        5,
+        149
+      ],
+      "summary": "测试 internal/skill/frontmatter_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:internal/skill/reserved.go",
+      "type": "file",
+      "name": "reserved.go",
+      "filePath": "internal/skill/reserved.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 1 个函数。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/skill/reserved.go:IsReservedContentPath",
+      "type": "function",
+      "name": "IsReservedContentPath",
+      "filePath": "internal/skill/reserved.go",
+      "lineRange": [
+        25,
+        27
+      ],
+      "summary": "实现 IsReservedContentPath 逻辑，是 internal/skill/reserved.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:internal/skill/reserved_test.go",
+      "type": "file",
+      "name": "reserved_test.go",
+      "filePath": "internal/skill/reserved_test.go",
+      "summary": "后端项目文件，参与 Multica 服务的构建、运行或维护。结构上包含 1 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:internal/skill/reserved_test.go:TestIsReservedContentPath",
+      "type": "function",
+      "name": "TestIsReservedContentPath",
+      "filePath": "internal/skill/reserved_test.go",
+      "lineRange": [
+        5,
+        31
+      ],
+      "summary": "测试 internal/skill/reserved_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:pkg/protocol/events.go",
+      "type": "file",
+      "name": "events.go",
+      "filePath": "pkg/protocol/events.go",
+      "summary": "客户端与后端/daemon 之间共享的协议类型和消息定义。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "file:pkg/protocol/messages.go",
+      "type": "file",
+      "name": "messages.go",
+      "filePath": "pkg/protocol/messages.go",
+      "summary": "客户端与后端/daemon 之间共享的协议类型和消息定义。结构上包含 24 个类型。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:RPCRequestPayload",
+      "type": "class",
+      "name": "RPCRequestPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        28,
+        38
+      ],
+      "summary": "导出类型 RPCRequestPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:RPCResponsePayload",
+      "type": "class",
+      "name": "RPCResponsePayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        45,
+        50
+      ],
+      "summary": "导出类型 RPCResponsePayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:Message",
+      "type": "class",
+      "name": "Message",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        53,
+        56
+      ],
+      "summary": "导出类型 Message 表达 pkg/protocol/messages.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:TaskDispatchPayload",
+      "type": "class",
+      "name": "TaskDispatchPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        59,
+        64
+      ],
+      "summary": "导出类型 TaskDispatchPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:TaskAvailablePayload",
+      "type": "class",
+      "name": "TaskAvailablePayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        68,
+        71
+      ],
+      "summary": "导出类型 TaskAvailablePayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:RuntimeProfilesChangedPayload",
+      "type": "class",
+      "name": "RuntimeProfilesChangedPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        77,
+        80
+      ],
+      "summary": "导出类型 RuntimeProfilesChangedPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:WorkspacesChangedPayload",
+      "type": "class",
+      "name": "WorkspacesChangedPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        85,
+        85
+      ],
+      "summary": "导出类型 WorkspacesChangedPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:TaskProgressPayload",
+      "type": "class",
+      "name": "TaskProgressPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        88,
+        93
+      ],
+      "summary": "导出类型 TaskProgressPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:TaskCompletedPayload",
+      "type": "class",
+      "name": "TaskCompletedPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        96,
+        100
+      ],
+      "summary": "导出类型 TaskCompletedPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:TaskMessagePayload",
+      "type": "class",
+      "name": "TaskMessagePayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        103,
+        113
+      ],
+      "summary": "导出类型 TaskMessagePayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:DaemonRegisterPayload",
+      "type": "class",
+      "name": "DaemonRegisterPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        116,
+        120
+      ],
+      "summary": "导出类型 DaemonRegisterPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:RuntimeInfo",
+      "type": "class",
+      "name": "RuntimeInfo",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        123,
+        127
+      ],
+      "summary": "导出类型 RuntimeInfo 表达 pkg/protocol/messages.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:ChatMessagePayload",
+      "type": "class",
+      "name": "ChatMessagePayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        130,
+        137
+      ],
+      "summary": "导出类型 ChatMessagePayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:ChatDonePayload",
+      "type": "class",
+      "name": "ChatDonePayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        163,
+        171
+      ],
+      "summary": "导出类型 ChatDonePayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:ChatCancelFinalizedPayload",
+      "type": "class",
+      "name": "ChatCancelFinalizedPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        193,
+        210
+      ],
+      "summary": "导出类型 ChatCancelFinalizedPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:ChatSessionReadPayload",
+      "type": "class",
+      "name": "ChatSessionReadPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        214,
+        216
+      ],
+      "summary": "导出类型 ChatSessionReadPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:ChatSessionDeletedPayload",
+      "type": "class",
+      "name": "ChatSessionDeletedPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        221,
+        223
+      ],
+      "summary": "导出类型 ChatSessionDeletedPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:ChatSessionUpdatedPayload",
+      "type": "class",
+      "name": "ChatSessionUpdatedPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        229,
+        239
+      ],
+      "summary": "导出类型 ChatSessionUpdatedPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:DaemonHeartbeatRequestPayload",
+      "type": "class",
+      "name": "DaemonHeartbeatRequestPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        245,
+        248
+      ],
+      "summary": "导出类型 DaemonHeartbeatRequestPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:DaemonHeartbeatAckPayload",
+      "type": "class",
+      "name": "DaemonHeartbeatAckPayload",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        262,
+        276
+      ],
+      "summary": "导出类型 DaemonHeartbeatAckPayload 定义 pkg/protocol/messages.go 中请求、配置或参数传递的数据结构。",
+      "tags": [
+        "type-definition",
+        "go",
+        "api-contract"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:DaemonHeartbeatPendingUpdate",
+      "type": "class",
+      "name": "DaemonHeartbeatPendingUpdate",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        284,
+        287
+      ],
+      "summary": "导出类型 DaemonHeartbeatPendingUpdate 表达 pkg/protocol/messages.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:DaemonHeartbeatPendingModelList",
+      "type": "class",
+      "name": "DaemonHeartbeatPendingModelList",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        291,
+        293
+      ],
+      "summary": "导出类型 DaemonHeartbeatPendingModelList 表达 pkg/protocol/messages.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:DaemonHeartbeatPendingLocalSkills",
+      "type": "class",
+      "name": "DaemonHeartbeatPendingLocalSkills",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        297,
+        299
+      ],
+      "summary": "导出类型 DaemonHeartbeatPendingLocalSkills 表达 pkg/protocol/messages.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/protocol/messages.go:DaemonHeartbeatPendingLocalSkillImport",
+      "type": "class",
+      "name": "DaemonHeartbeatPendingLocalSkillImport",
+      "filePath": "pkg/protocol/messages.go",
+      "lineRange": [
+        303,
+        306
+      ],
+      "summary": "导出类型 DaemonHeartbeatPendingLocalSkillImport 表达 pkg/protocol/messages.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:pkg/skillbundle/hash.go",
+      "type": "file",
+      "name": "hash.go",
+      "filePath": "pkg/skillbundle/hash.go",
+      "summary": "可复用后端包，向 cmd 和 internal 模块提供共享能力。结构上包含 2 个函数、4 个类型。",
+      "tags": [
+        "go",
+        "code"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "class:pkg/skillbundle/hash.go:File",
+      "type": "class",
+      "name": "File",
+      "filePath": "pkg/skillbundle/hash.go",
+      "lineRange": [
+        15,
+        18
+      ],
+      "summary": "导出类型 File 表达 pkg/skillbundle/hash.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/skillbundle/hash.go:Skill",
+      "type": "class",
+      "name": "Skill",
+      "filePath": "pkg/skillbundle/hash.go",
+      "lineRange": [
+        20,
+        27
+      ],
+      "summary": "导出类型 Skill 表达 pkg/skillbundle/hash.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/skillbundle/hash.go:FileRef",
+      "type": "class",
+      "name": "FileRef",
+      "filePath": "pkg/skillbundle/hash.go",
+      "lineRange": [
+        29,
+        33
+      ],
+      "summary": "导出类型 FileRef 表达 pkg/skillbundle/hash.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:pkg/skillbundle/hash.go:Manifest",
+      "type": "class",
+      "name": "Manifest",
+      "filePath": "pkg/skillbundle/hash.go",
+      "lineRange": [
+        35,
+        40
+      ],
+      "summary": "导出类型 Manifest 表达 pkg/skillbundle/hash.go 中使用的领域数据或内部状态。",
+      "tags": [
+        "type-definition",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:pkg/skillbundle/hash.go:BuildManifest",
+      "type": "function",
+      "name": "BuildManifest",
+      "filePath": "pkg/skillbundle/hash.go",
+      "lineRange": [
+        42,
+        78
+      ],
+      "summary": "实现 BuildManifest 逻辑，是 pkg/skillbundle/hash.go 中的主要执行单元之一。",
+      "tags": [
+        "function",
+        "go"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:pkg/skillbundle/hash_test.go",
+      "type": "file",
+      "name": "hash_test.go",
+      "filePath": "pkg/skillbundle/hash_test.go",
+      "summary": "可复用后端包，向 cmd 和 internal 模块提供共享能力。结构上包含 2 个函数、测试覆盖。",
+      "tags": [
+        "test",
+        "go",
+        "code"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Go 后端代码以 package 为组织单元，通过显式错误返回和接口边界保持服务层清晰。"
+    },
+    {
+      "id": "function:pkg/skillbundle/hash_test.go:TestBuildManifestStableAcrossFileOrder",
+      "type": "function",
+      "name": "TestBuildManifestStableAcrossFileOrder",
+      "filePath": "pkg/skillbundle/hash_test.go",
+      "lineRange": [
+        5,
+        29
+      ],
+      "summary": "测试 pkg/skillbundle/hash_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:pkg/skillbundle/hash_test.go:TestBuildManifestChangesWhenContentChanges",
+      "type": "function",
+      "name": "TestBuildManifestChangesWhenContentChanges",
+      "filePath": "pkg/skillbundle/hash_test.go",
+      "lineRange": [
+        31,
+        37
+      ],
+      "summary": "测试 pkg/skillbundle/hash_test.go 中相关后端行为，验证边界条件和回归场景。",
+      "tags": [
+        "function",
+        "go",
+        "test"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "class:internal/daemon/runtime_mcp.go:runtimeLocalMcpServerSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:mergeRuntimeAndAgentMcpConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:loadRuntimeMcpServerConfigs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:normalizeRuntimeMcpEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:loadClaudePluginMcpServerConfigs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:listRuntimeLocalMcpServers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:runtimeMcpSummaries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:listClaudePluginMcpServers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:nestedRuntimeMcpMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp.go",
+      "target": "function:internal/daemon/runtime_mcp.go:runtimeMcpTransport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:mergeRuntimeAndAgentMcpConfig",
+      "target": "function:internal/daemon/runtime_mcp.go:loadRuntimeMcpServerConfigs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:mergeRuntimeAndAgentMcpConfig",
+      "target": "function:internal/daemon/runtime_mcp.go:nestedRuntimeMcpMap",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:mergeRuntimeAndAgentMcpConfig",
+      "target": "function:internal/daemon/runtime_mcp.go:nestedRuntimeMcpMap",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:loadRuntimeMcpServerConfigs",
+      "target": "function:internal/daemon/runtime_mcp.go:nestedRuntimeMcpMap",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:loadRuntimeMcpServerConfigs",
+      "target": "function:internal/daemon/runtime_mcp.go:normalizeRuntimeMcpEntry",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:loadRuntimeMcpServerConfigs",
+      "target": "function:internal/daemon/runtime_mcp.go:loadClaudePluginMcpServerConfigs",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:loadClaudePluginMcpServerConfigs",
+      "target": "function:internal/daemon/runtime_mcp.go:nestedRuntimeMcpMap",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:listRuntimeLocalMcpServers",
+      "target": "function:internal/daemon/runtime_mcp.go:nestedRuntimeMcpMap",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:listRuntimeLocalMcpServers",
+      "target": "function:internal/daemon/runtime_mcp.go:runtimeMcpSummaries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:listRuntimeLocalMcpServers",
+      "target": "function:internal/daemon/runtime_mcp.go:listClaudePluginMcpServers",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:runtimeMcpSummaries",
+      "target": "function:internal/daemon/runtime_mcp.go:runtimeMcpTransport",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:listClaudePluginMcpServers",
+      "target": "function:internal/daemon/runtime_mcp.go:nestedRuntimeMcpMap",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_mcp.go:listClaudePluginMcpServers",
+      "target": "function:internal/daemon/runtime_mcp.go:runtimeMcpSummaries",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp_test.go",
+      "target": "function:internal/daemon/runtime_mcp_test.go:TestListRuntimeLocalMcpServersCodexRedactsDetails",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp_test.go",
+      "target": "function:internal/daemon/runtime_mcp_test.go:TestListRuntimeLocalMcpServersClaudeMissingConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp_test.go",
+      "target": "function:internal/daemon/runtime_mcp_test.go:TestListRuntimeLocalMcpServersClaudeEnabledPlugin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp_test.go",
+      "target": "function:internal/daemon/runtime_mcp_test.go:TestListRuntimeLocalMcpServersUnknownProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp_test.go",
+      "target": "function:internal/daemon/runtime_mcp_test.go:TestMergeRuntimeAndAgentMcpConfigClaudeCombinesAndAgentWins",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp_test.go",
+      "target": "function:internal/daemon/runtime_mcp_test.go:TestMergeRuntimeAndAgentMcpConfigCodexNormalizesHeaders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_mcp_test.go",
+      "target": "function:internal/daemon/runtime_mcp_test.go:TestMergeRuntimeAndAgentMcpConfigNullKeepsNativeInheritance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "class:internal/daemon/runtime_profile_drift_test.go:driftFixture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestProfileSetSignature_StableUnderReorder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestProfileSetSignature_DetectsRegistrationAffectingChanges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:recordedDeregisters",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:newDriftFixture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestSyncWorkspacesSkipsRuntimeProfileRefreshOnExistingWorkspace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestSyncWorkspacesRefreshesRuntimeProfilesOnReconcile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_NoDrift_DoesNotReregister",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_NewProfileTriggersReregister",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DriftWithRunningRuntimeSkipsOrphanRecovery",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DisableConvergesCustomOnlyDaemon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DisableOneOfManyDeregistersDroppedID",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_drift_test.go",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_FetchErrorIsBestEffort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_NoDrift_DoesNotReregister",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:newDriftFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_NewProfileTriggersReregister",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:newDriftFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DriftWithRunningRuntimeSkipsOrphanRecovery",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:newDriftFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DisableConvergesCustomOnlyDaemon",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:newDriftFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_drift_test.go:TestRefreshWorkspaceRuntimeProfiles_DisableOneOfManyDeregistersDroppedID",
+      "target": "function:internal/daemon/runtime_profile_drift_test.go:newDriftFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "class:internal/daemon/runtime_profile_test.go:profileRegisterFixture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:stubLookPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:Error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:TestClient_GetRuntimeProfiles_RequestShape",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:newProfileRegisterFixture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_AppendsProfileRuntime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_SkipsProfileNotOnPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_SkipsUnsupportedProfileFamily",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_ProfilesFetchErrorIsBestEffort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_PrefersCommandPathOverride",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_OverrideNotExecutableFallsBackToPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/runtime_profile_test.go",
+      "target": "function:internal/daemon/runtime_profile_test.go:TestCustomCommandPathForRuntime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_AppendsProfileRuntime",
+      "target": "function:internal/daemon/runtime_profile_test.go:stubLookPath",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_AppendsProfileRuntime",
+      "target": "function:internal/daemon/runtime_profile_test.go:newProfileRegisterFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_SkipsProfileNotOnPath",
+      "target": "function:internal/daemon/runtime_profile_test.go:stubLookPath",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_SkipsProfileNotOnPath",
+      "target": "function:internal/daemon/runtime_profile_test.go:newProfileRegisterFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_SkipsUnsupportedProfileFamily",
+      "target": "function:internal/daemon/runtime_profile_test.go:stubLookPath",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_SkipsUnsupportedProfileFamily",
+      "target": "function:internal/daemon/runtime_profile_test.go:newProfileRegisterFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_ProfilesFetchErrorIsBestEffort",
+      "target": "function:internal/daemon/runtime_profile_test.go:stubLookPath",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_ProfilesFetchErrorIsBestEffort",
+      "target": "function:internal/daemon/runtime_profile_test.go:newProfileRegisterFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_PrefersCommandPathOverride",
+      "target": "function:internal/daemon/runtime_profile_test.go:stubLookPath",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_PrefersCommandPathOverride",
+      "target": "function:internal/daemon/runtime_profile_test.go:newProfileRegisterFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_OverrideNotExecutableFallsBackToPath",
+      "target": "function:internal/daemon/runtime_profile_test.go:stubLookPath",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/runtime_profile_test.go:TestRegisterRuntimes_OverrideNotExecutableFallsBackToPath",
+      "target": "function:internal/daemon/runtime_profile_test.go:newProfileRegisterFixture",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/skill_bundle_resolve_test.go",
+      "target": "function:internal/daemon/skill_bundle_resolve_test.go:TestSkillBundleResolveTimeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_bundle_resolve_test.go",
+      "target": "function:internal/daemon/skill_bundle_resolve_test.go:makeResolvableSkillBundleWith",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_bundle_resolve_test.go",
+      "target": "function:internal/daemon/skill_bundle_resolve_test.go:TestEnsureTaskSkillBundles_CachesEachSuccessAcrossDispatches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_bundle_resolve_test.go",
+      "target": "function:internal/daemon/skill_bundle_resolve_test.go:TestEnsureTaskSkillBundles_AcceptsServerSideSkillUpdate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/skill_bundle_resolve_test.go:TestEnsureTaskSkillBundles_AcceptsServerSideSkillUpdate",
+      "target": "function:internal/daemon/skill_bundle_resolve_test.go:makeResolvableSkillBundleWith",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/skill_bundle_resolve_test.go:TestEnsureTaskSkillBundles_AcceptsServerSideSkillUpdate",
+      "target": "function:internal/daemon/skill_bundle_resolve_test.go:makeResolvableSkillBundleWith",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "file:pkg/skillbundle/hash_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "file:pkg/skillbundle/hash.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "class:internal/daemon/skill_cache.go:SkillBundleCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:NewSkillBundleCache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:Load",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:Store",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:WithRefLock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:lockForKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:bundlePath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:validateSkillBundle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:safeSkillFilePath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache.go",
+      "target": "function:internal/daemon/skill_cache.go:safeCacheSegment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/skill_cache.go:Load",
+      "target": "function:internal/daemon/skill_cache.go:validateSkillBundle",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/skill_cache.go:bundlePath",
+      "target": "function:internal/daemon/skill_cache.go:safeCacheSegment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/skill_cache.go:bundlePath",
+      "target": "function:internal/daemon/skill_cache.go:safeCacheSegment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/skill_cache.go:bundlePath",
+      "target": "function:internal/daemon/skill_cache.go:safeCacheSegment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/skill_cache.go:bundlePath",
+      "target": "function:internal/daemon/skill_cache.go:safeCacheSegment",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/skill_cache.go:validateSkillBundle",
+      "target": "function:internal/daemon/skill_cache.go:safeSkillFilePath",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/skill_cache_test.go",
+      "target": "function:internal/daemon/skill_cache_test.go:TestSkillBundleCacheLoadStore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache_test.go",
+      "target": "function:internal/daemon/skill_cache_test.go:TestSkillBundleCacheRejectsCorruptBundle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/skill_cache_test.go",
+      "target": "function:internal/daemon/skill_cache_test.go:testSkillBundle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/skill_cache_test.go:TestSkillBundleCacheLoadStore",
+      "target": "function:internal/daemon/skill_cache_test.go:testSkillBundle",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/skill_cache_test.go:TestSkillBundleCacheRejectsCorruptBundle",
+      "target": "function:internal/daemon/skill_cache_test.go:testSkillBundle",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/slash_skill.go",
+      "target": "class:internal/daemon/slash_skill.go:SlashSkillRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/slash_skill.go",
+      "target": "function:internal/daemon/slash_skill.go:ExtractSlashSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/slash_skill_test.go",
+      "target": "function:internal/daemon/slash_skill_test.go:TestExtractSlashSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/slash_skill_test.go",
+      "target": "function:internal/daemon/slash_skill_test.go:TestExtractSlashSkillsDoesNotMatchPartialProtocol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/thread_name.go",
+      "target": "function:internal/daemon/thread_name.go:deriveTaskThreadName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/thread_name.go",
+      "target": "function:internal/daemon/thread_name.go:normalizeThreadName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/thread_name.go:deriveTaskThreadName",
+      "target": "function:internal/daemon/thread_name.go:normalizeThreadName",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/thread_name_test.go",
+      "target": "function:internal/daemon/thread_name_test.go:TestDeriveTaskThreadNamePrefersClaimedThreadName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/thread_name_test.go",
+      "target": "function:internal/daemon/thread_name_test.go:TestDeriveTaskThreadNameFallsBackToTaskContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/thread_name_test.go",
+      "target": "function:internal/daemon/thread_name_test.go:TestNormalizeThreadNameCollapsesWhitespaceAndTruncates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestClient_RenewToken_PostsToCorrectEndpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_LogsRenewalOnSuccess",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_LogsNotEligibleOnNoOp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_SurfacesReloginWarningOn401",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_SurfacesReloginWarningOn401_WithProfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_TransientErrorIsDebugNotWarn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestPreflightAuth_RenewsBeforeWorkspaceSyncOnExpiredToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestPreflightAuth_SyncProceedsWhenRenewIsNoOp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestPreflightAuth_TransientRenewFailureDoesNotBlockStartup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/token_renewal_test.go",
+      "target": "function:internal/daemon/token_renewal_test.go:TestTryRenewToken_RespectsContextTimeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "file:internal/runtimeapps/connected_app.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:AgentEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:Runtime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:RepoData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:ProjectResourceData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:Task",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:ChatAttachmentMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:CoalescedCommentData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:AgentData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:SkillData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:SkillFileData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:SkillRefData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:SkillFileRefData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:TaskUsageEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/types.go",
+      "target": "class:internal/daemon/types.go:TaskResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/update_report_test.go",
+      "target": "function:internal/daemon/update_report_test.go:updateReportDaemon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/update_report_test.go",
+      "target": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_RetriesOn500AndEventuallySucceeds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/update_report_test.go",
+      "target": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_DoesNotRetryOn4xx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/update_report_test.go",
+      "target": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_GivesUpAfterAllAttemptsFail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/update_report_test.go",
+      "target": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_AbortsOnContextCancel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/update_report_test.go",
+      "target": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_SendsCorrectPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_RetriesOn500AndEventuallySucceeds",
+      "target": "function:internal/daemon/update_report_test.go:updateReportDaemon",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_DoesNotRetryOn4xx",
+      "target": "function:internal/daemon/update_report_test.go:updateReportDaemon",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_GivesUpAfterAllAttemptsFail",
+      "target": "function:internal/daemon/update_report_test.go:updateReportDaemon",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_AbortsOnContextCancel",
+      "target": "function:internal/daemon/update_report_test.go:updateReportDaemon",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/update_report_test.go:TestReportUpdateResult_SendsCorrectPath",
+      "target": "function:internal/daemon/update_report_test.go:updateReportDaemon",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "file:pkg/protocol/events.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "file:pkg/protocol/messages.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:taskWakeupLoop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:jitterDuration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:runTaskWakeupConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:runWSWriter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:runWSHeartbeatSender",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:sendWSHeartbeats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:handleWSHeartbeatAckForConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:readTaskWakeupMessagesForConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:configureTaskWakeupReadLiveness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:handleRuntimeProfilesChanged",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:taskWakeupURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup.go",
+      "target": "function:internal/daemon/wakeup.go:sleepWithContextOrRuntimeChange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/wakeup.go:taskWakeupLoop",
+      "target": "function:internal/daemon/wakeup.go:sleepWithContextOrRuntimeChange",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/wakeup.go:taskWakeupLoop",
+      "target": "function:internal/daemon/wakeup.go:jitterDuration",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/wakeup.go:runTaskWakeupConnection",
+      "target": "function:internal/daemon/wakeup.go:taskWakeupURL",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "file:pkg/protocol/events.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "file:pkg/protocol/messages.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "class:internal/daemon/wakeup_test.go:closeCountingTransport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestTaskWakeupURL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestWSHeartbeatFreshnessSuppressesHTTP",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesTimesOutWithoutPeerTraffic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnServerPing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnApplicationMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesAcceptsLargeRPCResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnPong",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestShouldResetTaskWakeupBackoffRequiresStableConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:TestRuntimeHeartbeatClosesIdleConnectionsAfterRepeatedTransientFailures",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:RoundTrip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:CloseIdleConnections",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wakeup_test.go",
+      "target": "function:internal/daemon/wakeup_test.go:overrideTaskWakeupTimings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesTimesOutWithoutPeerTraffic",
+      "target": "function:internal/daemon/wakeup_test.go:overrideTaskWakeupTimings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnServerPing",
+      "target": "function:internal/daemon/wakeup_test.go:overrideTaskWakeupTimings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnApplicationMessage",
+      "target": "function:internal/daemon/wakeup_test.go:overrideTaskWakeupTimings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesAcceptsLargeRPCResponse",
+      "target": "function:internal/daemon/wakeup_test.go:overrideTaskWakeupTimings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/daemon/wakeup_test.go:TestReadTaskWakeupMessagesExtendsDeadlineOnPong",
+      "target": "function:internal/daemon/wakeup_test.go:overrideTaskWakeupTimings",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_home_link_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_home_link_windows.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_home_link.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_home_sessions_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_home.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_memory_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_memory.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_multi_agent_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_multi_agent.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_sandbox.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_skill_strip_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_skill_strip.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/codex_user_skills.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/context_marker_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/context.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/cursor_mcp_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/cursor_mcp.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/execenv_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/execenv.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/git.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/handoff_context_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/hermes_home_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/hermes_home.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/openclaw_config_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/openclaw_config.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/reply_instructions_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/reply_instructions.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/reserved_skill_path_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config_kind_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config_kind.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config_sections.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/sidecar_manifest_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/sidecar_manifest.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/skill_frontmatter_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/skill_visibility_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "file:internal/daemon/execenv/skill_visibility.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "function:internal/daemon/workdir_race_test.go:TestHandleTask_DoesNotCallStartTaskItself",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "function:internal/daemon/workdir_race_test.go:TestRunTask_StartTaskCalledAfterWorkdirOnDisk",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "function:internal/daemon/workdir_race_test.go:TestRunTask_InjectsPrivateTaskTempDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "function:internal/daemon/workdir_race_test.go:TestRunTask_ExtendsPrepareLeaseDuringStartTask",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/workdir_race_test.go",
+      "target": "function:internal/daemon/workdir_race_test.go:TestHandleTask_KeepsEnvRootActiveAcrossCompletion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "file:pkg/protocol/events.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "file:pkg/protocol/messages.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "class:internal/daemon/wsrpc.go:wsOutbound",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "class:internal/daemon/wsrpc.go:wsRPCClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "function:internal/daemon/wsrpc.go:attach",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "function:internal/daemon/wsrpc.go:markRPCV1Supported",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "function:internal/daemon/wsrpc.go:Call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "function:internal/daemon/wsrpc.go:CallIfRPCV1Supported",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "function:internal/daemon/wsrpc.go:call",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "function:internal/daemon/wsrpc.go:deliver",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc.go",
+      "target": "function:internal/daemon/wsrpc.go:ClaimTasksWSFirst",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "file:pkg/protocol/events.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "file:pkg/protocol/messages.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_CallRoundTrip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_Unavailable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_ReattachRequiresFreshNegotiation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_Timeout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_ServerError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_DetachFailsPending",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_DeliverDetachRaceNoPanic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSOutbound_CancelBeforeWriteDropsFrame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSOutbound_WriteBeforeCancelDelivers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_TimeoutCancelsUnsentFrame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/daemon/wsrpc_test.go",
+      "target": "function:internal/daemon/wsrpc_test.go:TestWSRPCClient_TimeoutUncertainWhenAlreadySent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_home_link_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_home_link_windows.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_home_link.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_home_sessions_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_home.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_memory_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_memory.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_multi_agent_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_multi_agent.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_sandbox.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_skill_strip_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_skill_strip.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/codex_user_skills.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/context_marker_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/context.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/cursor_mcp_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/cursor_mcp.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/execenv_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/execenv.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/git.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/handoff_context_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/hermes_home_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/hermes_home.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/openclaw_config_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/openclaw_config.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/reply_instructions_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/reply_instructions.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/reserved_skill_path_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config_kind_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config_kind.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config_sections.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/runtime_config.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/sidecar_manifest_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/sidecar_manifest.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/skill_frontmatter_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/skill_visibility_test.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "file:internal/daemon/execenv/skill_visibility.go",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "function:internal/handler/agent_work_dir_test.go:TestRelativeWorkDir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/handler/agent_work_dir_test.go",
+      "target": "function:internal/handler/agent_work_dir_test.go:TestShortTaskIDMatchesDaemon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/runtimeapps/connected_app.go",
+      "target": "class:internal/runtimeapps/connected_app.go:ConnectedApp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/runtimeapps/connected_app.go",
+      "target": "class:internal/runtimeapps/connected_app.go:MCPOverlayResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/runtimeapps/connected_app.go",
+      "target": "function:internal/runtimeapps/connected_app.go:DisplayNameForToolkitSlug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/runtimeapps/connected_app.go",
+      "target": "function:internal/runtimeapps/connected_app.go:titleASCII",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/runtimeapps/connected_app.go:DisplayNameForToolkitSlug",
+      "target": "function:internal/runtimeapps/connected_app.go:titleASCII",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/selfexec/selfexec.go",
+      "target": "function:internal/selfexec/selfexec.go:Resolve",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/selfexec/selfexec.go",
+      "target": "function:internal/selfexec/selfexec.go:resolveWith",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/selfexec/selfexec.go:Resolve",
+      "target": "function:internal/selfexec/selfexec.go:resolveWith",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/selfexec/selfexec_test.go",
+      "target": "function:internal/selfexec/selfexec_test.go:TestResolveWithUsesOSExecutable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/selfexec/selfexec_test.go",
+      "target": "function:internal/selfexec/selfexec_test.go:TestResolveWithFallsBackToArgv0",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/selfexec/selfexec_test.go",
+      "target": "function:internal/selfexec/selfexec_test.go:TestResolveWithRejectsInvalidFallback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/selfexec/selfexec_test.go",
+      "target": "function:internal/selfexec/selfexec_test.go:writeTestExecutable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/selfexec/selfexec_test.go:TestResolveWithFallsBackToArgv0",
+      "target": "function:internal/selfexec/selfexec_test.go:writeTestExecutable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/selfexec/selfexec_test.go:TestResolveWithFallsBackToArgv0",
+      "target": "function:internal/selfexec/selfexec_test.go:writeTestExecutable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/selfexec/selfexec_test.go:TestResolveWithFallsBackToArgv0",
+      "target": "function:internal/selfexec/selfexec_test.go:writeTestExecutable",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/skill/frontmatter.go",
+      "target": "function:internal/skill/frontmatter.go:ParseSkillFrontmatter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/skill/frontmatter.go",
+      "target": "function:internal/skill/frontmatter.go:coerceFrontmatterValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "function:internal/skill/frontmatter.go:ParseSkillFrontmatter",
+      "target": "function:internal/skill/frontmatter.go:coerceFrontmatterValue",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "function:internal/skill/frontmatter.go:ParseSkillFrontmatter",
+      "target": "function:internal/skill/frontmatter.go:coerceFrontmatterValue",
+      "type": "calls",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:internal/skill/frontmatter_test.go",
+      "target": "function:internal/skill/frontmatter_test.go:TestParseSkillFrontmatter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/skill/reserved.go",
+      "target": "function:internal/skill/reserved.go:IsReservedContentPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:internal/skill/reserved_test.go",
+      "target": "function:internal/skill/reserved_test.go:TestIsReservedContentPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:RPCRequestPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:RPCResponsePayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:Message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:TaskDispatchPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:TaskAvailablePayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:RuntimeProfilesChangedPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:WorkspacesChangedPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:TaskProgressPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:TaskCompletedPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:TaskMessagePayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:DaemonRegisterPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:RuntimeInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:ChatMessagePayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:ChatDonePayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:ChatCancelFinalizedPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:ChatSessionReadPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:ChatSessionDeletedPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:ChatSessionUpdatedPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:DaemonHeartbeatRequestPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:DaemonHeartbeatAckPayload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:DaemonHeartbeatPendingUpdate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:DaemonHeartbeatPendingModelList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:DaemonHeartbeatPendingLocalSkills",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/protocol/messages.go",
+      "target": "class:pkg/protocol/messages.go:DaemonHeartbeatPendingLocalSkillImport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/skillbundle/hash.go",
+      "target": "class:pkg/skillbundle/hash.go:File",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/skillbundle/hash.go",
+      "target": "class:pkg/skillbundle/hash.go:Skill",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/skillbundle/hash.go",
+      "target": "class:pkg/skillbundle/hash.go:FileRef",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/skillbundle/hash.go",
+      "target": "class:pkg/skillbundle/hash.go:Manifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/skillbundle/hash.go",
+      "target": "function:pkg/skillbundle/hash.go:BuildManifest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/skillbundle/hash_test.go",
+      "target": "function:pkg/skillbundle/hash_test.go:TestBuildManifestStableAcrossFileOrder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:pkg/skillbundle/hash_test.go",
+      "target": "function:pkg/skillbundle/hash_test.go:TestBuildManifestChangesWhenContentChanges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

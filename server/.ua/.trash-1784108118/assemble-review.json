@@ -1,0 +1,12 @@
+{
+  "fixedSectionOk": true,
+  "nodesRecovered": 0,
+  "edgesRestored": 0,
+  "crossBatchEdgesAdded": 0,
+  "typesRemapped": 0,
+  "complexityRemapped": 0,
+  "notes": [
+    "文件级节点覆盖 1419/1419 个扫描文件。",
+    "imports 边 17367 条。"
+  ]
+}

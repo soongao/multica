@@ -1,0 +1,3269 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "migrations/001_init.down.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/001_init.up.sql",
+      "language": "sql",
+      "sizeLines": 177,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/002_agent_config.down.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/002_agent_config.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/003_task_context.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/003_task_context.up.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/004_agent_runtime_loop.down.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/004_agent_runtime_loop.up.sql",
+      "language": "sql",
+      "sizeLines": 92,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/005_daemon_pairing.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/005_daemon_pairing.up.sql",
+      "language": "sql",
+      "sizeLines": 20,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/006_workspace_context.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/006_workspace_context.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/007_drop_issue_repository.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/007_drop_issue_repository.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/008_structured_skills.down.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/008_structured_skills.up.sql",
+      "language": "sql",
+      "sizeLines": 41,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/009_verification_code.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/009_verification_code.up.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/010_verification_code_attempts.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/010_verification_code_attempts.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/011_personal_access_tokens.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/011_personal_access_tokens.up.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/012_inbox_actor.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/012_inbox_actor.up.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/013_runtime_usage.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/013_runtime_usage.up.sql",
+      "language": "sql",
+      "sizeLines": 16,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/014_workspace_repos.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/014_workspace_repos.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/015_issue_subscriber.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/015_issue_subscriber.up.sql",
+      "language": "sql",
+      "sizeLines": 11,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/016_backfill_subscribers.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/016_backfill_subscribers.up.sql",
+      "language": "sql",
+      "sizeLines": 18,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/017_comment_parent_id.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/017_comment_parent_id.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/018_comment_parent_cascade.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/018_comment_parent_cascade.up.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/019_inbox_details.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/019_inbox_details.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/020_issue_number.down.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/020_issue_number.up.sql",
+      "language": "sql",
+      "sizeLines": 36,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/020_task_session.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/020_task_session.up.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/021_agent_instructions.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/021_agent_instructions.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/022_task_lifecycle_guards.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/022_task_lifecycle_guards.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/023_agent_concurrency_default.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/023_agent_concurrency_default.up.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/024_backfill_empty_issue_prefix.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/024_backfill_empty_issue_prefix.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/025_comment_workspace_id.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/025_comment_workspace_id.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/026_comment_reactions.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/026_comment_reactions.up.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/026_task_messages.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/026_task_messages.up.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/027_issue_reactions.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/027_issue_reactions.up.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/028_task_trigger_comment.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/028_task_trigger_comment.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_attachment.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_attachment.up.sql",
+      "language": "sql",
+      "sizeLines": 17,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_daemon_token.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_daemon_token.up.sql",
+      "language": "sql",
+      "sizeLines": 11,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_drop_daemon_pairing.down.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_drop_daemon_pairing.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/030_agent_default_private.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/030_agent_default_private.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/031_agent_archive.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/031_agent_archive.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_drop_agent_triggers.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_drop_agent_triggers.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_issue_search_index.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_issue_search_index.up.sql",
+      "language": "sql",
+      "sizeLines": 20,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_runtime_owner.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_runtime_owner.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_task_usage.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_task_usage.up.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/033_chat.down.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/033_chat.up.sql",
+      "language": "sql",
+      "sizeLines": 36,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/033_comment_search_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/033_comment_search_index.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/034_projects.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/034_projects.up.sql",
+      "language": "sql",
+      "sizeLines": 20,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/035_project_priority.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/035_project_priority.up.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/035_task_queue_issue_id_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/035_task_queue_issue_id_index.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/036_search_index_lower.down.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/036_search_index_lower.up.sql",
+      "language": "sql",
+      "sizeLines": 28,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/037_fix_pending_task_unique_index.down.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/037_fix_pending_task_unique_index.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/038_pinned_items.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/038_pinned_items.up.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/039_project_search_index.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/039_project_search_index.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/040_agent_custom_env.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/040_agent_custom_env.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/040_chat_unread_since.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/040_chat_unread_since.up.sql",
+      "language": "sql",
+      "sizeLines": 16,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/041_agent_custom_args.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/041_agent_custom_args.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/041_workspace_invitation.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/041_workspace_invitation.up.sql",
+      "language": "sql",
+      "sizeLines": 20,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/042_autopilot.down.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/042_autopilot.up.sql",
+      "language": "sql",
+      "sizeLines": 77,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/043_audit_reserved_slugs.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/043_audit_reserved_slugs.up.sql",
+      "language": "sql",
+      "sizeLines": 35,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/043_fix_orphaned_autopilot_runs.down.sql",
+      "language": "sql",
+      "sizeLines": 16,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/043_fix_orphaned_autopilot_runs.up.sql",
+      "language": "sql",
+      "sizeLines": 35,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/044_fix_workspace_fallback_slug.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/044_fix_workspace_fallback_slug.up.sql",
+      "language": "sql",
+      "sizeLines": 24,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/045_audit_dashboard_route_slugs.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/045_audit_dashboard_route_slugs.up.sql",
+      "language": "sql",
+      "sizeLines": 34,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_agent_mcp_config.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_agent_mcp_config.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_agent_unique_name.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_agent_unique_name.up.sql",
+      "language": "sql",
+      "sizeLines": 22,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_drop_runtime_usage.down.sql",
+      "language": "sql",
+      "sizeLines": 16,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_drop_runtime_usage.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/047_audit_extended_reserved_slugs.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/047_audit_extended_reserved_slugs.up.sql",
+      "language": "sql",
+      "sizeLines": 65,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/048_runtime_daemon_uuid.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/048_runtime_daemon_uuid.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/049_audit_legacy_reserved_slugs.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/049_audit_legacy_reserved_slugs.up.sql",
+      "language": "sql",
+      "sizeLines": 48,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_add_onboarded_at_to_users.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_add_onboarded_at_to_users.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_agent_model.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_agent_model.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_issue_first_executed_at.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_issue_first_executed_at.up.sql",
+      "language": "sql",
+      "sizeLines": 15,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/051_add_onboarding_state_to_users.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/051_add_onboarding_state_to_users.up.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/052_add_cloud_waitlist_to_users.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/052_add_cloud_waitlist_to_users.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/053_drop_orphan_onboarding_current_step.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/053_drop_orphan_onboarding_current_step.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/054_add_starter_content_state_to_users.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/054_add_starter_content_state_to_users.up.sql",
+      "language": "sql",
+      "sizeLines": 17,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/055_task_lease_and_retry.down.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/055_task_lease_and_retry.up.sql",
+      "language": "sql",
+      "sizeLines": 26,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/056_audit_newly_reserved_slugs.down.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/056_audit_newly_reserved_slugs.up.sql",
+      "language": "sql",
+      "sizeLines": 95,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/057_feedback.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/057_feedback.up.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/058_drop_autopilot_priority_and_project_id.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/058_drop_autopilot_priority_and_project_id.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/059_label_timestamps.down.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/059_label_timestamps.up.sql",
+      "language": "sql",
+      "sizeLines": 29,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_add_user_language.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_add_user_language.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_agent_description_length.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_agent_description_length.up.sql",
+      "language": "sql",
+      "sizeLines": 29,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_chat_session_runtime_id.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_chat_session_runtime_id.up.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_issue_origin_quick_create.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_issue_origin_quick_create.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/061_task_trigger_summary.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/061_task_trigger_summary.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/062_chat_message_failure_reason.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/062_chat_message_failure_reason.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/063_chat_message_elapsed.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/063_chat_message_elapsed.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/064_notification_preference.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/064_notification_preference.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/065_backfill_onboarded_at.down.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/065_backfill_onboarded_at.up.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/065_project_resources.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/065_project_resources.up.sql",
+      "language": "sql",
+      "sizeLines": 19,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/066_force_fresh_session.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/066_force_fresh_session.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/067_task_queue_claim_candidate_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/067_task_queue_claim_candidate_index.up.sql",
+      "language": "sql",
+      "sizeLines": 11,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/068_timeline_keyset_index.down.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/068_timeline_keyset_index.up.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/069_comment_resolved_at.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/069_comment_resolved_at.up.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/069_drop_task_last_heartbeat.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/069_drop_task_last_heartbeat.up.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/072_task_usage_updated_at.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/072_task_usage_updated_at.up.sql",
+      "language": "sql",
+      "sizeLines": 23,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/073_task_usage_daily_rollup.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/073_task_usage_daily_rollup.up.sql",
+      "language": "sql",
+      "sizeLines": 227,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/074_task_usage_updated_at_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/074_task_usage_updated_at_index.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/075_task_usage_created_at_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/075_task_usage_created_at_index.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/076_task_usage_pgcron_extension.down.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/076_task_usage_pgcron_extension.up.sql",
+      "language": "sql",
+      "sizeLines": 46,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/077_task_usage_daily_invalidation.down.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/077_task_usage_daily_invalidation.up.sql",
+      "language": "sql",
+      "sizeLines": 269,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/078_task_usage_created_at_legacy_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/078_task_usage_created_at_legacy_index.up.sql",
+      "language": "sql",
+      "sizeLines": 11,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_autopilot_run_skipped_status.down.sql",
+      "language": "sql",
+      "sizeLines": 11,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_autopilot_run_skipped_status.up.sql",
+      "language": "sql",
+      "sizeLines": 16,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_backfill_api_invalid_request.down.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_backfill_api_invalid_request.up.sql",
+      "language": "sql",
+      "sizeLines": 18,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_github_integration.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_github_integration.up.sql",
+      "language": "sql",
+      "sizeLines": 54,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/080_agent_task_queue_queued_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/080_agent_task_queue_queued_index.up.sql",
+      "language": "sql",
+      "sizeLines": 18,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/081_runtime_timezone.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/081_runtime_timezone.up.sql",
+      "language": "sql",
+      "sizeLines": 19,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/082_rollup_runtime_timezone.down.sql",
+      "language": "sql",
+      "sizeLines": 174,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/082_rollup_runtime_timezone.up.sql",
+      "language": "sql",
+      "sizeLines": 243,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/083_attachment_chat_columns.down.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/083_attachment_chat_columns.up.sql",
+      "language": "sql",
+      "sizeLines": 11,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/083_runtime_visibility.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/083_runtime_visibility.up.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/084_squad.down.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/084_squad.up.sql",
+      "language": "sql",
+      "sizeLines": 33,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/084_task_usage_dashboard_rollup.down.sql",
+      "language": "sql",
+      "sizeLines": 25,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/084_task_usage_dashboard_rollup.up.sql",
+      "language": "sql",
+      "sizeLines": 519,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/085_squad_archive.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/085_squad_archive.up.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/086_squad_avatar.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/086_squad_avatar.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/087_squad_name_not_unique.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/087_squad_name_not_unique.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/088_squad_instructions.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/088_squad_instructions.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/089_squad_no_action_activity_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/089_squad_no_action_activity_index.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/090_task_is_leader.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/090_task_is_leader.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_autopilot_webhook_triggers.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_autopilot_webhook_triggers.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_issue_start_date.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_issue_start_date.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_pr_ci_conflict.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_pr_ci_conflict.up.sql",
+      "language": "sql",
+      "sizeLines": 22,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/092_pr_stats.down.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/092_pr_stats.up.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/093_webhook_deliveries.down.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/093_webhook_deliveries.up.sql",
+      "language": "sql",
+      "sizeLines": 97,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/094_onboarding_questionnaire_v2.down.sql",
+      "language": "sql",
+      "sizeLines": 31,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/094_onboarding_questionnaire_v2.up.sql",
+      "language": "sql",
+      "sizeLines": 44,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/095_agent_thinking_level.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/095_agent_thinking_level.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/095_backfill_starter_content_state.down.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/095_backfill_starter_content_state.up.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_autopilot_squad_assignee.down.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_autopilot_squad_assignee.up.sql",
+      "language": "sql",
+      "sizeLines": 33,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_pending_check_suite.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_pending_check_suite.up.sql",
+      "language": "sql",
+      "sizeLines": 28,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_user_profile_description.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_user_profile_description.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/097_autopilot_project_id.down.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/097_autopilot_project_id.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/098_contact_sales_inquiries.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/098_contact_sales_inquiries.up.sql",
+      "language": "sql",
+      "sizeLines": 26,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/098_user_onboarding_runtime_choice.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/098_user_onboarding_runtime_choice.up.sql",
+      "language": "sql",
+      "sizeLines": 16,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/100_user_timezone.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/100_user_timezone.up.sql",
+      "language": "sql",
+      "sizeLines": 32,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/101_task_usage_hourly_schema.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/101_task_usage_hourly_schema.up.sql",
+      "language": "sql",
+      "sizeLines": 133,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/102_task_usage_hourly_pipeline.down.sql",
+      "language": "sql",
+      "sizeLines": 31,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/102_task_usage_hourly_pipeline.up.sql",
+      "language": "sql",
+      "sizeLines": 524,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/103_drop_legacy_daily_rollups.down.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/103_drop_legacy_daily_rollups.up.sql",
+      "language": "sql",
+      "sizeLines": 150,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/104_drop_runtime_timezone.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/104_drop_runtime_timezone.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/105_issue_metadata.down.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/105_issue_metadata.up.sql",
+      "language": "sql",
+      "sizeLines": 19,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/106_member_user_workspace_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/106_member_user_workspace_index.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/107_comment_system_author.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/107_comment_system_author.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/108_task_token.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/108_task_token.up.sql",
+      "language": "sql",
+      "sizeLines": 30,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_agent_task_waiting_local_directory.down.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_agent_task_waiting_local_directory.up.sql",
+      "language": "sql",
+      "sizeLines": 17,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_drop_agent_skills_local.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_drop_agent_skills_local.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_issue_pull_request_close_intent.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_issue_pull_request_close_intent.up.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_lark_integration.down.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_lark_integration.up.sql",
+      "language": "sql",
+      "sizeLines": 270,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/110_autopilot_trigger_event_filters.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/110_autopilot_trigger_event_filters.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/111_issue_origin_lark_chat.down.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/111_issue_origin_lark_chat.up.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/111_workspace_avatar.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/111_workspace_avatar.up.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/112_issue_dates_to_date.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/112_issue_dates_to_date.up.sql",
+      "language": "sql",
+      "sizeLines": 16,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/112_lark_installation_bot_union_id.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/112_lark_installation_bot_union_id.up.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/113_lark_inbound_dedup_per_installation.down.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/113_lark_inbound_dedup_per_installation.up.sql",
+      "language": "sql",
+      "sizeLines": 28,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/113_sys_cron_executions.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/113_sys_cron_executions.up.sql",
+      "language": "sql",
+      "sizeLines": 106,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/114_agent_task_queue_running_started_at_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/114_agent_task_queue_running_started_at_index.up.sql",
+      "language": "sql",
+      "sizeLines": 11,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/115_agent_runtime_last_seen_at_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/115_agent_runtime_last_seen_at_index.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/116_lark_installation_region.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/116_lark_installation_region.up.sql",
+      "language": "sql",
+      "sizeLines": 22,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/117_agent_task_queue_initiator_user_id.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/117_agent_task_queue_initiator_user_id.up.sql",
+      "language": "sql",
+      "sizeLines": 19,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/118_agent_task_queue_initiator_user_id_drop_fk.down.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/118_agent_task_queue_initiator_user_id_drop_fk.up.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/119_user_created_at_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/119_user_created_at_index.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_autopilot_subscriber.down.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_autopilot_subscriber.up.sql",
+      "language": "sql",
+      "sizeLines": 23,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_comment_source_task_id.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_comment_source_task_id.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_github_pending_installation.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_github_pending_installation.up.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_runtime_profile.down.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_runtime_profile.up.sql",
+      "language": "sql",
+      "sizeLines": 83,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/121_agent_runtime_provider_partial_unique.down.sql",
+      "language": "sql",
+      "sizeLines": 15,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/121_agent_runtime_provider_partial_unique.up.sql",
+      "language": "sql",
+      "sizeLines": 28,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/122_lark_chat_session_binding_thread_reply.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/122_lark_chat_session_binding_thread_reply.up.sql",
+      "language": "sql",
+      "sizeLines": 23,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/122_task_handoff_note.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/122_task_handoff_note.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/123_issue_stage.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/123_issue_stage.up.sql",
+      "language": "sql",
+      "sizeLines": 15,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_autopilot_run_planned_at.down.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_autopilot_run_planned_at.up.sql",
+      "language": "sql",
+      "sizeLines": 36,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_channel_generalization.down.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_channel_generalization.up.sql",
+      "language": "sql",
+      "sizeLines": 306,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_task_prepare_lease.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_task_prepare_lease.up.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/125_agent_task_queue_dispatched_prepare_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/125_agent_task_queue_dispatched_prepare_index.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/126_runtime_profile_drop_gemini.down.sql",
+      "language": "sql",
+      "sizeLines": 18,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/126_runtime_profile_drop_gemini.up.sql",
+      "language": "sql",
+      "sizeLines": 19,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_issue_pull_request_reference_only.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_issue_pull_request_reference_only.up.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_task_squad_id.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_task_squad_id.up.sql",
+      "language": "sql",
+      "sizeLines": 24,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_user_composio_connection.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_user_composio_connection.up.sql",
+      "language": "sql",
+      "sizeLines": 38,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_agent_task_queue_runtime_mcp_overlay.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_agent_task_queue_runtime_mcp_overlay.up.sql",
+      "language": "sql",
+      "sizeLines": 53,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_autopilot_collaborator.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_autopilot_collaborator.up.sql",
+      "language": "sql",
+      "sizeLines": 23,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_comment_routing_escalation.down.sql",
+      "language": "sql",
+      "sizeLines": 24,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_comment_routing_escalation.up.sql",
+      "language": "sql",
+      "sizeLines": 25,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/129_agent_composio_allowlist_and_task_originator.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/129_agent_composio_allowlist_and_task_originator.up.sql",
+      "language": "sql",
+      "sizeLines": 52,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/130_agent_invocation_permission.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/130_agent_invocation_permission.up.sql",
+      "language": "sql",
+      "sizeLines": 102,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/131_issue_origin_slack_chat.down.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/131_issue_origin_slack_chat.up.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/132_agent_task_queue_runtime_connected_apps.down.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/132_agent_task_queue_runtime_connected_apps.up.sql",
+      "language": "sql",
+      "sizeLines": 24,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/133_github_installation_multi_workspace.down.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/133_github_installation_multi_workspace.up.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/134_runtime_profile_add_qoder.down.sql",
+      "language": "sql",
+      "sizeLines": 19,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/134_runtime_profile_add_qoder.up.sql",
+      "language": "sql",
+      "sizeLines": 23,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/135_comment_workspace_index.down.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/135_comment_workspace_index.up.sql",
+      "language": "sql",
+      "sizeLines": 46,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/136_runtime_profile_add_traecli.down.sql",
+      "language": "sql",
+      "sizeLines": 20,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/136_runtime_profile_add_traecli.up.sql",
+      "language": "sql",
+      "sizeLines": 25,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/137_search_index_pg_trgm_extension.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/137_search_index_pg_trgm_extension.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/138_issue_title_trgm_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/138_issue_title_trgm_index.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/139_issue_description_trgm_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/139_issue_description_trgm_index.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/140_comment_content_trgm_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/140_comment_content_trgm_index.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/141_project_title_trgm_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/141_project_title_trgm_index.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/142_project_description_trgm_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/142_project_description_trgm_index.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/143_agent_task_queue_chat_pending_v2.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/143_agent_task_queue_chat_pending_v2.up.sql",
+      "language": "sql",
+      "sizeLines": 25,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/144_drop_agent_task_queue_chat_pending_v1.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/144_drop_agent_task_queue_chat_pending_v1.up.sql",
+      "language": "sql",
+      "sizeLines": 12,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/145_agent_runtime_custom_name.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/145_agent_runtime_custom_name.up.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/149_issue_origin_agent_create.down.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/149_issue_origin_agent_create.up.sql",
+      "language": "sql",
+      "sizeLines": 13,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/150_agent_task_coalesced_comments.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/150_agent_task_coalesced_comments.up.sql",
+      "language": "sql",
+      "sizeLines": 20,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/151_chat_read_cursor.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/151_chat_read_cursor.up.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/152_chat_pinned_agent.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/152_chat_pinned_agent.up.sql",
+      "language": "sql",
+      "sizeLines": 18,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/153_chat_pinned_agent_user_ws_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/153_chat_pinned_agent_user_ws_index.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/154_chat_agent_intro.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/154_chat_agent_intro.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/155_chat_session_pinned.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/155_chat_session_pinned.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/156_chat_session_pinned_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/156_chat_session_pinned_index.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/157_agent_task_delivered_comments.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/157_agent_task_delivered_comments.up.sql",
+      "language": "sql",
+      "sizeLines": 17,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/158_agent_task_queue_chat_input_task_id.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/158_agent_task_queue_chat_input_task_id.up.sql",
+      "language": "sql",
+      "sizeLines": 17,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/159_chat_message_message_kind.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/159_chat_message_message_kind.up.sql",
+      "language": "sql",
+      "sizeLines": 17,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/160_chat_message_input_owner_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/160_chat_message_input_owner_index.up.sql",
+      "language": "sql",
+      "sizeLines": 16,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/161_agent_skill_enabled.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/161_agent_skill_enabled.up.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/162_resource_labels.down.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/162_resource_labels.up.sql",
+      "language": "sql",
+      "sizeLines": 22,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/163_agent_builder.down.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/163_agent_builder.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/164_attachment_task_id.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/164_attachment_task_id.up.sql",
+      "language": "sql",
+      "sizeLines": 30,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/165_attachment_task_id_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/165_attachment_task_id_index.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/166_project_dates.down.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/166_project_dates.up.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/167_resource_label_namespace_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/167_resource_label_namespace_index.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/168_resource_label_type_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/168_resource_label_type_index.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/169_agent_label_lookup_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/169_agent_label_lookup_index.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/170_skill_label_lookup_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/170_skill_label_lookup_index.up.sql",
+      "language": "sql",
+      "sizeLines": 4,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/171_drop_legacy_label_namespace_index.down.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/171_drop_legacy_label_namespace_index.up.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/172_agent_system_identity_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/172_agent_system_identity_index.up.sql",
+      "language": "sql",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/173_remove_resource_label_foreign_keys.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/173_remove_resource_label_foreign_keys.up.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/174_legacy_label_index_rollback_prep.down.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/174_legacy_label_index_rollback_prep.up.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/175_runtime_profile_add_deveco.down.sql",
+      "language": "sql",
+      "sizeLines": 21,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/175_runtime_profile_add_deveco.up.sql",
+      "language": "sql",
+      "sizeLines": 25,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/176_webhook_delivery_worker.down.sql",
+      "language": "sql",
+      "sizeLines": 8,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/176_webhook_delivery_worker.up.sql",
+      "language": "sql",
+      "sizeLines": 14,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/177_autopilot_run_webhook_delivery_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/177_autopilot_run_webhook_delivery_index.up.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/178_webhook_delivery_queue_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/178_webhook_delivery_queue_index.up.sql",
+      "language": "sql",
+      "sizeLines": 3,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/179_runtime_profile_add_grok.down.sql",
+      "language": "sql",
+      "sizeLines": 23,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/179_runtime_profile_add_grok.up.sql",
+      "language": "sql",
+      "sizeLines": 26,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/180_task_chat_finalize_deferred.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/180_task_chat_finalize_deferred.up.sql",
+      "language": "sql",
+      "sizeLines": 10,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/181_task_chat_finalize_deferred_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/181_task_chat_finalize_deferred_index.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/182_chat_draft_restore.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/182_chat_draft_restore.up.sql",
+      "language": "sql",
+      "sizeLines": 28,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/183_chat_draft_restore_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/183_chat_draft_restore_index.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/184_agent_task_attribution.down.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/184_agent_task_attribution.up.sql",
+      "language": "sql",
+      "sizeLines": 95,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/185_agent_task_accountable_user.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/185_agent_task_accountable_user.up.sql",
+      "language": "sql",
+      "sizeLines": 53,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/186_autopilot_rule_version.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/186_autopilot_rule_version.up.sql",
+      "language": "sql",
+      "sizeLines": 43,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/187_autopilot_rule_version_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/187_autopilot_rule_version_index.up.sql",
+      "language": "sql",
+      "sizeLines": 9,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/188_workspace_attribution_fail_closed.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/188_workspace_attribution_fail_closed.up.sql",
+      "language": "sql",
+      "sizeLines": 17,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/189_autopilot_trigger_publisher.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/189_autopilot_trigger_publisher.up.sql",
+      "language": "sql",
+      "sizeLines": 32,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/190_agent_task_attribution_invariant_check.down.sql",
+      "language": "sql",
+      "sizeLines": 2,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/190_agent_task_attribution_invariant_check.up.sql",
+      "language": "sql",
+      "sizeLines": 58,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/191_issue_properties.down.sql",
+      "language": "sql",
+      "sizeLines": 7,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/191_issue_properties.up.sql",
+      "language": "sql",
+      "sizeLines": 47,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/192_issue_properties_gin_index.down.sql",
+      "language": "sql",
+      "sizeLines": 1,
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/192_issue_properties_gin_index.up.sql",
+      "language": "sql",
+      "sizeLines": 6,
+      "fileCategory": "data"
+    }
+  ],
+  "batchImportData": {
+    "migrations/001_init.down.sql": [],
+    "migrations/001_init.up.sql": [],
+    "migrations/002_agent_config.down.sql": [],
+    "migrations/002_agent_config.up.sql": [],
+    "migrations/003_task_context.down.sql": [],
+    "migrations/003_task_context.up.sql": [],
+    "migrations/004_agent_runtime_loop.down.sql": [],
+    "migrations/004_agent_runtime_loop.up.sql": [],
+    "migrations/005_daemon_pairing.down.sql": [],
+    "migrations/005_daemon_pairing.up.sql": [],
+    "migrations/006_workspace_context.down.sql": [],
+    "migrations/006_workspace_context.up.sql": [],
+    "migrations/007_drop_issue_repository.down.sql": [],
+    "migrations/007_drop_issue_repository.up.sql": [],
+    "migrations/008_structured_skills.down.sql": [],
+    "migrations/008_structured_skills.up.sql": [],
+    "migrations/009_verification_code.down.sql": [],
+    "migrations/009_verification_code.up.sql": [],
+    "migrations/010_verification_code_attempts.down.sql": [],
+    "migrations/010_verification_code_attempts.up.sql": [],
+    "migrations/011_personal_access_tokens.down.sql": [],
+    "migrations/011_personal_access_tokens.up.sql": [],
+    "migrations/012_inbox_actor.down.sql": [],
+    "migrations/012_inbox_actor.up.sql": [],
+    "migrations/013_runtime_usage.down.sql": [],
+    "migrations/013_runtime_usage.up.sql": [],
+    "migrations/014_workspace_repos.down.sql": [],
+    "migrations/014_workspace_repos.up.sql": [],
+    "migrations/015_issue_subscriber.down.sql": [],
+    "migrations/015_issue_subscriber.up.sql": [],
+    "migrations/016_backfill_subscribers.down.sql": [],
+    "migrations/016_backfill_subscribers.up.sql": [],
+    "migrations/017_comment_parent_id.down.sql": [],
+    "migrations/017_comment_parent_id.up.sql": [],
+    "migrations/018_comment_parent_cascade.down.sql": [],
+    "migrations/018_comment_parent_cascade.up.sql": [],
+    "migrations/019_inbox_details.down.sql": [],
+    "migrations/019_inbox_details.up.sql": [],
+    "migrations/020_issue_number.down.sql": [],
+    "migrations/020_issue_number.up.sql": [],
+    "migrations/020_task_session.down.sql": [],
+    "migrations/020_task_session.up.sql": [],
+    "migrations/021_agent_instructions.down.sql": [],
+    "migrations/021_agent_instructions.up.sql": [],
+    "migrations/022_task_lifecycle_guards.down.sql": [],
+    "migrations/022_task_lifecycle_guards.up.sql": [],
+    "migrations/023_agent_concurrency_default.down.sql": [],
+    "migrations/023_agent_concurrency_default.up.sql": [],
+    "migrations/024_backfill_empty_issue_prefix.down.sql": [],
+    "migrations/024_backfill_empty_issue_prefix.up.sql": [],
+    "migrations/025_comment_workspace_id.down.sql": [],
+    "migrations/025_comment_workspace_id.up.sql": [],
+    "migrations/026_comment_reactions.down.sql": [],
+    "migrations/026_comment_reactions.up.sql": [],
+    "migrations/026_task_messages.down.sql": [],
+    "migrations/026_task_messages.up.sql": [],
+    "migrations/027_issue_reactions.down.sql": [],
+    "migrations/027_issue_reactions.up.sql": [],
+    "migrations/028_task_trigger_comment.down.sql": [],
+    "migrations/028_task_trigger_comment.up.sql": [],
+    "migrations/029_attachment.down.sql": [],
+    "migrations/029_attachment.up.sql": [],
+    "migrations/029_daemon_token.down.sql": [],
+    "migrations/029_daemon_token.up.sql": [],
+    "migrations/029_drop_daemon_pairing.down.sql": [],
+    "migrations/029_drop_daemon_pairing.up.sql": [],
+    "migrations/030_agent_default_private.down.sql": [],
+    "migrations/030_agent_default_private.up.sql": [],
+    "migrations/031_agent_archive.down.sql": [],
+    "migrations/031_agent_archive.up.sql": [],
+    "migrations/032_drop_agent_triggers.down.sql": [],
+    "migrations/032_drop_agent_triggers.up.sql": [],
+    "migrations/032_issue_search_index.down.sql": [],
+    "migrations/032_issue_search_index.up.sql": [],
+    "migrations/032_runtime_owner.down.sql": [],
+    "migrations/032_runtime_owner.up.sql": [],
+    "migrations/032_task_usage.down.sql": [],
+    "migrations/032_task_usage.up.sql": [],
+    "migrations/033_chat.down.sql": [],
+    "migrations/033_chat.up.sql": [],
+    "migrations/033_comment_search_index.down.sql": [],
+    "migrations/033_comment_search_index.up.sql": [],
+    "migrations/034_projects.down.sql": [],
+    "migrations/034_projects.up.sql": [],
+    "migrations/035_project_priority.down.sql": [],
+    "migrations/035_project_priority.up.sql": [],
+    "migrations/035_task_queue_issue_id_index.down.sql": [],
+    "migrations/035_task_queue_issue_id_index.up.sql": [],
+    "migrations/036_search_index_lower.down.sql": [],
+    "migrations/036_search_index_lower.up.sql": [],
+    "migrations/037_fix_pending_task_unique_index.down.sql": [],
+    "migrations/037_fix_pending_task_unique_index.up.sql": [],
+    "migrations/038_pinned_items.down.sql": [],
+    "migrations/038_pinned_items.up.sql": [],
+    "migrations/039_project_search_index.down.sql": [],
+    "migrations/039_project_search_index.up.sql": [],
+    "migrations/040_agent_custom_env.down.sql": [],
+    "migrations/040_agent_custom_env.up.sql": [],
+    "migrations/040_chat_unread_since.down.sql": [],
+    "migrations/040_chat_unread_since.up.sql": [],
+    "migrations/041_agent_custom_args.down.sql": [],
+    "migrations/041_agent_custom_args.up.sql": [],
+    "migrations/041_workspace_invitation.down.sql": [],
+    "migrations/041_workspace_invitation.up.sql": [],
+    "migrations/042_autopilot.down.sql": [],
+    "migrations/042_autopilot.up.sql": [],
+    "migrations/043_audit_reserved_slugs.down.sql": [],
+    "migrations/043_audit_reserved_slugs.up.sql": [],
+    "migrations/043_fix_orphaned_autopilot_runs.down.sql": [],
+    "migrations/043_fix_orphaned_autopilot_runs.up.sql": [],
+    "migrations/044_fix_workspace_fallback_slug.down.sql": [],
+    "migrations/044_fix_workspace_fallback_slug.up.sql": [],
+    "migrations/045_audit_dashboard_route_slugs.down.sql": [],
+    "migrations/045_audit_dashboard_route_slugs.up.sql": [],
+    "migrations/046_agent_mcp_config.down.sql": [],
+    "migrations/046_agent_mcp_config.up.sql": [],
+    "migrations/046_agent_unique_name.down.sql": [],
+    "migrations/046_agent_unique_name.up.sql": [],
+    "migrations/046_drop_runtime_usage.down.sql": [],
+    "migrations/046_drop_runtime_usage.up.sql": [],
+    "migrations/047_audit_extended_reserved_slugs.down.sql": [],
+    "migrations/047_audit_extended_reserved_slugs.up.sql": [],
+    "migrations/048_runtime_daemon_uuid.down.sql": [],
+    "migrations/048_runtime_daemon_uuid.up.sql": [],
+    "migrations/049_audit_legacy_reserved_slugs.down.sql": [],
+    "migrations/049_audit_legacy_reserved_slugs.up.sql": [],
+    "migrations/050_add_onboarded_at_to_users.down.sql": [],
+    "migrations/050_add_onboarded_at_to_users.up.sql": [],
+    "migrations/050_agent_model.down.sql": [],
+    "migrations/050_agent_model.up.sql": [],
+    "migrations/050_issue_first_executed_at.down.sql": [],
+    "migrations/050_issue_first_executed_at.up.sql": [],
+    "migrations/051_add_onboarding_state_to_users.down.sql": [],
+    "migrations/051_add_onboarding_state_to_users.up.sql": [],
+    "migrations/052_add_cloud_waitlist_to_users.down.sql": [],
+    "migrations/052_add_cloud_waitlist_to_users.up.sql": [],
+    "migrations/053_drop_orphan_onboarding_current_step.down.sql": [],
+    "migrations/053_drop_orphan_onboarding_current_step.up.sql": [],
+    "migrations/054_add_starter_content_state_to_users.down.sql": [],
+    "migrations/054_add_starter_content_state_to_users.up.sql": [],
+    "migrations/055_task_lease_and_retry.down.sql": [],
+    "migrations/055_task_lease_and_retry.up.sql": [],
+    "migrations/056_audit_newly_reserved_slugs.down.sql": [],
+    "migrations/056_audit_newly_reserved_slugs.up.sql": [],
+    "migrations/057_feedback.down.sql": [],
+    "migrations/057_feedback.up.sql": [],
+    "migrations/058_drop_autopilot_priority_and_project_id.down.sql": [],
+    "migrations/058_drop_autopilot_priority_and_project_id.up.sql": [],
+    "migrations/059_label_timestamps.down.sql": [],
+    "migrations/059_label_timestamps.up.sql": [],
+    "migrations/060_add_user_language.down.sql": [],
+    "migrations/060_add_user_language.up.sql": [],
+    "migrations/060_agent_description_length.down.sql": [],
+    "migrations/060_agent_description_length.up.sql": [],
+    "migrations/060_chat_session_runtime_id.down.sql": [],
+    "migrations/060_chat_session_runtime_id.up.sql": [],
+    "migrations/060_issue_origin_quick_create.down.sql": [],
+    "migrations/060_issue_origin_quick_create.up.sql": [],
+    "migrations/061_task_trigger_summary.down.sql": [],
+    "migrations/061_task_trigger_summary.up.sql": [],
+    "migrations/062_chat_message_failure_reason.down.sql": [],
+    "migrations/062_chat_message_failure_reason.up.sql": [],
+    "migrations/063_chat_message_elapsed.down.sql": [],
+    "migrations/063_chat_message_elapsed.up.sql": [],
+    "migrations/064_notification_preference.down.sql": [],
+    "migrations/064_notification_preference.up.sql": [],
+    "migrations/065_backfill_onboarded_at.down.sql": [],
+    "migrations/065_backfill_onboarded_at.up.sql": [],
+    "migrations/065_project_resources.down.sql": [],
+    "migrations/065_project_resources.up.sql": [],
+    "migrations/066_force_fresh_session.down.sql": [],
+    "migrations/066_force_fresh_session.up.sql": [],
+    "migrations/067_task_queue_claim_candidate_index.down.sql": [],
+    "migrations/067_task_queue_claim_candidate_index.up.sql": [],
+    "migrations/068_timeline_keyset_index.down.sql": [],
+    "migrations/068_timeline_keyset_index.up.sql": [],
+    "migrations/069_comment_resolved_at.down.sql": [],
+    "migrations/069_comment_resolved_at.up.sql": [],
+    "migrations/069_drop_task_last_heartbeat.down.sql": [],
+    "migrations/069_drop_task_last_heartbeat.up.sql": [],
+    "migrations/072_task_usage_updated_at.down.sql": [],
+    "migrations/072_task_usage_updated_at.up.sql": [],
+    "migrations/073_task_usage_daily_rollup.down.sql": [],
+    "migrations/073_task_usage_daily_rollup.up.sql": [],
+    "migrations/074_task_usage_updated_at_index.down.sql": [],
+    "migrations/074_task_usage_updated_at_index.up.sql": [],
+    "migrations/075_task_usage_created_at_index.down.sql": [],
+    "migrations/075_task_usage_created_at_index.up.sql": [],
+    "migrations/076_task_usage_pgcron_extension.down.sql": [],
+    "migrations/076_task_usage_pgcron_extension.up.sql": [],
+    "migrations/077_task_usage_daily_invalidation.down.sql": [],
+    "migrations/077_task_usage_daily_invalidation.up.sql": [],
+    "migrations/078_task_usage_created_at_legacy_index.down.sql": [],
+    "migrations/078_task_usage_created_at_legacy_index.up.sql": [],
+    "migrations/079_autopilot_run_skipped_status.down.sql": [],
+    "migrations/079_autopilot_run_skipped_status.up.sql": [],
+    "migrations/079_backfill_api_invalid_request.down.sql": [],
+    "migrations/079_backfill_api_invalid_request.up.sql": [],
+    "migrations/079_github_integration.down.sql": [],
+    "migrations/079_github_integration.up.sql": [],
+    "migrations/080_agent_task_queue_queued_index.down.sql": [],
+    "migrations/080_agent_task_queue_queued_index.up.sql": [],
+    "migrations/081_runtime_timezone.down.sql": [],
+    "migrations/081_runtime_timezone.up.sql": [],
+    "migrations/082_rollup_runtime_timezone.down.sql": [],
+    "migrations/082_rollup_runtime_timezone.up.sql": [],
+    "migrations/083_attachment_chat_columns.down.sql": [],
+    "migrations/083_attachment_chat_columns.up.sql": [],
+    "migrations/083_runtime_visibility.down.sql": [],
+    "migrations/083_runtime_visibility.up.sql": [],
+    "migrations/084_squad.down.sql": [],
+    "migrations/084_squad.up.sql": [],
+    "migrations/084_task_usage_dashboard_rollup.down.sql": [],
+    "migrations/084_task_usage_dashboard_rollup.up.sql": [],
+    "migrations/085_squad_archive.down.sql": [],
+    "migrations/085_squad_archive.up.sql": [],
+    "migrations/086_squad_avatar.down.sql": [],
+    "migrations/086_squad_avatar.up.sql": [],
+    "migrations/087_squad_name_not_unique.down.sql": [],
+    "migrations/087_squad_name_not_unique.up.sql": [],
+    "migrations/088_squad_instructions.down.sql": [],
+    "migrations/088_squad_instructions.up.sql": [],
+    "migrations/089_squad_no_action_activity_index.down.sql": [],
+    "migrations/089_squad_no_action_activity_index.up.sql": [],
+    "migrations/090_task_is_leader.down.sql": [],
+    "migrations/090_task_is_leader.up.sql": [],
+    "migrations/091_autopilot_webhook_triggers.down.sql": [],
+    "migrations/091_autopilot_webhook_triggers.up.sql": [],
+    "migrations/091_issue_start_date.down.sql": [],
+    "migrations/091_issue_start_date.up.sql": [],
+    "migrations/091_pr_ci_conflict.down.sql": [],
+    "migrations/091_pr_ci_conflict.up.sql": [],
+    "migrations/092_pr_stats.down.sql": [],
+    "migrations/092_pr_stats.up.sql": [],
+    "migrations/093_webhook_deliveries.down.sql": [],
+    "migrations/093_webhook_deliveries.up.sql": [],
+    "migrations/094_onboarding_questionnaire_v2.down.sql": [],
+    "migrations/094_onboarding_questionnaire_v2.up.sql": [],
+    "migrations/095_agent_thinking_level.down.sql": [],
+    "migrations/095_agent_thinking_level.up.sql": [],
+    "migrations/095_backfill_starter_content_state.down.sql": [],
+    "migrations/095_backfill_starter_content_state.up.sql": [],
+    "migrations/096_autopilot_squad_assignee.down.sql": [],
+    "migrations/096_autopilot_squad_assignee.up.sql": [],
+    "migrations/096_pending_check_suite.down.sql": [],
+    "migrations/096_pending_check_suite.up.sql": [],
+    "migrations/096_user_profile_description.down.sql": [],
+    "migrations/096_user_profile_description.up.sql": [],
+    "migrations/097_autopilot_project_id.down.sql": [],
+    "migrations/097_autopilot_project_id.up.sql": [],
+    "migrations/098_contact_sales_inquiries.down.sql": [],
+    "migrations/098_contact_sales_inquiries.up.sql": [],
+    "migrations/098_user_onboarding_runtime_choice.down.sql": [],
+    "migrations/098_user_onboarding_runtime_choice.up.sql": [],
+    "migrations/100_user_timezone.down.sql": [],
+    "migrations/100_user_timezone.up.sql": [],
+    "migrations/101_task_usage_hourly_schema.down.sql": [],
+    "migrations/101_task_usage_hourly_schema.up.sql": [],
+    "migrations/102_task_usage_hourly_pipeline.down.sql": [],
+    "migrations/102_task_usage_hourly_pipeline.up.sql": [],
+    "migrations/103_drop_legacy_daily_rollups.down.sql": [],
+    "migrations/103_drop_legacy_daily_rollups.up.sql": [],
+    "migrations/104_drop_runtime_timezone.down.sql": [],
+    "migrations/104_drop_runtime_timezone.up.sql": [],
+    "migrations/105_issue_metadata.down.sql": [],
+    "migrations/105_issue_metadata.up.sql": [],
+    "migrations/106_member_user_workspace_index.down.sql": [],
+    "migrations/106_member_user_workspace_index.up.sql": [],
+    "migrations/107_comment_system_author.down.sql": [],
+    "migrations/107_comment_system_author.up.sql": [],
+    "migrations/108_task_token.down.sql": [],
+    "migrations/108_task_token.up.sql": [],
+    "migrations/109_agent_task_waiting_local_directory.down.sql": [],
+    "migrations/109_agent_task_waiting_local_directory.up.sql": [],
+    "migrations/109_drop_agent_skills_local.down.sql": [],
+    "migrations/109_drop_agent_skills_local.up.sql": [],
+    "migrations/109_issue_pull_request_close_intent.down.sql": [],
+    "migrations/109_issue_pull_request_close_intent.up.sql": [],
+    "migrations/109_lark_integration.down.sql": [],
+    "migrations/109_lark_integration.up.sql": [],
+    "migrations/110_autopilot_trigger_event_filters.down.sql": [],
+    "migrations/110_autopilot_trigger_event_filters.up.sql": [],
+    "migrations/111_issue_origin_lark_chat.down.sql": [],
+    "migrations/111_issue_origin_lark_chat.up.sql": [],
+    "migrations/111_workspace_avatar.down.sql": [],
+    "migrations/111_workspace_avatar.up.sql": [],
+    "migrations/112_issue_dates_to_date.down.sql": [],
+    "migrations/112_issue_dates_to_date.up.sql": [],
+    "migrations/112_lark_installation_bot_union_id.down.sql": [],
+    "migrations/112_lark_installation_bot_union_id.up.sql": [],
+    "migrations/113_lark_inbound_dedup_per_installation.down.sql": [],
+    "migrations/113_lark_inbound_dedup_per_installation.up.sql": [],
+    "migrations/113_sys_cron_executions.down.sql": [],
+    "migrations/113_sys_cron_executions.up.sql": [],
+    "migrations/114_agent_task_queue_running_started_at_index.down.sql": [],
+    "migrations/114_agent_task_queue_running_started_at_index.up.sql": [],
+    "migrations/115_agent_runtime_last_seen_at_index.down.sql": [],
+    "migrations/115_agent_runtime_last_seen_at_index.up.sql": [],
+    "migrations/116_lark_installation_region.down.sql": [],
+    "migrations/116_lark_installation_region.up.sql": [],
+    "migrations/117_agent_task_queue_initiator_user_id.down.sql": [],
+    "migrations/117_agent_task_queue_initiator_user_id.up.sql": [],
+    "migrations/118_agent_task_queue_initiator_user_id_drop_fk.down.sql": [],
+    "migrations/118_agent_task_queue_initiator_user_id_drop_fk.up.sql": [],
+    "migrations/119_user_created_at_index.down.sql": [],
+    "migrations/119_user_created_at_index.up.sql": [],
+    "migrations/120_autopilot_subscriber.down.sql": [],
+    "migrations/120_autopilot_subscriber.up.sql": [],
+    "migrations/120_comment_source_task_id.down.sql": [],
+    "migrations/120_comment_source_task_id.up.sql": [],
+    "migrations/120_github_pending_installation.down.sql": [],
+    "migrations/120_github_pending_installation.up.sql": [],
+    "migrations/120_runtime_profile.down.sql": [],
+    "migrations/120_runtime_profile.up.sql": [],
+    "migrations/121_agent_runtime_provider_partial_unique.down.sql": [],
+    "migrations/121_agent_runtime_provider_partial_unique.up.sql": [],
+    "migrations/122_lark_chat_session_binding_thread_reply.down.sql": [],
+    "migrations/122_lark_chat_session_binding_thread_reply.up.sql": [],
+    "migrations/122_task_handoff_note.down.sql": [],
+    "migrations/122_task_handoff_note.up.sql": [],
+    "migrations/123_issue_stage.down.sql": [],
+    "migrations/123_issue_stage.up.sql": [],
+    "migrations/124_autopilot_run_planned_at.down.sql": [],
+    "migrations/124_autopilot_run_planned_at.up.sql": [],
+    "migrations/124_channel_generalization.down.sql": [],
+    "migrations/124_channel_generalization.up.sql": [],
+    "migrations/124_task_prepare_lease.down.sql": [],
+    "migrations/124_task_prepare_lease.up.sql": [],
+    "migrations/125_agent_task_queue_dispatched_prepare_index.down.sql": [],
+    "migrations/125_agent_task_queue_dispatched_prepare_index.up.sql": [],
+    "migrations/126_runtime_profile_drop_gemini.down.sql": [],
+    "migrations/126_runtime_profile_drop_gemini.up.sql": [],
+    "migrations/127_issue_pull_request_reference_only.down.sql": [],
+    "migrations/127_issue_pull_request_reference_only.up.sql": [],
+    "migrations/127_task_squad_id.down.sql": [],
+    "migrations/127_task_squad_id.up.sql": [],
+    "migrations/127_user_composio_connection.down.sql": [],
+    "migrations/127_user_composio_connection.up.sql": [],
+    "migrations/128_agent_task_queue_runtime_mcp_overlay.down.sql": [],
+    "migrations/128_agent_task_queue_runtime_mcp_overlay.up.sql": [],
+    "migrations/128_autopilot_collaborator.down.sql": [],
+    "migrations/128_autopilot_collaborator.up.sql": [],
+    "migrations/128_comment_routing_escalation.down.sql": [],
+    "migrations/128_comment_routing_escalation.up.sql": [],
+    "migrations/129_agent_composio_allowlist_and_task_originator.down.sql": [],
+    "migrations/129_agent_composio_allowlist_and_task_originator.up.sql": [],
+    "migrations/130_agent_invocation_permission.down.sql": [],
+    "migrations/130_agent_invocation_permission.up.sql": [],
+    "migrations/131_issue_origin_slack_chat.down.sql": [],
+    "migrations/131_issue_origin_slack_chat.up.sql": [],
+    "migrations/132_agent_task_queue_runtime_connected_apps.down.sql": [],
+    "migrations/132_agent_task_queue_runtime_connected_apps.up.sql": [],
+    "migrations/133_github_installation_multi_workspace.down.sql": [],
+    "migrations/133_github_installation_multi_workspace.up.sql": [],
+    "migrations/134_runtime_profile_add_qoder.down.sql": [],
+    "migrations/134_runtime_profile_add_qoder.up.sql": [],
+    "migrations/135_comment_workspace_index.down.sql": [],
+    "migrations/135_comment_workspace_index.up.sql": [],
+    "migrations/136_runtime_profile_add_traecli.down.sql": [],
+    "migrations/136_runtime_profile_add_traecli.up.sql": [],
+    "migrations/137_search_index_pg_trgm_extension.down.sql": [],
+    "migrations/137_search_index_pg_trgm_extension.up.sql": [],
+    "migrations/138_issue_title_trgm_index.down.sql": [],
+    "migrations/138_issue_title_trgm_index.up.sql": [],
+    "migrations/139_issue_description_trgm_index.down.sql": [],
+    "migrations/139_issue_description_trgm_index.up.sql": [],
+    "migrations/140_comment_content_trgm_index.down.sql": [],
+    "migrations/140_comment_content_trgm_index.up.sql": [],
+    "migrations/141_project_title_trgm_index.down.sql": [],
+    "migrations/141_project_title_trgm_index.up.sql": [],
+    "migrations/142_project_description_trgm_index.down.sql": [],
+    "migrations/142_project_description_trgm_index.up.sql": [],
+    "migrations/143_agent_task_queue_chat_pending_v2.down.sql": [],
+    "migrations/143_agent_task_queue_chat_pending_v2.up.sql": [],
+    "migrations/144_drop_agent_task_queue_chat_pending_v1.down.sql": [],
+    "migrations/144_drop_agent_task_queue_chat_pending_v1.up.sql": [],
+    "migrations/145_agent_runtime_custom_name.down.sql": [],
+    "migrations/145_agent_runtime_custom_name.up.sql": [],
+    "migrations/149_issue_origin_agent_create.down.sql": [],
+    "migrations/149_issue_origin_agent_create.up.sql": [],
+    "migrations/150_agent_task_coalesced_comments.down.sql": [],
+    "migrations/150_agent_task_coalesced_comments.up.sql": [],
+    "migrations/151_chat_read_cursor.down.sql": [],
+    "migrations/151_chat_read_cursor.up.sql": [],
+    "migrations/152_chat_pinned_agent.down.sql": [],
+    "migrations/152_chat_pinned_agent.up.sql": [],
+    "migrations/153_chat_pinned_agent_user_ws_index.down.sql": [],
+    "migrations/153_chat_pinned_agent_user_ws_index.up.sql": [],
+    "migrations/154_chat_agent_intro.down.sql": [],
+    "migrations/154_chat_agent_intro.up.sql": [],
+    "migrations/155_chat_session_pinned.down.sql": [],
+    "migrations/155_chat_session_pinned.up.sql": [],
+    "migrations/156_chat_session_pinned_index.down.sql": [],
+    "migrations/156_chat_session_pinned_index.up.sql": [],
+    "migrations/157_agent_task_delivered_comments.down.sql": [],
+    "migrations/157_agent_task_delivered_comments.up.sql": [],
+    "migrations/158_agent_task_queue_chat_input_task_id.down.sql": [],
+    "migrations/158_agent_task_queue_chat_input_task_id.up.sql": [],
+    "migrations/159_chat_message_message_kind.down.sql": [],
+    "migrations/159_chat_message_message_kind.up.sql": [],
+    "migrations/160_chat_message_input_owner_index.down.sql": [],
+    "migrations/160_chat_message_input_owner_index.up.sql": [],
+    "migrations/161_agent_skill_enabled.down.sql": [],
+    "migrations/161_agent_skill_enabled.up.sql": [],
+    "migrations/162_resource_labels.down.sql": [],
+    "migrations/162_resource_labels.up.sql": [],
+    "migrations/163_agent_builder.down.sql": [],
+    "migrations/163_agent_builder.up.sql": [],
+    "migrations/164_attachment_task_id.down.sql": [],
+    "migrations/164_attachment_task_id.up.sql": [],
+    "migrations/165_attachment_task_id_index.down.sql": [],
+    "migrations/165_attachment_task_id_index.up.sql": [],
+    "migrations/166_project_dates.down.sql": [],
+    "migrations/166_project_dates.up.sql": [],
+    "migrations/167_resource_label_namespace_index.down.sql": [],
+    "migrations/167_resource_label_namespace_index.up.sql": [],
+    "migrations/168_resource_label_type_index.down.sql": [],
+    "migrations/168_resource_label_type_index.up.sql": [],
+    "migrations/169_agent_label_lookup_index.down.sql": [],
+    "migrations/169_agent_label_lookup_index.up.sql": [],
+    "migrations/170_skill_label_lookup_index.down.sql": [],
+    "migrations/170_skill_label_lookup_index.up.sql": [],
+    "migrations/171_drop_legacy_label_namespace_index.down.sql": [],
+    "migrations/171_drop_legacy_label_namespace_index.up.sql": [],
+    "migrations/172_agent_system_identity_index.down.sql": [],
+    "migrations/172_agent_system_identity_index.up.sql": [],
+    "migrations/173_remove_resource_label_foreign_keys.down.sql": [],
+    "migrations/173_remove_resource_label_foreign_keys.up.sql": [],
+    "migrations/174_legacy_label_index_rollback_prep.down.sql": [],
+    "migrations/174_legacy_label_index_rollback_prep.up.sql": [],
+    "migrations/175_runtime_profile_add_deveco.down.sql": [],
+    "migrations/175_runtime_profile_add_deveco.up.sql": [],
+    "migrations/176_webhook_delivery_worker.down.sql": [],
+    "migrations/176_webhook_delivery_worker.up.sql": [],
+    "migrations/177_autopilot_run_webhook_delivery_index.down.sql": [],
+    "migrations/177_autopilot_run_webhook_delivery_index.up.sql": [],
+    "migrations/178_webhook_delivery_queue_index.down.sql": [],
+    "migrations/178_webhook_delivery_queue_index.up.sql": [],
+    "migrations/179_runtime_profile_add_grok.down.sql": [],
+    "migrations/179_runtime_profile_add_grok.up.sql": [],
+    "migrations/180_task_chat_finalize_deferred.down.sql": [],
+    "migrations/180_task_chat_finalize_deferred.up.sql": [],
+    "migrations/181_task_chat_finalize_deferred_index.down.sql": [],
+    "migrations/181_task_chat_finalize_deferred_index.up.sql": [],
+    "migrations/182_chat_draft_restore.down.sql": [],
+    "migrations/182_chat_draft_restore.up.sql": [],
+    "migrations/183_chat_draft_restore_index.down.sql": [],
+    "migrations/183_chat_draft_restore_index.up.sql": [],
+    "migrations/184_agent_task_attribution.down.sql": [],
+    "migrations/184_agent_task_attribution.up.sql": [],
+    "migrations/185_agent_task_accountable_user.down.sql": [],
+    "migrations/185_agent_task_accountable_user.up.sql": [],
+    "migrations/186_autopilot_rule_version.down.sql": [],
+    "migrations/186_autopilot_rule_version.up.sql": [],
+    "migrations/187_autopilot_rule_version_index.down.sql": [],
+    "migrations/187_autopilot_rule_version_index.up.sql": [],
+    "migrations/188_workspace_attribution_fail_closed.down.sql": [],
+    "migrations/188_workspace_attribution_fail_closed.up.sql": [],
+    "migrations/189_autopilot_trigger_publisher.down.sql": [],
+    "migrations/189_autopilot_trigger_publisher.up.sql": [],
+    "migrations/190_agent_task_attribution_invariant_check.down.sql": [],
+    "migrations/190_agent_task_attribution_invariant_check.up.sql": [],
+    "migrations/191_issue_properties.down.sql": [],
+    "migrations/191_issue_properties.up.sql": [],
+    "migrations/192_issue_properties_gin_index.down.sql": [],
+    "migrations/192_issue_properties_gin_index.up.sql": []
+  }
+}

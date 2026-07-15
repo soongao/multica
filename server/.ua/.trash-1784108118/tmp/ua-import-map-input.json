@@ -1,0 +1,7100 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "files": [
+    {
+      "path": ".ua/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/config.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/backfill_codex_usage_cache/main_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/backfill_codex_usage_cache/main.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/backfill_task_usage_hourly/main.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/migrate/main.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/migrate/migrate_concurrent_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_agent_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_agent.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_attachment_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_attachment.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_auth_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_auth.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_autopilot_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_autopilot.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_chat.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_compat_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_daemon_log_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_daemon_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_daemon_unix.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_daemon_windows.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_daemon.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_id_resolver.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_issue_label.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_issue_metadata_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_issue_metadata.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_issue_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_issue.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_label_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_label.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_login_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_login.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_project_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_project.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_property.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_repo_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_repo.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_runtime_profile_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_runtime_profile.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_runtime_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_runtime.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_setup_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_setup.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_skill_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_skill.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_squad_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_squad.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_update_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_update.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_user_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_user.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_version.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_workspace_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/cmd_workspace.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/help.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/multica/main.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/activity_listeners_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/activity_listeners.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/autopilot_dispatch_for_plan_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/autopilot_failure_monitor_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/autopilot_failure_monitor.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/autopilot_listeners_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/autopilot_listeners.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/autopilot_schedule_job_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/comment_at_least_once_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/comment_attachment_integration_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/comment_edit_mention_integration_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/comment_trigger_integration_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/composio_callback_public_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/cors_headers_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/dbstats_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/dbstats.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/health_realtime_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/health_realtime.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/health_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/health.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/integration_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/listeners_frame_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/listeners_scope_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/listeners.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/main_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/main.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/metrics_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/notification_listeners_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/notification_listeners.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/quick_create_subscriber_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/rerun_session_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/router.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/runtime_sweeper_filter_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/runtime_sweeper_race_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/runtime_sweeper_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/runtime_sweeper.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/scope_authorizer_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/scope_authorizer.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/subscriber_listeners_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/subscriber_listeners.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/trusted_proxies_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/workspace_scope_guard_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "go.mod",
+      "language": "mod",
+      "fileCategory": "config"
+    },
+    {
+      "path": "go.sum",
+      "language": "sum",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/loader_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/agenttmpl/loader.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/agenttmpl/templates/adr-writer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/brainstormer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/bug-fixer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/code-explainer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/code-reviewer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/commit-message.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/email-reply.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/frontend-builder.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/frontend-designer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/html-slides.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/jd-writer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/okr-drafter.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/one-pager.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/pr-description.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/prd-critic.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/prd-drafter.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/rca-writer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/release-notes.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/summarizer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/translator-zh-en.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/tutor.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/user-story-writer.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/ux-copywriter.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/webapp-tester.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/templates/writing-critic.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/agenttmpl/types.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/analytics/client_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/analytics/client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/analytics/events_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/analytics/events.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/analytics/posthog.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/attribution/attribution_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/attribution/attribution.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/cloud_pat_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/cloud_pat.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/cloudfront_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/cloudfront.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/cookie_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/cookie.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/daemon_token_cache_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/daemon_token_cache.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/jwt.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/membership_cache_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/membership_cache.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/pat_cache_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/auth/pat_cache.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/client_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/errors_integration_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/errors_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/errors.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/flags.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/output.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/update_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/update_unix.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/update_windows.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cli/update.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cloudruntime/client_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/cloudruntime/client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/agent_command_names_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/agent_path_selfheal_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/auto_update_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/auto_update.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/claude_plugins.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/client_batch_claim_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/client_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/coauthor_enabled_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/daemon_legacy_fallback_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/daemon_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/daemon.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/diskusage_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/diskusage.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home_link_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home_link_windows.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home_link.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home_sessions_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_memory_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_memory.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_multi_agent_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_multi_agent.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_sandbox.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_skill_strip_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_skill_strip.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_user_skills.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/context_marker_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/context.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/cursor_mcp_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/cursor_mcp.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/execenv_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/execenv.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/git.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/handoff_context_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/hermes_home_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/hermes_home.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/openclaw_config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/openclaw_config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/reply_instructions_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/reply_instructions.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/reserved_skill_path_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/runtime_config_kind_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/runtime_config_kind.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/runtime_config_sections.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/runtime_config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/runtime_config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/sidecar_manifest_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/sidecar_manifest.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/skill_frontmatter_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/skill_visibility_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/skill_visibility.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/gc_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/gc.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/handoff_prompt_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/health_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/health.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/helpers_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/helpers.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/identity_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/identity.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/local_directory_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/local_directory.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/local_skill_report_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/local_skills_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/local_skills.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/model_list_report_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/openclaw_runtime_config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/openclaw_runtime_config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/poisoned_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/poisoned.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/prompt_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/prompt.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/reconcile_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/reconcile.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/repocache/cache_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/repocache/cache.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_gone_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_isolation_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_mcp_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_mcp.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_profile_drift_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_profile_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/skill_bundle_resolve_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/skill_cache_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/skill_cache.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/slash_skill_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/slash_skill.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/thread_name_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/thread_name.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/token_renewal_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/types.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/update_report_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/wakeup_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/wakeup.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/workdir_race_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/wsrpc_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/wsrpc.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemonws/hub_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemonws/hub.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemonws/metrics.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemonws/notifier.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemonws/rpc_dispatch_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/dispatch/reason.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/events/bus_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/events/bus.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/featureflags/keys_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/featureflags/keys.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/activity_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/activity.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/actor_guards_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/actor_guards.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/admission_security_mul4525_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/admission_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/admission.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_access_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_access.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_builder_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_builder.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_composio_allowlist_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_env.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_permission_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_permission.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_runtime_config_mask_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_template_permission_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_template.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_thinking_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_work_dir_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/attribution_response_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/auth_signup_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/auth.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_attribution_transfer_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_list_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_permissions_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_private_leader_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_subscriber_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_webhook_handler_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_webhook_iprl_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_webhook_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot_webhook.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/autopilot.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/cancel_task_by_user_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_attachment_reply_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_draft_restore_race_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_draft_restore_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_history_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_history.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_input_ownership_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_pending_tasks_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_pinned_agent.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_title_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat_title.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/chat.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/cloud_billing_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/cloud_billing.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/cloud_runtime_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/cloud_runtime.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_content_sanitize_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_decision_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_fold_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_list_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_merge_failclosed_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_reconcile_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_reply_authz_handler_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_reply_authz_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_resolve_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_trigger_outcomes_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment_trigger_preview_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/comment.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/contact_sales_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/contact_sales.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_batch_claim_finalize_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_batch_claim_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_chat_prompt_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_comment_delivery_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_comment_workspace_scope_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_rpc_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_rpc.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_workspace.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon_ws.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/daemon.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/dashboard_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/dashboard.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/featureflag_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/feedback_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/feedback.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/file_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/file.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/github_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/github.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/handler_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/handler_writejson_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/handler.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/heartbeat_scheduler_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/heartbeat_scheduler.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/heartbeat_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/inbox.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/integrations_composio_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/integrations_composio.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/invitation_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/invitation.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_agent_create_e2e_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_agent_create_origin_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_assignee_types_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_batch_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_cancel_status_no_cancel_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_child_done_stage_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_child_done_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_child_done.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_children_for_parents_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_create_position_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_grouped_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_involves_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_limit_validation_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_metadata_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_metadata.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_reaction.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_reassign_no_cancel_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_scheduled_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_trigger_preview_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_trigger.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue_validation_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/issue.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/label_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/label.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/lark_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/lark.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/mcp_overlay_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/mcp_overlay.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/mention_self_trigger_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/notification_preference.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/onboarding_shim.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/onboarding_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/onboarding.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/parse_since_param_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/personal_access_token_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/personal_access_token.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/pin.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/project_dates_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/project_resource_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/project_resource.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/project_validation_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/project.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/property_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/property.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/quick_create_parent_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/reaction.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/reserved_slugs.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "internal/handler/resource_label_cascade_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/rollup_guard_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_archive_squad_cleanup_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_cascade_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_custom_name_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_liveness_store_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_liveness_store.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_local_skills_overwrite_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_local_skills_redis_store_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_local_skills_redis_store.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_local_skills_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_local_skills.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_models_redis_store_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_models_redis_store.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_models_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_models.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_profile_handler_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_profile.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_redis_keys_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_update_redis_store_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_update_redis_store.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_update_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_update.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime_visibility_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/runtime.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/search_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/search_timeout_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/search.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_create.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_import_archive_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_import_archive.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_import_duplicate_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_list_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_search_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/skill.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/slack_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/slack.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_assign_trigger_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_briefing_claim_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_briefing_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_briefing.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_comment_trigger_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_creator_scope_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_id_enqueue_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_member_status_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_no_action_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_private_leader_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad_worker_comment_wakes_leader_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/squad.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/subscriber_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/subscriber.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/task_lifecycle.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/task_terminal_wakeup_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/trigger_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/user_language_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/user_timezone_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/webhook_delivery_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/webhook_delivery_worker.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/webhook_delivery.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/webhook_rate_limiter_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/webhook_rate_limiter.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/workspace_reserved_slugs.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/workspace_revoke.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/workspace_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/workspace.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/capability_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/capability.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/channel.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/doc.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/batcher_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/batcher.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/doc.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/issue_command_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/issue_command.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/resolvers.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/router_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/router.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/session_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/session.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/supervisor_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/engine/supervisor.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/handler.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/history.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/message_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/message.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/registry_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/channel/registry.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/composio/dispatch_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/composio/dispatch.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/composio/service_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/composio/service.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/composio/state_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/composio/state.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/audit.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/binding_token_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/binding_token.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/channel_cleanup_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/channel_store_rebind_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/channel_store_scope_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/channel_store.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/chat.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/connector.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/content_flatten_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/content_flatten.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/doc.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_channel_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_channel.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_resolvers_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_resolvers.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/feishu_types.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/fresh_command_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/fresh_command.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client_batchusers_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client_getmessage_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client_listmessages_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/http_client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ids.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/inbound_enricher_recent_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/inbound_enricher_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/inbound_enricher.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/installation.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/markdown_detect_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/markdown_detect.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/noop_connector_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/noop_connector.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/outbound_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/outbound.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/outcome_replier_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/outcome_replier.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/params.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/region_backfill.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/region_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/registration_service_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/registration_service.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/registration_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/registration.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/store_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/store.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/testhelpers_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/tx.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/types.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/typing_indicator_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/typing_indicator.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/union_id_backfill.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_chunk_assembler_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_chunk_assembler.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_connector_enrich_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_connector_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_connector.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_endpoint_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_endpoint.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_frame_decoder_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_frame_decoder.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_frame_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/lark/ws_frame.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/binding.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/byo_install_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/byo_install.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/channel_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/channel.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/history_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/history.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/identity_reuse_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/inbound_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/inbound.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/install_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/install.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/mrkdwn_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/mrkdwn.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/outbound_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/outbound.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/replier_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/replier.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/resolvers_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/resolvers.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/slack_channel.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/slash_command_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/slash_command.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/typing_indicator_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/integrations/slack/typing_indicator.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/issueguard/duplicate.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/issueposition/position.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/logger/logger_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/logger/logger.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_events.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_pairing_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_sampler_pgsleep_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_sampler_queries.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_sampler_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_sampler.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/business.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/daemonws.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/db_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/db.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/http_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/http.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/labels_pr3_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/labels_pr3.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/labels_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/labels.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/pricing_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/pricing.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/realtime_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/realtime.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/record_event_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/registry.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/server_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/server.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/metrics/testutil.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/auth_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/auth.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/client_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/cloudfront_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/cloudfront.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/csp_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/csp.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/daemon_auth_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/daemon_auth.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/owner_lookup_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/owner_lookup.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/ratelimit_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/ratelimit.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/request_logger_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/request_logger.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/workspace_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/middleware/workspace.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/migrations/migrations_lint_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/migrations/migrations.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/broadcaster.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/hub_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/hub.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/metrics_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/metrics.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/redis_relay_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/redis_relay.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/relay_lifecycle_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/relay_lifecycle.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/sharded_stream_relay_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/realtime/sharded_stream_relay.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/runtimeapps/connected_app.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/concurrent_claim_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/db_ops.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/every_plan_retry_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/jobs_autopilot_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/jobs_autopilot.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/jobs_task_usage.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/manager_tick_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/manager.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/pgcron_concurrent_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/plans_for_scope_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/rollup_guard_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/spec_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/spec.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/stale_steal_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/selfexec/selfexec_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/selfexec/selfexec.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/admission_mul4525_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/agent_ready.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/attribution_stamp_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/autopilot_squad_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/autopilot_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/autopilot.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/builtin_skills_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/builtin_skills.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-autopilots/references/autopilots-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-autopilots/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-creating-agents/references/creating-agents-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-creating-agents/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-mentioning/references/mentioning-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-mentioning/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-projects-and-resources/references/projects-and-resources-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-projects-and-resources/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-runtimes-and-repos/references/runtimes-and-repos-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-runtimes-and-repos/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-skill-importing/references/skill-importing-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-skill-importing/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-squads/references/squad-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-squads/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-working-on-issues/references/working-on-issues-source-map.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/builtin_skills/multica-working-on-issues/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "internal/service/cron_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/cron.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/email_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/email.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/empty_claim_cache_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/empty_claim_cache.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/issue_trigger.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/issue.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/reason_code_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/resolve_originator_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/skill_bundle_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/squad_no_action.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_batch_claim_deferred_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_batch_claim_partial_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_batch_claim_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_cancel_finalize_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_claim_race_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_complete_race_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_dedup_head_sha_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_finalize_failure_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_issue_broadcast_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task_notify_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/task.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/service/trivial_done_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/skill/frontmatter_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/skill/frontmatter.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/skill/reserved_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/skill/reserved.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/storage/local_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/storage/local.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/storage/s3_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/storage/s3.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/storage/storage.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/storage/util_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/storage/util.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/taskusagebackfill/backfill.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/taskusagebackfill/hook_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/mention_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/mention.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/pgx_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/pgx.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/proc_other.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/proc_windows.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/secretbox/secretbox_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/secretbox/secretbox.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/text_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/util/text.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "migrations/001_init.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/001_init.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/002_agent_config.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/002_agent_config.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/003_task_context.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/003_task_context.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/004_agent_runtime_loop.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/004_agent_runtime_loop.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/005_daemon_pairing.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/005_daemon_pairing.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/006_workspace_context.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/006_workspace_context.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/007_drop_issue_repository.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/007_drop_issue_repository.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/008_structured_skills.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/008_structured_skills.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/009_verification_code.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/009_verification_code.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/010_verification_code_attempts.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/010_verification_code_attempts.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/011_personal_access_tokens.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/011_personal_access_tokens.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/012_inbox_actor.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/012_inbox_actor.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/013_runtime_usage.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/013_runtime_usage.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/014_workspace_repos.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/014_workspace_repos.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/015_issue_subscriber.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/015_issue_subscriber.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/016_backfill_subscribers.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/016_backfill_subscribers.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/017_comment_parent_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/017_comment_parent_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/018_comment_parent_cascade.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/018_comment_parent_cascade.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/019_inbox_details.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/019_inbox_details.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/020_issue_number.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/020_issue_number.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/020_task_session.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/020_task_session.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/021_agent_instructions.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/021_agent_instructions.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/022_task_lifecycle_guards.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/022_task_lifecycle_guards.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/023_agent_concurrency_default.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/023_agent_concurrency_default.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/024_backfill_empty_issue_prefix.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/024_backfill_empty_issue_prefix.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/025_comment_workspace_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/025_comment_workspace_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/026_comment_reactions.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/026_comment_reactions.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/026_task_messages.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/026_task_messages.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/027_issue_reactions.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/027_issue_reactions.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/028_task_trigger_comment.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/028_task_trigger_comment.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_attachment.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_attachment.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_daemon_token.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_daemon_token.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_drop_daemon_pairing.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/029_drop_daemon_pairing.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/030_agent_default_private.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/030_agent_default_private.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/031_agent_archive.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/031_agent_archive.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_drop_agent_triggers.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_drop_agent_triggers.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_issue_search_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_issue_search_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_runtime_owner.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_runtime_owner.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_task_usage.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/032_task_usage.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/033_chat.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/033_chat.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/033_comment_search_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/033_comment_search_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/034_projects.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/034_projects.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/035_project_priority.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/035_project_priority.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/035_task_queue_issue_id_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/035_task_queue_issue_id_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/036_search_index_lower.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/036_search_index_lower.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/037_fix_pending_task_unique_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/037_fix_pending_task_unique_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/038_pinned_items.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/038_pinned_items.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/039_project_search_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/039_project_search_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/040_agent_custom_env.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/040_agent_custom_env.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/040_chat_unread_since.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/040_chat_unread_since.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/041_agent_custom_args.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/041_agent_custom_args.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/041_workspace_invitation.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/041_workspace_invitation.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/042_autopilot.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/042_autopilot.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/043_audit_reserved_slugs.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/043_audit_reserved_slugs.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/043_fix_orphaned_autopilot_runs.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/043_fix_orphaned_autopilot_runs.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/044_fix_workspace_fallback_slug.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/044_fix_workspace_fallback_slug.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/045_audit_dashboard_route_slugs.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/045_audit_dashboard_route_slugs.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_agent_mcp_config.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_agent_mcp_config.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_agent_unique_name.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_agent_unique_name.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_drop_runtime_usage.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/046_drop_runtime_usage.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/047_audit_extended_reserved_slugs.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/047_audit_extended_reserved_slugs.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/048_runtime_daemon_uuid.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/048_runtime_daemon_uuid.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/049_audit_legacy_reserved_slugs.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/049_audit_legacy_reserved_slugs.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_add_onboarded_at_to_users.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_add_onboarded_at_to_users.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_agent_model.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_agent_model.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_issue_first_executed_at.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/050_issue_first_executed_at.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/051_add_onboarding_state_to_users.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/051_add_onboarding_state_to_users.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/052_add_cloud_waitlist_to_users.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/052_add_cloud_waitlist_to_users.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/053_drop_orphan_onboarding_current_step.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/053_drop_orphan_onboarding_current_step.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/054_add_starter_content_state_to_users.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/054_add_starter_content_state_to_users.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/055_task_lease_and_retry.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/055_task_lease_and_retry.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/056_audit_newly_reserved_slugs.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/056_audit_newly_reserved_slugs.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/057_feedback.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/057_feedback.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/058_drop_autopilot_priority_and_project_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/058_drop_autopilot_priority_and_project_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/059_label_timestamps.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/059_label_timestamps.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_add_user_language.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_add_user_language.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_agent_description_length.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_agent_description_length.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_chat_session_runtime_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_chat_session_runtime_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_issue_origin_quick_create.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/060_issue_origin_quick_create.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/061_task_trigger_summary.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/061_task_trigger_summary.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/062_chat_message_failure_reason.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/062_chat_message_failure_reason.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/063_chat_message_elapsed.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/063_chat_message_elapsed.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/064_notification_preference.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/064_notification_preference.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/065_backfill_onboarded_at.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/065_backfill_onboarded_at.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/065_project_resources.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/065_project_resources.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/066_force_fresh_session.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/066_force_fresh_session.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/067_task_queue_claim_candidate_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/067_task_queue_claim_candidate_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/068_timeline_keyset_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/068_timeline_keyset_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/069_comment_resolved_at.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/069_comment_resolved_at.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/069_drop_task_last_heartbeat.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/069_drop_task_last_heartbeat.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/072_task_usage_updated_at.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/072_task_usage_updated_at.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/073_task_usage_daily_rollup.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/073_task_usage_daily_rollup.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/074_task_usage_updated_at_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/074_task_usage_updated_at_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/075_task_usage_created_at_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/075_task_usage_created_at_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/076_task_usage_pgcron_extension.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/076_task_usage_pgcron_extension.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/077_task_usage_daily_invalidation.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/077_task_usage_daily_invalidation.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/078_task_usage_created_at_legacy_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/078_task_usage_created_at_legacy_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_autopilot_run_skipped_status.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_autopilot_run_skipped_status.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_backfill_api_invalid_request.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_backfill_api_invalid_request.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_github_integration.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/079_github_integration.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/080_agent_task_queue_queued_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/080_agent_task_queue_queued_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/081_runtime_timezone.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/081_runtime_timezone.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/082_rollup_runtime_timezone.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/082_rollup_runtime_timezone.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/083_attachment_chat_columns.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/083_attachment_chat_columns.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/083_runtime_visibility.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/083_runtime_visibility.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/084_squad.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/084_squad.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/084_task_usage_dashboard_rollup.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/084_task_usage_dashboard_rollup.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/085_squad_archive.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/085_squad_archive.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/086_squad_avatar.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/086_squad_avatar.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/087_squad_name_not_unique.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/087_squad_name_not_unique.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/088_squad_instructions.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/088_squad_instructions.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/089_squad_no_action_activity_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/089_squad_no_action_activity_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/090_task_is_leader.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/090_task_is_leader.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_autopilot_webhook_triggers.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_autopilot_webhook_triggers.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_issue_start_date.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_issue_start_date.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_pr_ci_conflict.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/091_pr_ci_conflict.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/092_pr_stats.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/092_pr_stats.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/093_webhook_deliveries.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/093_webhook_deliveries.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/094_onboarding_questionnaire_v2.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/094_onboarding_questionnaire_v2.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/095_agent_thinking_level.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/095_agent_thinking_level.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/095_backfill_starter_content_state.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/095_backfill_starter_content_state.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_autopilot_squad_assignee.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_autopilot_squad_assignee.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_pending_check_suite.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_pending_check_suite.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_user_profile_description.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/096_user_profile_description.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/097_autopilot_project_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/097_autopilot_project_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/098_contact_sales_inquiries.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/098_contact_sales_inquiries.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/098_user_onboarding_runtime_choice.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/098_user_onboarding_runtime_choice.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/100_user_timezone.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/100_user_timezone.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/101_task_usage_hourly_schema.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/101_task_usage_hourly_schema.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/102_task_usage_hourly_pipeline.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/102_task_usage_hourly_pipeline.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/103_drop_legacy_daily_rollups.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/103_drop_legacy_daily_rollups.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/104_drop_runtime_timezone.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/104_drop_runtime_timezone.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/105_issue_metadata.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/105_issue_metadata.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/106_member_user_workspace_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/106_member_user_workspace_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/107_comment_system_author.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/107_comment_system_author.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/108_task_token.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/108_task_token.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_agent_task_waiting_local_directory.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_agent_task_waiting_local_directory.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_drop_agent_skills_local.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_drop_agent_skills_local.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_issue_pull_request_close_intent.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_issue_pull_request_close_intent.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_lark_integration.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/109_lark_integration.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/110_autopilot_trigger_event_filters.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/110_autopilot_trigger_event_filters.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/111_issue_origin_lark_chat.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/111_issue_origin_lark_chat.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/111_workspace_avatar.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/111_workspace_avatar.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/112_issue_dates_to_date.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/112_issue_dates_to_date.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/112_lark_installation_bot_union_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/112_lark_installation_bot_union_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/113_lark_inbound_dedup_per_installation.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/113_lark_inbound_dedup_per_installation.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/113_sys_cron_executions.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/113_sys_cron_executions.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/114_agent_task_queue_running_started_at_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/114_agent_task_queue_running_started_at_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/115_agent_runtime_last_seen_at_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/115_agent_runtime_last_seen_at_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/116_lark_installation_region.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/116_lark_installation_region.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/117_agent_task_queue_initiator_user_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/117_agent_task_queue_initiator_user_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/118_agent_task_queue_initiator_user_id_drop_fk.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/118_agent_task_queue_initiator_user_id_drop_fk.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/119_user_created_at_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/119_user_created_at_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_autopilot_subscriber.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_autopilot_subscriber.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_comment_source_task_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_comment_source_task_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_github_pending_installation.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_github_pending_installation.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_runtime_profile.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/120_runtime_profile.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/121_agent_runtime_provider_partial_unique.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/121_agent_runtime_provider_partial_unique.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/122_lark_chat_session_binding_thread_reply.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/122_lark_chat_session_binding_thread_reply.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/122_task_handoff_note.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/122_task_handoff_note.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/123_issue_stage.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/123_issue_stage.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_autopilot_run_planned_at.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_autopilot_run_planned_at.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_channel_generalization.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_channel_generalization.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_task_prepare_lease.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/124_task_prepare_lease.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/125_agent_task_queue_dispatched_prepare_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/125_agent_task_queue_dispatched_prepare_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/126_runtime_profile_drop_gemini.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/126_runtime_profile_drop_gemini.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_issue_pull_request_reference_only.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_issue_pull_request_reference_only.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_task_squad_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_task_squad_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_user_composio_connection.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/127_user_composio_connection.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_agent_task_queue_runtime_mcp_overlay.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_agent_task_queue_runtime_mcp_overlay.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_autopilot_collaborator.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_autopilot_collaborator.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_comment_routing_escalation.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/128_comment_routing_escalation.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/129_agent_composio_allowlist_and_task_originator.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/129_agent_composio_allowlist_and_task_originator.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/130_agent_invocation_permission.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/130_agent_invocation_permission.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/131_issue_origin_slack_chat.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/131_issue_origin_slack_chat.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/132_agent_task_queue_runtime_connected_apps.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/132_agent_task_queue_runtime_connected_apps.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/133_github_installation_multi_workspace.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/133_github_installation_multi_workspace.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/134_runtime_profile_add_qoder.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/134_runtime_profile_add_qoder.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/135_comment_workspace_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/135_comment_workspace_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/136_runtime_profile_add_traecli.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/136_runtime_profile_add_traecli.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/137_search_index_pg_trgm_extension.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/137_search_index_pg_trgm_extension.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/138_issue_title_trgm_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/138_issue_title_trgm_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/139_issue_description_trgm_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/139_issue_description_trgm_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/140_comment_content_trgm_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/140_comment_content_trgm_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/141_project_title_trgm_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/141_project_title_trgm_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/142_project_description_trgm_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/142_project_description_trgm_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/143_agent_task_queue_chat_pending_v2.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/143_agent_task_queue_chat_pending_v2.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/144_drop_agent_task_queue_chat_pending_v1.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/144_drop_agent_task_queue_chat_pending_v1.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/145_agent_runtime_custom_name.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/145_agent_runtime_custom_name.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/149_issue_origin_agent_create.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/149_issue_origin_agent_create.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/150_agent_task_coalesced_comments.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/150_agent_task_coalesced_comments.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/151_chat_read_cursor.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/151_chat_read_cursor.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/152_chat_pinned_agent.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/152_chat_pinned_agent.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/153_chat_pinned_agent_user_ws_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/153_chat_pinned_agent_user_ws_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/154_chat_agent_intro.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/154_chat_agent_intro.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/155_chat_session_pinned.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/155_chat_session_pinned.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/156_chat_session_pinned_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/156_chat_session_pinned_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/157_agent_task_delivered_comments.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/157_agent_task_delivered_comments.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/158_agent_task_queue_chat_input_task_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/158_agent_task_queue_chat_input_task_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/159_chat_message_message_kind.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/159_chat_message_message_kind.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/160_chat_message_input_owner_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/160_chat_message_input_owner_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/161_agent_skill_enabled.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/161_agent_skill_enabled.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/162_resource_labels.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/162_resource_labels.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/163_agent_builder.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/163_agent_builder.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/164_attachment_task_id.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/164_attachment_task_id.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/165_attachment_task_id_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/165_attachment_task_id_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/166_project_dates.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/166_project_dates.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/167_resource_label_namespace_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/167_resource_label_namespace_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/168_resource_label_type_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/168_resource_label_type_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/169_agent_label_lookup_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/169_agent_label_lookup_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/170_skill_label_lookup_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/170_skill_label_lookup_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/171_drop_legacy_label_namespace_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/171_drop_legacy_label_namespace_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/172_agent_system_identity_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/172_agent_system_identity_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/173_remove_resource_label_foreign_keys.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/173_remove_resource_label_foreign_keys.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/174_legacy_label_index_rollback_prep.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/174_legacy_label_index_rollback_prep.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/175_runtime_profile_add_deveco.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/175_runtime_profile_add_deveco.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/176_webhook_delivery_worker.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/176_webhook_delivery_worker.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/177_autopilot_run_webhook_delivery_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/177_autopilot_run_webhook_delivery_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/178_webhook_delivery_queue_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/178_webhook_delivery_queue_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/179_runtime_profile_add_grok.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/179_runtime_profile_add_grok.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/180_task_chat_finalize_deferred.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/180_task_chat_finalize_deferred.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/181_task_chat_finalize_deferred_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/181_task_chat_finalize_deferred_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/182_chat_draft_restore.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/182_chat_draft_restore.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/183_chat_draft_restore_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/183_chat_draft_restore_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/184_agent_task_attribution.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/184_agent_task_attribution.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/185_agent_task_accountable_user.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/185_agent_task_accountable_user.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/186_autopilot_rule_version.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/186_autopilot_rule_version.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/187_autopilot_rule_version_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/187_autopilot_rule_version_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/188_workspace_attribution_fail_closed.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/188_workspace_attribution_fail_closed.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/189_autopilot_trigger_publisher.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/189_autopilot_trigger_publisher.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/190_agent_task_attribution_invariant_check.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/190_agent_task_attribution_invariant_check.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/191_issue_properties.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/191_issue_properties.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/192_issue_properties_gin_index.down.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "migrations/192_issue_properties_gin_index.up.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/agent/agent_supported_types_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/agent_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/agent.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/antigravity_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/antigravity.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/browser_mcp_config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/browser_mcp_config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/claude_deadlock_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/claude_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/claude.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/codebuddy_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/codebuddy.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/codex_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/codex.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation_other.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation_windows_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation_windows.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_invocation.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/copilot.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_execute_unix_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation_other.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation_windows_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation_windows.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_invocation.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/cursor.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/deveco_models.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/deveco_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/deveco.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/exec_fixture_unix_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/exec_fixture_windows_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/grok_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/grok.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/handoff_version_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/hermes_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/hermes.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/kimi_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/kimi.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/kiro_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/kiro.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/mcp_config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/models_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/models.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/openclaw_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/openclaw.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode_cancel_unix_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode_mcp_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode_mcp.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/opencode.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation_other.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation_windows_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation_windows.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_invocation.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/pi.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/proc_other.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/proc_windows_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/proc_windows.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/qoder_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/qoder.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/stderr_tail.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/testdata/openclaw-2026.5.5-stdout.json",
+      "language": "json",
+      "fileCategory": "config"
+    },
+    {
+      "path": "pkg/agent/thinking_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/thinking.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/traecli_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/traecli.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/version_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/agent/version.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/auth_configs.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/client_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/connected_accounts.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/doc.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/errors.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/README.md",
+      "language": "markdown",
+      "fileCategory": "docs"
+    },
+    {
+      "path": "pkg/composio/sessions.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/toolkits.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/tools.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/webhook_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/composio/webhook.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/activity.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/agent_invocation_target.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/agent.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/attachment.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/autopilot.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/channel.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/chat_pinned_agent.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/chat.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/comment.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/composio.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/contact_sales.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/daemon_token.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/db.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/feedback.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/github.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/inbox.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/invitation.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/issue_label.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/issue_property.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/issue_reaction.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/issue.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/member.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/models.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/notification_preference.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/personal_access_token.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/pinned_item.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/project_resource.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/project.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/reaction.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/runtime_profile.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/runtime_usage.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/runtime.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/skill.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/squad.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/subscriber.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/task_message.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/task_token.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/task_usage.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/user.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/verification_code.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/webhook_delivery.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/workspace.sql.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/queries/activity.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/agent_invocation_target.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/agent.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/attachment.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/autopilot.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/channel.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/chat_pinned_agent.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/chat.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/comment.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/composio.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/contact_sales.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/daemon_token.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/feedback.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/github.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/inbox.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/invitation.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/issue_label.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/issue_property.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/issue_reaction.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/issue.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/member.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/notification_preference.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/personal_access_token.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/pinned_item.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/project_resource.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/project.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/reaction.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/runtime_profile.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/runtime_usage.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/runtime.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/skill.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/squad.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/subscriber.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/task_message.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/task_token.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/task_usage.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/user.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/verification_code.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/webhook_delivery.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/db/queries/workspace.sql",
+      "language": "sql",
+      "fileCategory": "data"
+    },
+    {
+      "path": "pkg/featureflag/chain_provider_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/chain_provider.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/config_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/config.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/doc.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/env_provider_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/env_provider.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/eval_context_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/eval_context.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/hash.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/provider.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/service_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/service.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/static_provider_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/featureflag/static_provider.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/llm/client_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/llm/client.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/protocol/events.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/protocol/messages.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/redact/redact_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/redact/redact.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/skillbundle/hash_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/skillbundle/hash.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/taskfailure/classify_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/taskfailure/classify.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/taskfailure/failure_test.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/taskfailure/failure.go",
+      "language": "go",
+      "fileCategory": "code"
+    },
+    {
+      "path": "sqlc.yaml",
+      "language": "yaml",
+      "fileCategory": "config"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "project": {
+    "name": "server",
+    "languages": [
+      "go",
+      "json",
+      "markdown",
+      "mod",
+      "sql",
+      "sum",
+      "unknown",
+      "yaml"
+    ],
+    "frameworks": [
+      "Chi",
+      "sqlc",
+      "gorilla/websocket",
+      "PostgreSQL",
+      "Cobra"
+    ],
+    "description": "Multica 后端服务，提供基于 Chi 的 HTTP API、WebSocket 实时通道、PostgreSQL/sqlc 数据访问，以及 agents、issues、workspaces 等协作域能力。 Note: this project has over 100 source files; consider scoping analysis to a subdirectory for faster results.",
+    "analyzedAt": "2026-07-15T09:33:57.395Z",
+    "gitCommitHash": "fba1df9376a2eafd33c92b5100a7ff7f06028f76"
+  },
+  "files": {
+    "total": 1419,
+    "byCategory": {
+      "code": 865,
+      "config": 31,
+      "docs": 17,
+      "data": 506
+    }
+  },
+  "nodes": {
+    "file": 865,
+    "class": 1398,
+    "function": 8437,
+    "table": 506,
+    "config": 31,
+    "document": 17
+  },
+  "edges": {
+    "imports": 17367,
+    "contains": 9835,
+    "calls": 4100,
+    "configures": 2,
+    "documents": 17,
+    "tested_by": 262
+  },
+  "layers": [
+    {
+      "name": "入口与命令层",
+      "count": 99
+    },
+    {
+      "name": "HTTP API 层",
+      "count": 212
+    },
+    {
+      "name": "认证与中间件层",
+      "count": 31
+    },
+    {
+      "name": "业务服务层",
+      "count": 110
+    },
+    {
+      "name": "Daemon 运行时层",
+      "count": 100
+    },
+    {
+      "name": "外部集成层",
+      "count": 118
+    },
+    {
+      "name": "数据访问与协议层",
+      "count": 44
+    },
+    {
+      "name": "数据库迁移层",
+      "count": 506
+    },
+    {
+      "name": "观测与工具层",
+      "count": 150
+    },
+    {
+      "name": "配置与文档层",
+      "count": 49
+    }
+  ],
+  "tourSteps": 10,
+  "review": {
+    "issues": 0,
+    "warnings": 536
+  },
+  "output": "/Users/bytedance/proj/multica/server/.ua/knowledge-graph.json"
+}

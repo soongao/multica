@@ -1,0 +1,1127 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "internal/agenttmpl/templates/adr-writer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/brainstormer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/bug-fixer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/code-explainer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/code-reviewer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/commit-message.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/email-reply.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/frontend-builder.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 21,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/frontend-designer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 21,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/html-slides.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 21,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/jd-writer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/okr-drafter.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/one-pager.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 21,
+      "nonEmptyLines": 21,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/pr-description.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/prd-critic.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/prd-drafter.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/rca-writer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/release-notes.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/summarizer.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": "internal/agenttmpl/templates/translator-zh-en.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "sections": [
+        {
+          "heading": "slug",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "category",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "icon",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "accent",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "instructions",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "skills",
+          "level": 1,
+          "line": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    }
+  ]
+}

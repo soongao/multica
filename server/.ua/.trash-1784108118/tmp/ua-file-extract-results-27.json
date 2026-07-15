@@ -1,0 +1,3428 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 332,
+      "nonEmptyLines": 301,
+      "functions": [
+        {
+          "name": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "startLine": 20,
+          "endLine": 146,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "seedTaskUsageRow",
+          "startLine": 148,
+          "endLine": 170,
+          "params": [
+            "t",
+            "ctx",
+            "pool",
+            "taskID",
+            "provider",
+            "model",
+            "input",
+            "output",
+            "cacheRead",
+            "createdAt",
+            "updatedAt"
+          ]
+        },
+        {
+          "name": "assertTaskUsageInput",
+          "startLine": 172,
+          "endLine": 181,
+          "params": [
+            "t",
+            "ctx",
+            "pool",
+            "id",
+            "want"
+          ]
+        },
+        {
+          "name": "seedBackfillTaskUsageFixture",
+          "startLine": 183,
+          "endLine": 232,
+          "params": [
+            "t",
+            "ctx",
+            "pool",
+            "suffix"
+          ]
+        },
+        {
+          "name": "testResolveMigrationsDir",
+          "startLine": 234,
+          "endLine": 245,
+          "params": []
+        },
+        {
+          "name": "testDatabaseReachable",
+          "startLine": 247,
+          "endLine": 254,
+          "params": [
+            "ctx",
+            "url"
+          ]
+        },
+        {
+          "name": "testCreateDatabase",
+          "startLine": 256,
+          "endLine": 266,
+          "params": [
+            "ctx",
+            "adminURL",
+            "name"
+          ]
+        },
+        {
+          "name": "testDropDatabase",
+          "startLine": 268,
+          "endLine": 278,
+          "params": [
+            "ctx",
+            "adminURL",
+            "name"
+          ]
+        },
+        {
+          "name": "testReplaceDatabase",
+          "startLine": 280,
+          "endLine": 291,
+          "params": [
+            "url",
+            "name"
+          ]
+        },
+        {
+          "name": "testApplyMigrationsUpTo",
+          "startLine": 293,
+          "endLine": 332,
+          "params": [
+            "ctx",
+            "pool",
+            "lastVersion"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "os.Getenv",
+          "lineNumber": 21
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "context.Background",
+          "lineNumber": 26
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "testDatabaseReachable",
+          "lineNumber": 27
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Skip",
+          "lineNumber": 28
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 31
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "time.Now().UnixNano",
+          "lineNumber": 31
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "time.Now",
+          "lineNumber": 31
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "testCreateDatabase",
+          "lineNumber": 32
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 33
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Cleanup",
+          "lineNumber": 35
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "testDropDatabase",
+          "lineNumber": 36
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "context.Background",
+          "lineNumber": 36
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Logf",
+          "lineNumber": 37
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "pgxpool.New",
+          "lineNumber": 41
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "testReplaceDatabase",
+          "lineNumber": 41
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 43
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Cleanup",
+          "lineNumber": 45
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "testApplyMigrationsUpTo",
+          "lineNumber": 47
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 48
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "time.Date",
+          "lineNumber": 51
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "cutoff.Add",
+          "lineNumber": 52
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "cutoff.Add",
+          "lineNumber": 53
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "cutoff.Add",
+          "lineNumber": 54
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "seedBackfillTaskUsageFixture",
+          "lineNumber": 56
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "seedBackfillTaskUsageFixture",
+          "lineNumber": 57
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "seedTaskUsageRow",
+          "lineNumber": 59
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "seedTaskUsageRow",
+          "lineNumber": 60
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "seedTaskUsageRow",
+          "lineNumber": 61
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "seedTaskUsageRow",
+          "lineNumber": 62
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "seedTaskUsageRow",
+          "lineNumber": 63
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "loadDryRunSummary",
+          "lineNumber": 71
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 73
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "len",
+          "lineNumber": 75
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 76
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "len",
+          "lineNumber": 76
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 79
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "assertTaskUsageInput",
+          "lineNumber": 81
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "databaseClock",
+          "lineNumber": 83
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 85
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "executeBackfill",
+          "lineNumber": 87
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 89
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 92
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "databaseClock",
+          "lineNumber": 94
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 96
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "rollupWindow",
+          "lineNumber": 98
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "pool.QueryRow(ctx,\n\t\t`SELECT rollup_task_usage_hourly_window($1::timestamptz, $2::timestamptz)`,\n\t\trollupFrom, rollupTo,\n\t).Scan",
+          "lineNumber": 100
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "pool.QueryRow",
+          "lineNumber": 100
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 104
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 107
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "assertTaskUsageInput",
+          "lineNumber": 110
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "assertTaskUsageInput",
+          "lineNumber": 111
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "assertTaskUsageInput",
+          "lineNumber": 112
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "assertTaskUsageInput",
+          "lineNumber": 113
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "assertTaskUsageInput",
+          "lineNumber": 114
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "pool.QueryRow(ctx, `SELECT updated_at FROM task_usage WHERE id = $1`, targetID).Scan",
+          "lineNumber": 117
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "pool.QueryRow",
+          "lineNumber": 117
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 118
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "targetUpdatedAt.After",
+          "lineNumber": 120
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 121
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "executeBackfill",
+          "lineNumber": 124
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 126
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 129
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "pool.QueryRow(ctx, `\n\t\tSELECT COALESCE(SUM(input_tokens), 0)::bigint,\n\t\t       COALESCE(SUM(cache_read_tokens), 0)::bigint\n\t\t  FROM task_usage_hourly\n\t\t WHERE workspace_id = $1\n\t\t   AND provider = 'codex'\n\t\t   AND model = 'gpt-5-codex'\n\t`, workspaceID).Scan",
+          "lineNumber": 133
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "pool.QueryRow",
+          "lineNumber": 133
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 141
+        },
+        {
+          "caller": "TestExecuteBackfillUpdatesOnlyEligibleCodexRowsAndRebuildsRollup",
+          "callee": "t.Fatalf",
+          "lineNumber": 144
+        },
+        {
+          "caller": "seedTaskUsageRow",
+          "callee": "t.Helper",
+          "lineNumber": 156
+        },
+        {
+          "caller": "seedTaskUsageRow",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO task_usage (\n\t\t\ttask_id, provider, model,\n\t\t\tinput_tokens, output_tokens, cache_read_tokens, cache_write_tokens,\n\t\t\tcreated_at, updated_at\n\t\t) VALUES ($1, $2, $3, $4, $5, $6, 0, $7, $8)\n\t\tRETURNING id\n\t`, taskID, provider, model, input, output, cacheRead, createdAt, updatedAt).Scan",
+          "lineNumber": 159
+        },
+        {
+          "caller": "seedTaskUsageRow",
+          "callee": "pool.QueryRow",
+          "lineNumber": 159
+        },
+        {
+          "caller": "seedTaskUsageRow",
+          "callee": "t.Fatalf",
+          "lineNumber": 167
+        },
+        {
+          "caller": "assertTaskUsageInput",
+          "callee": "t.Helper",
+          "lineNumber": 173
+        },
+        {
+          "caller": "assertTaskUsageInput",
+          "callee": "pool.QueryRow(ctx, `SELECT input_tokens FROM task_usage WHERE id = $1`, id).Scan",
+          "lineNumber": 175
+        },
+        {
+          "caller": "assertTaskUsageInput",
+          "callee": "pool.QueryRow",
+          "lineNumber": 175
+        },
+        {
+          "caller": "assertTaskUsageInput",
+          "callee": "t.Fatalf",
+          "lineNumber": 176
+        },
+        {
+          "caller": "assertTaskUsageInput",
+          "callee": "t.Fatalf",
+          "lineNumber": 179
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "t.Helper",
+          "lineNumber": 184
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO workspace (name, slug)\n\t\tVALUES ($1, $2)\n\t\tRETURNING id\n\t`, \"codex backfill \"+suffix, \"codex-backfill-\"+suffix).Scan",
+          "lineNumber": 187
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 187
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "t.Fatalf",
+          "lineNumber": 192
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO agent_runtime (\n\t\t\tworkspace_id, daemon_id, name, runtime_mode, provider, status,\n\t\t\tdevice_info, metadata, last_seen_at\n\t\t)\n\t\tVALUES ($1, NULL, $2, 'cloud', 'codex', 'online',\n\t\t        '{}'::jsonb, '{}'::jsonb, now())\n\t\tRETURNING id\n\t`, wsID, \"codex backfill runtime \"+suffix).Scan",
+          "lineNumber": 194
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 194
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "t.Fatalf",
+          "lineNumber": 203
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO agent (\n\t\t\tworkspace_id, name, description, runtime_mode, runtime_config,\n\t\t\truntime_id, visibility, max_concurrent_tasks\n\t\t)\n\t\tVALUES ($1, $2, '', 'cloud', '{}'::jsonb, $3, 'workspace', 1)\n\t\tRETURNING id\n\t`, wsID, \"codex backfill agent \"+suffix, runtimeID).Scan",
+          "lineNumber": 205
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 205
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "t.Fatalf",
+          "lineNumber": 213
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO agent_task_queue (\n\t\t\tagent_id, runtime_id, status, payload\n\t\t)\n\t\tVALUES ($1, $2, 'queued', '{}'::jsonb)\n\t\tRETURNING id\n\t`, agentID, runtimeID).Scan",
+          "lineNumber": 215
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 215
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\t\tINSERT INTO agent_task_queue (agent_id, runtime_id)\n\t\t\tVALUES ($1, $2)\n\t\t\tRETURNING id\n\t\t`, agentID, runtimeID).Scan",
+          "lineNumber": 222
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 222
+        },
+        {
+          "caller": "seedBackfillTaskUsageFixture",
+          "callee": "t.Fatalf",
+          "lineNumber": 228
+        },
+        {
+          "caller": "testResolveMigrationsDir",
+          "callee": "runtime.Caller",
+          "lineNumber": 235
+        },
+        {
+          "caller": "testResolveMigrationsDir",
+          "callee": "fmt.Errorf",
+          "lineNumber": 237
+        },
+        {
+          "caller": "testResolveMigrationsDir",
+          "callee": "filepath.Join",
+          "lineNumber": 239
+        },
+        {
+          "caller": "testResolveMigrationsDir",
+          "callee": "filepath.Dir",
+          "lineNumber": 239
+        },
+        {
+          "caller": "testResolveMigrationsDir",
+          "callee": "filepath.Clean",
+          "lineNumber": 240
+        },
+        {
+          "caller": "testResolveMigrationsDir",
+          "callee": "os.Stat",
+          "lineNumber": 241
+        },
+        {
+          "caller": "testResolveMigrationsDir",
+          "callee": "info.IsDir",
+          "lineNumber": 241
+        },
+        {
+          "caller": "testResolveMigrationsDir",
+          "callee": "fmt.Errorf",
+          "lineNumber": 242
+        },
+        {
+          "caller": "testDatabaseReachable",
+          "callee": "pgxpool.New",
+          "lineNumber": 248
+        },
+        {
+          "caller": "testDatabaseReachable",
+          "callee": "pool.Close",
+          "lineNumber": 252
+        },
+        {
+          "caller": "testDatabaseReachable",
+          "callee": "pool.Ping",
+          "lineNumber": 253
+        },
+        {
+          "caller": "testCreateDatabase",
+          "callee": "pgx.Connect",
+          "lineNumber": 257
+        },
+        {
+          "caller": "testCreateDatabase",
+          "callee": "conn.Close",
+          "lineNumber": 261
+        },
+        {
+          "caller": "testCreateDatabase",
+          "callee": "conn.Exec",
+          "lineNumber": 262
+        },
+        {
+          "caller": "testCreateDatabase",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 262
+        },
+        {
+          "caller": "testDropDatabase",
+          "callee": "pgx.Connect",
+          "lineNumber": 269
+        },
+        {
+          "caller": "testDropDatabase",
+          "callee": "conn.Close",
+          "lineNumber": 273
+        },
+        {
+          "caller": "testDropDatabase",
+          "callee": "conn.Exec",
+          "lineNumber": 274
+        },
+        {
+          "caller": "testDropDatabase",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 274
+        },
+        {
+          "caller": "testReplaceDatabase",
+          "callee": "strings.LastIndex",
+          "lineNumber": 281
+        },
+        {
+          "caller": "testReplaceDatabase",
+          "callee": "strings.Index",
+          "lineNumber": 286
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "testResolveMigrationsDir",
+          "lineNumber": 294
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "filepath.Glob",
+          "lineNumber": 298
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "filepath.Join",
+          "lineNumber": 298
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "sort.Strings",
+          "lineNumber": 302
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "pool.Exec",
+          "lineNumber": 304
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "migrations.ExtractVersion",
+          "lineNumber": 314
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "os.ReadFile",
+          "lineNumber": 315
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "pool.Exec",
+          "lineNumber": 319
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "string",
+          "lineNumber": 319
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "fmt.Errorf",
+          "lineNumber": 320
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "pool.Exec",
+          "lineNumber": 322
+        },
+        {
+          "caller": "testApplyMigrationsUpTo",
+          "callee": "fmt.Errorf",
+          "lineNumber": 331
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cmd/migrate/main.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 317,
+      "nonEmptyLines": 284,
+      "functions": [
+        {
+          "name": "runTaskUsageHourlyHook",
+          "startLine": 44,
+          "endLine": 61,
+          "params": [
+            "ctx",
+            "pool"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 106,
+          "endLine": 154,
+          "params": []
+        },
+        {
+          "name": "runMigrations",
+          "startLine": 167,
+          "endLine": 291,
+          "params": [
+            "ctx",
+            "pool",
+            "opts"
+          ]
+        },
+        {
+          "name": "quoteQualifiedIdentifier",
+          "startLine": 303,
+          "endLine": 317,
+          "params": [
+            "name"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "runOptions",
+          "startLine": 82,
+          "endLine": 104,
+          "methods": [],
+          "properties": [
+            "Direction",
+            "Files",
+            "SchemaMigrationsTable",
+            "AdvisoryLockKey",
+            "Hooks"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "runTaskUsageHourlyHook",
+          "callee": "taskusagebackfill.Hook",
+          "lineNumber": 45
+        },
+        {
+          "caller": "runTaskUsageHourlyHook",
+          "callee": "fmt.Errorf",
+          "lineNumber": 47
+        },
+        {
+          "caller": "runTaskUsageHourlyHook",
+          "callee": "slog.Info",
+          "lineNumber": 50
+        },
+        {
+          "caller": "runTaskUsageHourlyHook",
+          "callee": "slog.Info",
+          "lineNumber": 55
+        },
+        {
+          "caller": "runTaskUsageHourlyHook",
+          "callee": "res.From.Format",
+          "lineNumber": 58
+        },
+        {
+          "caller": "runTaskUsageHourlyHook",
+          "callee": "res.To.Format",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "logger.Init",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "len",
+          "lineNumber": 109
+        },
+        {
+          "caller": "main",
+          "callee": "fmt.Println",
+          "lineNumber": 110
+        },
+        {
+          "caller": "main",
+          "callee": "os.Exit",
+          "lineNumber": 111
+        },
+        {
+          "caller": "main",
+          "callee": "fmt.Println",
+          "lineNumber": 116
+        },
+        {
+          "caller": "main",
+          "callee": "os.Exit",
+          "lineNumber": 117
+        },
+        {
+          "caller": "main",
+          "callee": "os.Getenv",
+          "lineNumber": 120
+        },
+        {
+          "caller": "main",
+          "callee": "context.Background",
+          "lineNumber": 125
+        },
+        {
+          "caller": "main",
+          "callee": "pgxpool.New",
+          "lineNumber": 126
+        },
+        {
+          "caller": "main",
+          "callee": "slog.Error",
+          "lineNumber": 128
+        },
+        {
+          "caller": "main",
+          "callee": "os.Exit",
+          "lineNumber": 129
+        },
+        {
+          "caller": "main",
+          "callee": "pool.Close",
+          "lineNumber": 131
+        },
+        {
+          "caller": "main",
+          "callee": "pool.Ping",
+          "lineNumber": 133
+        },
+        {
+          "caller": "main",
+          "callee": "slog.Error",
+          "lineNumber": 134
+        },
+        {
+          "caller": "main",
+          "callee": "os.Exit",
+          "lineNumber": 135
+        },
+        {
+          "caller": "main",
+          "callee": "migrations.Files",
+          "lineNumber": 138
+        },
+        {
+          "caller": "main",
+          "callee": "slog.Error",
+          "lineNumber": 140
+        },
+        {
+          "caller": "main",
+          "callee": "os.Exit",
+          "lineNumber": 141
+        },
+        {
+          "caller": "main",
+          "callee": "runMigrations",
+          "lineNumber": 144
+        },
+        {
+          "caller": "main",
+          "callee": "slog.Error",
+          "lineNumber": 149
+        },
+        {
+          "caller": "main",
+          "callee": "os.Exit",
+          "lineNumber": 150
+        },
+        {
+          "caller": "main",
+          "callee": "fmt.Println",
+          "lineNumber": 153
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 172
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "quoteQualifiedIdentifier",
+          "lineNumber": 179
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 181
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "pool.Acquire",
+          "lineNumber": 200
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 202
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.Release",
+          "lineNumber": 204
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.Exec",
+          "lineNumber": 206
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 207
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "func() {\n\t\tif _, err := conn.Exec(ctx, \"SELECT pg_advisory_unlock($1)\", lockKey); err != nil {\n\t\t\tslog.Warn(\"failed to release migration advisory lock\", \"error\", err)\n\t\t}\n\t}",
+          "lineNumber": 214
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.Exec",
+          "lineNumber": 215
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "slog.Warn",
+          "lineNumber": 216
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.Exec",
+          "lineNumber": 221
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 221
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 227
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 230
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 231
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 232
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "migrations.ExtractVersion",
+          "lineNumber": 235
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.QueryRow(ctx, existsSQL, version).Scan",
+          "lineNumber": 238
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.QueryRow",
+          "lineNumber": 238
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 239
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Printf",
+          "lineNumber": 244
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Printf",
+          "lineNumber": 249
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "os.ReadFile",
+          "lineNumber": 254
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 256
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "slog.Info",
+          "lineNumber": 267
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "hook",
+          "lineNumber": 268
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 269
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.Exec",
+          "lineNumber": 274
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "string",
+          "lineNumber": 274
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 275
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.Exec",
+          "lineNumber": 279
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "conn.Exec",
+          "lineNumber": 281
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Errorf",
+          "lineNumber": 284
+        },
+        {
+          "caller": "runMigrations",
+          "callee": "fmt.Printf",
+          "lineNumber": 287
+        },
+        {
+          "caller": "quoteQualifiedIdentifier",
+          "callee": "fmt.Errorf",
+          "lineNumber": 305
+        },
+        {
+          "caller": "quoteQualifiedIdentifier",
+          "callee": "strings.Split",
+          "lineNumber": 307
+        },
+        {
+          "caller": "quoteQualifiedIdentifier",
+          "callee": "len",
+          "lineNumber": 308
+        },
+        {
+          "caller": "quoteQualifiedIdentifier",
+          "callee": "fmt.Errorf",
+          "lineNumber": 309
+        },
+        {
+          "caller": "quoteQualifiedIdentifier",
+          "callee": "fmt.Errorf",
+          "lineNumber": 313
+        },
+        {
+          "caller": "quoteQualifiedIdentifier",
+          "callee": "pgx.Identifier(parts).Sanitize",
+          "lineNumber": 316
+        },
+        {
+          "caller": "quoteQualifiedIdentifier",
+          "callee": "pgx.Identifier",
+          "lineNumber": 316
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "cmd/server/health.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 180,
+      "nonEmptyLines": 151,
+      "functions": [
+        {
+          "name": "newServerHealth",
+          "startLine": 61,
+          "endLine": 69,
+          "params": [
+            "pool"
+          ]
+        },
+        {
+          "name": "liveHandler",
+          "startLine": 71,
+          "endLine": 73,
+          "params": [
+            "w",
+            "_"
+          ]
+        },
+        {
+          "name": "readyHandler",
+          "startLine": 75,
+          "endLine": 78,
+          "params": [
+            "w",
+            "r"
+          ]
+        },
+        {
+          "name": "readiness",
+          "startLine": 80,
+          "endLine": 105,
+          "params": [
+            "parent"
+          ]
+        },
+        {
+          "name": "loadCachedReadiness",
+          "startLine": 107,
+          "endLine": 113,
+          "params": [
+            "now"
+          ]
+        },
+        {
+          "name": "computeReadiness",
+          "startLine": 115,
+          "endLine": 164,
+          "params": [
+            "parent"
+          ]
+        },
+        {
+          "name": "writeJSON",
+          "startLine": 166,
+          "endLine": 180,
+          "params": [
+            "w",
+            "status",
+            "v"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "readinessDB",
+          "startLine": 27,
+          "endLine": 30,
+          "methods": [
+            "Ping",
+            "QueryRow"
+          ],
+          "properties": []
+        },
+        {
+          "name": "serverHealth",
+          "startLine": 32,
+          "endLine": 39,
+          "methods": [
+            "liveHandler",
+            "readyHandler",
+            "readiness",
+            "loadCachedReadiness",
+            "computeReadiness"
+          ],
+          "properties": [
+            "db",
+            "requiredMigrations",
+            "initErr",
+            "cacheTTL",
+            "refreshMu",
+            "cache"
+          ]
+        },
+        {
+          "name": "cachedReadiness",
+          "startLine": 41,
+          "endLine": 45,
+          "methods": [],
+          "properties": [
+            "response",
+            "statusCode",
+            "expiresAt"
+          ]
+        },
+        {
+          "name": "liveResponse",
+          "startLine": 47,
+          "endLine": 49,
+          "methods": [],
+          "properties": [
+            "Status"
+          ]
+        },
+        {
+          "name": "readinessResponse",
+          "startLine": 51,
+          "endLine": 54,
+          "methods": [],
+          "properties": [
+            "Status",
+            "Checks"
+          ]
+        },
+        {
+          "name": "readinessChecks",
+          "startLine": 56,
+          "endLine": 59,
+          "methods": [],
+          "properties": [
+            "DB",
+            "Migrations"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "newServerHealth",
+          "callee": "migrations.AllVersions",
+          "lineNumber": 62
+        },
+        {
+          "caller": "liveHandler",
+          "callee": "writeJSON",
+          "lineNumber": 72
+        },
+        {
+          "caller": "readyHandler",
+          "callee": "h.readiness",
+          "lineNumber": 76
+        },
+        {
+          "caller": "readyHandler",
+          "callee": "r.Context",
+          "lineNumber": 76
+        },
+        {
+          "caller": "readyHandler",
+          "callee": "writeJSON",
+          "lineNumber": 77
+        },
+        {
+          "caller": "readiness",
+          "callee": "h.computeReadiness",
+          "lineNumber": 82
+        },
+        {
+          "caller": "readiness",
+          "callee": "time.Now",
+          "lineNumber": 85
+        },
+        {
+          "caller": "readiness",
+          "callee": "h.loadCachedReadiness",
+          "lineNumber": 86
+        },
+        {
+          "caller": "readiness",
+          "callee": "h.refreshMu.Lock",
+          "lineNumber": 90
+        },
+        {
+          "caller": "readiness",
+          "callee": "h.refreshMu.Unlock",
+          "lineNumber": 91
+        },
+        {
+          "caller": "readiness",
+          "callee": "time.Now",
+          "lineNumber": 93
+        },
+        {
+          "caller": "readiness",
+          "callee": "h.loadCachedReadiness",
+          "lineNumber": 94
+        },
+        {
+          "caller": "readiness",
+          "callee": "h.computeReadiness",
+          "lineNumber": 98
+        },
+        {
+          "caller": "readiness",
+          "callee": "h.cache.Store",
+          "lineNumber": 99
+        },
+        {
+          "caller": "readiness",
+          "callee": "now.Add",
+          "lineNumber": 102
+        },
+        {
+          "caller": "loadCachedReadiness",
+          "callee": "h.cache.Load",
+          "lineNumber": 108
+        },
+        {
+          "caller": "loadCachedReadiness",
+          "callee": "now.Before",
+          "lineNumber": 109
+        },
+        {
+          "caller": "computeReadiness",
+          "callee": "context.WithTimeout",
+          "lineNumber": 131
+        },
+        {
+          "caller": "computeReadiness",
+          "callee": "cancel",
+          "lineNumber": 132
+        },
+        {
+          "caller": "computeReadiness",
+          "callee": "h.db.Ping",
+          "lineNumber": 134
+        },
+        {
+          "caller": "computeReadiness",
+          "callee": "len",
+          "lineNumber": 141
+        },
+        {
+          "caller": "computeReadiness",
+          "callee": "h.db.QueryRow(ctx, readinessQuery, h.requiredMigrations).Scan",
+          "lineNumber": 148
+        },
+        {
+          "caller": "computeReadiness",
+          "callee": "h.db.QueryRow",
+          "lineNumber": 148
+        },
+        {
+          "caller": "computeReadiness",
+          "callee": "len",
+          "lineNumber": 157
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "json.Marshal",
+          "lineNumber": 170
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "append",
+          "lineNumber": 175
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "w.Header().Set",
+          "lineNumber": 176
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "w.Header",
+          "lineNumber": 176
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "w.Header().Set",
+          "lineNumber": 177
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "w.Header",
+          "lineNumber": 177
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "strconv.Itoa",
+          "lineNumber": 177
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "len",
+          "lineNumber": 177
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "w.WriteHeader",
+          "lineNumber": 178
+        },
+        {
+          "caller": "writeJSON",
+          "callee": "w.Write",
+          "lineNumber": 179
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 7,
+        "classCount": 6
+      }
+    },
+    {
+      "path": "internal/migrations/migrations.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 100,
+      "nonEmptyLines": 89,
+      "functions": [
+        {
+          "name": "ResolveDir",
+          "startLine": 22,
+          "endLine": 42,
+          "params": []
+        },
+        {
+          "name": "searchRoots",
+          "startLine": 44,
+          "endLine": 50,
+          "params": []
+        },
+        {
+          "name": "Files",
+          "startLine": 54,
+          "endLine": 72,
+          "params": [
+            "direction"
+          ]
+        },
+        {
+          "name": "AllVersions",
+          "startLine": 79,
+          "endLine": 92,
+          "params": []
+        },
+        {
+          "name": "ExtractVersion",
+          "startLine": 95,
+          "endLine": 100,
+          "params": [
+            "filename"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ResolveDir",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "Files",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "AllVersions",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "ExtractVersion",
+          "line": 95,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ResolveDir",
+          "callee": "make",
+          "lineNumber": 23
+        },
+        {
+          "caller": "ResolveDir",
+          "callee": "searchRoots",
+          "lineNumber": 24
+        },
+        {
+          "caller": "ResolveDir",
+          "callee": "filepath.Clean",
+          "lineNumber": 28
+        },
+        {
+          "caller": "ResolveDir",
+          "callee": "filepath.Join",
+          "lineNumber": 28
+        },
+        {
+          "caller": "ResolveDir",
+          "callee": "os.Stat",
+          "lineNumber": 33
+        },
+        {
+          "caller": "ResolveDir",
+          "callee": "info.IsDir",
+          "lineNumber": 34
+        },
+        {
+          "caller": "ResolveDir",
+          "callee": "filepath.Join",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ResolveDir",
+          "callee": "fmt.Errorf",
+          "lineNumber": 41
+        },
+        {
+          "caller": "searchRoots",
+          "callee": "selfexec.Resolve",
+          "lineNumber": 46
+        },
+        {
+          "caller": "searchRoots",
+          "callee": "append",
+          "lineNumber": 47
+        },
+        {
+          "caller": "searchRoots",
+          "callee": "filepath.Dir",
+          "lineNumber": 47
+        },
+        {
+          "caller": "Files",
+          "callee": "ResolveDir",
+          "lineNumber": 55
+        },
+        {
+          "caller": "Files",
+          "callee": "filepath.Glob",
+          "lineNumber": 61
+        },
+        {
+          "caller": "Files",
+          "callee": "filepath.Join",
+          "lineNumber": 61
+        },
+        {
+          "caller": "Files",
+          "callee": "sort.Sort",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Files",
+          "callee": "sort.Reverse",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Files",
+          "callee": "sort.StringSlice",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Files",
+          "callee": "sort.Strings",
+          "lineNumber": 69
+        },
+        {
+          "caller": "AllVersions",
+          "callee": "Files",
+          "lineNumber": 80
+        },
+        {
+          "caller": "AllVersions",
+          "callee": "len",
+          "lineNumber": 84
+        },
+        {
+          "caller": "AllVersions",
+          "callee": "fmt.Errorf",
+          "lineNumber": 85
+        },
+        {
+          "caller": "AllVersions",
+          "callee": "make",
+          "lineNumber": 87
+        },
+        {
+          "caller": "AllVersions",
+          "callee": "len",
+          "lineNumber": 87
+        },
+        {
+          "caller": "AllVersions",
+          "callee": "ExtractVersion",
+          "lineNumber": 89
+        },
+        {
+          "caller": "ExtractVersion",
+          "callee": "filepath.Base",
+          "lineNumber": 96
+        },
+        {
+          "caller": "ExtractVersion",
+          "callee": "strings.TrimSuffix",
+          "lineNumber": 97
+        },
+        {
+          "caller": "ExtractVersion",
+          "callee": "strings.TrimSuffix",
+          "lineNumber": 98
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "internal/migrations/migrations_lint_test.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 183,
+      "nonEmptyLines": 161,
+      "functions": [
+        {
+          "name": "TestMigrationFilesHaveMatchingDirections",
+          "startLine": 52,
+          "endLine": 72,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "startLine": 74,
+          "endLine": 94,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestNewMigrationPrefixesStartAfterLegacyRange",
+          "startLine": 96,
+          "endLine": 108,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "migrationStemsByPrefix",
+          "startLine": 110,
+          "endLine": 124,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "migrationFilesForLint",
+          "startLine": 126,
+          "endLine": 139,
+          "params": [
+            "t",
+            "pattern"
+          ]
+        },
+        {
+          "name": "realMigrationsDir",
+          "startLine": 141,
+          "endLine": 149,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "splitMigrationFilename",
+          "startLine": 151,
+          "endLine": 159,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "isKnownLegacyPrefix",
+          "startLine": 161,
+          "endLine": 183,
+          "params": [
+            "prefix"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TestMigrationFilesHaveMatchingDirections",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "TestNewMigrationPrefixesStartAfterLegacyRange",
+          "line": 96,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TestMigrationFilesHaveMatchingDirections",
+          "callee": "migrationFilesForLint",
+          "lineNumber": 53
+        },
+        {
+          "caller": "TestMigrationFilesHaveMatchingDirections",
+          "callee": "make",
+          "lineNumber": 55
+        },
+        {
+          "caller": "TestMigrationFilesHaveMatchingDirections",
+          "callee": "splitMigrationFilename",
+          "lineNumber": 57
+        },
+        {
+          "caller": "TestMigrationFilesHaveMatchingDirections",
+          "callee": "filepath.Base",
+          "lineNumber": 57
+        },
+        {
+          "caller": "TestMigrationFilesHaveMatchingDirections",
+          "callee": "make",
+          "lineNumber": 62
+        },
+        {
+          "caller": "TestMigrationFilesHaveMatchingDirections",
+          "callee": "t.Errorf",
+          "lineNumber": 69
+        },
+        {
+          "caller": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "callee": "migrationStemsByPrefix",
+          "lineNumber": 75
+        },
+        {
+          "caller": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "callee": "sort.Strings",
+          "lineNumber": 78
+        },
+        {
+          "caller": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "callee": "append",
+          "lineNumber": 82
+        },
+        {
+          "caller": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "callee": "sort.Strings",
+          "lineNumber": 83
+        },
+        {
+          "caller": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "callee": "reflect.DeepEqual",
+          "lineNumber": 84
+        },
+        {
+          "caller": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "callee": "t.Errorf",
+          "lineNumber": 85
+        },
+        {
+          "caller": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "callee": "len",
+          "lineNumber": 90
+        },
+        {
+          "caller": "TestMigrationNumericPrefixesStayUniqueAfterLegacySet",
+          "callee": "t.Errorf",
+          "lineNumber": 91
+        },
+        {
+          "caller": "TestNewMigrationPrefixesStartAfterLegacyRange",
+          "callee": "migrationStemsByPrefix",
+          "lineNumber": 97
+        },
+        {
+          "caller": "TestNewMigrationPrefixesStartAfterLegacyRange",
+          "callee": "strconv.Atoi",
+          "lineNumber": 100
+        },
+        {
+          "caller": "TestNewMigrationPrefixesStartAfterLegacyRange",
+          "callee": "t.Fatalf",
+          "lineNumber": 102
+        },
+        {
+          "caller": "TestNewMigrationPrefixesStartAfterLegacyRange",
+          "callee": "isKnownLegacyPrefix",
+          "lineNumber": 104
+        },
+        {
+          "caller": "TestNewMigrationPrefixesStartAfterLegacyRange",
+          "callee": "t.Errorf",
+          "lineNumber": 105
+        },
+        {
+          "caller": "migrationStemsByPrefix",
+          "callee": "t.Helper",
+          "lineNumber": 111
+        },
+        {
+          "caller": "migrationStemsByPrefix",
+          "callee": "migrationFilesForLint",
+          "lineNumber": 113
+        },
+        {
+          "caller": "migrationStemsByPrefix",
+          "callee": "make",
+          "lineNumber": 114
+        },
+        {
+          "caller": "migrationStemsByPrefix",
+          "callee": "strings.TrimSuffix",
+          "lineNumber": 116
+        },
+        {
+          "caller": "migrationStemsByPrefix",
+          "callee": "filepath.Base",
+          "lineNumber": 116
+        },
+        {
+          "caller": "migrationStemsByPrefix",
+          "callee": "migrationPrefixPattern.FindStringSubmatch",
+          "lineNumber": 117
+        },
+        {
+          "caller": "migrationStemsByPrefix",
+          "callee": "t.Fatalf",
+          "lineNumber": 119
+        },
+        {
+          "caller": "migrationStemsByPrefix",
+          "callee": "append",
+          "lineNumber": 121
+        },
+        {
+          "caller": "migrationFilesForLint",
+          "callee": "t.Helper",
+          "lineNumber": 127
+        },
+        {
+          "caller": "migrationFilesForLint",
+          "callee": "realMigrationsDir",
+          "lineNumber": 129
+        },
+        {
+          "caller": "migrationFilesForLint",
+          "callee": "filepath.Glob",
+          "lineNumber": 130
+        },
+        {
+          "caller": "migrationFilesForLint",
+          "callee": "filepath.Join",
+          "lineNumber": 130
+        },
+        {
+          "caller": "migrationFilesForLint",
+          "callee": "t.Fatal",
+          "lineNumber": 132
+        },
+        {
+          "caller": "migrationFilesForLint",
+          "callee": "len",
+          "lineNumber": 134
+        },
+        {
+          "caller": "migrationFilesForLint",
+          "callee": "t.Fatalf",
+          "lineNumber": 135
+        },
+        {
+          "caller": "migrationFilesForLint",
+          "callee": "sort.Strings",
+          "lineNumber": 137
+        },
+        {
+          "caller": "realMigrationsDir",
+          "callee": "t.Helper",
+          "lineNumber": 142
+        },
+        {
+          "caller": "realMigrationsDir",
+          "callee": "runtime.Caller",
+          "lineNumber": 144
+        },
+        {
+          "caller": "realMigrationsDir",
+          "callee": "t.Fatal",
+          "lineNumber": 146
+        },
+        {
+          "caller": "realMigrationsDir",
+          "callee": "filepath.Clean",
+          "lineNumber": 148
+        },
+        {
+          "caller": "realMigrationsDir",
+          "callee": "filepath.Join",
+          "lineNumber": 148
+        },
+        {
+          "caller": "realMigrationsDir",
+          "callee": "filepath.Dir",
+          "lineNumber": 148
+        },
+        {
+          "caller": "splitMigrationFilename",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 153
+        },
+        {
+          "caller": "splitMigrationFilename",
+          "callee": "strings.HasSuffix",
+          "lineNumber": 154
+        },
+        {
+          "caller": "splitMigrationFilename",
+          "callee": "strings.TrimSuffix",
+          "lineNumber": 155
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "internal/scheduler/jobs_task_usage.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 120,
+      "nonEmptyLines": 109,
+      "functions": [
+        {
+          "name": "TaskUsageHourlyJob",
+          "startLine": 36,
+          "endLine": 56,
+          "params": [
+            "pool"
+          ]
+        },
+        {
+          "name": "makeTaskUsageHourlyHandler",
+          "startLine": 64,
+          "endLine": 101,
+          "params": [
+            "pool"
+          ]
+        },
+        {
+          "name": "readTaskUsageWatermark",
+          "startLine": 106,
+          "endLine": 120,
+          "params": [
+            "ctx",
+            "pool"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TaskUsageHourlyJob",
+          "line": 36,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TaskUsageHourlyJob",
+          "callee": "StaticScopes",
+          "lineNumber": 53
+        },
+        {
+          "caller": "TaskUsageHourlyJob",
+          "callee": "makeTaskUsageHourlyHandler",
+          "lineNumber": 54
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "readTaskUsageWatermark",
+          "lineNumber": 66
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "fmt.Errorf",
+          "lineNumber": 68
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "pool.QueryRow(ctx, `SELECT rollup_task_usage_hourly()`).Scan",
+          "lineNumber": 72
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "pool.QueryRow",
+          "lineNumber": 72
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "fmt.Errorf",
+          "lineNumber": 73
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "readTaskUsageWatermark",
+          "lineNumber": 76
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "fmt.Errorf",
+          "lineNumber": 78
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "in.Heartbeat",
+          "lineNumber": 84
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "watermarkBefore.IsZero",
+          "lineNumber": 90
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "watermarkBefore.UTC().Format",
+          "lineNumber": 91
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "watermarkBefore.UTC",
+          "lineNumber": 91
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "watermarkAfter.IsZero",
+          "lineNumber": 93
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "watermarkAfter.UTC().Format",
+          "lineNumber": 94
+        },
+        {
+          "caller": "makeTaskUsageHourlyHandler",
+          "callee": "watermarkAfter.UTC",
+          "lineNumber": 94
+        },
+        {
+          "caller": "readTaskUsageWatermark",
+          "callee": "pool.QueryRow(ctx, `\n\t\tSELECT watermark_at\n\t\t  FROM task_usage_hourly_rollup_state\n\t\t WHERE id = 1\n\t`).Scan",
+          "lineNumber": 108
+        },
+        {
+          "caller": "readTaskUsageWatermark",
+          "callee": "pool.QueryRow",
+          "lineNumber": 108
+        },
+        {
+          "caller": "readTaskUsageWatermark",
+          "callee": "errors.Is",
+          "lineNumber": 114
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "internal/taskusagebackfill/backfill.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 371,
+      "nonEmptyLines": 337,
+      "functions": [
+        {
+          "name": "Hook",
+          "startLine": 131,
+          "endLine": 282,
+          "params": [
+            "ctx",
+            "pool",
+            "opts"
+          ]
+        },
+        {
+          "name": "loadUsageRange",
+          "startLine": 290,
+          "endLine": 310,
+          "params": [
+            "ctx",
+            "pool"
+          ]
+        },
+        {
+          "name": "loadWatermark",
+          "startLine": 312,
+          "endLine": 324,
+          "params": [
+            "ctx",
+            "pool"
+          ]
+        },
+        {
+          "name": "rollupStateExists",
+          "startLine": 326,
+          "endLine": 336,
+          "params": [
+            "ctx",
+            "pool"
+          ]
+        },
+        {
+          "name": "stampWatermark",
+          "startLine": 344,
+          "endLine": 354,
+          "params": [
+            "ctx",
+            "pool"
+          ]
+        },
+        {
+          "name": "stampWatermarkOnConn",
+          "startLine": 356,
+          "endLine": 366,
+          "params": [
+            "ctx",
+            "conn"
+          ]
+        },
+        {
+          "name": "monthFloor",
+          "startLine": 368,
+          "endLine": 371,
+          "params": [
+            "t"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "Result",
+          "startLine": 67,
+          "endLine": 85,
+          "methods": [],
+          "properties": [
+            "Skipped",
+            "SlicesProcessed",
+            "RowsTouched",
+            "From",
+            "To",
+            "WatermarkStamped"
+          ]
+        },
+        {
+          "name": "HookOptions",
+          "startLine": 89,
+          "endLine": 103,
+          "methods": [],
+          "properties": [
+            "Logger",
+            "LagThreshold",
+            "SleepBetweenSlices"
+          ]
+        },
+        {
+          "name": "usageRange",
+          "startLine": 284,
+          "endLine": 288,
+          "methods": [],
+          "properties": [
+            "HasRows",
+            "MinEvent",
+            "MaxEvent"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Result",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "HookOptions",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "Hook",
+          "line": 131,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Hook",
+          "callee": "slog.Default",
+          "lineNumber": 134
+        },
+        {
+          "caller": "Hook",
+          "callee": "rollupStateExists",
+          "lineNumber": 145
+        },
+        {
+          "caller": "Hook",
+          "callee": "fmt.Errorf",
+          "lineNumber": 147
+        },
+        {
+          "caller": "Hook",
+          "callee": "log.Info",
+          "lineNumber": 150
+        },
+        {
+          "caller": "Hook",
+          "callee": "loadUsageRange",
+          "lineNumber": 159
+        },
+        {
+          "caller": "Hook",
+          "callee": "fmt.Errorf",
+          "lineNumber": 161
+        },
+        {
+          "caller": "Hook",
+          "callee": "loadWatermark",
+          "lineNumber": 163
+        },
+        {
+          "caller": "Hook",
+          "callee": "fmt.Errorf",
+          "lineNumber": 165
+        },
+        {
+          "caller": "Hook",
+          "callee": "stampWatermark",
+          "lineNumber": 174
+        },
+        {
+          "caller": "Hook",
+          "callee": "log.Info",
+          "lineNumber": 177
+        },
+        {
+          "caller": "Hook",
+          "callee": "errors.New",
+          "lineNumber": 185
+        },
+        {
+          "caller": "Hook",
+          "callee": "maxEvent.Sub",
+          "lineNumber": 191
+        },
+        {
+          "caller": "Hook",
+          "callee": "log.Info",
+          "lineNumber": 193
+        },
+        {
+          "caller": "Hook",
+          "callee": "watermark.Time.UTC().Format",
+          "lineNumber": 194
+        },
+        {
+          "caller": "Hook",
+          "callee": "watermark.Time.UTC",
+          "lineNumber": 194
+        },
+        {
+          "caller": "Hook",
+          "callee": "maxEvent.UTC().Format",
+          "lineNumber": 195
+        },
+        {
+          "caller": "Hook",
+          "callee": "maxEvent.UTC",
+          "lineNumber": 195
+        },
+        {
+          "caller": "Hook",
+          "callee": "lag.String",
+          "lineNumber": 196
+        },
+        {
+          "caller": "Hook",
+          "callee": "threshold.String",
+          "lineNumber": 197
+        },
+        {
+          "caller": "Hook",
+          "callee": "stampWatermark",
+          "lineNumber": 202
+        },
+        {
+          "caller": "Hook",
+          "callee": "log.Info",
+          "lineNumber": 208
+        },
+        {
+          "caller": "Hook",
+          "callee": "watermark.Time.UTC().Format",
+          "lineNumber": 209
+        },
+        {
+          "caller": "Hook",
+          "callee": "watermark.Time.UTC",
+          "lineNumber": 209
+        },
+        {
+          "caller": "Hook",
+          "callee": "maxEvent.UTC().Format",
+          "lineNumber": 210
+        },
+        {
+          "caller": "Hook",
+          "callee": "maxEvent.UTC",
+          "lineNumber": 210
+        },
+        {
+          "caller": "Hook",
+          "callee": "lag.String",
+          "lineNumber": 211
+        },
+        {
+          "caller": "Hook",
+          "callee": "threshold.String",
+          "lineNumber": 212
+        },
+        {
+          "caller": "Hook",
+          "callee": "pool.Acquire",
+          "lineNumber": 217
+        },
+        {
+          "caller": "Hook",
+          "callee": "fmt.Errorf",
+          "lineNumber": 219
+        },
+        {
+          "caller": "Hook",
+          "callee": "lockConn.Release",
+          "lineNumber": 221
+        },
+        {
+          "caller": "Hook",
+          "callee": "lockConn.Exec",
+          "lineNumber": 223
+        },
+        {
+          "caller": "Hook",
+          "callee": "fmt.Errorf",
+          "lineNumber": 224
+        },
+        {
+          "caller": "Hook",
+          "callee": "func() {\n\t\t_, _ = lockConn.Exec(context.Background(), `SELECT pg_advisory_unlock($1)`, AdvisoryLockKey)\n\t}",
+          "lineNumber": 229
+        },
+        {
+          "caller": "Hook",
+          "callee": "lockConn.Exec",
+          "lineNumber": 230
+        },
+        {
+          "caller": "Hook",
+          "callee": "context.Background",
+          "lineNumber": 230
+        },
+        {
+          "caller": "Hook",
+          "callee": "monthFloor",
+          "lineNumber": 233
+        },
+        {
+          "caller": "Hook",
+          "callee": "monthFloor(maxEvent).AddDate",
+          "lineNumber": 234
+        },
+        {
+          "caller": "Hook",
+          "callee": "monthFloor",
+          "lineNumber": 234
+        },
+        {
+          "caller": "Hook",
+          "callee": "cursor.Before",
+          "lineNumber": 238
+        },
+        {
+          "caller": "Hook",
+          "callee": "ctx.Done",
+          "lineNumber": 240
+        },
+        {
+          "caller": "Hook",
+          "callee": "ctx.Err",
+          "lineNumber": 241
+        },
+        {
+          "caller": "Hook",
+          "callee": "cursor.AddDate",
+          "lineNumber": 245
+        },
+        {
+          "caller": "Hook",
+          "callee": "lockConn.QueryRow(\n\t\t\tctx,\n\t\t\t`SELECT rollup_task_usage_hourly_window($1::timestamptz, $2::timestamptz)`,\n\t\t\tcursor, next,\n\t\t).Scan",
+          "lineNumber": 247
+        },
+        {
+          "caller": "Hook",
+          "callee": "lockConn.QueryRow",
+          "lineNumber": 247
+        },
+        {
+          "caller": "Hook",
+          "callee": "fmt.Errorf",
+          "lineNumber": 253
+        },
+        {
+          "caller": "Hook",
+          "callee": "cursor.Format",
+          "lineNumber": 254
+        },
+        {
+          "caller": "Hook",
+          "callee": "next.Format",
+          "lineNumber": 254
+        },
+        {
+          "caller": "Hook",
+          "callee": "log.Info",
+          "lineNumber": 258
+        },
+        {
+          "caller": "Hook",
+          "callee": "cursor.Format",
+          "lineNumber": 259
+        },
+        {
+          "caller": "Hook",
+          "callee": "next.Format",
+          "lineNumber": 260
+        },
+        {
+          "caller": "Hook",
+          "callee": "cursor.Before",
+          "lineNumber": 263
+        },
+        {
+          "caller": "Hook",
+          "callee": "time.After",
+          "lineNumber": 265
+        },
+        {
+          "caller": "Hook",
+          "callee": "ctx.Done",
+          "lineNumber": 266
+        },
+        {
+          "caller": "Hook",
+          "callee": "ctx.Err",
+          "lineNumber": 267
+        },
+        {
+          "caller": "Hook",
+          "callee": "stampWatermarkOnConn",
+          "lineNumber": 272
+        },
+        {
+          "caller": "Hook",
+          "callee": "lockConn.Conn",
+          "lineNumber": 272
+        },
+        {
+          "caller": "Hook",
+          "callee": "log.Info",
+          "lineNumber": 277
+        },
+        {
+          "caller": "loadUsageRange",
+          "callee": "pool.QueryRow(ctx, `\n\t\tSELECT MIN(created_at), MAX(COALESCE(updated_at, created_at))\n\t\t  FROM task_usage\n\t`).Scan",
+          "lineNumber": 295
+        },
+        {
+          "caller": "loadUsageRange",
+          "callee": "pool.QueryRow",
+          "lineNumber": 295
+        },
+        {
+          "caller": "loadUsageRange",
+          "callee": "minTS.Time.UTC",
+          "lineNumber": 307
+        },
+        {
+          "caller": "loadUsageRange",
+          "callee": "maxTS.Time.UTC",
+          "lineNumber": 308
+        },
+        {
+          "caller": "loadWatermark",
+          "callee": "pool.QueryRow(ctx, `\n\t\tSELECT watermark_at FROM task_usage_hourly_rollup_state WHERE id = 1\n\t`).Scan",
+          "lineNumber": 314
+        },
+        {
+          "caller": "loadWatermark",
+          "callee": "pool.QueryRow",
+          "lineNumber": 314
+        },
+        {
+          "caller": "loadWatermark",
+          "callee": "errors.Is",
+          "lineNumber": 318
+        },
+        {
+          "caller": "rollupStateExists",
+          "callee": "pool.QueryRow(ctx, `\n\t\tSELECT EXISTS (\n\t\t\tSELECT 1 FROM information_schema.tables\n\t\t\t WHERE table_schema = 'public'\n\t\t\t   AND table_name = 'task_usage_hourly_rollup_state'\n\t\t)\n\t`).Scan",
+          "lineNumber": 328
+        },
+        {
+          "caller": "rollupStateExists",
+          "callee": "pool.QueryRow",
+          "lineNumber": 328
+        },
+        {
+          "caller": "stampWatermark",
+          "callee": "pool.Exec",
+          "lineNumber": 345
+        },
+        {
+          "caller": "stampWatermark",
+          "callee": "fmt.Errorf",
+          "lineNumber": 351
+        },
+        {
+          "caller": "stampWatermarkOnConn",
+          "callee": "conn.Exec",
+          "lineNumber": 357
+        },
+        {
+          "caller": "stampWatermarkOnConn",
+          "callee": "fmt.Errorf",
+          "lineNumber": 363
+        },
+        {
+          "caller": "monthFloor",
+          "callee": "t.UTC",
+          "lineNumber": 369
+        },
+        {
+          "caller": "monthFloor",
+          "callee": "time.Date",
+          "lineNumber": 370
+        },
+        {
+          "caller": "monthFloor",
+          "callee": "t.Year",
+          "lineNumber": 370
+        },
+        {
+          "caller": "monthFloor",
+          "callee": "t.Month",
+          "lineNumber": 370
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 7,
+        "classCount": 3
+      }
+    },
+    {
+      "path": "internal/taskusagebackfill/hook_test.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 399,
+      "nonEmptyLines": 365,
+      "functions": [
+        {
+          "name": "TestHook_DirectV034Upgrade",
+          "startLine": 39,
+          "endLine": 153,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "startLine": 159,
+          "endLine": 204,
+          "params": [
+            "t"
+          ]
+        },
+        {
+          "name": "resolveMigrationsDir",
+          "startLine": 217,
+          "endLine": 229,
+          "params": []
+        },
+        {
+          "name": "databaseReachable",
+          "startLine": 231,
+          "endLine": 238,
+          "params": [
+            "ctx",
+            "url"
+          ]
+        },
+        {
+          "name": "createDatabase",
+          "startLine": 240,
+          "endLine": 250,
+          "params": [
+            "ctx",
+            "adminURL",
+            "name"
+          ]
+        },
+        {
+          "name": "dropDatabase",
+          "startLine": 252,
+          "endLine": 262,
+          "params": [
+            "ctx",
+            "adminURL",
+            "name"
+          ]
+        },
+        {
+          "name": "replaceDatabase",
+          "startLine": 266,
+          "endLine": 277,
+          "params": [
+            "url",
+            "name"
+          ]
+        },
+        {
+          "name": "applyMigrationsUpTo",
+          "startLine": 279,
+          "endLine": 318,
+          "params": [
+            "ctx",
+            "pool",
+            "lastVersion"
+          ]
+        },
+        {
+          "name": "tryApplyMigration",
+          "startLine": 320,
+          "endLine": 337,
+          "params": [
+            "ctx",
+            "pool",
+            "version"
+          ]
+        },
+        {
+          "name": "seedTaskUsageFixture",
+          "startLine": 343,
+          "endLine": 395,
+          "params": [
+            "t",
+            "ctx",
+            "pool"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TestHook_DirectV034Upgrade",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "line": 159,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "os.Getenv",
+          "lineNumber": 40
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "context.Background",
+          "lineNumber": 45
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "databaseReachable",
+          "lineNumber": 46
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Skip",
+          "lineNumber": 47
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 50
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "time.Now().UnixNano",
+          "lineNumber": 50
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "time.Now",
+          "lineNumber": 50
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "createDatabase",
+          "lineNumber": 51
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 52
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Cleanup",
+          "lineNumber": 54
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "dropDatabase",
+          "lineNumber": 55
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "context.Background",
+          "lineNumber": 55
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Logf",
+          "lineNumber": 56
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "replaceDatabase",
+          "lineNumber": 60
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "pgxpool.New",
+          "lineNumber": 61
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 63
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Cleanup",
+          "lineNumber": 65
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "applyMigrationsUpTo",
+          "lineNumber": 70
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 71
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "seedTaskUsageFixture",
+          "lineNumber": 78
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "time.Now().UTC().Add",
+          "lineNumber": 80
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "time.Now().UTC",
+          "lineNumber": 80
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "time.Now",
+          "lineNumber": 80
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "pool.Exec",
+          "lineNumber": 81
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 88
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "tryApplyMigration",
+          "lineNumber": 95
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 97
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "strings.Contains",
+          "lineNumber": 99
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "pendingErr.Error",
+          "lineNumber": 99
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 100
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "taskusagebackfill.Hook",
+          "lineNumber": 110
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 112
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 115
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 118
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 121
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "pool.QueryRow(ctx, `\n\t\tSELECT COUNT(*) FROM task_usage_hourly\n\t`).Scan",
+          "lineNumber": 126
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "pool.QueryRow",
+          "lineNumber": 126
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 129
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 132
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "pool.QueryRow(ctx, `\n\t\tSELECT watermark_at FROM task_usage_hourly_rollup_state WHERE id = 1\n\t`).Scan",
+          "lineNumber": 138
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "pool.QueryRow",
+          "lineNumber": 138
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 141
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "time.Now().UTC().Add",
+          "lineNumber": 143
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "time.Now().UTC",
+          "lineNumber": 143
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "time.Now",
+          "lineNumber": 143
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "watermark.UTC().Sub",
+          "lineNumber": 144
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "watermark.UTC",
+          "lineNumber": 144
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 145
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "watermark.Format",
+          "lineNumber": 146
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "expected.Format",
+          "lineNumber": 146
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "tryApplyMigration",
+          "lineNumber": 150
+        },
+        {
+          "caller": "TestHook_DirectV034Upgrade",
+          "callee": "t.Fatalf",
+          "lineNumber": 151
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "os.Getenv",
+          "lineNumber": 160
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "context.Background",
+          "lineNumber": 164
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "databaseReachable",
+          "lineNumber": 165
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Skip",
+          "lineNumber": 166
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 169
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "time.Now().UnixNano",
+          "lineNumber": 169
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "time.Now",
+          "lineNumber": 169
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "createDatabase",
+          "lineNumber": 170
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 171
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Cleanup",
+          "lineNumber": 173
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "dropDatabase",
+          "lineNumber": 174
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "context.Background",
+          "lineNumber": 174
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "pgxpool.New",
+          "lineNumber": 177
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "replaceDatabase",
+          "lineNumber": 177
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 179
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Cleanup",
+          "lineNumber": 181
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "applyMigrationsUpTo",
+          "lineNumber": 183
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 184
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "taskusagebackfill.Hook",
+          "lineNumber": 187
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 189
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 192
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 195
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "tryApplyMigration",
+          "lineNumber": 201
+        },
+        {
+          "caller": "TestHook_FreshDatabaseStampsWatermarkOnly",
+          "callee": "t.Fatalf",
+          "lineNumber": 202
+        },
+        {
+          "caller": "resolveMigrationsDir",
+          "callee": "runtime.Caller",
+          "lineNumber": 218
+        },
+        {
+          "caller": "resolveMigrationsDir",
+          "callee": "fmt.Errorf",
+          "lineNumber": 220
+        },
+        {
+          "caller": "resolveMigrationsDir",
+          "callee": "filepath.Join",
+          "lineNumber": 223
+        },
+        {
+          "caller": "resolveMigrationsDir",
+          "callee": "filepath.Dir",
+          "lineNumber": 223
+        },
+        {
+          "caller": "resolveMigrationsDir",
+          "callee": "filepath.Clean",
+          "lineNumber": 224
+        },
+        {
+          "caller": "resolveMigrationsDir",
+          "callee": "os.Stat",
+          "lineNumber": 225
+        },
+        {
+          "caller": "resolveMigrationsDir",
+          "callee": "info.IsDir",
+          "lineNumber": 225
+        },
+        {
+          "caller": "resolveMigrationsDir",
+          "callee": "fmt.Errorf",
+          "lineNumber": 226
+        },
+        {
+          "caller": "databaseReachable",
+          "callee": "pgxpool.New",
+          "lineNumber": 232
+        },
+        {
+          "caller": "databaseReachable",
+          "callee": "pool.Close",
+          "lineNumber": 236
+        },
+        {
+          "caller": "databaseReachable",
+          "callee": "pool.Ping",
+          "lineNumber": 237
+        },
+        {
+          "caller": "createDatabase",
+          "callee": "pgx.Connect",
+          "lineNumber": 241
+        },
+        {
+          "caller": "createDatabase",
+          "callee": "conn.Close",
+          "lineNumber": 245
+        },
+        {
+          "caller": "createDatabase",
+          "callee": "conn.Exec",
+          "lineNumber": 246
+        },
+        {
+          "caller": "createDatabase",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 246
+        },
+        {
+          "caller": "dropDatabase",
+          "callee": "pgx.Connect",
+          "lineNumber": 253
+        },
+        {
+          "caller": "dropDatabase",
+          "callee": "conn.Close",
+          "lineNumber": 257
+        },
+        {
+          "caller": "dropDatabase",
+          "callee": "conn.Exec",
+          "lineNumber": 258
+        },
+        {
+          "caller": "dropDatabase",
+          "callee": "fmt.Sprintf",
+          "lineNumber": 258
+        },
+        {
+          "caller": "replaceDatabase",
+          "callee": "strings.LastIndex",
+          "lineNumber": 267
+        },
+        {
+          "caller": "replaceDatabase",
+          "callee": "strings.Index",
+          "lineNumber": 272
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "resolveMigrationsDir",
+          "lineNumber": 280
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "filepath.Glob",
+          "lineNumber": 284
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "filepath.Join",
+          "lineNumber": 284
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "sort.Strings",
+          "lineNumber": 288
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "pool.Exec",
+          "lineNumber": 290
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "migrations.ExtractVersion",
+          "lineNumber": 300
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "os.ReadFile",
+          "lineNumber": 301
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "pool.Exec",
+          "lineNumber": 305
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "string",
+          "lineNumber": 305
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "fmt.Errorf",
+          "lineNumber": 306
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "pool.Exec",
+          "lineNumber": 308
+        },
+        {
+          "caller": "applyMigrationsUpTo",
+          "callee": "fmt.Errorf",
+          "lineNumber": 317
+        },
+        {
+          "caller": "tryApplyMigration",
+          "callee": "resolveMigrationsDir",
+          "lineNumber": 321
+        },
+        {
+          "caller": "tryApplyMigration",
+          "callee": "filepath.Join",
+          "lineNumber": 325
+        },
+        {
+          "caller": "tryApplyMigration",
+          "callee": "os.ReadFile",
+          "lineNumber": 326
+        },
+        {
+          "caller": "tryApplyMigration",
+          "callee": "pool.Exec",
+          "lineNumber": 330
+        },
+        {
+          "caller": "tryApplyMigration",
+          "callee": "string",
+          "lineNumber": 330
+        },
+        {
+          "caller": "tryApplyMigration",
+          "callee": "pool.Exec",
+          "lineNumber": 333
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "t.Helper",
+          "lineNumber": 344
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO workspace (name, slug)\n\t\tVALUES ('upgrade-test', 'upgrade-test')\n\t\tRETURNING id\n\t`).Scan",
+          "lineNumber": 347
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 347
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "t.Fatalf",
+          "lineNumber": 352
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO agent_runtime (\n\t\t\tworkspace_id, daemon_id, name, runtime_mode, provider, status,\n\t\t\tdevice_info, metadata, last_seen_at\n\t\t)\n\t\tVALUES ($1, NULL, 'upgrade-runtime', 'cloud', 'p', 'online',\n\t\t        '{}'::jsonb, '{}'::jsonb, now())\n\t\tRETURNING id\n\t`, wsID).Scan",
+          "lineNumber": 354
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 354
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "t.Fatalf",
+          "lineNumber": 363
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO agent (\n\t\t\tworkspace_id, name, description, runtime_mode, runtime_config,\n\t\t\truntime_id, visibility, max_concurrent_tasks\n\t\t)\n\t\tVALUES ($1, 'upgrade-agent', '', 'cloud', '{}'::jsonb, $2, 'workspace', 1)\n\t\tRETURNING id\n\t`, wsID, runtimeID).Scan",
+          "lineNumber": 365
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 365
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "t.Fatalf",
+          "lineNumber": 373
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\tINSERT INTO agent_task_queue (\n\t\t\tagent_id, runtime_id, status, payload\n\t\t)\n\t\tVALUES ($1, $2, 'queued', '{}'::jsonb)\n\t\tRETURNING id\n\t`, agentID, runtimeID).Scan",
+          "lineNumber": 375
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 375
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow(ctx, `\n\t\t\tINSERT INTO agent_task_queue (agent_id, runtime_id)\n\t\t\tVALUES ($1, $2)\n\t\t\tRETURNING id\n\t\t`, agentID, runtimeID).Scan",
+          "lineNumber": 385
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "pool.QueryRow",
+          "lineNumber": 385
+        },
+        {
+          "caller": "seedTaskUsageFixture",
+          "callee": "t.Fatalf",
+          "lineNumber": 391
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 2,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    }
+  ]
+}

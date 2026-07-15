@@ -1,0 +1,277 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/daemon/diskusage_test.go",
+      "language": "go",
+      "sizeLines": 403,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home.go",
+      "language": "go",
+      "sizeLines": 899,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home_link.go",
+      "language": "go",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home_link_test.go",
+      "language": "go",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home_link_windows.go",
+      "language": "go",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_home_sessions_test.go",
+      "language": "go",
+      "sizeLines": 790,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_memory.go",
+      "language": "go",
+      "sizeLines": 343,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_memory_test.go",
+      "language": "go",
+      "sizeLines": 607,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_multi_agent.go",
+      "language": "go",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_multi_agent_test.go",
+      "language": "go",
+      "sizeLines": 569,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_sandbox.go",
+      "language": "go",
+      "sizeLines": 282,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_skill_strip.go",
+      "language": "go",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_skill_strip_test.go",
+      "language": "go",
+      "sizeLines": 199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/codex_user_skills.go",
+      "language": "go",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/context.go",
+      "language": "go",
+      "sizeLines": 772,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/context_marker_test.go",
+      "language": "go",
+      "sizeLines": 171,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/cursor_mcp.go",
+      "language": "go",
+      "sizeLines": 303,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/cursor_mcp_test.go",
+      "language": "go",
+      "sizeLines": 252,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/execenv.go",
+      "language": "go",
+      "sizeLines": 741,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/execenv_test.go",
+      "language": "go",
+      "sizeLines": 4520,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/git.go",
+      "language": "go",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/handoff_context_test.go",
+      "language": "go",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/hermes_home.go",
+      "language": "go",
+      "sizeLines": 826,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/hermes_home_test.go",
+      "language": "go",
+      "sizeLines": 733,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/openclaw_config.go",
+      "language": "go",
+      "sizeLines": 871,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/openclaw_config_test.go",
+      "language": "go",
+      "sizeLines": 1579,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/reply_instructions.go",
+      "language": "go",
+      "sizeLines": 269,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/reply_instructions_test.go",
+      "language": "go",
+      "sizeLines": 336,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/reserved_skill_path_test.go",
+      "language": "go",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/runtime_config.go",
+      "language": "go",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/runtime_config_kind.go",
+      "language": "go",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/execenv/runtime_config_kind_test.go",
+      "language": "go",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "internal/daemon/diskusage_test.go": [
+      "internal/daemon/execenv/codex_home_link_test.go",
+      "internal/daemon/execenv/codex_home_link_windows.go",
+      "internal/daemon/execenv/codex_home_link.go",
+      "internal/daemon/execenv/codex_home_sessions_test.go",
+      "internal/daemon/execenv/codex_home.go",
+      "internal/daemon/execenv/codex_memory_test.go",
+      "internal/daemon/execenv/codex_memory.go",
+      "internal/daemon/execenv/codex_multi_agent_test.go",
+      "internal/daemon/execenv/codex_multi_agent.go",
+      "internal/daemon/execenv/codex_sandbox.go",
+      "internal/daemon/execenv/codex_skill_strip_test.go",
+      "internal/daemon/execenv/codex_skill_strip.go",
+      "internal/daemon/execenv/codex_user_skills.go",
+      "internal/daemon/execenv/context_marker_test.go",
+      "internal/daemon/execenv/context.go",
+      "internal/daemon/execenv/cursor_mcp_test.go",
+      "internal/daemon/execenv/cursor_mcp.go",
+      "internal/daemon/execenv/execenv_test.go",
+      "internal/daemon/execenv/execenv.go",
+      "internal/daemon/execenv/git.go",
+      "internal/daemon/execenv/handoff_context_test.go",
+      "internal/daemon/execenv/hermes_home_test.go",
+      "internal/daemon/execenv/hermes_home.go",
+      "internal/daemon/execenv/openclaw_config_test.go",
+      "internal/daemon/execenv/openclaw_config.go",
+      "internal/daemon/execenv/reply_instructions_test.go",
+      "internal/daemon/execenv/reply_instructions.go",
+      "internal/daemon/execenv/reserved_skill_path_test.go",
+      "internal/daemon/execenv/runtime_config_kind_test.go",
+      "internal/daemon/execenv/runtime_config_kind.go",
+      "internal/daemon/execenv/runtime_config_sections.go",
+      "internal/daemon/execenv/runtime_config_test.go",
+      "internal/daemon/execenv/runtime_config.go",
+      "internal/daemon/execenv/sidecar_manifest_test.go",
+      "internal/daemon/execenv/sidecar_manifest.go",
+      "internal/daemon/execenv/skill_frontmatter_test.go",
+      "internal/daemon/execenv/skill_visibility_test.go",
+      "internal/daemon/execenv/skill_visibility.go"
+    ],
+    "internal/daemon/execenv/codex_home.go": [],
+    "internal/daemon/execenv/codex_home_link.go": [],
+    "internal/daemon/execenv/codex_home_link_test.go": [],
+    "internal/daemon/execenv/codex_home_link_windows.go": [],
+    "internal/daemon/execenv/codex_home_sessions_test.go": [],
+    "internal/daemon/execenv/codex_memory.go": [],
+    "internal/daemon/execenv/codex_memory_test.go": [],
+    "internal/daemon/execenv/codex_multi_agent.go": [],
+    "internal/daemon/execenv/codex_multi_agent_test.go": [],
+    "internal/daemon/execenv/codex_sandbox.go": [],
+    "internal/daemon/execenv/codex_skill_strip.go": [],
+    "internal/daemon/execenv/codex_skill_strip_test.go": [],
+    "internal/daemon/execenv/codex_user_skills.go": [],
+    "internal/daemon/execenv/context.go": [
+      "internal/skill/frontmatter_test.go",
+      "internal/skill/frontmatter.go",
+      "internal/skill/reserved_test.go",
+      "internal/skill/reserved.go"
+    ],
+    "internal/daemon/execenv/context_marker_test.go": [],
+    "internal/daemon/execenv/cursor_mcp.go": [],
+    "internal/daemon/execenv/cursor_mcp_test.go": [],
+    "internal/daemon/execenv/execenv.go": [
+      "internal/runtimeapps/connected_app.go"
+    ],
+    "internal/daemon/execenv/execenv_test.go": [],
+    "internal/daemon/execenv/git.go": [],
+    "internal/daemon/execenv/handoff_context_test.go": [],
+    "internal/daemon/execenv/hermes_home.go": [],
+    "internal/daemon/execenv/hermes_home_test.go": [],
+    "internal/daemon/execenv/openclaw_config.go": [],
+    "internal/daemon/execenv/openclaw_config_test.go": [],
+    "internal/daemon/execenv/reply_instructions.go": [],
+    "internal/daemon/execenv/reply_instructions_test.go": [],
+    "internal/daemon/execenv/reserved_skill_path_test.go": [],
+    "internal/daemon/execenv/runtime_config.go": [],
+    "internal/daemon/execenv/runtime_config_kind.go": [],
+    "internal/daemon/execenv/runtime_config_kind_test.go": []
+  }
+}

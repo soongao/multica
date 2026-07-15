@@ -1,0 +1,107 @@
+[
+  {
+    "order": 1,
+    "title": "项目依赖概览",
+    "description": "先看 go.mod 和 sqlc.yaml，理解后端的运行依赖和代码生成边界。这里能看到 Chi、pgx、Redis、OpenAI SDK、Cobra 与 sqlc 如何构成服务、CLI 和数据库访问的基础。",
+    "nodeIds": [
+      "config:go.mod",
+      "config:sqlc.yaml"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "服务启动入口",
+    "description": "cmd/server/main.go 是 HTTP 后端的启动入口，负责装配配置、数据库、Redis、事件、调度器和运行时依赖。读完这里可以把整个 server 的生命周期和依赖注入顺序串起来。",
+    "nodeIds": [
+      "file:cmd/server/main.go"
+    ],
+    "languageLesson": "Go 的 cmd/ 目录通常承载二进制入口；main package 负责组装依赖，业务实现应下沉到 internal/ 或 pkg/。"
+  },
+  {
+    "order": 3,
+    "title": "路由与边界",
+    "description": "cmd/server/router.go 是 Chi 路由装配中心，连接 middleware、handler 和 WebSocket/实时能力。它是从 HTTP 请求进入后端业务域的主地图。",
+    "nodeIds": [
+      "file:cmd/server/router.go",
+      "file:internal/middleware/auth.go",
+      "file:internal/middleware/workspace.go"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "Handler 组织方式",
+    "description": "internal/handler/handler.go 定义 handler 组合体和共享请求工具，issue、agent、chat 等文件则实现具体 API。这个层级负责把路径参数、权限结果和 JSON schema 转成服务层可用的输入。",
+    "nodeIds": [
+      "file:internal/handler/handler.go",
+      "file:internal/handler/issue.go",
+      "file:internal/handler/agent.go",
+      "file:internal/handler/chat.go"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "核心业务服务",
+    "description": "internal/service 下承载 issues、tasks、agents、autopilot 和 squad 的核心流程。task.go 和 issue.go 展示了业务状态变更、后台执行和协作对象之间的主要编排方式。",
+    "nodeIds": [
+      "file:internal/service/task.go",
+      "file:internal/service/issue.go",
+      "file:internal/service/autopilot.go",
+      "file:internal/service/agent_ready.go"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "事件与调度",
+    "description": "事件总线和 scheduler 把同步请求之外的工作串起来，例如通知、autopilot 触发和后台维护任务。理解这一层可以解释为什么许多 handler 只是写入状态，然后由异步监听器继续推进流程。",
+    "nodeIds": [
+      "file:internal/events/bus.go",
+      "file:internal/scheduler/jobs_autopilot.go",
+      "file:cmd/server/listeners.go",
+      "file:cmd/server/autopilot_listeners.go"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "数据库访问",
+    "description": "pkg/db/generated 是 sqlc 生成的数据访问层，models.go、db.go 和各个 *.sql.go 文件定义查询参数、结果类型和执行方法。服务层通过这些类型与 PostgreSQL 交互，而不是手写散落的 SQL 字符串。",
+    "nodeIds": [
+      "file:pkg/db/generated/db.go",
+      "file:pkg/db/generated/models.go",
+      "file:pkg/db/generated/issue.sql.go",
+      "file:pkg/db/generated/task_usage.sql.go"
+    ]
+  },
+  {
+    "order": 8,
+    "title": "Schema 演进",
+    "description": "migrations/ 下的 up/down SQL 文件定义数据库结构、索引、约束和回滚路径。它们解释了 workspace、issue、agent、task、chat 等领域对象在 PostgreSQL 中如何落地。",
+    "nodeIds": [
+      "table:migrations/001_init.up.sql:001_init.up",
+      "table:migrations/033_chat.up.sql:033_chat.up",
+      "table:migrations/084_squad.up.sql:084_squad.up",
+      "table:migrations/191_issue_properties.up.sql:191_issue_properties.up"
+    ],
+    "languageLesson": "成对的 *.up.sql / *.down.sql migration 让 schema 变更可前进也可回滚；索引和约束通常与业务不变量同等重要。"
+  },
+  {
+    "order": 9,
+    "title": "Daemon 与协议",
+    "description": "internal/daemon 管理本地执行环境，pkg/protocol 则定义 daemon、server 和客户端之间共享的事件与消息结构。这个部分解释 agent 如何从服务端任务变成本机运行时动作。",
+    "nodeIds": [
+      "file:internal/daemon/daemon.go",
+      "file:internal/daemon/poisoned.go",
+      "file:pkg/protocol/events.go",
+      "file:pkg/protocol/messages.go"
+    ]
+  },
+  {
+    "order": 10,
+    "title": "外部集成",
+    "description": "internal/integrations 连接 Slack、Lark、GitHub、Composio 和 channel engine，把外部事件转换为 Multica 的 workspace、comment、task 或 agent 行为。读这一层可以理解第三方入口如何进入统一的后端域模型。",
+    "nodeIds": [
+      "file:internal/integrations/slack/install.go",
+      "file:internal/integrations/lark/feishu_channel.go",
+      "file:internal/integrations/channel/engine/router.go"
+    ]
+  }
+]

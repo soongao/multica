@@ -1,0 +1,1504 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "cmd/backfill_codex_usage_cache/main.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 329,
+      "nonEmptyLines": 302,
+      "functions": [
+        {
+          "name": "main",
+          "startLine": 58,
+          "endLine": 64,
+          "params": []
+        },
+        {
+          "name": "run",
+          "startLine": 66,
+          "endLine": 157,
+          "params": []
+        },
+        {
+          "name": "parseAndValidate",
+          "startLine": 159,
+          "endLine": 176,
+          "params": [
+            "now"
+          ]
+        },
+        {
+          "name": "loadDryRunSummary",
+          "startLine": 178,
+          "endLine": 234,
+          "params": [
+            "ctx",
+            "pool",
+            "cfg"
+          ]
+        },
+        {
+          "name": "logSummary",
+          "startLine": 236,
+          "endLine": 258,
+          "params": [
+            "cfg",
+            "rows",
+            "total"
+          ]
+        },
+        {
+          "name": "executeBackfill",
+          "startLine": 260,
+          "endLine": 309,
+          "params": [
+            "ctx",
+            "pool",
+            "cfg"
+          ]
+        },
+        {
+          "name": "databaseClock",
+          "startLine": 311,
+          "endLine": 317,
+          "params": [
+            "ctx",
+            "pool"
+          ]
+        },
+        {
+          "name": "rollupWindow",
+          "startLine": 319,
+          "endLine": 321,
+          "params": [
+            "startedAt",
+            "finishedAt"
+          ]
+        },
+        {
+          "name": "correctedInputTokens",
+          "startLine": 323,
+          "endLine": 329,
+          "params": [
+            "inputTokens",
+            "cacheReadTokens"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "config",
+          "startLine": 28,
+          "endLine": 36,
+          "methods": [
+            "parseAndValidate"
+          ],
+          "properties": [
+            "cutoff",
+            "cutoffRaw",
+            "workspaceID",
+            "batchSize",
+            "sleepBetweenBatches",
+            "execute",
+            "rebuildRollup"
+          ]
+        },
+        {
+          "name": "summaryRow",
+          "startLine": 38,
+          "endLine": 48,
+          "methods": [],
+          "properties": [
+            "WorkspaceID",
+            "DateUTC",
+            "Rows",
+            "InputBefore",
+            "InputAfter",
+            "Overcount",
+            "ClampedRows",
+            "MinCreatedUTC",
+            "MaxCreatedUTC"
+          ]
+        },
+        {
+          "name": "totals",
+          "startLine": 50,
+          "endLine": 56,
+          "methods": [],
+          "properties": [
+            "Rows",
+            "InputBefore",
+            "InputAfter",
+            "Overcount",
+            "ClampedRows"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "main",
+          "callee": "logger.Init",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "run",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "slog.Error",
+          "lineNumber": 61
+        },
+        {
+          "caller": "main",
+          "callee": "os.Exit",
+          "lineNumber": 62
+        },
+        {
+          "caller": "run",
+          "callee": "flag.StringVar",
+          "lineNumber": 68
+        },
+        {
+          "caller": "run",
+          "callee": "flag.StringVar",
+          "lineNumber": 69
+        },
+        {
+          "caller": "run",
+          "callee": "flag.IntVar",
+          "lineNumber": 70
+        },
+        {
+          "caller": "run",
+          "callee": "flag.DurationVar",
+          "lineNumber": 71
+        },
+        {
+          "caller": "run",
+          "callee": "flag.BoolVar",
+          "lineNumber": 72
+        },
+        {
+          "caller": "run",
+          "callee": "flag.BoolVar",
+          "lineNumber": 73
+        },
+        {
+          "caller": "run",
+          "callee": "flag.Parse",
+          "lineNumber": 74
+        },
+        {
+          "caller": "run",
+          "callee": "time.Now().UTC",
+          "lineNumber": 76
+        },
+        {
+          "caller": "run",
+          "callee": "time.Now",
+          "lineNumber": 76
+        },
+        {
+          "caller": "run",
+          "callee": "cfg.parseAndValidate",
+          "lineNumber": 77
+        },
+        {
+          "caller": "run",
+          "callee": "os.Getenv",
+          "lineNumber": 81
+        },
+        {
+          "caller": "run",
+          "callee": "signal.NotifyContext",
+          "lineNumber": 86
+        },
+        {
+          "caller": "run",
+          "callee": "context.Background",
+          "lineNumber": 86
+        },
+        {
+          "caller": "run",
+          "callee": "stop",
+          "lineNumber": 87
+        },
+        {
+          "caller": "run",
+          "callee": "pgxpool.New",
+          "lineNumber": 89
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 91
+        },
+        {
+          "caller": "run",
+          "callee": "pool.Close",
+          "lineNumber": 93
+        },
+        {
+          "caller": "run",
+          "callee": "pool.Ping",
+          "lineNumber": 95
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 96
+        },
+        {
+          "caller": "run",
+          "callee": "loadDryRunSummary",
+          "lineNumber": 99
+        },
+        {
+          "caller": "run",
+          "callee": "logSummary",
+          "lineNumber": 103
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 105
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 109
+        },
+        {
+          "caller": "run",
+          "callee": "pool.Acquire",
+          "lineNumber": 113
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 115
+        },
+        {
+          "caller": "run",
+          "callee": "lockConn.Release",
+          "lineNumber": 117
+        },
+        {
+          "caller": "run",
+          "callee": "lockConn.Exec",
+          "lineNumber": 118
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 119
+        },
+        {
+          "caller": "run",
+          "callee": "func() {\n\t\t_, _ = lockConn.Exec(context.Background(), `SELECT pg_advisory_unlock($1)`, rollupAdvisoryLockID)\n\t}",
+          "lineNumber": 121
+        },
+        {
+          "caller": "run",
+          "callee": "lockConn.Exec",
+          "lineNumber": 122
+        },
+        {
+          "caller": "run",
+          "callee": "context.Background",
+          "lineNumber": 122
+        },
+        {
+          "caller": "run",
+          "callee": "databaseClock",
+          "lineNumber": 125
+        },
+        {
+          "caller": "run",
+          "callee": "executeBackfill",
+          "lineNumber": 130
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 134
+        },
+        {
+          "caller": "run",
+          "callee": "databaseClock",
+          "lineNumber": 139
+        },
+        {
+          "caller": "run",
+          "callee": "rollupWindow",
+          "lineNumber": 143
+        },
+        {
+          "caller": "run",
+          "callee": "pool.QueryRow(ctx,\n\t\t`SELECT rollup_task_usage_hourly_window($1::timestamptz, $2::timestamptz)`,\n\t\trollupFrom, rollupTo,\n\t).Scan",
+          "lineNumber": 145
+        },
+        {
+          "caller": "run",
+          "callee": "pool.QueryRow",
+          "lineNumber": 145
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 149
+        },
+        {
+          "caller": "run",
+          "callee": "rollupFrom.Format",
+          "lineNumber": 150
+        },
+        {
+          "caller": "run",
+          "callee": "rollupTo.Format",
+          "lineNumber": 150
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 152
+        },
+        {
+          "caller": "run",
+          "callee": "rollupFrom.Format",
+          "lineNumber": 153
+        },
+        {
+          "caller": "run",
+          "callee": "rollupTo.Format",
+          "lineNumber": 154
+        },
+        {
+          "caller": "parseAndValidate",
+          "callee": "fmt.Errorf",
+          "lineNumber": 161
+        },
+        {
+          "caller": "parseAndValidate",
+          "callee": "time.Parse",
+          "lineNumber": 163
+        },
+        {
+          "caller": "parseAndValidate",
+          "callee": "fmt.Errorf",
+          "lineNumber": 165
+        },
+        {
+          "caller": "parseAndValidate",
+          "callee": "cutoff.UTC",
+          "lineNumber": 167
+        },
+        {
+          "caller": "parseAndValidate",
+          "callee": "cutoff.Before",
+          "lineNumber": 168
+        },
+        {
+          "caller": "parseAndValidate",
+          "callee": "fmt.Errorf",
+          "lineNumber": 169
+        },
+        {
+          "caller": "parseAndValidate",
+          "callee": "fmt.Errorf",
+          "lineNumber": 172
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "pool.Query",
+          "lineNumber": 200
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "fmt.Errorf",
+          "lineNumber": 202
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "rows.Close",
+          "lineNumber": 204
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "rows.Next",
+          "lineNumber": 208
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "rows.Scan",
+          "lineNumber": 210
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "fmt.Errorf",
+          "lineNumber": 221
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "append",
+          "lineNumber": 223
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "rows.Err",
+          "lineNumber": 230
+        },
+        {
+          "caller": "loadDryRunSummary",
+          "callee": "fmt.Errorf",
+          "lineNumber": 231
+        },
+        {
+          "caller": "logSummary",
+          "callee": "slog.Info",
+          "lineNumber": 237
+        },
+        {
+          "caller": "logSummary",
+          "callee": "cfg.cutoff.Format",
+          "lineNumber": 239
+        },
+        {
+          "caller": "logSummary",
+          "callee": "slog.Info",
+          "lineNumber": 247
+        },
+        {
+          "caller": "logSummary",
+          "callee": "row.MinCreatedUTC.UTC().Format",
+          "lineNumber": 255
+        },
+        {
+          "caller": "logSummary",
+          "callee": "row.MinCreatedUTC.UTC",
+          "lineNumber": 255
+        },
+        {
+          "caller": "logSummary",
+          "callee": "row.MaxCreatedUTC.UTC().Format",
+          "lineNumber": 256
+        },
+        {
+          "caller": "logSummary",
+          "callee": "row.MaxCreatedUTC.UTC",
+          "lineNumber": 256
+        },
+        {
+          "caller": "executeBackfill",
+          "callee": "pool.QueryRow(ctx, query, cfg.cutoff, cfg.workspaceID, cfg.batchSize).Scan",
+          "lineNumber": 291
+        },
+        {
+          "caller": "executeBackfill",
+          "callee": "pool.QueryRow",
+          "lineNumber": 291
+        },
+        {
+          "caller": "executeBackfill",
+          "callee": "fmt.Errorf",
+          "lineNumber": 292
+        },
+        {
+          "caller": "executeBackfill",
+          "callee": "slog.Info",
+          "lineNumber": 299
+        },
+        {
+          "caller": "executeBackfill",
+          "callee": "time.After",
+          "lineNumber": 302
+        },
+        {
+          "caller": "executeBackfill",
+          "callee": "ctx.Done",
+          "lineNumber": 303
+        },
+        {
+          "caller": "executeBackfill",
+          "callee": "ctx.Err",
+          "lineNumber": 304
+        },
+        {
+          "caller": "databaseClock",
+          "callee": "pool.QueryRow(ctx, `SELECT clock_timestamp()`).Scan",
+          "lineNumber": 313
+        },
+        {
+          "caller": "databaseClock",
+          "callee": "pool.QueryRow",
+          "lineNumber": 313
+        },
+        {
+          "caller": "databaseClock",
+          "callee": "fmt.Errorf",
+          "lineNumber": 314
+        },
+        {
+          "caller": "databaseClock",
+          "callee": "ts.UTC",
+          "lineNumber": 316
+        },
+        {
+          "caller": "rollupWindow",
+          "callee": "startedAt.UTC().Add",
+          "lineNumber": 320
+        },
+        {
+          "caller": "rollupWindow",
+          "callee": "startedAt.UTC",
+          "lineNumber": 320
+        },
+        {
+          "caller": "rollupWindow",
+          "callee": "finishedAt.UTC().Add",
+          "lineNumber": 320
+        },
+        {
+          "caller": "rollupWindow",
+          "callee": "finishedAt.UTC",
+          "lineNumber": 320
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 9,
+        "classCount": 3
+      }
+    },
+    {
+      "path": "cmd/backfill_task_usage_hourly/main.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 219,
+      "nonEmptyLines": 202,
+      "functions": [
+        {
+          "name": "main",
+          "startLine": 57,
+          "endLine": 63,
+          "params": []
+        },
+        {
+          "name": "run",
+          "startLine": 65,
+          "endLine": 194,
+          "params": []
+        },
+        {
+          "name": "stampWatermark",
+          "startLine": 200,
+          "endLine": 215,
+          "params": [
+            "ctx",
+            "pool"
+          ]
+        },
+        {
+          "name": "monthFloor",
+          "startLine": 217,
+          "endLine": 219,
+          "params": [
+            "t"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "main",
+          "callee": "logger.Init",
+          "lineNumber": 58
+        },
+        {
+          "caller": "main",
+          "callee": "run",
+          "lineNumber": 59
+        },
+        {
+          "caller": "main",
+          "callee": "slog.Error",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "os.Exit",
+          "lineNumber": 61
+        },
+        {
+          "caller": "run",
+          "callee": "flag.Bool",
+          "lineNumber": 67
+        },
+        {
+          "caller": "run",
+          "callee": "flag.Int",
+          "lineNumber": 68
+        },
+        {
+          "caller": "run",
+          "callee": "flag.Bool",
+          "lineNumber": 69
+        },
+        {
+          "caller": "run",
+          "callee": "flag.Duration",
+          "lineNumber": 70
+        },
+        {
+          "caller": "run",
+          "callee": "flag.Parse",
+          "lineNumber": 72
+        },
+        {
+          "caller": "run",
+          "callee": "os.Getenv",
+          "lineNumber": 74
+        },
+        {
+          "caller": "run",
+          "callee": "signal.NotifyContext",
+          "lineNumber": 83
+        },
+        {
+          "caller": "run",
+          "callee": "context.Background",
+          "lineNumber": 83
+        },
+        {
+          "caller": "run",
+          "callee": "stop",
+          "lineNumber": 84
+        },
+        {
+          "caller": "run",
+          "callee": "pgxpool.New",
+          "lineNumber": 86
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 88
+        },
+        {
+          "caller": "run",
+          "callee": "pool.Close",
+          "lineNumber": 90
+        },
+        {
+          "caller": "run",
+          "callee": "pool.Ping",
+          "lineNumber": 92
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 93
+        },
+        {
+          "caller": "run",
+          "callee": "pool.Acquire",
+          "lineNumber": 102
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 104
+        },
+        {
+          "caller": "run",
+          "callee": "lockConn.Release",
+          "lineNumber": 106
+        },
+        {
+          "caller": "run",
+          "callee": "lockConn.Exec",
+          "lineNumber": 107
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 108
+        },
+        {
+          "caller": "run",
+          "callee": "func() {\n\t\t// Unlock on a fresh context so a cancelled ctx (SIGINT) does not\n\t\t// skip the release. Releasing the connection afterwards would end\n\t\t// the session anyway, but an explicit unlock frees it immediately.\n\t\t_, _ = lockConn.Exec(context.Background(), `SELECT pg_advisory_unlock(4246)`)\n\t}",
+          "lineNumber": 110
+        },
+        {
+          "caller": "run",
+          "callee": "lockConn.Exec",
+          "lineNumber": 114
+        },
+        {
+          "caller": "run",
+          "callee": "context.Background",
+          "lineNumber": 114
+        },
+        {
+          "caller": "run",
+          "callee": "pool.QueryRow(ctx, `SELECT MIN(created_at), MAX(created_at) FROM task_usage`).Scan",
+          "lineNumber": 118
+        },
+        {
+          "caller": "run",
+          "callee": "pool.QueryRow",
+          "lineNumber": 118
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 119
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 122
+        },
+        {
+          "caller": "run",
+          "callee": "stampWatermark",
+          "lineNumber": 126
+        },
+        {
+          "caller": "run",
+          "callee": "monthFloor",
+          "lineNumber": 129
+        },
+        {
+          "caller": "run",
+          "callee": "minTS.Time.UTC",
+          "lineNumber": 129
+        },
+        {
+          "caller": "run",
+          "callee": "monthFloor(maxTS.Time.UTC()).AddDate",
+          "lineNumber": 130
+        },
+        {
+          "caller": "run",
+          "callee": "monthFloor",
+          "lineNumber": 130
+        },
+        {
+          "caller": "run",
+          "callee": "maxTS.Time.UTC",
+          "lineNumber": 130
+        },
+        {
+          "caller": "run",
+          "callee": "monthFloor(time.Now().UTC()).AddDate",
+          "lineNumber": 133
+        },
+        {
+          "caller": "run",
+          "callee": "monthFloor",
+          "lineNumber": 133
+        },
+        {
+          "caller": "run",
+          "callee": "time.Now().UTC",
+          "lineNumber": 133
+        },
+        {
+          "caller": "run",
+          "callee": "time.Now",
+          "lineNumber": 133
+        },
+        {
+          "caller": "run",
+          "callee": "cutoff.After",
+          "lineNumber": 138
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 140
+        },
+        {
+          "caller": "run",
+          "callee": "cutoff.Format",
+          "lineNumber": 141
+        },
+        {
+          "caller": "run",
+          "callee": "minTS.Time.UTC().Format",
+          "lineNumber": 141
+        },
+        {
+          "caller": "run",
+          "callee": "minTS.Time.UTC",
+          "lineNumber": 141
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Warn",
+          "lineNumber": 144
+        },
+        {
+          "caller": "run",
+          "callee": "from.Format",
+          "lineNumber": 145
+        },
+        {
+          "caller": "run",
+          "callee": "minTS.Time.UTC().Format",
+          "lineNumber": 146
+        },
+        {
+          "caller": "run",
+          "callee": "minTS.Time.UTC",
+          "lineNumber": 146
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 150
+        },
+        {
+          "caller": "run",
+          "callee": "from.Format",
+          "lineNumber": 150
+        },
+        {
+          "caller": "run",
+          "callee": "end.Format",
+          "lineNumber": 150
+        },
+        {
+          "caller": "run",
+          "callee": "sleep.String",
+          "lineNumber": 150
+        },
+        {
+          "caller": "run",
+          "callee": "cursor.Before",
+          "lineNumber": 154
+        },
+        {
+          "caller": "run",
+          "callee": "cursor.AddDate",
+          "lineNumber": 155
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 157
+        },
+        {
+          "caller": "run",
+          "callee": "cursor.Format",
+          "lineNumber": 157
+        },
+        {
+          "caller": "run",
+          "callee": "next.Format",
+          "lineNumber": 157
+        },
+        {
+          "caller": "run",
+          "callee": "pool.QueryRow(\n\t\t\tctx,\n\t\t\t`SELECT rollup_task_usage_hourly_window($1::timestamptz, $2::timestamptz)`,\n\t\t\tcursor, next,\n\t\t).Scan",
+          "lineNumber": 162
+        },
+        {
+          "caller": "run",
+          "callee": "pool.QueryRow",
+          "lineNumber": 162
+        },
+        {
+          "caller": "run",
+          "callee": "fmt.Errorf",
+          "lineNumber": 168
+        },
+        {
+          "caller": "run",
+          "callee": "cursor.Format",
+          "lineNumber": 168
+        },
+        {
+          "caller": "run",
+          "callee": "next.Format",
+          "lineNumber": 168
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 171
+        },
+        {
+          "caller": "run",
+          "callee": "cursor.Format",
+          "lineNumber": 171
+        },
+        {
+          "caller": "run",
+          "callee": "next.Format",
+          "lineNumber": 171
+        },
+        {
+          "caller": "run",
+          "callee": "cursor.Before",
+          "lineNumber": 173
+        },
+        {
+          "caller": "run",
+          "callee": "time.After",
+          "lineNumber": 175
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.Done",
+          "lineNumber": 176
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.Err",
+          "lineNumber": 177
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 183
+        },
+        {
+          "caller": "run",
+          "callee": "stampWatermark",
+          "lineNumber": 189
+        },
+        {
+          "caller": "run",
+          "callee": "context.Background",
+          "lineNumber": 189
+        },
+        {
+          "caller": "run",
+          "callee": "slog.Info",
+          "lineNumber": 192
+        },
+        {
+          "caller": "stampWatermark",
+          "callee": "pool.Exec",
+          "lineNumber": 201
+        },
+        {
+          "caller": "stampWatermark",
+          "callee": "fmt.Errorf",
+          "lineNumber": 207
+        },
+        {
+          "caller": "stampWatermark",
+          "callee": "tag.RowsAffected",
+          "lineNumber": 209
+        },
+        {
+          "caller": "stampWatermark",
+          "callee": "slog.Warn",
+          "lineNumber": 210
+        },
+        {
+          "caller": "stampWatermark",
+          "callee": "fmt.Println",
+          "lineNumber": 213
+        },
+        {
+          "caller": "monthFloor",
+          "callee": "time.Date",
+          "lineNumber": 218
+        },
+        {
+          "caller": "monthFloor",
+          "callee": "t.Year",
+          "lineNumber": 218
+        },
+        {
+          "caller": "monthFloor",
+          "callee": "t.Month",
+          "lineNumber": 218
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "cmd/server/activity_listeners.go",
+      "language": "go",
+      "fileCategory": "code",
+      "totalLines": 317,
+      "nonEmptyLines": 293,
+      "functions": [
+        {
+          "name": "registerActivityListeners",
+          "startLine": 19,
+          "endLine": 252,
+          "params": [
+            "bus",
+            "queries"
+          ]
+        },
+        {
+          "name": "handleTaskActivity",
+          "startLine": 255,
+          "endLine": 289,
+          "params": [
+            "ctx",
+            "bus",
+            "queries",
+            "e",
+            "action"
+          ]
+        },
+        {
+          "name": "publishActivityEvent",
+          "startLine": 293,
+          "endLine": 317,
+          "params": [
+            "bus",
+            "original",
+            "activity"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "registerActivityListeners",
+          "callee": "context.Background",
+          "lineNumber": 20
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "bus.Subscribe",
+          "lineNumber": 23
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 33
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 34
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 35
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "util.StrToText",
+          "lineNumber": 36
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "optionalUUID",
+          "lineNumber": 37
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "slog.Error",
+          "lineNumber": 42
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "publishActivityEvent",
+          "lineNumber": 47
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "bus.Subscribe",
+          "lineNumber": 51
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "json.Marshal",
+          "lineNumber": 68
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 72
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 73
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 74
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "util.StrToText",
+          "lineNumber": 75
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "optionalUUID",
+          "lineNumber": 76
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "slog.Error",
+          "lineNumber": 81
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "publishActivityEvent",
+          "lineNumber": 84
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "json.Marshal",
+          "lineNumber": 90
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 94
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 95
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 96
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "util.StrToText",
+          "lineNumber": 97
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "optionalUUID",
+          "lineNumber": 98
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "slog.Error",
+          "lineNumber": 103
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "publishActivityEvent",
+          "lineNumber": 106
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "json.Marshal",
+          "lineNumber": 128
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 129
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 130
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 131
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "util.StrToText",
+          "lineNumber": 132
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "optionalUUID",
+          "lineNumber": 133
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "slog.Error",
+          "lineNumber": 138
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "publishActivityEvent",
+          "lineNumber": 141
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "json.Marshal",
+          "lineNumber": 154
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 158
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 159
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 160
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "util.StrToText",
+          "lineNumber": 161
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "optionalUUID",
+          "lineNumber": 162
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "slog.Error",
+          "lineNumber": 167
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "publishActivityEvent",
+          "lineNumber": 170
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "json.Marshal",
+          "lineNumber": 183
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 187
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 188
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 189
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "util.StrToText",
+          "lineNumber": 190
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "optionalUUID",
+          "lineNumber": 191
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "slog.Error",
+          "lineNumber": 196
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "publishActivityEvent",
+          "lineNumber": 199
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "json.Marshal",
+          "lineNumber": 205
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 209
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 210
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 211
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "util.StrToText",
+          "lineNumber": 212
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "optionalUUID",
+          "lineNumber": 213
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "slog.Error",
+          "lineNumber": 218
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "publishActivityEvent",
+          "lineNumber": 221
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 226
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 227
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "parseUUID",
+          "lineNumber": 228
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "util.StrToText",
+          "lineNumber": 229
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "optionalUUID",
+          "lineNumber": 230
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "slog.Error",
+          "lineNumber": 235
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "publishActivityEvent",
+          "lineNumber": 238
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "bus.Subscribe",
+          "lineNumber": 244
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "handleTaskActivity",
+          "lineNumber": 245
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "bus.Subscribe",
+          "lineNumber": 249
+        },
+        {
+          "caller": "registerActivityListeners",
+          "callee": "handleTaskActivity",
+          "lineNumber": 250
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "queries.GetIssue",
+          "lineNumber": 267
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "parseUUID",
+          "lineNumber": 267
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "slog.Error",
+          "lineNumber": 269
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "queries.CreateActivity",
+          "lineNumber": 274
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "parseUUID",
+          "lineNumber": 276
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "util.StrToText",
+          "lineNumber": 277
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "parseUUID",
+          "lineNumber": 278
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "slog.Error",
+          "lineNumber": 283
+        },
+        {
+          "caller": "handleTaskActivity",
+          "callee": "publishActivityEvent",
+          "lineNumber": 288
+        },
+        {
+          "caller": "publishActivityEvent",
+          "callee": "bus.Publish",
+          "lineNumber": 299
+        },
+        {
+          "caller": "publishActivityEvent",
+          "callee": "util.UUIDToString",
+          "lineNumber": 305
+        },
+        {
+          "caller": "publishActivityEvent",
+          "callee": "util.UUIDToString",
+          "lineNumber": 308
+        },
+        {
+          "caller": "publishActivityEvent",
+          "callee": "util.UUIDToString",
+          "lineNumber": 310
+        },
+        {
+          "caller": "publishActivityEvent",
+          "callee": "json.RawMessage",
+          "lineNumber": 312
+        },
+        {
+          "caller": "publishActivityEvent",
+          "callee": "util.TimestampToString",
+          "lineNumber": 313
+        }
+      ],
+      "metrics": {
+        "importCount": 266,
+        "exportCount": 0,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Build outputs and caches
+bin/
+dist/
+coverage/
+.cache/
+tmp/
+*.tmp
+*.log
+
+# Dependency/vendor directories
+vendor/
+
+# Understand Anything working files
+.ua/tmp/
+.ua/.trash-*/

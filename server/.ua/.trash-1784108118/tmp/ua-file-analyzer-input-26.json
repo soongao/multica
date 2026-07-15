@@ -1,0 +1,182 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "pkg/db/generated/issue.sql.go",
+      "language": "go",
+      "sizeLines": 1383,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/issue_label.sql.go",
+      "language": "go",
+      "sizeLines": 726,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/issue_property.sql.go",
+      "language": "go",
+      "sizeLines": 361,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/issue_reaction.sql.go",
+      "language": "go",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/member.sql.go",
+      "language": "go",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/models.go",
+      "language": "go",
+      "sizeLines": 1056,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/notification_preference.sql.go",
+      "language": "go",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/personal_access_token.sql.go",
+      "language": "go",
+      "sizeLines": 175,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/pinned_item.sql.go",
+      "language": "go",
+      "sizeLines": 163,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/project.sql.go",
+      "language": "go",
+      "sizeLines": 294,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/project_resource.sql.go",
+      "language": "go",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/reaction.sql.go",
+      "language": "go",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/runtime.sql.go",
+      "language": "go",
+      "sizeLines": 1367,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/runtime_profile.sql.go",
+      "language": "go",
+      "sizeLines": 385,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/runtime_usage.sql.go",
+      "language": "go",
+      "sizeLines": 268,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/skill.sql.go",
+      "language": "go",
+      "sizeLines": 605,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/squad.sql.go",
+      "language": "go",
+      "sizeLines": 703,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/subscriber.sql.go",
+      "language": "go",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/task_message.sql.go",
+      "language": "go",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/task_token.sql.go",
+      "language": "go",
+      "sizeLines": 89,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/task_usage.sql.go",
+      "language": "go",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/user.sql.go",
+      "language": "go",
+      "sizeLines": 355,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/verification_code.sql.go",
+      "language": "go",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/webhook_delivery.sql.go",
+      "language": "go",
+      "sizeLines": 795,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/db/generated/workspace.sql.go",
+      "language": "go",
+      "sizeLines": 405,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "pkg/db/generated/issue.sql.go": [],
+    "pkg/db/generated/issue_label.sql.go": [],
+    "pkg/db/generated/issue_property.sql.go": [],
+    "pkg/db/generated/issue_reaction.sql.go": [],
+    "pkg/db/generated/member.sql.go": [],
+    "pkg/db/generated/models.go": [],
+    "pkg/db/generated/notification_preference.sql.go": [],
+    "pkg/db/generated/personal_access_token.sql.go": [],
+    "pkg/db/generated/pinned_item.sql.go": [],
+    "pkg/db/generated/project.sql.go": [],
+    "pkg/db/generated/project_resource.sql.go": [],
+    "pkg/db/generated/reaction.sql.go": [],
+    "pkg/db/generated/runtime.sql.go": [],
+    "pkg/db/generated/runtime_profile.sql.go": [],
+    "pkg/db/generated/runtime_usage.sql.go": [],
+    "pkg/db/generated/skill.sql.go": [],
+    "pkg/db/generated/squad.sql.go": [],
+    "pkg/db/generated/subscriber.sql.go": [],
+    "pkg/db/generated/task_message.sql.go": [],
+    "pkg/db/generated/task_token.sql.go": [],
+    "pkg/db/generated/task_usage.sql.go": [],
+    "pkg/db/generated/user.sql.go": [],
+    "pkg/db/generated/verification_code.sql.go": [],
+    "pkg/db/generated/webhook_delivery.sql.go": [],
+    "pkg/db/generated/workspace.sql.go": []
+  }
+}

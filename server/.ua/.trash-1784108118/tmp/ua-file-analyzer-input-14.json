@@ -1,0 +1,319 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "internal/daemon/runtime_mcp.go",
+      "language": "go",
+      "sizeLines": 375,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_mcp_test.go",
+      "language": "go",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_profile_drift_test.go",
+      "language": "go",
+      "sizeLines": 693,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/runtime_profile_test.go",
+      "language": "go",
+      "sizeLines": 421,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/skill_bundle_resolve_test.go",
+      "language": "go",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/skill_cache.go",
+      "language": "go",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/skill_cache_test.go",
+      "language": "go",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/slash_skill.go",
+      "language": "go",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/slash_skill_test.go",
+      "language": "go",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/thread_name.go",
+      "language": "go",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/thread_name_test.go",
+      "language": "go",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/token_renewal_test.go",
+      "language": "go",
+      "sizeLines": 325,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/types.go",
+      "language": "go",
+      "sizeLines": 242,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/update_report_test.go",
+      "language": "go",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/wakeup.go",
+      "language": "go",
+      "sizeLines": 502,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/wakeup_test.go",
+      "language": "go",
+      "sizeLines": 593,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/workdir_race_test.go",
+      "language": "go",
+      "sizeLines": 434,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/wsrpc.go",
+      "language": "go",
+      "sizeLines": 355,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/daemon/wsrpc_test.go",
+      "language": "go",
+      "sizeLines": 279,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/handler/agent_work_dir_test.go",
+      "language": "go",
+      "sizeLines": 206,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/runtimeapps/connected_app.go",
+      "language": "go",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/selfexec/selfexec.go",
+      "language": "go",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/selfexec/selfexec_test.go",
+      "language": "go",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/skill/frontmatter.go",
+      "language": "go",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/skill/frontmatter_test.go",
+      "language": "go",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/skill/reserved.go",
+      "language": "go",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/skill/reserved_test.go",
+      "language": "go",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/protocol/events.go",
+      "language": "go",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/protocol/messages.go",
+      "language": "go",
+      "sizeLines": 306,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/skillbundle/hash.go",
+      "language": "go",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "pkg/skillbundle/hash_test.go",
+      "language": "go",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "internal/daemon/runtime_mcp.go": [],
+    "internal/daemon/runtime_mcp_test.go": [],
+    "internal/daemon/runtime_profile_drift_test.go": [],
+    "internal/daemon/runtime_profile_test.go": [],
+    "internal/daemon/skill_bundle_resolve_test.go": [],
+    "internal/daemon/skill_cache.go": [
+      "pkg/skillbundle/hash_test.go",
+      "pkg/skillbundle/hash.go"
+    ],
+    "internal/daemon/skill_cache_test.go": [],
+    "internal/daemon/slash_skill.go": [],
+    "internal/daemon/slash_skill_test.go": [],
+    "internal/daemon/thread_name.go": [],
+    "internal/daemon/thread_name_test.go": [],
+    "internal/daemon/token_renewal_test.go": [],
+    "internal/daemon/types.go": [
+      "internal/runtimeapps/connected_app.go"
+    ],
+    "internal/daemon/update_report_test.go": [],
+    "internal/daemon/wakeup.go": [
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "internal/daemon/wakeup_test.go": [
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "internal/daemon/workdir_race_test.go": [
+      "internal/daemon/execenv/codex_home_link_test.go",
+      "internal/daemon/execenv/codex_home_link_windows.go",
+      "internal/daemon/execenv/codex_home_link.go",
+      "internal/daemon/execenv/codex_home_sessions_test.go",
+      "internal/daemon/execenv/codex_home.go",
+      "internal/daemon/execenv/codex_memory_test.go",
+      "internal/daemon/execenv/codex_memory.go",
+      "internal/daemon/execenv/codex_multi_agent_test.go",
+      "internal/daemon/execenv/codex_multi_agent.go",
+      "internal/daemon/execenv/codex_sandbox.go",
+      "internal/daemon/execenv/codex_skill_strip_test.go",
+      "internal/daemon/execenv/codex_skill_strip.go",
+      "internal/daemon/execenv/codex_user_skills.go",
+      "internal/daemon/execenv/context_marker_test.go",
+      "internal/daemon/execenv/context.go",
+      "internal/daemon/execenv/cursor_mcp_test.go",
+      "internal/daemon/execenv/cursor_mcp.go",
+      "internal/daemon/execenv/execenv_test.go",
+      "internal/daemon/execenv/execenv.go",
+      "internal/daemon/execenv/git.go",
+      "internal/daemon/execenv/handoff_context_test.go",
+      "internal/daemon/execenv/hermes_home_test.go",
+      "internal/daemon/execenv/hermes_home.go",
+      "internal/daemon/execenv/openclaw_config_test.go",
+      "internal/daemon/execenv/openclaw_config.go",
+      "internal/daemon/execenv/reply_instructions_test.go",
+      "internal/daemon/execenv/reply_instructions.go",
+      "internal/daemon/execenv/reserved_skill_path_test.go",
+      "internal/daemon/execenv/runtime_config_kind_test.go",
+      "internal/daemon/execenv/runtime_config_kind.go",
+      "internal/daemon/execenv/runtime_config_sections.go",
+      "internal/daemon/execenv/runtime_config_test.go",
+      "internal/daemon/execenv/runtime_config.go",
+      "internal/daemon/execenv/sidecar_manifest_test.go",
+      "internal/daemon/execenv/sidecar_manifest.go",
+      "internal/daemon/execenv/skill_frontmatter_test.go",
+      "internal/daemon/execenv/skill_visibility_test.go",
+      "internal/daemon/execenv/skill_visibility.go"
+    ],
+    "internal/daemon/wsrpc.go": [
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "internal/daemon/wsrpc_test.go": [
+      "pkg/protocol/events.go",
+      "pkg/protocol/messages.go"
+    ],
+    "internal/handler/agent_work_dir_test.go": [
+      "internal/daemon/execenv/codex_home_link_test.go",
+      "internal/daemon/execenv/codex_home_link_windows.go",
+      "internal/daemon/execenv/codex_home_link.go",
+      "internal/daemon/execenv/codex_home_sessions_test.go",
+      "internal/daemon/execenv/codex_home.go",
+      "internal/daemon/execenv/codex_memory_test.go",
+      "internal/daemon/execenv/codex_memory.go",
+      "internal/daemon/execenv/codex_multi_agent_test.go",
+      "internal/daemon/execenv/codex_multi_agent.go",
+      "internal/daemon/execenv/codex_sandbox.go",
+      "internal/daemon/execenv/codex_skill_strip_test.go",
+      "internal/daemon/execenv/codex_skill_strip.go",
+      "internal/daemon/execenv/codex_user_skills.go",
+      "internal/daemon/execenv/context_marker_test.go",
+      "internal/daemon/execenv/context.go",
+      "internal/daemon/execenv/cursor_mcp_test.go",
+      "internal/daemon/execenv/cursor_mcp.go",
+      "internal/daemon/execenv/execenv_test.go",
+      "internal/daemon/execenv/execenv.go",
+      "internal/daemon/execenv/git.go",
+      "internal/daemon/execenv/handoff_context_test.go",
+      "internal/daemon/execenv/hermes_home_test.go",
+      "internal/daemon/execenv/hermes_home.go",
+      "internal/daemon/execenv/openclaw_config_test.go",
+      "internal/daemon/execenv/openclaw_config.go",
+      "internal/daemon/execenv/reply_instructions_test.go",
+      "internal/daemon/execenv/reply_instructions.go",
+      "internal/daemon/execenv/reserved_skill_path_test.go",
+      "internal/daemon/execenv/runtime_config_kind_test.go",
+      "internal/daemon/execenv/runtime_config_kind.go",
+      "internal/daemon/execenv/runtime_config_sections.go",
+      "internal/daemon/execenv/runtime_config_test.go",
+      "internal/daemon/execenv/runtime_config.go",
+      "internal/daemon/execenv/sidecar_manifest_test.go",
+      "internal/daemon/execenv/sidecar_manifest.go",
+      "internal/daemon/execenv/skill_frontmatter_test.go",
+      "internal/daemon/execenv/skill_visibility_test.go",
+      "internal/daemon/execenv/skill_visibility.go"
+    ],
+    "internal/runtimeapps/connected_app.go": [],
+    "internal/selfexec/selfexec.go": [],
+    "internal/selfexec/selfexec_test.go": [],
+    "internal/skill/frontmatter.go": [],
+    "internal/skill/frontmatter_test.go": [],
+    "internal/skill/reserved.go": [],
+    "internal/skill/reserved_test.go": [],
+    "pkg/protocol/events.go": [],
+    "pkg/protocol/messages.go": [],
+    "pkg/skillbundle/hash.go": [],
+    "pkg/skillbundle/hash_test.go": []
+  }
+}

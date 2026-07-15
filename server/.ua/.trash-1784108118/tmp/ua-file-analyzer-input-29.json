@@ -1,0 +1,28 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "go.mod",
+      "language": "mod",
+      "sizeLines": 75,
+      "fileCategory": "config"
+    },
+    {
+      "path": "go.sum",
+      "language": "sum",
+      "sizeLines": 185,
+      "fileCategory": "config"
+    },
+    {
+      "path": "sqlc.yaml",
+      "language": "yaml",
+      "sizeLines": 12,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "go.mod": [],
+    "go.sum": [],
+    "sqlc.yaml": []
+  }
+}

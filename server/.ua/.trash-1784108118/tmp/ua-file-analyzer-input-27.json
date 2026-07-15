@@ -1,0 +1,87 @@
+{
+  "projectRoot": "/Users/bytedance/proj/multica/server",
+  "batchFiles": [
+    {
+      "path": "cmd/backfill_codex_usage_cache/integration_test.go",
+      "language": "go",
+      "sizeLines": 332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/migrate/main.go",
+      "language": "go",
+      "sizeLines": 317,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmd/server/health.go",
+      "language": "go",
+      "sizeLines": 180,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/migrations/migrations.go",
+      "language": "go",
+      "sizeLines": 100,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/migrations/migrations_lint_test.go",
+      "language": "go",
+      "sizeLines": 183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/scheduler/jobs_task_usage.go",
+      "language": "go",
+      "sizeLines": 120,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/taskusagebackfill/backfill.go",
+      "language": "go",
+      "sizeLines": 371,
+      "fileCategory": "code"
+    },
+    {
+      "path": "internal/taskusagebackfill/hook_test.go",
+      "language": "go",
+      "sizeLines": 399,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "cmd/backfill_codex_usage_cache/integration_test.go": [
+      "internal/migrations/migrations_lint_test.go",
+      "internal/migrations/migrations.go"
+    ],
+    "cmd/migrate/main.go": [
+      "internal/logger/logger_test.go",
+      "internal/logger/logger.go",
+      "internal/migrations/migrations_lint_test.go",
+      "internal/migrations/migrations.go",
+      "internal/taskusagebackfill/backfill.go",
+      "internal/taskusagebackfill/hook_test.go"
+    ],
+    "cmd/server/health.go": [
+      "internal/migrations/migrations_lint_test.go",
+      "internal/migrations/migrations.go"
+    ],
+    "internal/migrations/migrations.go": [
+      "internal/selfexec/selfexec_test.go",
+      "internal/selfexec/selfexec.go"
+    ],
+    "internal/migrations/migrations_lint_test.go": [],
+    "internal/scheduler/jobs_task_usage.go": [
+      "internal/taskusagebackfill/backfill.go",
+      "internal/taskusagebackfill/hook_test.go"
+    ],
+    "internal/taskusagebackfill/backfill.go": [],
+    "internal/taskusagebackfill/hook_test.go": [
+      "internal/migrations/migrations_lint_test.go",
+      "internal/migrations/migrations.go",
+      "internal/taskusagebackfill/backfill.go",
+      "internal/taskusagebackfill/hook_test.go"
+    ]
+  }
+}
